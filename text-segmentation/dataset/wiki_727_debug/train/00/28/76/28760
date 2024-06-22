@@ -1,0 +1,142 @@
+========,1,preface.
+SimCity, later renamed SimCity Classic, is a city-building simulation video game, first released on February 2, 1989, and designed by Will Wright for the Macintosh computer.
+"SimCity" was Maxis's second product, which has since been ported into various personal computers and game consoles, and spawned several sequels including "SimCity 2000" in 1993, "SimCity 3000" in 1999, "SimCity 4" in 2003, "SimCity DS", "SimCity Societies" in 2007, and "SimCity" in 2013.
+Until the release of "The Sims" in 2000, the "SimCity" series was the best-selling line of computer games made by Maxis.
+"SimCity" spawned a series of "Sim" games.
+On January 10, 2008 the "SimCity" source code was released under the free software GPL 3 license under the working title "Micropolis".
+========,2,History.
+"SimCity" was developed by game designer Will Wright.
+While working on the game "Raid on Bungeling Bay", in which the player flies a helicopter dropping bombs on islands, Wright found he enjoyed designing the islands in the level editor more than playing the actual game.
+This led him to develop increasingly sophisticated level editors.
+At the same time, Wright was cultivating a love of the intricacies and theories of urban planning and acknowledges the influence of System Dynamics which was developed by Jay Wright Forrester and whose book on the subject laid the foundations for what would become "SimCity".
+In addition, Wright also was inspired by reading "The Seventh Sally", a short story from "The Cyberiad" by Stanisław Lem, in which an engineer encounters a deposed tyrant, and creates a miniature city with artificial citizens for the tyrant to oppress.
+The game reflected Wright's approval of mass transit and disapproval of nuclear power; Maxis president Jeff Braun stated "We're pushing political agendas".
+The first version of the game was developed for the Commodore 64 in 1985; it was not published for another four years.
+The original working title of SimCity was "Micropolis".
+The game represented an unusual paradigm in computer gaming, in that it could neither be won nor lost; as a result, game publishers did not believe it was possible to market and sell such a game successfully.
+Brøderbund declined to publish the title when Wright proposed it, and he pitched it to a range of major game publishers without success.
+Finally, Braun, founder of the tiny software company Maxis, agreed to publish "SimCity" as one of two initial games for the company.
+Wright and Braun returned to Brøderbund to formally clear the rights to the game in 1988, when "SimCity" was near completion.
+After Brøderbund executives Gary Carlston and Don Daglow saw "SimCity", they signed Maxis to a distribution deal for both of its initial games.
+With that, four years after initial development, "SimCity" was released for the Amiga and Macintosh platforms, followed by the IBM PC and Commodore 64 later in 1989.
+========,2,Objective.
+The objective of "SimCity", as the name of the game suggests, is to build and design a city, without specific goals to achieve (except in the scenarios, see below).
+The player can mark land as being zoned as commercial, industrial, or residential, add buildings, change the tax rate, build a power grid, build transportation systems and take many other actions, in order to enhance the city.
+Once able to construct buildings in a particular area, the too-small-to-see residents, known as "Sims", may choose to construct and upgrade houses, apartment blocks, light or heavy industrial buildings, commercial buildings, hospitals, churches, and other structures.
+The Sims make these choices based on such factors as traffic levels, adequate electrical power, crime levels, and proximity to other types of buildings—for example, residential areas next to a power plant will seldom appreciate to the highest grade of housing.
+Also, the player may face disasters including flooding, tornadoes, fires (often from air disasters or even shipwrecks), earthquakes and attacks by monsters.
+In addition, monsters and tornadoes can trigger train crashes by running into passing trains.
+There was also a reported case of a nuclear meltdown.
+Later disasters in the game's sequels included lightning strikes, volcanoes, meteors and attack by extraterrestrial craft.
+In the Super NES version and later, one can also build rewards when they are given to them, such as a mayor's mansion or a casino.
+========,3,Scenarios.
+The original "SimCity" kicked off a tradition of goal-centered, timed scenarios that could be won or lost depending on the performance of the player/mayor.
+The scenarios were an addition suggested by Brøderbund in order to make "SimCity" more like a game.
+The original cities were all based on real world cities and attempted to re-create their general layout, a tradition carried on in "SimCity 2000" and in special scenario packs.
+While most scenarios either take place in a fictional timeline or have a city under siege by a fictional disaster, a handful of available scenarios are based on actual historical events.
+The original scenarios are:
+***LIST***.
+The PC version (IBM, Tandy compatible; on floppy disk), CD re-release, as well as the Amiga and Atari ST versions included two additional scenarios:
+***LIST***.
+In addition, the later edition of "SimCity" on the Super NES included the basics of these two scenarios in two, more difficult scenarios that were made available after a player had completed the original scenarios:
+***LIST***.
+While the scenarios were meant to be solved strategically, many players discovered that by dropping the tax rate to zero near the end of the allotted timespan, one could heavily influence public opinion and population growth.
+In scenarios such as San Francisco, where rebuilding and, by extension, maintaining population growth play a large part of the objective, this kind of manipulation can mean a relatively easy victory.
+Later titles in the series would take steps to prevent players from using the budget to influence the outcome of scenarios.
+========,2,Ports and versions.
+"SimCity" was originally released for home computers, including the Amiga, Atari ST and DOS-based IBM PC.
+After its success it was converted for several other computer platforms and video game consoles, specifically the Commodore 64, Macintosh, Acorn Archimedes, Amstrad CPC, Sinclair ZX Spectrum, BBC Micro, Acorn Electron, Super Nintendo Entertainment System (which was later released on Virtual Console), EPOC32, mobile phone, Internet, Windows, FM-Towns, OLPC XO-1 and NeWS HyperLook on Sun Unix.
+The game is also available as a multiplayer version for X11 TCL/Tk on various Unix, Linux, DESQview and OS/2 operating systems.
+In addition, a version was developed in 1991 for the Nintendo Entertainment System, and another Japanese version was initiated in 1992 for the MSX computers, but these two were never released.
+Certain versions have since been re-released with various add-ons, including extra scenarios.
+An additional extra add on for the Windows version of SimCity Classic was a level editor.
+This editor could be opened without use of the SimCity Classic disc.
+The level editor is a simple tool that allows the user to create grasslands, dirt land, and water portions.
+The IBM version of SimCity is notable for the unusually large amount of graphics modes it supports; the game runs in CGA 640x200 mode, EGA 640x200 mode (for users with 200-line monitors), Tandy 640x200 mode, Hercules, EGA 640x350 mode (for users with 350-line monitors) and VGA 640x480 monochrome.
+A later release dropped all of the 200-line modes and added 640x480 color mode.
+Unlike most commercial PC games at the time, 320x200 resolutions were not used because they were inadequate for the amount of graphics detail the game needed.
+A port of SimCity was released for Windows 3.0 in 1992.
+It runs entirely in the Windows GDI and does not support 256-color graphics or sound.
+In 2007 the developer Don Hopkins released a free and open source version of the original SimCity, renamed Micropolis (the original working title) for trademark reasons, for the One Laptop per Child XO-1.
+In 2008, Maxis established an online browser-based version of SimCity.
+A second browser-based version was later released under the name "Micropolis".
+In 2013, another browser-based version—this time ported using JavaScript and HTML5—was released as "micropolisJS".
+========,3,Super NES.
+"SimCity" for the Super Nintendo Entertainment System features the same gameplay and scenario features; however, since it was developed and published by Nintendo, the company incorporated their own ideas.
+Instead of the Godzilla monster disaster, Bowser of the Super Mario series becomes the attacking monster, and once the city reaches a landmark 500,000 populace, the player receives a Mario statue that is placeable in the city.
+The Super NES port also features special buildings the player may receive as rewards, such as casinos, large parks, amusement parks, and expo centers; some of which would be incorporated into in "SimCity 2000".
+A bank can be built which will allow a loan of $10,000 to be taken, but it must completely be paid back before another loan can be taken out.
+The game also includes schools and hospitals, though they cannot be placed by the player; instead, the game will sometimes turn an empty residential lot into one.
+The port had a number of bugs, including one that cut power and caused crime to skyrocket on loading a saved game.
+There are also city classifications, such as becoming a metropolis at 100,000 people.
+It also had some of the same pre-set scenarios in the PC and Mac versions and two new ones.
+One is in Las Vegas under attack by aliens and another called Freeland.
+Freeland has no water and no rewards buildings are given.
+Also unique to the Super NES version is a character named "Dr. Wright" (whose physical appearance is based on Will Wright) who acts as an adviser to the player.
+The soundtrack was composed by Soyo Oka.
+This edition is featured as Nintendo's Player's Choice as a million seller.
+Among the game's cheats are a technique where a player can get $999,999.00 (the maximum amount of money one can have at a time in the game) dubbed the "million dollar code".
+Over 18 years after the game's release, it was also discovered the game had a hidden debug menu where the player could change things such as land value, the ability to bulldoze water, etc.
+In August 1996 a version of the game entitled "BS Sim City Machizukuri Taikai" was broadcast exclusively to Japanese players via the Super Famicom's Satellaview subsystem.
+Later, an official Japan-only sequel titled "SimCity 64" was released for the Japan-only Nintendo 64 add-on, the Nintendo 64DD.
+========,3,Micropolis.
+In January 2008, the "SimCity" source code was released under the free software GPL 3 license.
+The release of the source code was related to the donation of SimCity software to the One Laptop Per Child program, as one of the principles of the OLPC laptop is the use of free and open source software.
+The open source version is called "Micropolis" (the initial name for "SimCity") since EA retains the trademark "Simcity".
+The version shipped on OLPC laptops will still be called "SimCity", but will have to be tested by EA quality assurance before each release to be able to use that name.
+The Micropolis source code has been translated to C++, integrated with Python and interfaced with both GTK+ and OpenLaszlo.
+Micropolis (also called OLPC SimCity) is a release of the city-building sim game "SimCity", that was developed by Don Hopkins.
+It is based on the source code of the X11 version of "SimCity" for the Unix operating system, which was donated to the One Laptop per Child (OLPC) project by Electronic Arts as free and open source software under the terms of the GNU General Public License in 2008.
+There are two versions: The original version uses the Tcl/Tk user interface, and can be run on the OLPC, as a stand-alone game in any Linux or Mac OS X system with X11, or as a port for OpenBSD.
+The new version has a user interface implemented in Python code, which uses Cairo to draw graphics and Pango to draw text.
+The C core that is responsible for the simulation has been restructured and reworked into C++ code, which is cross-platform, and independent of the user interface and scripting language.
+========,4,History.
+The original version of "SimCity "was developed by Maxis on the Commodore 64, and ported to various platforms, including the Macintosh.
+Maxis licensed the Macintosh" SimCity" source code to DUX software, to port to Unix.
+DUX Software contracted Don Hopkins to port "SimCity" to Unix, and he developed "SimCity HyperLook Edition", while working at The Turing Institute on HyperLook with Arthur van Hoff.
+The user interface was written in PostScript, which ran on the NeWS window system on Sun workstations, and it supported multiple zoomable views, pie menus, annotating and printing maps, and many user interface improvements.
+After Sun canceled NeWS, DUX Software contracted Hopkins to rewrite the HyperLook user interface in TCL/Tk for X11, and he developed a multi-player networked user interface using the X11 protocol.
+The TCL/Tk version of SimCity has been ported to various Unix and non-Unix platforms, including SunOS, Solaris, IRIX, HP-UX, OSF/1, Quarterdeck Desqview/X, NCD X Terminals, Warp, and Linux.
+The contract to sell "SimCity" for Unix expired after ten years, so the TCL/Tk version was no longer commercially available.
+"OLPC SimCity" is based on the TCL/Tk version of "SimCity", a trademark of Electronic Arts.
+Don Hopkins adapted it to the OLPC, thanks to the support of John Gilmore.
+"OLPC SimCity" will be shipped with the OLPC, and it has been run through EA's quality assurance process and reviewed for integrity.
+EA reserves the right to review and approve any version of the game distributed under the name SimCity.
+"Micropolis" is the name of the current GPL open source code version of OLPC "SimCity".
+========,4,Future.
+Since "Micropolis" is licensed under the GPL, users can do anything they want with it that conforms with the GPLthe only restriction is that they cannot call it "SimCity" (along with a few other limitations to protect EA's trademarks).
+This allows other, differently named projects to be forked from the Micropolis source code.
+Improvements to the open source code base that merits EA's approval may be incorporated into the official "OLPC SimCity" source code, to be distributed with the OLPC under the trademarked name "OLPC SimCity", but only after it has been reviewed and approved by EA.
+========,2,Reception.
+"SimCity" was very successful, selling one million copies by late 1992.
+In the United States, it was the ninth best-selling computer game from 1993 to 1999, with another 830,000 units sold.
+It was critically acclaimed and received significant recognition within a year after its initial release.
+As of December 1990 (from a Maxis document by Sally Vandershaf, Maxis P.R.
+Coordinator) the game was reported to have won the following awards:
+In addition, "SimCity" won the Origins Award for "Best Military or Strategy Computer Game" of 1989 in 1990, was named to "Computer Gaming World"s Hall of Fame for games readers highly rated over time, and the multiplayer X11 version of the game was also nominated in 1992 as the Best Product of the Year in "Unix World".
+"SimCity" was named #4 "Ten Greatest PC Game Ever" by PC World in 2009.
+It was named one of the sixteen most influential games in history at Telespiele, a German technology and games trade show, in 2007.
+Sid Meier in 2008 named "SimCity" as one of the three most important innovations in videogame history, as it led to other games that encouraged players to create, not destroy.
+It was named #11 on IGN's 2009 "Top 25 PC Games of All Time" list.
+The University of Southern California and University of Arizona used "SimCity" in urban planning and political science classes.
+In 1990 The "Providence Journal" invited five candidates for Mayor of Providence, Rhode Island to manage a "SimCity" town resembling the city; former mayor Buddy Cianci, who was the most successful, won election that year.
+Chuck Moss of "The Detroit News" found that Godzilla attacking the city in the 1972 Detroit scenario caused less destruction than the mayoralty of Coleman Young.
+The "SimCity Terrain Editor" was reviewed in 1989 in "Dragon" #147 by Hartley, Patricia, and Kirk Lesser in "The Role of Computers" column.
+The reviewers gave the expansion 4 out of 5 stars.
+The ZX Spectrum version was voted number 4 in the "Your Sinclair Readers' Top 100 Games of All Time".
+On March 12, 2007, "The New York Times" reported that "SimCity" was named to a list of the ten most important video games of all time, the so-called game canon.
+The Library of Congress took up a video game preservation proposal and began with the games from this list, including "SimCity".
+========,2,Legacy.
+The subsequent success of "SimCity" speaks for itself: "Sim" games of many types were developedwith Will Wright and Maxis developing myriad titles including "SimEarth", "SimFarm", "SimTown", "Streets of SimCity", "SimCopter", "SimAnt", "SimLife", "", "SimTower", "SimPark", "SimSafari", and "The Sims", as well as the unreleased "SimsVille" and "SimMars."
+They also obtained licenses for some titles developed in Japan, such as "SimTower" and "Let's Take The A-Train" (just called "A-Train" outside Japan).
+In 2000 "The Sims" was released, which spawned its own series.
+"Spore", released in 2008, was originally going to be titled "SimEverything"a name that Will Wright thought might accurately describe what he was trying to achieve.
+"SimCity" yielded several sequels.
+"SimCity" inspired a new genre of video games.
+"Software toys" that were open-ended with no set objective were developed trying to duplicate "SimCity"'s success.
+The most successful was most definitely Wright's own "The Sims", which went on to be the best selling computer game of all time.
+The ideas pioneered in "SimCity" have been incorporated into real-world applications as well.
+For example, VisitorVille simulates a city based on website statistics.
+The series also spawned a " collectible card game, produced by Mayfair Games.
+Mr. Wright from the Super NES version has made appearances in several video games.
+He was a non-player character in ", and an assist trophy in "Super Smash Bros. Brawl" and "Super Smash Bros. for Nintendo 3DS and Wii U".

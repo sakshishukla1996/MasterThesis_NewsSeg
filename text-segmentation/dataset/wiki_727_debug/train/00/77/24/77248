@@ -1,0 +1,31 @@
+========,1,preface.
+AMD Duron refers to a line of budget x86-compatible microprocessors manufactured by AMD.
+Released on June 19, 2000 as a lower-cost offering to complement AMD's then mainstream performance Athlon processor line, it also competed with rival chipmaker Intel's Pentium III and Celeron processor offerings.
+The Duron brand name was retired in 2004, succeeded by the Sempron line of processors as AMD's budget offering.
+========,2,Performance.
+The original Duron processors were derived from AMD's mainstream "Athlon" Thunderbird processors, the primary difference being a reduction in L2 cache size to 64 KB from the Athlon's 256 KB.
+This was a relatively severe reduction, making it even smaller than the 128 KB L2 available on Intel's competing budget Celeron line.
+However, the originating Thunderbird architecture already featured one of the largest L1 caches at 128 KB (which was not reduced in the Duron) and also introduced AMD's switch to an exclusive cache design which effectively unified the L1 and L2 caches.
+Because of this, the Duron behaved as it had a high speed 128 KB cache combined with a somewhat slower 64 KB segment giving an effective 192 KB cache, verses the traditional inclusive cache (such as the competing Celeron) where the L2 cache had to store a duplication of the data stored in the L1 cache.
+As a comparison the inclusive design of the Celeron effectively reduced the available size of the Level 2 cache by the size of the Level 1, which would result in an effective size of 96 KB (128K-32K) contrasted to the Duron's exclusive design (128K+64K=192K).
+Consequently, the Duron inherited the Thunderbird's reduction in sensitivity to L2 cache size, allowing AMD to make their L2 cache higher latency and lower bandwidth to lessen processor complexity and allow better manufacturing yields without an incurring a significant performance loss.
+The net result was that the budget Duron "Spitfire" CPU was roughly only 10% slower than an equivalently clocked (and significantly more expensive) Athlon "Thunderbird."
+========,2,Compatibility.
+The Duron line was pin-compatible and operated on the same motherboards as the Athlon line, requiring only a BIOS update in most cases.
+The original Duron was introduced with a 100 MHz/200 MHz DDR FSB (Front Side Bus) - the same as the then current Socket A Athlons.
+Later with the introduction of motherboard chipsets offering higher FSB speeds of 133 MHz(266DDR) and AMD's matching introduction of Athlons processors supporting this speed (introduced at 1 GHz), the Duron initially remained at 100 MHz FSB for market segmentation.
+Later Durons were given official support for 133 MHz bus (FSB 266) operation only after Athlon XP was used to introduce 166/200 MHz FSB (FSB 333/400).
+========,2,Revisions.
+The original Duron, using the "Spitfire" core, was manufactured in 2000 and 2001 at speeds ranging from 600 to 950 MHz.
+It was based on the 180 nm "Thunderbird" Athlon core.
+The second-generation Duron, the "Morgan" core, was sold in speed grades between 900 and 1300 MHz, and was based on the 180 nm "Palomino" Athlon XP core.
+As a result, it featured a few important enhancements namely full Intel SSE support, enlarged TLBs, hardware data prefetch, and an integrated thermal diode.
+Like the "Palomino" core, "Morgan" was also expected to reduce the core heat dissipation, however in "Morgan"'s case this did not happen due to its increased core voltage.
+The final generation Duron was called "Applebred", sometimes called "Appalbred", and was based on the "Appaloosa" Duron along with the 130 nm "Thoroughbred" Athlon XP.
+"Appaloosa" was never officially announced but it did see very limited circulation.
+========,2,Enthusiasts.
+Duron was often a favorite of computer builders looking for performance while on a tight budget.
+In 2003, the "Applebred" Duron was available in 1.4 GHz, 1.6 GHz and 1.8 GHz forms, all on a 133 MHz (FSB 266) bus by default.
+Enthusiast groups quickly discovered these Durons to be rebadged Thoroughbred A/B cores with some cache disabled (and perhaps defective).
+With a basic chip configuration modification, it was found that "Applebred" could be turned into "Thoroughbred B" Athlon XPs, with full 256KB cache, with a very high success rate.
+However, this was only possible for a period of approximately 4 weeks, as shortly after the Applebred was released, AMD changed the chip configuration method to one that was not changeable.

@@ -1,0 +1,20 @@
+========,1,preface.
+This list of Internet top-level domain extensions contains top-level domains, which are those domains in the DNS root zone of the Domain Name System of the Internet.
+The official list of all top-level domains is maintained by the Internet Assigned Numbers Authority (IANA) at the Root Zone Database IANA also oversees the approval process for new proposed top-level domains.
+, the root domain contains 1528 top-level domains, while a few have been retired and are no longer functional.
+========,2,Original top-level domains.
+Seven generic top-level domains were created early in the development of the Internet, and predate the creation of ICANN in 1998.
+***LIST***.
+Infrastructure top-level domain
+========,2,Country code top-level domains.
+As of May 20, 2017, there were 255 Country code top-level domains.
+(For comparison, at the same time the United Nations comprised 193 countries.)
+========,2,Special-Use Domains.
+ICANN/IANA has created some Special-Use domain names which are meant for special technical purposes.
+ICANN/IANA owns all of the Special-Use domain names.
+========,3,IDN Test TLDs.
+ICANN created a set of top-level Internationalized domain names in October 2007 for the purpose of testing the use of IDNA in the root zone and within those domains.
+These testing domains were abolished on 31 October 2013.
+Each of these TLDs encoded a word meaning "test" in the respective language.
+Each of these domains contained only one site with the word "example" encoded in the respective script and language.
+These "example.test" sites were test wikis used by ICANN.

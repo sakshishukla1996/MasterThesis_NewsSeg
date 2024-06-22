@@ -1,0 +1,85 @@
+========,1,preface.
+Golden ratio base is a non-integer positional numeral system that uses the golden ratio (the irrational number  ≈ 1.61803399 symbolized by the Greek letter φ) as its base.
+It is sometimes referred to as base-φ, golden mean base, phi-base, or, colloquially, phinary.
+Any non-negative real number can be represented as a base-φ numeral using only the digits 0 and 1, and avoiding the digit sequence "11" – this is called a "standard form".
+A base-φ numeral that includes the digit sequence "11" can always be rewritten in standard form, using the algebraic properties of the base φ — most notably that φ + 1 = φ.
+For instance, 11 = 100.
+Despite using an irrational number base, when using standard form, all non-negative integers have a unique representation as a terminating (finite) base-φ expansion.
+The set of numbers which possess a finite base-φ representation is the ring Z[]; it plays the same role in this numeral systems as dyadic rationals play in binary numbers, providing a possibility to multiply.
+Other numbers have standard representations in base-φ, with rational numbers having recurring representations.
+These representations are unique, except that numbers (mentioned above) with a terminating expansion also have a non-terminating expansion, as they do in base-10; for example, 1 = 0.99999….
+========,2,Writing golden ratio base numbers in standard form.
+In the following example the notation 1 is used to represent −1.
+211.01 is not a standard base-φ numeral, since it contains a "11" and a "2", which isn't a "0" or "1", and contains a 1 = −1, which isn't a "0" or "1" either.
+To "standardize" a numeral, we can use the following substitutions: 011 = 100, 0200 = 1001, 010 = 101 and 110 = 001.
+We can apply the substitutions in any order we like, as the result is the same.
+Below, the substitutions applied to the number on the previous line are on the right, the resulting number on the left.
+Any positive number with a non-standard terminating base-φ representation can be uniquely standardized in this manner.
+If we get to a point where all digits are "0" or "1", except for the first digit being negative, then the number is negative.
+This can be converted to the negative of a base-φ representation by negating every digit, standardizing the result, and then marking it as negative.
+For example, use a minus sign, or some other significance to denote negative numbers.
+If the arithmetic is being performed on a computer, an error message may be returned.
+========,2,Representing integers as golden ratio base numbers.
+We can either consider our integer to be the (only) digit of a nonstandard base-φ numeral, and standardize it, or do the following:
+1 × 1 = 1, φ × φ = 1 + φ and = −1 + φ.
+Therefore, we can compute and So, using integer values only, we can add, subtract and multiply numbers of the form ("a" + "b"φ), and even represent positive and negative integer powers of φ.
+("a" + "b"φ) > ("c" + "d"φ) if and only if 2("a" − "c") − ("d" − "b") > ("d" − "b") × .
+If one side is negative, the other positive, the comparison is trivial.
+Otherwise, square both sides, to get an integer comparison, reversing the comparison direction if both sides were negative.
+On squaring both sides, the is replaced with the integer 5.
+So, using integer values only, we can also compare numbers of the form ("a" + "b"φ).
+***LIST***.
+The above procedure will never result in the sequence "11", since 11 = 100, so getting a "11" would mean we missed a "1" prior to the sequence "11".
+Start, e.g., with integer = 5, with the result so far being ...00000.00000...
+Highest power of φ ≤ 5 is φ = 1 + 2φ ≈ 4.236067977 Subtracting this from 5, we have 5 − (1 + 2φ) = 4 − 2φ ≈ 0.763932023..., the result so far being 1000.00000...
+Highest power of φ ≤ 4 − 2φ ≈ 0.763932023... is φ = −1 + 1φ ≈ 0.618033989...
+Subtracting this from 4 − 2φ ≈ 0.763932023..., we have 4 − 2φ − (−1 + 1φ) = 5 − 3φ ≈ 0.145898034..., the result so far being 1000.10000...
+Highest power of φ ≤ 5 − 3φ ≈ 0.145898034... is φ = 5 − 3φ ≈ 0.145898034...
+Subtracting this from 5 − 3φ ≈ 0.145898034..., we have 5 − 3φ − (5 − 3φ) = 0 + 0φ = 0, with the final result being 1000.1001.
+========,3,Non-uniqueness.
+Just as with any base-n system, numbers with a terminating representation have an alternative recurring representation.
+In base-10, this relies on the observation that 0.999...=1.
+In base-φ, the numeral 0.1010101... can be seen to be equal to 1 in several ways:
+***LIST***.
+This non-uniqueness is a feature of the numeration system, since both 1.0000 and 0.101010... are in standard form.
+In general, the final 1 of any number in base-φ can be replaced with a recurring 01 without changing the value of that number.
+========,2,Representing rational numbers as golden ratio base numbers.
+Every non-negative rational number can be represented as a recurring base-φ expansion, as can any non-negative element of the field Q[] = Q + Q, the field generated by the rational numbers and .
+Conversely any recurring (or terminating) base-φ expansion is a non-negative element of Q[].
+Some examples (with spaces added for emphasis):
+***LIST***.
+The justification that a rational gives a recurring expansion is analogous to the equivalent proof for a base-"n" numeration system ("n" = 2,3,4...).
+Essentially in base-φ long division there are only a finite number of possible remainders, and so once there must be a recurring pattern.
+For example, with = = long division looks like this (note that base-φ subtraction may be hard to follow at first):
+***LIST***.
+The converse is also true, in that a number with a recurring base-φ; representation is an element of the field Q[].
+This follows from the observation that a recurring representation with period k involves a geometric series with ratio φ, which will sum to an element of Q[].
+========,2,Addition, subtraction, and multiplication.
+It is possible to adapt all the standard algorithms of base-10 arithmetic to base-φ arithmetic.
+There are two approaches to this:
+========,3,Calculate, then convert to standard form.
+For addition of two base-φ numbers, add each pair of digits, without carry, and then convert the numeral to standard form.
+For subtraction, subtract each pair of digits without borrow (borrow is a negative amount of carry), and then convert the numeral to standard form.
+For multiplication, multiply in the typical base-10 manner, without carry, then convert the numeral to standard form.
+For example,
+***LIST***.
+========,3,Avoid digits other than 0 and 1.
+A more "native" approach is to avoid having to add digits 1+1 or to subtract 0 – 1.
+This is done by reorganising the operands into nonstandard form so that these combinations do not occur.
+For example,
+***LIST***.
+The subtraction seen here uses a modified form of the standard "trading" algorithm for subtraction.
+========,2,Division.
+No non-integer rational number can be represented as a finite base-φ number.
+In other words, all finitely representable base-φ numbers are either integers or (more likely) an irrational in a quadratic field Q[].
+Due to long division having only a finite number of possible remainders, a division of two integers (or other numbers with finite base-φ representation) will have a recurring expansion, as demonstrated above.
+========,2,Relationship with Fibonacci coding.
+Fibonacci coding is a closely related numeration system used for integers.
+In this system, only digits 0 and 1 are used and the place values of the digits are the Fibonacci numbers.
+As with base-φ, the digit sequence "11" is avoided by rearranging to a standard form, using the Fibonacci recurrence relation "F" = "F" + "F".
+For example,
+========,2,Practical usage.
+It is possible to mix base-φ arithmetic with Fibonacci integer sequences.
+The sum of numbers in a General Fibonacci integer sequence that correspond with the nonzero digits in the base-φ number, is the multiplication of the base-φ number and the element at the zero-position in the sequence.
+For example:
+***LIST***.

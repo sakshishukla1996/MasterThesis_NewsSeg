@@ -1,0 +1,47 @@
+========,1,preface.
+Vehicle dynamics refers to the dynamics of vehicles, here assumed to be ground vehicles.
+Vehicle dynamics is a part of engineering primarily based on classical mechanics.
+This article applies primarily to automobiles.
+For single-track vehicles, specifically the two-wheeled variety, see bicycle and motorcycle dynamics.
+For aircraft, see flight dynamics.
+For watercraft see Hydrodynamics.
+========,2,Components.
+========,3,Aerodynamic specific.
+Some attributes or aspects of vehicle dynamics are purely aerodynamic.
+These include:
+***LIST***.
+========,3,Geometry specific.
+Some attributes or aspects of vehicle dynamics are purely geometric.
+These include:
+***LIST***.
+========,3,Mass specific.
+Some attributes or aspects of vehicle dynamics are purely due to mass and its distribution.
+These include:
+***LIST***.
+========,3,Motion specific.
+Some attributes or aspects of vehicle dynamics are purely dynamic.
+These include:
+***LIST***.
+========,3,Tire specific.
+Some attributes or aspects of vehicle dynamics can be attributed directly to the tires.
+These include:
+***LIST***.
+========,3,Roadway specific.
+Some attributes or aspects of vehicle dynamics can be attributed directly to the roads on which they travel.
+These include:
+***LIST***.
+========,2,Analysis and simulation.
+The dynamic behavior of vehicles can be analysed in several different ways.
+This can be as straightforward as a simple spring mass system, through a three-degree of freedom (DoF) bicycle model, to a large degree of complexity using a multibody system simulation package such as MSC ADAMS or Modelica.
+As computers have gotten faster, and software user interfaces have improved, commercial packages such as CarSim have become widely used in industry for rapidly evaluating hundreds of test conditions much faster than real time.
+Vehicle models are often simulated with advanced controller designs provided as software in the loop (SIL) with controller design software such as Simulink, or with physical hardware in the loop (HIL).
+Vehicle motions are largely due to the shear forces generated between the tires and road, and therefore the tire model is an essential part of the math model.
+The tire model must produce realistic shear forces during braking, acceleration, cornering, and combinations, on a range of surface conditions.
+Many models are in use.
+Most are semi-empirical, such as the Pacejka Magic Formula model.
+Racing car games or simulators are also a form of vehicle dynamics simulation.
+In early versions many simplifications were necessary in order to get real-time performance with reasonable graphics.
+However, improvements in computer speed have combined with interest in realistic physics, leading to driving simulators that are used for vehicle engineering using detailed models such as CarSim.
+It is important that the models should agree with real world test results, hence many of the following tests are correlated against results from instrumented test vehicles.
+Techniques include:
+***LIST***.

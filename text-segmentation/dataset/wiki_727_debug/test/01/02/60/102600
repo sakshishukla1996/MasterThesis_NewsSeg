@@ -1,0 +1,40 @@
+========,1,preface.
+In cryptography, RC5 is a symmetric-key block cipher notable for its simplicity.
+Designed by Ronald Rivest in 1994, "RC" stands for "Rivest Cipher", or alternatively, "Ron's Code" (compare RC2 and RC4).
+The Advanced Encryption Standard (AES) candidate RC6 was based on RC5.
+========,2,Description.
+Unlike many schemes, RC5 has a variable block size (32, 64 or 128 bits), key size (0 to 2040 bits) and number of rounds (0 to 255).
+The original suggested choice of parameters were a block size of 64 bits, a 128-bit key and 12 rounds.
+A key feature of RC5 is the use of data-dependent rotations; one of the goals of RC5 was to prompt the study and evaluation of such operations as a cryptographic primitive .
+RC5 also consists of a number of modular additions and eXclusive OR (XOR)s. The general structure of the algorithm is a Feistel-like network.
+The encryption and decryption routines can be specified in a few lines of code.
+The key schedule, however, is more complex, expanding the key using an essentially one-way function with the binary expansions of both e and the golden ratio as sources of "nothing up my sleeve numbers".
+The tantalising simplicity of the algorithm together with the novelty of the data-dependent rotations has made RC5 an attractive object of study for cryptanalysts.
+The RC5 is basically denoted as RC5-w/r/b where w=word size in bits, r=number of rounds, b=number of 8-bit bytes in the key.
+========,2,Algorithm.
+RC5 encryption and decryption both expand the random key into 2(r+1) words that will be used sequentially (and only once each) during the encryption and decryption processes.
+All of the below comes from Rivest's revised paper on RC5.
+========,3,Key expansion.
+The key expansion algorithm is illustrated below, first in pseudocode, then example C code copied directly from the reference paper's appendix.
+Following the naming scheme of the paper, the following variable names are used:
+***LIST***.
+The example source code is provided from the appendix of Rivest's paper on RC5.
+The implementation is designed to work with w = 32, r = 12, and b = 16.
+========,3,Encryption.
+Encryption involved several rounds of a simple function.
+12 or 20 rounds seem to be recommended, depending on security needs and time considerations.
+Beyond the variables used above, the following variables are used in this algorithm:
+***LIST***.
+The example C code given by Rivest is this.
+========,3,Decryption.
+Decryption is a fairly straightforward reversal of the encryption process.
+The below pseudocode shows the process.
+The example C code given by Rivest is this.
+========,2,Cryptanalysis.
+12-round RC5 (with 64-bit blocks) is susceptible to a differential attack using 2 chosen plaintexts.
+18–20 rounds are suggested as sufficient protection.
+RSA Security, which had a patent on the algorithm, offered a series of US$10,000 prizes for breaking ciphertexts encrypted with RC5, but these contests have been discontinued as of May 2007.
+A number of these challenge problems have been tackled using distributed computing, organised by Distributed.net.
+Distributed.net has brute-forced RC5 messages encrypted with 56-bit and 64-bit keys, and is working on cracking a 72-bit key; as of March 2017, 4.444% of the keyspace has been searched.
+At the current rate, it will take approximately 166 years to test every possible remaining key, and thus guarantee completion of the project.
+The task has inspired many new and novel developments in the field of cluster computing.

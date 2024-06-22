@@ -1,0 +1,49 @@
+========,1,preface.
+The propagation constant of a sinusoidal electromagnetic wave is a measure of the change undergone by the amplitude and phase of the wave as it propagates in a given direction.
+The quantity being measured can be the voltage or current in a circuit or a field vector such as electric field strength or flux density.
+The propagation constant itself measures change per unit length but is otherwise dimensionless.
+In the context of two-port networks and their cascades, propagation constant measures the change undergone by the source quantity as it propagates from one port to the next.
+The propagation constant is expressed logarithmically, almost universally to the base "e", rather than the more usual base 10 used in telecommunications in other situations.
+The quantity measured, such as voltage, is expressed as a sinusoidal phasor.
+The phase of the sinusoid varies with distance which results in the propagation constant being a complex number, the imaginary part being caused by the phase change.
+========,2,Alternative names.
+The term "propagation constant" is somewhat of a misnomer as it usually varies strongly with "ω".
+It is probably the most widely used term but there are a large variety of alternative names used by various authors for this quantity.
+These include transmission parameter, transmission function, propagation parameter, propagation coefficient and transmission constant.
+If the plural is used, it suggests that "α" and "β" are being referenced separately but collectively as in transmission parameters, propagation parameters, etc.
+In transmission line theory, "α" and "β" are counted among the "secondary coefficients", the term "secondary" being used to contrast to the "primary line coefficients".
+The primary coefficients are the physical properties of the line, namely R,C,L and G, from which the secondary coefficients may be derived using the telegrapher's equation.
+Note that in the field of transmission lines, the term transmission coefficient has a different meaning despite the similarity of name: it is the companion of the reflection coefficient.
+========,2,Definition.
+The propagation constant, symbol "γ", for a given system is defined by the ratio of the complex amplitude at the source of the wave to the complex amplitude at some distance "x", such that, Since the propagation constant is a complex quantity we can write:
+***LIST***.
+That "β" does indeed represent phase can be seen from Euler's formula:
+which is a sinusoid which varies in phase as "θ" varies but does not vary in amplitude because The reason for the use of base e is also now made clear.
+The imaginary phase constant, "iβ", can be added directly to the attenuation constant, "α", to form a single complex number that can be handled in one mathematical operation provided they are to the same base.
+Angles measured in radians require base "e", so the attenuation is likewise in base "e".
+The propagation constant for copper (or any other conductor) lines can be calculated from the primary line coefficients by means of the relationship where
+========,2,Attenuation constant.
+In telecommunications, the term attenuation constant, also called attenuation parameter or attenuation coefficient, is the attenuation of an electromagnetic wave propagating through a medium per unit distance from the source.
+It is the real part of the propagation constant and is measured in nepers per metre.
+A neper is approximately 8.7 dB.
+Attenuation constant can be defined by the amplitude ratio The propagation constant per unit length is defined as the natural logarithmic of ratio of the sending end current or voltage to the receiving end current or voltage.
+========,3,Copper lines.
+The attenuation constant for copper lines (or ones made of any other conductor) can be calculated from the primary line coefficients as shown above.
+For a line meeting the distortionless condition, with a conductance "G" in the insulator, the attenuation constant is given by
+however, a real line is unlikely to meet this condition without the addition of loading coils and, furthermore, there are some frequency dependent effects operating on the primary "constants" which cause a frequency dependence of the loss.
+There are two main components to these losses, the metal loss and the dielectric loss.
+The loss of most transmission lines are dominated by the metal loss, which causes a frequency dependency due to finite conductivity of metals, and the skin effect inside a conductor.
+The skin effect causes R along the conductor to be approximately dependent on frequency according to Losses in the dielectric depend on the loss tangent (tan "δ") of the material divided by the wavelength of the signal.
+Thus they are directly proportional to the frequency.
+========,2,Filters and two-port networks.
+The term propagation constant or propagation function is applied to filters and other two-port networks used for signal processing.
+In these cases, however, the attenuation and phase coefficients are expressed in terms of nepers and radians per network section rather than per unit length.
+Some authors make a distinction between per unit length measures (for which "constant" is used) and per section measures (for which "function" is used).
+The propagation constant is a useful concept in filter design which invariably uses a cascaded section topology.
+In a cascaded topology, the propagation constant, attenuation constant and phase constant of individual sections may be simply added to find the total propagation constant etc.
+========,3,Cascaded networks.
+The ratio of output to input voltage for each network is given by The terms ***formula*** are impedance scaling terms and their use is explained in the image impedance article.
+The overall voltage ratio is given by Thus for "n" cascaded sections all having matching impedances facing each other, the overall propagation constant is given by
+========,2,See also.
+The concept of penetration depth is one of many ways to describe the absorption of electromagnetic waves.
+For the others, and their interrelationships, see the article: Mathematical descriptions of opacity.

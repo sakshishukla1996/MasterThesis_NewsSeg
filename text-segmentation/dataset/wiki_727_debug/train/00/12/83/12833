@@ -1,0 +1,46 @@
+========,1,preface.
+GTPases (singular GTPase) are a large family of hydrolase enzymes that can bind and hydrolyze guanosine triphosphate (GTP).
+The GTP binding and hydrolysis takes place in the highly conserved G domain common to all GTPases.
+========,2,Regulatory GTPases.
+Regulatory GTPases, also called the GTPase superfamily, are GTPases used for regulation of other biochemical processes.
+Most prominent among the regulatory GTPases are the G proteins.
+========,3,GTP switch.
+All regulatory GTPases have a common mechanism that enables them to switch a signal transduction chain on and off.
+Toggling the switch is performed by the unidirectional change of the GTPase from the "active, GTP-bound form" to the "inactive, GDP-bound form" by hydrolysis of the GTP through intrinsic GTPase-activity, effectively switching the GTPase "off".
+This reaction is initiated by GTPase-activating proteins (GAPs), coming from another signal transduction pathway.
+It can be reversed (switching the GTPase "on" again) by Guanine nucleotide exchange factors (GEFs), which cause the GDP to dissociate from the GTPase, leading to its association with a new GTP.
+This closes the cycle to the active state of the GTPase; the irreversible hydrolysis of the GTP to GDP forces the cycle to run only in one direction.
+Only the active state of the GTPase can transduce a signal to a reaction chain.
+========,3,Switch regulation.
+The efficiency of the signal transduction via a GTPase depends on the ratio of active to inactive GTPase.
+That equals:
+with "k" being the dissociation constant of GDP, and "k" the hydrolysis constant of GTP for the specific GTPase.
+Both constants can be modified by special regulatory proteins.
+The amount of active GTPase can be changed in several ways : 
+***LIST***.
+========,2,Heterotrimeric G proteins.
+These G proteins are made from three subunits, with the G domain located on the largest one (the "α unit"); together with the two smaller subunits ("β" and "γ units"), they form a tightly associated protein complex.
+α and γ unit are associated with the membrane by lipid anchors.
+Heterotrimeric G proteins act as the specific reaction partners of G protein-coupled receptors.
+The GTPase is normally inactive.
+Upon receptor activation, the intracellular receptor domain activates the GTPase, which in turn activates other molecules of the signal transduction chain, either via the α unit or the βγ complex.
+Among the target molecules of the active GTPase are adenylate cyclase and ion channels.
+The heterotrimeric G proteins can be classified by sequence homology of the α unit into four families: 
+***LIST***.
+By combination of different α, β and γ subunits, a great variety (>1000) G proteins can be produced.
+GDP is not needed for GTP.
+========,3,Activation cycle of heterotrimeric G proteins.
+In the basic state, the G-GDP-G complex and the receptor that can activate it are separately associated with the membrane.
+On receptor activation, the receptor becomes highly affine for the G protein - GDP complex.
+On binding with the complex, GDP dissociates from the complex; the receptor works as a GEF - GDP-GTP Exchange Factor; the "free" complex has a high affinity for GTP.
+Upon GTP binding, both G-GTP and G separate from both the receptor and from each other.
+Depending on the lifetime of the active state of the receptor, it can activate more G proteins this way.
+Both G-GTP and G can now activate separate and/or the same effector molecules, thus sending the signal further down the signal reaction chain.
+Once the intrinsic GTPase activity of the α unit has hydrolyzed the GTP to GDP, and then the two parts associate to the original, inactive state.
+The speed of the hydrolysis reaction works as an internal clock for the length of the signal.
+========,2,The Ras GTPase superfamily.
+These are small monomeric proteins homologous to Ras.
+They are also called small GTPases.
+Small GTPases have a molecular weight of about 21 kilodaltons and generally serve as molecular switches for a variety of cellular signaling events.
+According to their primary amino acid sequences and biochemical properties, the Ras superfamily is further divided into five subfamilies: Ras, Rho, Rab, Arf and Ran.
+The Rho subfamily is further divided into RHOA, RAC1, and CDC42.

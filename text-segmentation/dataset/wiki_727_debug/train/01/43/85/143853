@@ -1,0 +1,46 @@
+========,1,preface.
+In punctuation, a word divider is a glyph that separates written words.
+In languages which use the Latin, Cyrillic, and Arabic alphabets, as well as other languages of Europe and the Mideast, the word divider is a blank space, or "whitespace," a convention which is spreading, along with other aspects of European punctuation, to Asia and Africa.
+However, many languages of East Asia are written without word separation (Saenger 2000).
+In character encoding, word segmentation depends on which characters are defined as word dividers.
+========,2,History.
+In Ancient Egyptian, determinatives may have been used as much to demarcate word boundaries as to disambiguate the semantics of words.
+Rarely in Assyrian cuneiform, but commonly in the later cuneiform Ugaritic alphabet, a vertical stroke 𒑰 was used to separate words.
+In Old Persian cuneiform, a diagonally sloping wedge was used.
+As the alphabet spread throughout the ancient world, words were often run together without division, and this practice remains or remained until recently in much of South and Southeast Asia.
+However, not infrequently in inscriptions a vertical line, and in manuscripts a single (·), double (:), or triple interpunct (dot) was used to divide words.
+This practice was found in Phoenician, Aramaic, Hebrew, Greek, and Latin, and continues today with Ethiopic, though there whitespace is gaining ground.
+========,3,Scriptio continua.
+The early alphabetic writing systems, such as the Phoenician alphabet, had only signs for consonants (although some signs for consonant could also stand for a vowel, so-called "matres lectionis").
+Without some form of visible word dividers, parsing a text into its separate words would have been a puzzle.
+With the introduction of letters representing vowels in the Greek alphabet, the need for inter-word separation became much less.
+The earliest Greek inscriptions used interpuncts, as was common in the writing systems which preceded it, but soon the practice of "scriptio continua", continuous writing in which all words ran together without separation became common.
+========,3,Use of spaces in Medieval Latin.
+The interpunct died out in Latin only after the Classic period, sometime around the year 200 CE, as the Greek style of "scriptio continua" became fashionable.
+In the 7th century Irish monks started using blank spaces, and introduced their script to France.
+By the 8th or 9th century spacing was being used fairly consistently across Europe (Knight 1996).
+========,2,Types.
+========,3,None.
+Alphabetic writing without inter-word separation, known as "scriptio continua", was used in Ancient Egyptian.
+It appeared in Post-classical Latin after several centuries of the use of the interpunct.
+Traditionally, "scriptio continua" was used for the Indic alphabets of South and Southeast Asia and hangul of Korea, but spacing is now used with hangul and increasingly with the Indic alphabets.
+Today Chinese and Japanese are the main scripts consistently written without punctuation to separate words.
+In Classical Chinese, a word and a character were almost the same thing, so that word dividers would have been superfluous.
+Although Modern Mandarin has numerous polysyllabic words, and each syllable is written with a distinct character, the conceptual link between character and word or at least morpheme remains strong, and no need is felt for word separation apart from what characters already provide.
+========,3,Vertical lines.
+Ancient inscribed and cuneiform scripts such as Anatolian hieroglyphs frequently used short vertical lines to separate words, as did Linear B.
+In manuscripts, vertical lines were more commonly used for larger breaks, equivalent to the Latin comma and period.
+This was the case for Biblical Hebrew (the paseq) and continues with many Indic scripts today.
+========,3,Interpunct, multiple dots, and hypodiastole.
+As noted above, the single and double interpunct were used in manuscripts (on paper) throughout the ancient world.
+For example, Ethiopic inscriptions used a vertical line, whereas manuscripts used double dots (፡) resembling a colon.
+The latter practice continues today, though the space is making inroads.
+Classical Latin used the interpunct in both paper manuscripts and stone inscriptions (Wingo 1972:16).
+Ancient Greek orthography used between two and five dots as word separators, as well as the hypodiastole.
+========,3,Different letter forms.
+In the modern Hebrew and Arabic alphabets, some letters have distinct forms at the ends and/or beginnings of words.
+This demarcation is used in addition to spacing.
+========,3,Vertical arrangement.
+The Nastaʿlīq form of Islamic calligraphy uses vertical arrangement to separate words.
+The beginning of each word is written higher than the end of the preceding word, so that a line of text takes on a sawtooth appearance.
+Nastaliq spread from Persia and today is used for Persian, Uyghur, Pashto, and Urdu.

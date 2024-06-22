@@ -1,0 +1,63 @@
+========,1,preface.
+GNU Octave is software featuring a high-level programming language, primarily intended for numerical computations.
+Octave helps in solving linear and nonlinear problems numerically, and for performing other numerical experiments using a language that is mostly compatible with Matlab.
+It may also be used as a batch-oriented language.
+Since it is part of the GNU Project, it is free software under the terms of the GNU General Public License.
+Octave is one of the major free alternatives to Matlab, others being FreeMat and Scilab.
+Scilab, however, puts less emphasis on (bidirectional) syntactic compatibility with Matlab than Octave does.
+========,2,History.
+The project was conceived around 1988.
+At first it was intended to be a companion to a chemical reactor design course.
+Real development was started by John W. Eaton in 1992.
+The first alpha release dates back to January 4, 1993 and on February 17, 1994 version 1.0 was released.
+Version 4.0.0 was released on May 29, 2015.
+The program is named after Octave Levenspiel, a former professor of the principal author.
+Levenspiel is known for his ability to perform quick back-of-the-envelope calculations.
+========,2,Developments.
+In addition to use on desktops for personal scientific computing, Octave is used in academia and industry.
+For example, Octave was used on a massive parallel computer at Pittsburgh supercomputing center to find vulnerabilities related to guessing social security numbers.
+Dramatic Acceleration with OpenCL or CUDA is also possible with use of GPUs.
+========,2,Octave, the language.
+The Octave language is an interpreted programming language.
+It is a structured programming language (similar to C) and supports many common C standard library functions, and also certain UNIX system calls and functions.
+However, it does not support passing arguments by reference.
+Octave programs consist of a list of function calls or a script.
+The syntax is matrix-based and provides various functions for matrix operations.
+It supports various data structures and allows object-oriented programming.
+Its syntax is very similar to Matlab, and careful programming of a script will allow it to run on both Octave and Matlab.
+Because Octave is made available under the GNU General Public License, it may be freely changed, copied and used.
+The program runs on Microsoft Windows and most Unix and Unix-like operating systems, including macOS.
+========,2,Notable features.
+========,3,Command and variable name completion.
+Typing a TAB character on the command line causes Octave to attempt to complete variable, function, and file names (similar to Bash's tab completion).
+Octave uses the text before the cursor as the initial portion of the name to complete.
+========,3,Data structures.
+Octave includes a limited amount of support for organizing data in structures.
+In this example, we see a structure "x" with elements "a", "b", and "c", (an integer, an array, and a string, respectively):
+========,3,Variable-length argument lists.
+Octave has a mechanism for handling functions that take an unspecified number of arguments without explicit upper limit.
+To specify a list of zero or more arguments, use the special argument ***codice*** as the last (or only) argument in the list.
+========,3,Variable-length return lists.
+A function can be set up to return any number of values by using the special return value ***codice***.
+For example:
+========,3,C++ integration.
+It is also possible to execute Octave code directly in a C++ program.
+For example, here is a code snippet for calling ***codice***:
+C and C++ code can be integrated into GNU Octave by creating oct files, or using the Matlab compatible MEX files.
+========,2,Matlab compatibility.
+Octave has been built with Matlab compatibility in mind, and shares many features with Matlab:
+***LIST***.
+Octave supposedly treats incompatibility with Matlab as a bug; therefore, it could be considered a software clone, which does not infringe software copyright as per "Lotus v. Borland" court case.
+Matlab scripts from the MathWorks' FileExchange repository are compatible with Octave, but can't be used legally due the Terms of use.
+While often provided and uploaded by users under an Octave compatible and proper Open source BSD license, the fileexchange's Terms of use prohibit any usage beside MathWorks proprietary Matlab.
+========,3,Function compatibility.
+Many of the numerous Matlab functions are available in GNU Octave, some of them are accessible through packages via Octave-forge, but not all Matlab functions are available in GNU Octave.
+List of unavailable functions exists in Octave, and developers are seeking for help to implement them.
+Looking for function __unimplemented.m__, leads to the list of unimplemented functions.
+Unimplemented functions are also categorized in Image, Mapping, Optimization, Signal, and Statistics packages.
+When an unimplemented function is called the following error message is shown:
+========,2,User interfaces.
+Octave comes with an official graphical user interface (GUI) and a integrated development environment (IDE) based on Qt.
+It is available since Octave 3.8, and has become the default interface (over the command line interface) with the release of Octave 4.0.
+Several 3rd-party graphical front-ends have been developed.
+It was well received: "[Octave] now has a very workable GUI."

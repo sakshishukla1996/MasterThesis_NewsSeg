@@ -1,0 +1,26 @@
+========,1,preface.
+In writing, a space ( ) is a blank area that separates words, sentences, syllables (in syllabification) and other written or printed glyphs (characters).
+Conventions for spacing vary among languages, and in some languages the spacing rules are complex.
+Typesetting uses spaces of varying length for specific purposes.
+The typewriter, on the other hand, can accommodate only a limited number of keys.
+Most typewriters have only one width of space, obtained by pressing the space bar.
+Following widespread acceptance of the typewriter, some spacing and other typewriter conventions, which were based on the typewriter's mechanical limitations, have influenced professional typography other designers of printed works.
+Computer representation of text eliminates all mechanical and physical limitations.
+Spaces of various widths, styles, or language characteristics (different "space characters") are indicated with unique code points.
+Whitespace characters include spaces of various width, including all those that professional typesetters employ.
+========,2,Use of the space in natural languages.
+========,3,Spaces between words.
+Modern English uses a space to separate words, but not all languages follow this practice.
+Spaces were not used to separate words in Latin until roughly 600–800 CE.
+Ancient Hebrew and Arabic "did" use spaces, partly to compensate in clarity for the lack of vowels.
+Traditionally, all CJK languages have no spaces: modern Chinese and Japanese (except when written with little or no kanji) do not; on the other hand, modern Korean uses spaces.
+Runic texts use either an interpunct-like or a colon-like punctuation mark to separate words.
+There are two Unicode characters dedicated for this: and .
+========,3,Spaces between sentences.
+Languages with a Latin-derived alphabet have used various methods of sentence spacing since the advent of movable type in the 15th century.
+***LIST***.
+There has been some controversy regarding the proper amount of sentence spacing in typeset material.
+The "Elements of Typographic Style" states that only a single word space is required for sentence spacing since "Larger spaces...are "themselves" punctuation."
+========,3,Spaces and unit symbols.
+The International System of Units (SI) prescribes inserting a space between a number and a unit of measurement and between units in compound units, but never between a prefix and a base unit.
+The only exception to this rule is the SI the symbolic notation of angles: degree (e.g., 30°), minute of arc (e.g., 22′), and second of arc (e.g., 8″).

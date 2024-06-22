@@ -1,0 +1,42 @@
+========,1,preface.
+Thomas Bayes (; c. 1701 7 April 1761) was an English statistician, philosopher and Presbyterian minister who is known for having formulated a specific case of the theorem that bears his name: Bayes' theorem.
+Bayes never published what would eventually become his most famous accomplishment; his notes were edited and published after his death by Richard Price.
+========,2,Biography.
+Thomas Bayes was the son of London Presbyterian minister Joshua Bayes, and was possibly born in Hertfordshire.
+He came from a prominent nonconformist family from Sheffield.
+In 1719, he enrolled at the University of Edinburgh to study logic and theology.
+On his return around 1722, he assisted his father at the latter's chapel in London before moving to Tunbridge Wells, Kent, around 1734.
+There he was minister of the Mount Sion chapel, until 1752.
+He is known to have published two works in his lifetime, one theological and one mathematical:
+***LIST***.
+It is speculated that Bayes was elected as a Fellow of the Royal Society in 1742 on the strength of the "Introduction to the Doctrine of Fluxions", as he is not known to have published any other mathematical works during his lifetime.
+In his later years he took a deep interest in probability.
+Professor Stephen Stigler, historian of statistical science, thinks that Bayes became interested in the subject while reviewing a work written in 1755 by Thomas Simpson, but George Alfred Barnard thinks he learned mathematics and probability from a book by Abraham de Moivre.
+Others speculate he was motivated to rebut David Hume's argument against believing in miracles on the evidence of testimony in An Enquiry Concerning Human Understanding.
+His work and findings on probability theory were passed in manuscript form to his friend Richard Price after his death.
+By 1755 he was ill and by 1761 had died in Tunbridge Wells.
+He was buried in Bunhill Fields burial ground in Moorgate, London, where many nonconformists lie.
+========,2,Bayes' theorem.
+Bayes' solution to a problem of inverse probability was presented in "An Essay towards solving a Problem in the Doctrine of Chances" which was read to the Royal Society in 1763 after Bayes' death.
+Richard Price shepherded the work through this presentation and its publication in the "Philosophical Transactions of the Royal Society of London" the following year.
+This was an argument for using a uniform prior distribution for a binomial parameter and not merely a general postulate.
+This essay contains a statement of a special case of Bayes' theorem.
+In the first decades of the eighteenth century, many problems concerning the probability of certain events, given specified conditions, were solved.
+For example: given a specified number of white and black balls in an urn, what is the probability of drawing a black ball?
+Or the converse: given that one or more balls has been drawn, what can be said about the number of white and black balls in the urn?
+These are sometimes called "inverse probability" problems.
+Bayes' "Essay" contains his solution to a similar problem posed by Abraham de Moivre, author of "The Doctrine of Chances" (1718).
+In addition, a paper by Bayes on asymptotic series was published posthumously.
+========,2,Bayesianism.
+Bayesian probability is the name given to several related interpretations of probability as an amount of epistemic confidence – the strength of beliefs, hypotheses etc.
+–, rather than a frequency.
+This allows the application of probability to all sorts of propositions rather than just ones that come with a reference class.
+"Bayesian" has been used in this sense since about 1950.
+Since its rebirth in the 1950s, advancements in computing technology have allowed scientists from many disciplines to pair traditional Bayesian statistics with random walk techniques.
+The use of the Bayes theorem has been extended in science and in other fields.
+Bayes himself might not have embraced the broad interpretation now called Bayesian, which was in fact pioneered and popularised by Pierre-Simon Laplace; it is difficult to assess Bayes's philosophical views on probability, since his essay does not go into questions of interpretation.
+There Bayes defines "probability" of an event as (Definition 5) "the ratio between the value at which an expectation depending on the happening of the event ought to be computed, and the value of the thing expected upon its happening".
+Within modern utility theory, the same definition would result by rearranging the definition of expected utility (the probability of an event times the payoff received in case of that event – including the special cases of buying risk for small amounts or buying security for big amounts) to solve for the probability.
+As Stigler points out, this is a subjective definition, and does not require repeated events; however, it does require that the event in question be observable, for otherwise it could never be said to have "happened".
+Stigler argues that Bayes intended his results in a more limited way than modern Bayesians.
+Given Bayes's definition of probability, his result concerning the parameter of a binomial distribution makes sense only to the extent that one can bet on its observable consequences.

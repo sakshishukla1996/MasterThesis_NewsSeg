@@ -1,0 +1,72 @@
+========,1,preface.
+In mathematics, the Kronecker delta (named after Leopold Kronecker) is a function of two variables, usually just positive integers.
+The function is 1 if the variables are equal, and 0 otherwise:
+where the Kronecker delta is a piecewise function of variables and .
+For example, , whereas .
+The Kronecker delta appears naturally in many areas of mathematics, physics and engineering, as a means of compactly expressing its definition above.
+In linear algebra, the identity matrix has entries equal to the Kronecker delta:
+where and take the values , and the inner product of vectors can be written as  The restriction to positive integers is common, but there is no reason it cannot have negative integers as well as positive, or any discrete rational numbers.
+If and above take rational values, then for example This latter case is for convenience.
+========,2,Properties.
+The following equations are satisfied:  Therefore, the matrix can be considered as an identity matrix.
+Another useful representation is the following form:
+This can be derived using the formula for the finite geometric series.
+========,2,Alternative notation.
+Using the Iverson bracket:
+Often, a single-argument notation is used, which is equivalent to setting :
+In linear algebra, it can be thought of as a tensor, and is written .
+Sometimes the Kronecker delta is called the substitution tensor.
+========,2,Digital signal processing.
+Similarly, in digital signal processing, the same concept is represented as a sequence or discrete function on (the integers):
+The function is referred to as an "impulse", or "unit impulse".
+When it is the input to a discrete-time signal processing element, the output is called the impulse response of the element.
+========,2,Properties of the delta function.
+The Kronecker delta has the so-called "sifting" property that for :
+and if the integers are viewed as a measure space, endowed with the counting measure, then this property coincides with the defining property of the Dirac delta function and in fact Dirac's delta was named after the Kronecker delta because of this analogous property.
+In signal processing it is usually the context (discrete or continuous time) that distinguishes the Kronecker and Dirac "functions".
+And by convention, generally indicates continuous time (Dirac), whereas arguments like , , , , , and are usually reserved for discrete time (Kronecker).
+Another common practice is to represent discrete sequences with square brackets; thus: .
+It is important to note that the Kronecker delta is not the result of directly sampling the Dirac delta function.
+The Kronecker delta forms the multiplicative identity element of an incidence algebra.
+========,2,Relationship to the Dirac delta function.
+In probability theory and statistics, the Kronecker delta and Dirac delta function can both be used to represent a discrete distribution.
+If the support of a distribution consists of points , with corresponding probabilities , then the probability mass function of the distribution over can be written, using the Kronecker delta, as
+Equivalently, the probability density function of the distribution can be written using the Dirac delta function as
+Under certain conditions, the Kronecker delta can arise from sampling a Dirac delta function.
+For example, if a Dirac delta impulse occurs exactly at a sampling point and is ideally lowpass-filtered (with cutoff at the critical frequency) per the Nyquist–Shannon sampling theorem, the resulting discrete-time signal will be a Kronecker delta function.
+========,2,Generalizations.
+If it is considered as a type (1,1) tensor, the Kronecker tensor, it can be written This (1,1) tensor represents:
+***LIST***.
+The or multi-index Kronecker delta of order is a type tensor that is a completely antisymmetric in its upper indices, and also in its lower indices.
+Two definitions that differ by a factor of are in use.
+Below, the version is presented has nonzero components scaled to be ±1.
+The second version has nonzero components that are , which results in the explicit scaling factors in "§ Properties of generalized Kronecker delta" below disappearing.
+========,3,Definitions of generalized Kronecker delta.
+In terms of the indices:
+Let be the symmetric group of degree , then:
+Using anti-symmetrization:
+In terms of a determinant:
+Using the Laplace expansion (Laplace's formula) of determinant, it may be defined recursively:
+where the caron, , indicates an index that is omitted from the sequence.
+When (the dimension of the vector space), in terms of the Levi-Civita symbol:
+========,3,Properties of the generalized Kronecker delta.
+The generalized Kronecker delta may be used for anti-symmetrization:
+From the above equations and the properties of anti-symmetric tensors, we can derive the properties of the generalized Kronecker delta:
+which are the generalized version of formulae written in the section Properties.
+The last formula is equivalent to the Cauchy–Binet formula.
+Reducing the order via summation of the indices may be expressed by the identity Using both the summation rule for the case and the relation with the Levi-Civita symbol, the summation rule of the Levi-Civita symbol is derived:
+========,2,Integral representations.
+For any integer , using a standard residue calculation we can write an integral representation for the Kronecker delta as the integral below, where the contour of the integral goes counterclockwise around zero.
+This representation is also equivalent to a definite integral by a rotation in the complex plane.
+========,2,The Kronecker comb.
+The Kronecker comb function with period is defined (using DSP notation) as:
+where and are integers.
+The Kronecker comb thus consists of an infinite series of unit impulses units apart, and includes the unit impulse at zero.
+It may be considered to be the discrete analog of the Dirac comb.
+========,2,Kronecker integral.
+The Kronecker delta is also called degree of mapping of one surface into another.
+Suppose a mapping takes place from surface to that are boundaries of regions, and which is simply connected with one-to-one correspondence.
+In this framework, if and are parameters for , and to are each oriented by the outer normal :
+while the normal has the direction of Let , , be defined and smooth in a domain containing , and let these equations define the mapping of onto .
+Then the degree of mapping is times the solid angle of the image of with respect to the interior point of , .
+If is the origin of the region, , then the degree, is given by the integral:

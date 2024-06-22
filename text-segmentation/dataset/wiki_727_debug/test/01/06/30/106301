@@ -1,0 +1,113 @@
+========,1,preface.
+A cuvette (French: cuvette = "little vessel") is a small tube of circular or square cross section, sealed at one end, made of plastic, glass, or fused quartz (for UV light) and designed to hold samples for spectroscopic experiments.
+Apparently a cuvette has two transparent sides and another two on opposite sides are rough surface for easy handling.
+A beam can pass through two clear sides and the absorbance value can be observed by using a spectrophotometer.
+========,2,Overview.
+Testing for ultraviolet visible spectrophotometry requires a sample solution in liquid form.
+Solution is normally set in a transparent cell known as a cuvette.
+Cuvette has a rectangular shape generally with an inner width of 1 cm.
+This magnitude turns into the way length, L as in the Beer-Lambert law.
+An ordinary test tube can be replaced in some experiments.
+However, the best cuvettes are made of specified quartz, but glass or plastic are common in the standard laboratory.
+For the experiment, which required high consistency in absorption value; glass and plastic are not appropriate as the acute wavelength can be limited due to the ability of transmit UV beams that cannot fully absorbed.
+Cuvette is considered as laboratory glassware used for many experiment, including both UV-VIS and fluorescence spectrometer.
+A cuvette used in fluorescence spectroscopy is different from the UV-VIS spectrometer as all four sides of the cuvette is clear since fluorescence is measured at a right-angle to the path of the light.
+Cuvettes generally have 10 mm thick allowing light to easily pass through.
+The thickness and sizes of cuvette affects the calculation of absorbance value.
+Some cuvettes have a glass or plastic cap to cover used with hazardous solutions, but others open to the air.
+There are common forms of cuvette used in laboratory including open top normal with lid, tall micro, and minimum height micro.
+The transparent side of cuvette with arrow mark on the top-edge is placed toward the light source.
+========,2,History.
+The misconception of cuvette structure arose as some people believed that technicians have to burrow out the solid block of quartz to make a cuvette.
+In 1934, J. Franklin Hyde made combined silica cell from liquid chemicals, which is free from other extraneous elements as liquefying technique of other glass products.
+In 1950s, the Starna Ltd. in the United Kingdom idealized the method to completely melt a optical segment of glass by using heat without deformation of its shape.
+This innovation has altered the production of inert cuvettes without any thermosetting resin; meanwhile provided dimensional and optical surface.
+Before rectangular cuvette was created, researchers use standard test tubes for their laboratory works.
+As innovation motivated techniques were changed; cuvette were constructed to have focal points over ordinary test tubes.
+When utilizing a cuvette with flat optical walls, there is minimized chance for light to scatter the surface as a round surface is used instead.
+The cuvette has a thickness with a resistance of +/ - 0.02 mm.
+This flat surface provides less difficulty to clean the cell.
+========,2,Types of Cuvette.
+Color and UV range can be analyzed by type of cuvette.
+The smallest one are capable of holding 70µl, the medium size contains between 1.5ml and 3.0ml, and the biggest is for testing samples with 2.5ml or larger.
+Some cuvettes will be clear only on opposite sides, so that they pass a single beam of light through that pair of sides; often the unclear sides have ridges or are rough to allow easy handling.
+Cuvettes to be used in fluorescence spectroscopy.
+must be clear on all four sides because fluorescence is measured at a right-angle to the beam path to limit contributions from beam itself.
+Some cuvettes, known as tandem cuvettes, have a glass barrier that extends 2/3 up inside, so that measurements can be taken with two solutions separated, and again when they are mixed.
+Typically, cuvettes are across, to allow for easy calculations of coefficients of absorption.
+To measure the sample, the transparent side must be placed toward the light in spectrophotometer.
+For accurate measurement, these testing tubes should be cleaned and without any scratches.
+Cuvettes to be used in circular dichroism experiments should never be mechanically stressed, as the stress will inducebirefringence in the quartz and affect the measurements made.
+There are several different types of cuvettes commonly used; each type has different usable wavelengths at which its transparency exceeds 80%:
+========,3,Disposable plastic cuvette.
+Disposable plastic cuvettes are often used in fast spectroscopic assays, where speed is more important than high accuracy.
+Plastic, with a wavelength from 380 to 780 nm (visible spectrum).
+It is disposable and will be eliminated once complete the spectrometric experiment to prevent risk from reusing cuvettes and damaging expensive quartz.
+It is one of the most cheapest types as the quality is not as transparent as quartz.
+Plastic cuvettes are accessible for UV measuring.
+This type of cuvettes is useful as it can be disposed and relatively low in price.
+Disposable cuvette can be used in some laboratory where beam light is not high enough to affect the absorption tolerance and consistency of the value.
+========,3,Glass cuvette.
+Optical Glass, has an optical wavelength range of 340-2,500nm in which it transmits over 80% along with a matching tolerance of 1% at 350nm.
+Glass cuvettes are typically for use in the wavelength range of visible light and fused quartz tends to be used in the UV through NIR range.
+When the high transmittance of UV light passes through the flat glass the stability of chemical of sample solution is provided.
+As glass is produced by melting high purity raw materials it does not require additional of UV point on the surface.
+========,3,Quartz cuvette.
+Quartz cells provide more durability compared with plastic and glass.
+Quartz has greater ability to transmit UV light providing a range of wavelength 170-2700 nm with matching tolerance of 1% at 220 nm.
+The smallest size can hold 70 µl of sample and 1.5 ml and 3.0 ml for the medium size.
+========,4,Fused quartz cuvette.
+Fused quartz, with a wavelength below 380 nm (ultraviolet spectrum).
+The optical combined quartz cuvette has more purification compared with other type of quartz as it used to make different lenses of ultraviolet array.
+========,4,Fused silica cuvette.
+ES quartz has a usable wavelength range of 190 to 2,000 nm, and a matching tolerance of 1% at 220 nm.
+ES quartz is composed of a suprasil giving a marginally high quality of quartz over UV cuvette.
+High transmission in low nano-meter range is available for ES quartz cuvette.
+========,4,Infrared quartz cuvette.
+IR quartz has a usable wavelength range of 220 to 3,500 nm, and a matching tolerance of 1% at 2,730 nm.
+IR quartz cuvette is resisted chemical solution than other types designed for fluorescence measurements.
+The path-lengths are available at 5 mm up until 40 mm with 1.25 mm thickness.
+========,4,Sapphire cuvette.
+Sapphire cuvette is the most expensive cuvette as it provides a durable cell made of scratch resistant materials.
+The transmission extend from UV light to mid-infrared ranging 250 to 5,000 nm.
+Sapphire withstands extreme natural condition of sample solutions and variances in temperature.
+========,2,Consideration of Cuvette.
+The cuvette is accumulated with both quantitative and qualitative measurement of a solution.
+Using a cuvette with the spectrophotometer depends on the expected result as there are two main measurements, including the UV-Vis and fluorescence spectrophotometer.
+Types of cuvette altered as the radiation of certain kind of spectrometer used.
+In case, the experiment is performed to find absorption value; a cell with two optically transparent polished windows is used to fill the sample solution.
+The light with an approximate limit of settle wavelength enters the cell through the cell in a straight line.
+The light absorbed is directly proportional to the concentration of sample solution.
+Otherwise, fluorescence measurement uses different wavelength as solutions can absorb penetrated light at at a higher wavelength.
+The concentration of fluorimetry is observed from three to six logarithm based, in which the modification or dilution of the sample is not required.
+The cell used has three alternately four polished windows instead of two because both an excitation and emission spectrum are measured.
+========,2,Cuvette Calibration.
+The cuvette calibration has a great effect on the absorbance measurement.
+Many variables need to be considered to make the adjustment as precise and accurate.
+The spectrophotometric measurement is sensitive to the change in volume.
+The calibration cuvette helps scientists to convert the volume data from relative value units to the true volume with the less uncertainty.
+The cuvette adjustment is important for laboratory technicians who acquiring a precise estimation of the volume of solution.
+In the laboratory facility, sometimes a round glass cuvette is frequently utilized.
+The adjusted cuvette that has been aligned and sold in the market is expensive contrasted with the cost of normal glass tubes.
+The glass cell costs approximately 30 times higher than an ordinary glass tube.
+In turn, the cuvettes do the most appropriate sort of spectrophotometer, but in the some researches need the great number of cuvette and can be costly.
+A high quality glass tube as calibrated can give similar result as a cuvette.
+However, the manually calibrated cuvette has less consistency.
+The adjustment and position of the tube affect the reading value of the absorbance as the light goes through the sample controlled by the width of the cuvette.
+The distance traveled by light and the concentration of solution influence the estimation of absorbance.
+The appropriate wavelength and type of cuvette is the main component for measuring the correct absorbance with manually calibrating the cuvette.
+========,2,Standard Technique.
+Stress factors in cuvette induces the expected measurement and possibly causes errors.
+Erroneousness in the spectrophotometer such as light distribution occurs when light hits the scratched cuvette.
+Rubber or plastic rack protects the cuvette from accidentally hit or scratch from an aluminum during the experiment.
+Types of solvent used, temperature, and the wavelength of the light affect the measurement at different level of light transmitted through the cuvette.
+Gauze or tissue paper is used to wipe the outer surface of the cuvette as a solution is drawn in the cuvette.
+Protein from fingerprints or droplets of water disrupt the reflection of light rays during the measurement.
+In case the pasture pipette contains air during transfer the solution, bubbles inside the cuvette reduce the purity of a solution and cause light beams to be more scattered.
+Finger-clad finger method is used to remove bubbles.
+The solution contained in the cuvette matches at least high or higher than the slit through and the grip whereby the light source is transmitted through.
+Mild detergent and ethanol rinsing with tap water is used to wipe off the outer layer of the cuvette.
+Acid or alkaline is not tolerated to the material of cuvette.
+These corrosive liquids erode the glass and make the cuvette skin smooth damaged.
+A soft cloth washing material prevents scratching the surface of cuvette, unlike a tube cleaning brush; it cuts the surface of cuvette.
+In case, the cuvette needs incubation for specific condition of the experiment, temperature of 100 ℃ and above is not permitted as a high level of temperature affects the surface of cuvette.

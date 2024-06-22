@@ -1,0 +1,50 @@
+========,1,preface.
+In computer science, denormal numbers or denormalized numbers (now often called subnormal numbers) fill the underflow gap around zero in floating-point arithmetic.
+Any non-zero number with magnitude smaller than the smallest normal number is 'subnormal'.
+In a normal floating-point value, there are no leading zeros in the significand; instead leading zeros are moved to the exponent.
+So 0.0123 would be written as 1.23 × 10.
+Denormal numbers are numbers where this representation would result in an exponent that is below the minimum exponent (the exponent usually having a limited range).
+Such numbers are represented using leading zeros in the significand.
+The significand (or mantissa) of an IEEE floating point number is the part of a floating-point number that represents the significant digits.
+For a positive normalised number it can be represented as "m"."m""m""m"...
+"m""m" (where "m" represents a significant digit and "p" is the precision, and "m" is non-zero).
+Notice that for a binary radix, the leading binary digit is always 1.
+In a denormal number, since the exponent is the least that it can be, zero is the leading significand digit (0."m""m""m"...
+"m""m"), allowing the representation of numbers closer to zero than the smallest normal number.
+By filling the underflow gap like this, significant digits are lost, but not as abruptly as when using the "flush to zero on underflow" approach (discarding all significant digits when underflow is reached).
+Hence the production of a denormal number is sometimes called gradual underflow because it allows a calculation to lose precision slowly when the result is small.
+In IEEE 754-2008, denormal numbers are renamed "subnormal numbers", and are supported in both binary and decimal formats.
+In binary interchange formats, subnormal numbers are encoded with a biased exponent of 0, but are interpreted with the value of the smallest allowed exponent, which is one greater (i.e., as if it were encoded as a 1).
+In decimal interchange formats they require no special encoding because the format supports unnormalized numbers directly.
+Mathematically speaking, the normalized floating point numbers of a given sign are roughly logarithmically spaced, and as such any finite-sized normal float cannot include zero.
+The denormal floats are a linearly-spaced set of values which span the gap between the negative and positive normal floats.
+========,2,Background.
+Denormal numbers provide the guarantee that addition and subtraction of floating-point numbers never underflows; two nearby floating-point numbers always have a representable non-zero difference.
+Without gradual underflow, the subtraction "a"−"b" can underflow and produce zero even though the values are not equal.
+This can, in turn, lead to division by zero errors that cannot occur when gradual underflow is used.
+Denormal numbers were implemented in the Intel 8087 while the IEEE 754 standard was being written.
+They were by far the most controversial feature in the K-C-S format proposal that was eventually adopted, but this implementation demonstrated that denormals could be supported in a practical implementation.
+Some implementations of floating point units do not directly support denormal numbers in hardware, but rather trap to some kind of software support.
+While this may be transparent to the user, it can result in calculations which produce or consume denormal numbers being much slower than similar calculations on normal numbers.
+========,2,Performance issues.
+Some systems handle denormal values in hardware, in the same way as normal values.
+Others leave the handling of denormal values to system software, only handling normal values and zero in hardware.
+Handling denormal values in software always leads to a significant decrease in performance.
+When denormal values are entirely computed in hardware, implementation techniques exist to allow their processing at speeds comparable to normal numbers; however, the speed of computation is significantly reduced on many modern processors; in extreme cases, instructions involving denormal operands may run as much as 100 times slower.
+This speed difference can be a security risk.
+Researchers showed that it provides a timing side channel that allows a malicious web site to extract page content from another site inside a web browser.
+Some applications need to contain code to avoid denormal numbers, either to maintain accuracy, or in order to avoid the performance penalty in some processors.
+For instance, in audio processing applications, denormal values usually represent a signal so quiet that it is out of the human hearing range.
+Because of this, a common measure to avoid denormals on processors where there would be a performance penalty is to cut the signal to zero once it reaches denormal levels or mix in an extremely quiet noise signal.
+Other methods of preventing denormal numbers include adding a DC offset, quantizing numbers, adding a nyquist signal, etc.
+Since the SSE2 processor extension, Intel has provided such a functionality in CPU hardware, which rounds denormalized numbers to zero.
+========,2,Disabling denormal floats at the code level.
+Intel's C and Fortran compilers enable the denormals-are-zero (DAZ) and flush-to-zero (FTZ) flags for SSE by default for optimization levels higher than -O0.
+The effect of DAZ is to treat denormal input arguments to floating point operations as zero, and the effect of FTZ is to return zero instead of a denormal float for operations which would result in a denormal float, even if the input arguments are not themselves denormal.
+clang and gcc have varying default states depending on platform and optimization level.
+A non-C99-compliant method of enabling the DAZ and FTZ flags on targets supporting SSE is given below, but is not widely supported.
+It is known to work on Mac OS X since at least 2006.
+For other SSE instruction-set platforms where the C library has not yet implemented the above flag, the following may work:
+It is generally recommended to use the macro _MM_SET_DENORMALS_ZERO_MODE as it will avoid overwriting any other configuration in the CSR.
+Most compilers will already provide the previous macro by default, otherwise the following code snippet can be used.
+Please note that the default denormal behavior is ABI and therefore well behaved software should save and restore the denormal mode before returning to the caller or calling out to unsuspecting library/OS code.

@@ -1,0 +1,74 @@
+========,1,preface.
+SMPTE timecode is a set of cooperating standards to label individual frames of video or film with a time code defined by the Society of Motion Picture and Television Engineers in the SMPTE 12M specification.
+SMPTE revised the standard in 2008, turning it into a two-part document: SMPTE 12M-1 and SMPTE 12M-2, including new explanations and clarifications.
+Timecodes are added to film, video or audio material, and have also been adapted to synchronize music.
+They provide a time reference for editing, synchronization and identification.
+Timecode is a form of media metadata.
+The invention of timecode made modern videotape editing possible, and led eventually to the creation of non-linear editing systems.
+========,2,Basic concepts.
+SMPTE timecodes ( or ) contain binary coded decimal "hour:minute:second:frame" identification and 32 bits for use by users.
+There are also drop-frame and color framing flags and three extra 'binary group flag' bits used for defining the use of the user bits.
+The formats of other varieties of SMPTE time codes are derived from that of the longitudinal timecode.
+Time codes may use a number of frame rates.
+Common ones are:
+***LIST***.
+In general, SMPTE timecode frame rate information is implicit, known from the rate of arrival of the timecode from the medium, or other metadata encoded in the medium.
+The interpretation of several bits, including the "colour framing" and "drop frame" bits, depends on the underlying data rate.
+In particular, the drop frame bit is only valid for a nominal frame rate of 30 frame/s: see below for details.
+More complex timecodes such as vertical interval timecode can also include extra information in a variety of encodings.
+========,2,Discontinuous timecode, and flywheel processing.
+Timecodes are generated as a continuous stream of sequential data values.
+In some applications "wall clock" time is used, in others the time encoded is a notional time.
+After making a series of recordings, or after crude editing, recorded timecodes may consist of discontinuous segments.
+In general it is not possible to know the linear timecode (LTC) of the current frame until the frame has already gone by, by which time it is too late to make an edit.
+Practical systems watch the ascending sequence of the timecode, and infer the time of the current frame from that.
+As timecodes in analog systems are prone to bit-errors and drop-outs, most timecode processing devices check for internal consistency in the sequence of timecode values, and use simple error correction schemes to correct for short error bursts.
+Thus, a boundary between discontinuous timecode ranges cannot be determined exactly until several subsequent frames or discontinuous sequences of them have passed.
+For this reason, most videotape editing attempts to keep the timecode of the recorded material continuous, so that multiple edits may be repeatedly over-recorded onto the same piece of videotape.
+Although it would be possible in all-digital systems to eliminate the need for the flywheel algorithm by adding a frame delay to allow the timecode to be decoded prior to the processing of the frame, this is not done in most practical systems because it would introduce an unnecessary frame delay in the signal processing path, and there would still be a need to compensate for timecode errors in signals derived from analog video or audio systems.
+========,2,Drop frame timecode.
+Drop frame timecode originates from a compromise invented when color NTSC video was invented.
+The NTSC designers wanted to retain compatibility with existing monochrome televisions.
+To minimise subcarrier visibility on a monochrome receiver it was necessary to make the color subcarrier an odd multiple of half the line scan frequency; the multiple originally chosen was 495.
+With a 30 Hz frame rate the line scan frequency is (30 × 525) = 15750 Hz.
+So the subcarrier frequency would have been (495/2 × 15750) = 3.898125 MHz.
+This was the subcarrier frequency originally chosen, but tests showed that on some monochrome receivers an interference pattern caused by the beat between the color subcarrier and the 4.5 MHz sound intercarrier could be seen.
+The visibility of this pattern could be greatly reduced by lowering the subcarrier frequency multiple to 455 (thus increasing the beat frequency from approx 600 kHz to approx 920 kHz) and by making the beat frequency also equal to an odd multiple of half the line scan frequency.
+This latter change could have been achieved by raising the sound intercarrier by 0.1% to 4.5045 MHz, but the designers, concerned that this might cause problems with some existing receivers, decided instead to reduce the color subcarrier frequency, and thus both the line scan frequency and the frame rate, by 0.1% instead.
+Thus the NTSC color subcarrier ended up as 3.57954545 MHz (exactly 315/88 MHz), the line scan frequency as 15734.27 Hz (exactly 9/572 MHz) and the frame rate 29.97 Hz (exactly 30/1.001 Hz).
+This meant that an "hour of timecode" at a nominal frame rate of 30 frame/s, when played back at 29.97 frame/s was longer than an hour of wall-clock time by 3.6 seconds, leading to an error of almost a minute and a half over a day.
+To correct this, drop frame SMPTE timecode was invented.
+In spite of what the name implies, "no" video frames are dropped (skipped) using drop-frame timecode.
+Rather, some of the "timecodes" are dropped.
+In order to make an hour of timecode match an hour on the clock, drop-frame timecode skips frame numbers 0 and 1 of the first second of every minute, except when the number of minutes is divisible by ten (i.e.
+when minutes mod 10 equals zero).
+(Because editors making cuts must be aware of the difference in color subcarrier phase between even and odd frames, it is helpful to skip pairs of frame numbers.)
+This achieves an "easy-to-track" drop frame rate of 18 frames each ten minutes (18,000 frames @ 30 frame/s) and almost perfectly compensates for the difference in rate, leaving a residual timing error of only 1.0 ppm, roughly 2.6 frames (86.4 milliseconds) per day.
+That is, drop frame TC drops 18/18000 frame numbers, equivalent to 1/1000, achieving 30×0.999 = 29.97 frame/s.
+This is very slightly slower than the true NTSC frame rate of 30/1.001 = 29.97 frame/s, which is equivalent to dropping 1/1001 frame numbers.
+The difference is one additional NTSC frame per 1,000,000 drop frame TC values, which is negligible.
+For example, the sequence when frame counts are dropped:
+<br>01:08:59:28
+<br>01:08:59:29
+<br>01:09:00:02
+<br>01:09:00:03
+For each tenth minute
+<br>01:09:59:28
+<br>01:09:59:29
+<br>01:10:00:00
+<br>01:10:00:01
+While non-drop timecode is displayed with colons separating the digit pairs—"HH:MM:SS:FF"—drop frame is usually represented with a semi-colon (;) or period (.)
+as the divider between all the digit pairs—"HH;MM;SS;FF", "HH.MM.SS.FF"—or just between the seconds and frames—"HH:MM:SS;FF" or "HH:MM:SS.FF".
+The period is usually used on VTRs and other devices that don't have the ability to display a semi-colon.
+Drop frame timecode is typically abbreviated as DF and non-drop as NDF.
+========,2,Studio operations and master clocks.
+In television studio operations, longitudinal timecode is generated by the studio master sync generator, and distributed from a central point.
+Central sync generators usually derive their timing from an atomic clock, either using network time or GPS.
+Studios usually maintain two or three clocks, and automatically switch over if one fails.
+A recent development is to mount small GPS-synchronized SMPTE timecode generators on each camera, which eliminates the distribution network for portable set-ups and shooting on location.
+Longitudinal SMPTE timecode is widely used to synchronise music.
+A frame rate of 30 frame/s is often used for audio in America, Japan, and other countries which rely on a 60 Hz mains frequency and use the NTSC television standard.
+The EBU (European Broadcasting Union) standard frame rate of 25 frame/s is used throughout Europe, Australia and wherever the mains frequency is 50 Hz, and the PAL or SECAM television standards are used.
+========,2,History.
+Longitudinal and vertical-interval timecodes were developed in 1967 by EECO, an electronics company that developed video recorders, and later video production systems.
+EECO assigned its intellectual property to permit public use.

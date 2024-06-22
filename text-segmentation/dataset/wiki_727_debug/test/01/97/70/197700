@@ -1,0 +1,18 @@
+========,1,preface.
+COMAL ("Common Algorithmic Language") is a computer programming language developed in Denmark by Benedict Løfstedt and Børge R. Christensen in 1973.
+COMAL was one of the few structured programming languages that was available for and comfortably usable on 8-bit home computers.
+The "COMAL 80 PROGRAMMING LANGUAGE REPORT" contains the formal definition of the language.
+========,2,Design.
+COMAL was created as a mixture of the prevalent educational programming languages of the time, BASIC, Pascal, and, at least in the Commodore and Compis versions, the turtle graphics of Logo.
+The language was meant to introduce structured programming elements in an environment where BASIC would normally be used.
+========,2,History.
+In the early 1980s, Apple Computer won a contract to supply Apple II computers running CP/M and COMAL to Irish secondary schools.
+In 1984 Acornsoft released a COMAL implementation, by Paul Christensen and Roy Thorton, for their 8-bit BBC Micro and Acorn Electron computers.
+Between 1984-1987 TeleNova, a subsidiary of the industrial arm of the Swedish Telecoms system, Teli industrier manufactured a desktop PC called "Compis" for the educational sector.
+An enhanced version of COMAL was supplied as the standard programming language for this PC.
+Versions were created for both CP/M86 and MS-DOS.
+The latter version is available for Windows XP.
+The (Swedish) reference manual is  In 1990 Thomas Lundy and Rory O'Sullivan produced the definitive text on COMAL Programming.
+They matched and compared COMAL with BBC Structured Basic.
+As of 2016 COMAL is still actively in use as an educational programming language.
+Some high schools in the United Kingdom continue to use it to teach the subject of Computing.

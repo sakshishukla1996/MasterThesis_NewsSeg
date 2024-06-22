@@ -1,0 +1,58 @@
+========,1,preface.
+Polyethylene glycol (PEG) is a polyether compound with many applications from industrial manufacturing to medicine.
+PEG is also known as polyethylene oxide (PEO) or polyoxyethylene (POE), depending on its molecular weight.
+The structure of PEG is commonly expressed as H−(O−CH−CH)−OH.
+========,2,Available forms and nomenclature.
+"PEG", "PEO", and "POE" refer to an oligomer or polymer of ethylene oxide.
+The three names are chemically synonymous, but historically "PEG" is preferred in the biomedical field, whereas "PEO" is more prevalent in the field of polymer chemistry.
+Because different applications require different polymer chain lengths, "PEG" has tended to refer to oligomers and polymers with a molecular mass below 20,000 g/mol, "PEO" to polymers with a molecular mass above 20,000 g/mol, and "POE" to a polymer of any molecular mass.
+PEG and PEO are liquids or low-melting solids, depending on their molecular weights.
+PEGs are prepared by polymerization of ethylene oxide and are commercially available over a wide range of molecular weights from 300 g/mol to 10,000,000 g/mol.
+While PEG and PEO with different molecular weights find use in different applications, and have different physical properties (e.g.
+viscosity) due to chain length effects, their chemical properties are nearly identical.
+Different forms of PEG are also available, depending on the initiator used for the polymerization process – the most common initiator is a monofunctional methyl ether PEG, or methoxypoly(ethylene glycol), abbreviated mPEG.
+Lower-molecular-weight PEGs are also available as purer oligomers, referred to as monodisperse, uniform, or discrete.
+Very high purity PEG has recently been shown to be crystalline, allowing determination of a crystal structure by x-ray diffraction.
+Since purification and separation of pure oligomers is difficult, the price for this type of quality is often 10–1000 fold that of polydisperse PEG.
+PEGs are also available with different geometries.
+***LIST***.
+The numbers that are often included in the names of PEGs indicate their average molecular weights (e.g.
+a PEG with n = 9 would have an average molecular weight of approximately 400 daltons, and would be labeled PEG 400.)
+Most PEGs include molecules with a distribution of molecular weights (i.e.
+they are polydisperse).
+The size distribution can be characterized statistically by its weight average molecular weight (Mw) and its number average molecular weight (Mn), the ratio of which is called the polydispersity index (Mw/Mn).
+MW and Mn can be measured by mass spectrometry.
+PEGylation is the act of covalently coupling a PEG structure to another larger molecule, for example, a therapeutic protein, which is then referred to as a "PEGylated" protein.
+PEGylated interferon alfa-2a or −2b are commonly used injectable treatments for hepatitis C infection.
+PEG is soluble in water, methanol, ethanol, acetonitrile, benzene, and dichloromethane, and is insoluble in diethyl ether and hexane.
+It is coupled to hydrophobic molecules to produce non-ionic surfactants.
+PEGs potentially contain toxic impurities, such as ethylene oxide and 1,4-dioxane.
+Ethylene Glycol and its ethers are nephrotoxic if applied to damaged skin.
+Polyethylene glycol (PEG) and related polymers (PEG phospholipid constructs) are often sonicated when used in biomedical applications.
+However, as reported by Murali et al., PEG is very sensitive to sonolytic degradation and PEG degradation products can be toxic to mammalian cells.
+It is, thus, imperative to assess potential PEG degradation to ensure that the final material does not contain undocumented contaminants that can introduce artifacts into experimental results.
+PEGs and methoxypolyethylene glycols are manufactured by Dow Chemical under the tradename "Carbowax" for industrial use, and "Carbowax Sentry" for food and pharmaceutical use.
+They vary in consistency from liquid to solid, depending on the molecular weight, as indicated by a number following the name.
+They are used commercially in numerous applications, including as surfactants, in foods, in cosmetics, in pharmaceutics, in biomedicine, as dispersing agents, as solvents, in ointments, in suppository bases, as tablet excipients, and as laxatives.
+Some specific groups are lauromacrogols, nonoxynols, octoxynols, and poloxamers.
+Macrogol, used as a laxative, is a form of polyethylene glycol.
+The name may be followed by a number which represents the average molecular weight (e.g.
+macrogol 3350, macrogol 4000 or macrogol 6000).
+========,2,Production.
+Polyethylene glycol is produced by the interaction of ethylene oxide with water, ethylene glycol, or ethylene glycol oligomers.
+The reaction is catalyzed by acidic or basic catalysts.
+Ethylene glycol and its oligomers are preferable as a starting material instead of water, because they allow the creation of polymers with a low polydispersity (narrow molecular weight distribution).
+Polymer chain length depends on the ratio of reactants.
+Depending on the catalyst type, the mechanism of polymerization can be cationic or anionic.
+The anionic mechanism is preferable because it allows one to obtain PEG with a low polydispersity.
+Polymerization of ethylene oxide is an exothermic process.
+Overheating or contaminating ethylene oxide with catalysts such as alkalis or metal oxides can lead to runaway polymerization, which can end in an explosion after a few hours.
+Polyethylene oxide, or high-molecular weight polyethylene glycol, is synthesized by suspension polymerization.
+It is necessary to hold the growing polymer chain in solution in the course of the polycondensation process.
+The reaction is catalyzed by magnesium-, aluminium-, or calcium-organoelement compounds.
+To prevent coagulation of polymer chains from solution, chelating additives such as dimethylglyoxime are used.
+Alkaline catalysts such as sodium hydroxide (NaOH), potassium hydroxide (KOH), or sodium carbonate (NaCO) are used to prepare low-molecular-weight polyethylene glycol.
+========,2,Health effects.
+PEG is generally considered biologically inert and safe.
+However, a minority of people are allergic to it.
+Allergy to PEG is usually discovered after a person has been diagnosed with an allergy to an increasing number of seemingly unrelated products, including processed foods, cosmetics, drugs, and other substances that contain PEG or were manufactured with PEG.

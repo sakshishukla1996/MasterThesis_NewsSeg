@@ -1,0 +1,60 @@
+========,1,preface.
+Newton's law of cooling states that "the rate of heat loss of a body is directly proportional to the difference in the temperatures between the body and its surroundings provided the temperature difference is small and the nature of radiating surface remains same."
+As such, it is equivalent to a statement that the heat transfer coefficient, which mediates between heat losses and temperature differences, is a constant.
+This condition is generally true in thermal conduction (where it is guaranteed by Fourier's law), but it is often only approximately true in conditions of convective heat transfer, where a number of physical processes make effective heat transfer coefficients somewhat dependent on temperature differences.
+Finally, in the case of heat transfer by thermal radiation, Newton's law of cooling is not true.
+Sir Isaac Newton did not originally state his law in the above form in 1701, when it was originally formulated.
+Rather, using today's terms, Newton noted after some mathematical manipulation that "the rate of temperature change" of a body is proportional to the difference in temperatures between the body and its surroundings.
+This final simplest version of the law given by Newton himself, was partly due to confusion in Newton's time between the concepts of heat and temperature, which would not be fully disentangled until much later.
+When stated in terms of temperature differences, Newton's law (with several further simplifying assumptions, such as a low Biot number and temperature-independent heat capacity) results in a simple differential equation for temperature-difference as a function of time.
+This equation has a solution that specifies a simple negative exponential rate of temperature-difference decrease, over time.
+This characteristic time function for temperature-difference behavior, is also associated with Newton's law of cooling.
+========,2,Relationship to mechanism of cooling.
+Convection-cooling is sometimes called "Newton's law of cooling."
+This use is based on a work by Isaac Newton published anonymously as "Scala graduum Caloris.
+Calorum Descriptiones & signa."
+in "Philosophical Transactions", 1701, In cases where the heat transfer coefficient is independent, or relatively independent, of the temperature difference between object and environment, Newton's law is followed.
+This independence is sometimes the case, but is not guaranteed to be so.
+The heat transfer coefficient is often relatively independent of temperature in purely conduction-type cooling, but becomes a function of the temperature in classical natural convective heat transfer.
+In this case, Newton's law only approximates the result when the temperature changes are relatively small.
+Newton himself realized this limitation.
+A correction to Newton's law concerning larger temperature differentials was made in 1817 by Dulong and Petit.
+(These men are better-known for their formulation of the Dulong–Petit law concerning the molar specific heat capacity of a crystal.)
+Another situation with temperature-dependent transfer coefficient is radiative heat transfer, which also does not obey Newton's law.
+========,2,Heat transfer version of the law.
+The heat-transfer version of Newton's law, which (as noted) requires a constant heat transfer coefficient, states that "the rate of heat loss of a body is proportional to the difference in temperatures between the body and its surroundings."
+The rate of heat transfer in such circumstances is derived below:
+Newton's cooling law in convection is a restatement of the differential equation given by Fourier's law:
+where The heat transfer coefficient h depends upon physical properties of the fluid and the physical situation in which convection occurs.
+Therefore, a single usable heat transfer coefficient (one that does not vary significantly across the temperature-difference ranges covered during cooling and heating) must be derived or found experimentally for every system that can be analyzed using the presumption that Newton's law will hold.
+Formulas and correlations are available in many references to calculate heat transfer coefficients for typical configurations and fluids.
+For laminar flows, the heat transfer coefficient is rather low compared to turbulent flows; this is due to turbulent flows having a thinner stagnant fluid film layer on the heat transfer surface.
+However, note that Newton's law breaks down if the flows should transition between laminar or turbulent flow, since this will change the heat transfer coefficient h which is assumed constant in solving the equation.
+========,3,The Biot number.
+The Biot number, a dimensionless quantity, is defined for a body as:
+***LIST***.
+The physical significance of Biot number can be understood by imagining the heat flow from a hot metal sphere suddenly immersed in a pool, to the surrounding fluid.
+The heat flow experiences two resistances: the first at the surface of the sphere, and the second within the solid metal (which is influenced by both the size and composition of the sphere).
+The ratio of these resistances is the dimensionless Biot number.
+If the thermal resistance of the fluid/sphere interface exceeds that thermal resistance offered by the interior of the metal sphere, the Biot number will be less than one.
+For systems where it is much less than one, the interior of the sphere may be presumed always to have the same temperature, although this temperature may be changing, as heat passes into the sphere from the surface.
+The equation to describe this change in (relatively uniform) temperature inside the object, is the simple exponential one described in Newton's law of cooling expressed in terms of temperature difference (see below).
+In contrast, the metal sphere may be large, causing the characteristic length to increase to the point that the Biot number is larger than one.
+In this case, thermal gradients within the sphere become important, even though the sphere material is a good conductor.
+Equivalently, if the sphere is made of a thermally insulating (poorly conductive) material, such as wood or styrofoam, the interior resistance to heat flow will exceed that of the fluid/sphere boundary, even with a much smaller sphere.
+In this case, again, the Biot number will be greater than one.
+Values of the Biot number smaller than 0.1 imply that the heat conduction inside the body is much faster than the heat convection away from its surface, and temperature gradients are negligible inside of it.
+This can indicate the applicability (or inapplicability) of certain methods of solving transient heat transfer problems.
+For example, a Biot number less than 0.1 typically indicates less than 5% error will be present when assuming a lumped-capacitance model of transient heat transfer (also called lumped system analysis).
+Typically, this type of analysis leads to simple exponential heating or cooling behavior ("Newtonian" cooling or heating) since the amount of thermal energy (loosely, amount of "heat") in the body is directly proportional to its temperature, which in turn determines the rate of heat transfer into or out of it.
+This leads to a simple first-order differential equation which describes heat transfer in these systems.
+Having a Biot number smaller than 0.1 labels a substance as "thermally thin," and temperature can be assumed to be constant throughout the material's volume.
+The opposite is also true: A Biot number greater than 0.1 (a "thermally thick" substance) indicates that one cannot make this assumption, and more complicated heat transfer equations for "transient heat conduction" will be required to describe the time-varying and non-spatially-uniform temperature field within the material body.
+Analytic methods for handling these problems, which may exist for simple geometric shapes and uniform material thermal conductivity, are described in the article on the heat equation.
+========,2,Rate-of-change of temperature-difference version of the law.
+As noted in the section above, accurate formulation for temperatures may require analysis based on changing heat transfer coefficients at different temperatures, a situation frequently found in free-convection situations, and which precludes accurate use of Newton's law.
+As noted above, Newton's law behavior when stated in terms of "temperature change" in the body, also requires that internal heat conduction within the object be large in comparison to the loss/gain of heat by surface transfer (conduction and/or convection), which is the condition where the Biot number is less than about 0.1.
+This allows the presumption of a single "temperature" inside the body (as a function of time) to make sense, as otherwise the body would have many different temperatures inside it, at any one time.
+This single temperature will generally change exponentially, as time progresses (see below).
+Assumption of rapid internal conduction also allows use of the so-called lumped capacitance model.
+In this model, the amount of thermal energy in the body is calculated by assuming a constant heat capacity and thus thermal energy in the body is assumed to be a linear function of the body's temperature.

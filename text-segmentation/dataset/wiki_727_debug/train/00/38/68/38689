@@ -1,0 +1,53 @@
+========,1,preface.
+In object-oriented programming and software engineering, the visitor design pattern is a way of separating an algorithm from an object structure on which it operates.
+A practical result of this separation is the ability to add new operations to extant object structures without modifying the structures.
+It is one way to follow the open/closed principle.
+In essence, the visitor allows adding new virtual functions to a family of classes, without modifying the classes.
+Instead, a visitor class is created that implements all of the appropriate specializations of the virtual function.
+The visitor takes the instance reference as input, and implements the goal through double dispatch.
+========,2,Definition.
+The Gang of Four defines the Visitor as:
+The nature of the Visitor makes it an ideal pattern to plug into public APIs thus allowing its clients to perform operations on a class using a "visiting" class without having to modify the source.
+========,2,Uses.
+Moving operations into visitor classes is beneficial when
+***LIST***.
+A drawback to this pattern, however, is that it makes extensions to the class hierarchy more difficult, as new classes typically require a new ***codice*** method to be added to each visitor.
+========,2,Use Case Example.
+Consider the design of a 2D computer-aided design (CAD) system.
+At its core there are several types to represent basic geometric shapes like circles, lines, and arcs.
+The entities are ordered into layers, and at the top of the type hierarchy is the drawing, which is simply a list of layers, plus some added properties.
+A fundamental operation on this type hierarchy is saving a drawing to the system's native file format.
+At first glance it may seem acceptable to add local save methods to all types in the hierarchy.
+But it is also useful to be able to save drawings to other file formats.
+Adding ever more methods for saving into many different file formats soon clutters the relatively pure original geometric data structure.
+A naive way to solve this would be to maintain separate functions for each file format.
+Such a save function would take a drawing as input, traverse it, and encode into that specific file format.
+As this is done for each added different format, duplication between the functions accumulates.
+For example, saving a circle shape in a raster format requires very similar code no matter what specific raster form is used, and is different from other primitive shapes.
+The case for other primitive shapes like lines and polygons is similar.
+Thus, the code becomes a large outer loop traversing through the objects, with a large decision tree inside the loop querying the type of the object.
+Another problem with this approach is that it is very easy to miss a shape in one or more savers, or a new primitive shape is introduced, but the save routine is implemented only for one file type and not others, leading to code extension and maintenance problems.
+Instead, the Visitor pattern can be applied.
+It encodes a logical operation on the whole hierarchy into one class containing one method per type.
+In the CAD example, each save function would be implemented as a separate Visitor subclass.
+This would remove all duplication of type checks and traversal steps.
+It would also make the compiler complain if a shape is omitted.
+Another motive is to reuse iteration code.
+For example, iterating over a directory structure could be implemented with a visitor pattern.
+This would allow creating file searches, file backups, directory removal, etc., by implementing a visitor for each function while reusing the iteration code.
+========,2,C# example.
+This example shows how to print a tree representing a numeric expression involving literals and their addition.
+The same example is presented using both classic and Dynamic Language Runtime implementations.
+========,3,Classic visitor.
+A classic visitor where the Print operations for each type are implemented in one ExpressionPrinter class as a number of overloads of the Visit method.
+namespace Wikipedia
+========,3,Dynamic Visitor.
+This example declares a separate ***codice*** class that takes care of the printing.
+Note that the expression classes have to expose their members to make this possible.
+namespace Wikipedia
+========,2,Java example.
+========,3,Sources.
+A more flexible approach to this pattern is to create a wrapper class implementing the interface defining the accept method.
+The wrapper contains a reference pointing to the ***codice*** that could be initialized through the constructor.
+This approach avoids having to implement an interface on each element.
+"See article Java Tip 98 article below"

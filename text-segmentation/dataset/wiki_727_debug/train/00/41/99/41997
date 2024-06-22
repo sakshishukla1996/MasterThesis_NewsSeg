@@ -1,0 +1,73 @@
+========,1,preface.
+A twin prime is a prime number that is either 2 less or 2 more than another prime number—for example, the twin prime pair (41, 43).
+In other words, a twin prime is a prime that has a prime gap of two.
+Sometimes the term "twin prime" is used for a pair of twin primes; an alternative name for this is prime twin or prime pair.
+Twin primes become increasingly rare as one examines larger ranges, in keeping with the general tendency of gaps between adjacent primes to become larger as the numbers themselves get larger.
+However, it is a longstanding conjecture that there are infinitely many twin primes.
+Work of Yitang Zhang in 2013, as well as work by James Maynard, Terence Tao and others, has made substantial progress towards proving this conjecture, but at present it remains unsolved.
+========,2,History.
+The question of whether there exist infinitely many twin primes has been one of the great open questions in number theory for many years.
+This is the content of the twin prime conjecture, which states that there are infinitely many primes "p" such that "p" + 2 is also prime.
+In 1849, de Polignac made the more general conjecture that for every natural number "k", there are infinitely many primes "p" such that "p" + 2"k" is also prime.
+The case "k" = 1 is the twin prime conjecture.
+A stronger form of the twin prime conjecture, the Hardy–Littlewood conjecture (see below), postulates a distribution law for twin primes akin to the prime number theorem.
+On April 17, 2013, Yitang Zhang announced a proof that for some integer "N" that is less than 70 million, there are infinitely many pairs of primes that differ by "N".
+Zhang's paper was accepted by "Annals of Mathematics" in early May 2013.
+Terence Tao subsequently proposed a Polymath Project collaborative effort to optimize Zhang’s bound.
+As of April 14, 2014, one year after Zhang's announcement, the bound has been reduced to 246.
+Further, assuming the Elliott–Halberstam conjecture and its generalized form, the Polymath project wiki states that the bound has been reduced to 12 and 6, respectively.
+These improved bounds were discovered using a different approach that was simpler than Zhang's and was discovered independently by James Maynard and Terence Tao.
+This second approach also gave bounds for the smallest "f"("m") needed to guarantee that infinitely many intervals of width "f"("m") contain at least "m" primes.
+========,2,Properties.
+Usually the pair (2, 3) is not considered to be a pair of twin primes.
+Since 2 is the only even prime, this pair is the only pair of prime numbers that differ by one; thus twin primes are as closely spaced as possible for any other two primes.
+The first few twin prime pairs are:
+Every twin prime pair except (3, 5) is of the form (6"n" − 1, 6"n" + 1) for some natural number "n"; that is, the number between the two primes is a multiple of 6.
+========,3,Brun's theorem.
+In 1915, Viggo Brun showed that the sum of reciprocals of the twin primes was convergent.
+This famous result, called Brun's theorem, was the first use of the Brun sieve and helped initiate the development of modern sieve theory.
+The modern version of Brun's argument can be used to show that the number of twin primes less than "N" does not exceed for some absolute constant "C" > 0.
+In fact, it is bounded above by
+========,2,Other theorems weaker than the twin prime conjecture.
+In 1940, Paul Erdős showed that there is a constant "c" < 1 and infinitely many primes "p" such that where "p"′ denotes the next prime after "p".
+This result was successively improved; in 1986 Helmut Maier showed that a constant "c" < 0.25 can be used.
+In 2004 Daniel Goldston and Cem Yıldırım showed that the constant could be improved further to "c" = 0.085786… In 2005, Goldston, János Pintz and Yıldırım established that "c" can be chosen to be arbitrarily small, i.e.
+By assuming the Elliott–Halberstam conjecture or a slightly weaker version, they were able to show that there are infinitely many "n" such that at least two of "n", "n" + 2, "n" + 6, "n" + 8, "n" + 12, "n" + 18, or "n" + 20 are prime.
+Under a stronger hypothesis they showed that for infinitely many "n", at least two of "n", "n" + 2, "n" + 4, and "n" + 6 are prime.
+The result of Yitang Zhang, is a major improvement on the Goldston–Graham–Pintz–Yıldırım result.
+The Polymath Project optimization of Zhang’s bound and Maynard claims to have reduced the bound to "N" = 246 are further improvements.
+========,2,Conjectures.
+========,3,First Hardy–Littlewood conjecture.
+The Hardy–Littlewood conjecture (named after G. H. Hardy and John Littlewood) is a generalization of the twin prime conjecture.
+It is concerned with the distribution of prime constellations, including twin primes, in analogy to the prime number theorem.
+Let π("x") denote the number of primes "p" ≤ "x" such that "p" + 2 is also prime.
+Define the twin prime constant "C" as (here the product extends over all prime numbers "p" ≥ 3).
+Then the conjecture is that in the sense that the quotient of the two expressions tends to 1 as "x" approaches infinity.
+(The second ~ is not part of the conjecture and is proven by integration by parts.)
+The conjecture can be justified (but not proven) by assuming that 1 / ln "t" describes the density function of the prime distribution, an assumption suggested by the prime number theorem and would imply the twin prime conjecture, but remains unresolved.
+This first Hardy–Littlewood conjecture on prime "k"-tuples implies that the "second" Hardy–Littlewood conjecture is false.
+========,3,Polignac's conjecture.
+Polignac's conjecture from 1849 states that for every positive even natural number "k", there are infinitely many consecutive prime pairs "p" and "p′" such that "p"′ − "p" = "k" (i.e.
+there are infinitely many prime gaps of size "k").
+The case "k" = 2 is the twin prime conjecture.
+The conjecture has not yet been proven or disproven for any specific value of "k", but Zhang's result proves that it is true for at least one (currently unknown) value of "k".
+Indeed, if such a "k" did not exist, then for any positive even natural number "N" there are at most finitely many "n" such that "p" − "p" = "m" for all "m" < "N" and so for "n" large enough we have "p" − "p" > "N", which would contradict Zhang's result.
+========,2,Large twin primes.
+Beginning in 2007, two distributed computing projects, Twin Prime Search and PrimeGrid, have produced several record-largest twin primes.
+, the current largest twin prime pair known is 2996863034895 · 2 ± 1, with 388,342 decimal digits.
+It was discovered in September 2016.
+There are 808,675,888,577,436 twin prime pairs below 10.
+An empirical analysis of all prime pairs up to 4.35 · 10 shows that if the number of such pairs less than x is f(x)·x/(log x) then f(x) is about 1.7 for small x and decreases towards about 1.3 as x tends to infinity.
+The limiting value of f(x) is conjectured to equal twice the twin prime constant () (not to be confused with Brun's constant), according to the Hardy–Littlewood conjecture.
+========,2,Other elementary properties.
+Every third odd number is divisible by 3, which requires that no three successive odd numbers can be prime unless one of them is 3.
+Five is therefore the only prime that is part of two twin prime pairs.
+The lower member of a pair is by definition a Chen prime.
+It has been proven that the pair ("m", "m" + 2) is a twin prime if and only if If "m" − 4 or "m" + 6 is also prime then the three primes are called a prime triplet.
+For a twin prime pair of the form (6"n" − 1, 6"n" + 1) for some natural number "n" > 1, "n" must have units digit 0, 2, 3, 5, 7, or 8 ().
+The sum of twin primes greater than 3 is divisible by 12.
+========,2,Isolated prime.
+An isolated prime (also known as single prime or non-twin prime) is a prime number "p" such that neither "p" − 2 nor "p" + 2 is prime.
+In other words, "p" is not part of a twin prime pair.
+For example, 23 is an isolated prime, since 21 and 25 are both composite.
+The first few isolated primes are It follows from Brun's theorem that almost all primes are members of this sequence.

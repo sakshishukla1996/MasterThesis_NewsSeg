@@ -1,0 +1,68 @@
+========,1,preface.
+Norsk Data was a (mini-)computer manufacturer located in Oslo, Norway.
+Existing from 1967 to 1992, it had its most active period in the years from the early 1970s to the late 1980s.
+At the company's peak in 1987 it was the second largest company in Norway and employed over 4,500 people.
+Throughout its history Norsk Data produced a long string of extremely innovative systems, with a disproportionately large number of world firsts.
+Some examples of this are the NORD-1, the first minicomputer to have memory paging as a standard option, and the first machine to have floating-point instructions standard, the NORD-5, the world's first 32-bit minicomputer (beating the VAX, often claimed the first, by 6 years)
+========,2,Historical overview.
+The origins of Norsk Data go back to the development of digital computers at the Norwegian Defense Research Establishment at Kjeller, Norway, where several early computers had been designed, such as the SAM and the SAM 2, also known as the FLINK.
+The success of this program resulted in the founding of "A/S Nordata - Norsk Data Elektronikk" on August 8, 1967 by Lars Monrad Krohn, Per Bjørge and Rolf Skår.
+The company became a significant supplier of minicomputers to many research projects, in particular to CERN in Geneva, Switzerland, where they were chosen to produce the computers for many projects, starting with their Nuclear Accelerator Project, Norsk Data's international breakthrough contract.
+The other market segments Norsk Data succeeded in were process control, Norwegian municipal administration data centers, newspapers, as well as parts of the educational, health, and university sector.
+For a period in 1987, Norsk Data was the second largest company by stock value in Norway, second only to Norsk Hydro, and employed over 4,500 people.
+In March 1991, shortly after January Events, Norsk Data donated the first computer to Lithuanian Institute of Mathematics and Informatics.
+This donation started the development of LITNET - Academic and Research Network in Lithuania.
+Later that year, the network connection lines, directly connecting Vilnius to Moscow, were shut down.
+With the help of the hardware, again donated by Norsk Data, Lithuania was able to use its first satellite-based internet connection, which operated at 9,6 kbit/s.
+This was the first Lithuanian communications line, which was totally independent from former Soviet Union.
+After a long period of exceptional success, the Norsk Data "empire" collapsed in the early 1990s, mostly due to not realizing the impact of the PC revolution (as well as the growing competition from UNIX-based workstations).
+Norsk Data technology was continued by Dolphin.
+See more about Norsk Data here (Norwegian).
+Norsk Data was purchased by Telenor and went through several rebrands and relaunches.
+========,2,Notable innovations.
+Throughout the times, Norsk Data produced a long string of extremely innovative computers.
+Some examples of this include:
+***LIST***.
+========,2,Post-breakup companies.
+Although the Norsk Data breakup caused a large number of layoffs, a large number of employees and intellectual property lived on in various smaller companies.
+Some went bankrupt quite quickly, some were bought for tax purposes.
+The quality of management also varied widely.
+***LIST***.
+========,3,Norsk Data UK.
+In the UK, Telenor kept the Norsk Data name for several years, focusing in on hardware support and maintenance contracts, mainly with HMCG and local governments.
+At the tail end of the "dotcom boom" Telenor decided to try and expand the service by acquiring the ISP CIX and a hosting company in Manchester, XTML.
+The total expenditure on acquisitions was more than £50 million.
+The name and business focus of this group of companies was changed several times in the early 21st Century, being known as Nextra (along with the acquired CIX & XTML), Telenor Business Solutions (still with CIX & XTML) and finally reverting to ND Norsk Data once CIX & XTML had been resold to Pipex, reportedly for less than 10% of the purchase price.
+Much of the loss in value of the acquired companies was put down to the astronomical "goodwill" payment included in the purchase price during the "dotcom boom".
+ND Norsk Data was then renamed 2e2, and with 2e2 came the acquisition of part of Pink Roccade.
+This bolstered the hardware maintenance side of the company.
+The growth by acquisition trend continued with several smaller businesses being taken on, and many employees subsequently being laid off.
+Major losses of high earning contracts such as Thomas Cook, Woolworths, HMP, or Corus, were never replaced with similar-sized customers.
+========,2,Hardware.
+Significant Norsk Data computer models include:
+***LIST***.
+Since Nord-10, the memory was managed by hardware that detected page faults and triggered the OS to load pages from the disk.
+The applications could therefore not "see" how much memory the computer was equipped with.
+You could stop the computer, let a service engineer insert memory, and boot it again, and no software would notice any change, except that things would usually run faster.
+If not, the lack of memory was not the reason for the low performance, and could be removed.
+The first computers were made by bit-slice components.
+From the ND100, the instruction set was microcoded, and the different versions of ND500 was all different "micro-code".
+So, you could change an ND530 to a ND570/CXA by replacing the code used by the CPU.
+The ND505 had one address bit physically disabled, making it a 31-bit computer.
+The ND590 is a multiprocessor, usually 5 for high-end applications and fault tolerance.
+The ND5xxx is in software identical to the ND5xx.
+The performance range of these were from comparable to a VAX11/730 to Cray YMP.
+The ND590/CXA could be equipped with a dedicated Floating point processor from FPS.
+These required no special cooling, just a regular room temperature since the hardware was moved from TTL to CMOS.
+ND delivered fully fault tolerant hardware with capability to remove parts of the system, while still running and no need to stop systems "in production".
+The ND5xx "Multi-port memory" had slots for "GPIB" - a card with a MC-68000 processor that was equipped with its own loaded software, and could be programmed to control a variety of devices.
+========,2,Software.
+In addition to hardware, Norsk Data also produced a wide range of system and application software:
+***LIST***.
+Along with the above listed applications two batch languages were included, called JEC and XCOM.
+JEC was used primarily as a simple batch job controller, whereas XCOM was used for much more involved routines such as operating system patches etc.
+Most of the applications came in two different editions, one compiled for the NORD-10/ND-100 series and one compiled for the ND-500/ND-5000 series.
+ND spun off NOTIS-WP and NOTIS-RG into NOTIS AS, which later changed its name to Maxware.
+NOTIS-QL was copied by Microsoft, where it is called Access (the internal name for NOTIS-QL was "Access-1") but the original was sold to Sysdeco and sold now with the name "QBEVision".
+A point of note: the World Wide Web originated when Tim Berners-Lee wrote the ENQUIRE program in Pascal on a Norsk Data NORD-10 running under SINTRAN III at CERN.
+They also used ND-NOTIS, that was based on SGML, and emailed with NOTIS-MAIL, using tcp/ip, coded in HTML.

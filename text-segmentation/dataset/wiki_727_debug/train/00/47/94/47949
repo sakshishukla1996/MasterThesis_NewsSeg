@@ -1,0 +1,32 @@
+========,1,preface.
+In set theory, the union (denoted by ∪) of a collection of sets is the set of all elements in the collection.
+It is one of the fundamental operations through which sets can be combined and related to each other.
+For explanation of the symbols used in this article, refer to the table of mathematical symbols.
+========,2,Union of two sets.
+The union of two sets "A" and "B" is the set of elements which are in "A", in "B", or in both "A" and "B".
+In symbols, For example, if "A" = {1, 3, 5, 7} and "B" = {1, 2, 4, 6} then "A" ∪ "B" = {1, 2, 3, 4, 5, 6, 7}.
+A more elaborate example (involving two infinite sets) is:
+As another example, the number 9 is "not" contained in the union of the set of prime numbers {2, 3, 5, 7, 11, …} and the set of even numbers {2, 4, 6, 8, 10, …}, because 9 is neither prime nor even.
+Sets cannot have duplicate elements, so the union of the sets {1, 2, 3} and {2, 3, 4} is {1, 2, 3, 4}.
+Multiple occurrences of identical elements have no effect on the cardinality of a set or its contents.
+========,2,Algebraic properties.
+Binary union is an associative operation; that is, The operations can be performed in any order, and the parentheses may be omitted without ambiguity (i.e., either of the above can be expressed equivalently as "A" ∪ "B" ∪ "C").
+Similarly, union is commutative, so the sets can be written in any order.
+The empty set is an identity element for the operation of union.
+That is, "A" ∪ ∅ = "A", for any set "A."
+This follows from analogous facts about logical disjunction.
+Since sets with unions and intersections form a Boolean algebra, intersection distributes over union
+and union distributes over intersection
+Within a given universal set, union can be written in terms of the operations of intersection and complement as
+where the superscript denotes the complement with respect to the universal set.
+========,2,Finite unions.
+One can take the union of several sets simultaneously.
+For example, the union of three sets "A", "B", and "C" contains all elements of "A", all elements of "B", and all elements of "C", and nothing else.
+Thus, "x" is an element of "A" ∪ "B" ∪ "C" if and only if "x" is in at least one of "A", "B", and "C".
+In mathematics a finite union means any union carried out on a finite number of sets; it does not imply that the union set is a finite set.
+========,2,Arbitrary unions.
+The most general notion is the union of an arbitrary collection of sets, sometimes called an "infinitary union".
+If M is a set whose elements are themselves sets, then "x" is an element of the union of M if and only if there is at least one element "A" of M such that "x" is an element of "A".
+In symbols:
+This idea subsumes the preceding sections, in that (for example) "A" ∪ "B" ∪ "C" is the union of the collection {"A", "B", "C"}.
+Also, if M is the empty collection, then the union of M is the empty set.

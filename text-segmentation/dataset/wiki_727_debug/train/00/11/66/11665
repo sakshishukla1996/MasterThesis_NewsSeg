@@ -1,0 +1,66 @@
+========,1,preface.
+Filtration is any of various mechanical, physical or biological operations that separate solids from fluids (liquids or gases) by adding a medium through which only the fluid can pass.
+The fluid that passes through is called the filtrate.
+In physical filters oversize solids in the fluid are retained and in biological filters particulates are trapped and ingested and metabolites are retained and removed.
+However, the separation is not complete; solids will be contaminated with some fluid and filtrate will contain fine particles (depending on the pore size, filter thickness and biological activity).
+Filtration occurs both in nature and in engineered systems; there are biological, geological, and industrial forms.
+For example, in animals (including humans), renal filtration removes wastes from the blood, and in water treatment and sewage treatment, undesirable constituents are removed by absorption into a biological film grown on or in the filter medium, as in slow sand filtration.
+========,2,Methods.
+There are many different methods of filtration; all aim to attain the separation of substances.
+Separation is achieved by some form of interaction between the substance or objects to be removed and the filter.
+The substance that is to pass through the filter must be a fluid, i.e.
+a liquid or gas.
+Methods of filtration vary depending on the location of the targeted material, i.e.
+whether it is dissolved in the fluid phase or suspended as a solid.
+There are several filtration techniques depending on the desired outcome namely, hot, cold and vacuum filtration.
+Some of the major purposes of getting a desired outcome are, for the removal of impurities from a mixture or, for the isolation of solids from a mixture.
+Hot filtration method is mainly used to separate solids from a hot solution.
+This is done in order to prevent crystal formation in the filter funnel and other apparatuses that comes in contact with the solution.
+As a result, the apparatus and the solution used are heated in order to prevent the rapid decrease in temperature which in turn, would lead to the crystallization of the solids in the funnel and hinder the filtration process.
+One of the most important measure to prevent the formation of crystals in the funnel and to undergo effective hot filtration is the use stemless filter funnel.
+Due to the absence of stem in the filter funnel, there is a decrease in the surface area of contact between the solution and the stem of the filter funnel, hence preventing re-crystallization of solid in the funnel, adversely effecting filtration process.
+Cold Filtration method is the use of ice bath in order to rapidly cool down the solution to be crystallized rather than leaving it out to cool it down slowly in the room temperature.
+This technique results to the formation of very small crystals as opposed to getting large crystals by cooling the solution down at room temperature.
+Vacuum Filtration technique is most preferred for small batch of solution in order to quickly dry out small crystals.
+This method requires a Büchner funnel, filter paper of smaller diameter than the funnel, Büchner flask, and rubber tubing to connect to vacuum source.
+========,2,Filter media.
+Two main types of filter media are employed in laboratories: a surface filter, a solid sieve which traps the solid particles, with or without the aid of filter paper (e.g.
+Büchner funnel, Belt filter, Rotary vacuum-drum filter, Cross-flow filters, Screen filter); and a depth filter, a bed of granular material which retains the solid particles as it passes (e.g.
+sand filter).
+The first type allows the solid particles, i.e.
+the residue, to be collected intact; the second type does not permit this.
+However, the second type is less prone to clogging due to the greater surface area where the particles can be trapped.
+Also, when the solid particles are very fine, it is often cheaper and easier to discard the contaminated granules than to clean the solid sieve.
+Filter media can be cleaned by rinsing with solvents or detergents.
+Alternatively, in engineering applications, such as swimming pool water treatment plants, they may be cleaned by backwashing.
+Self-cleaning screen filters utilize point-of-suction backwashing to clean the screen without interrupting system flow.
+========,3,Achieving flow through the filter.
+Fluids flow through a filter due to a difference in pressure—fluid flows from the high pressure side to the low pressure side of the filter, leaving some material behind.
+The simplest method to achieve this is by gravity and can be seen in the coffeemaker example.
+In the laboratory, pressure in the form of compressed air on the feed side (or vacuum on the filtrate side) may be applied to make the filtration process faster, though this may lead to clogging or the passage of fine particles.
+Alternatively, the liquid may flow through the filter by the force exerted by a pump, a method commonly used in industry when a reduced filtration time is important.
+In this case, the filter need not be mounted vertically.
+========,3,Filter aid.
+Certain filter aids may be used to aid filtration.
+These are often incompressible diatomaceous earth, or kieselguhr, which is composed primarily of silica.
+Also used are wood cellulose and other inert porous solids such as the cheaper and safer perlite.
+These filter aids can be used in two different ways.
+They can be used as a precoat before the slurry is filtered.
+This will prevent gelatinous-type solids from plugging the filter medium and also give a clearer filtrate.
+They can also be added to the slurry before filtration.
+This increases the porosity of the cake and reduces resistance of the cake during filtration.
+In a rotary filter, the filter aid may be applied as a precoat; subsequently, thin slices of this layer are sliced off with the cake.
+The use of filter aids is usually limited to cases where the cake is discarded or where the precipitate can be chemically separated from the filter.
+========,2,Alternatives.
+Filtration is a more efficient method for the separation of mixtures than decantation, but is much more time consuming.
+If very small amounts of solution are involved, most of the solution may be soaked up by the filter medium.
+An alternative to filtration is centrifugation—instead of filtering the mixture of solid and liquid particles, the mixture is centrifuged to force the (usually) denser solid to the bottom, where it often forms a firm cake.
+The liquid above can then be decanted.
+This method is especially useful for separating solids which do not filter well, such as gelatinous or fine particles.
+These solids can clog or pass through the filter, respectively.
+========,2,Examples.
+Examples of filtration include
+***LIST***.
+An experiment to prove the existence of microscopic organisms involves the comparison of water passed through unglazed porcelain and unfiltered water.
+When left in sealed containers the filtered water takes longer to go foul, demonstrating that very small items (such as bacteria) can be removed from fluids by filtration.
+In the kidney, renal filtration is the filtration of blood in the glomerulus, followed by selective reabsorbtion of many substances essential for the body to maintain homeostasis.

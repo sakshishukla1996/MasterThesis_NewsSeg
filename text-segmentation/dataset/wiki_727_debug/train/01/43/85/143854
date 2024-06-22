@@ -1,0 +1,105 @@
+========,1,preface.
+An interpunct ( · ), also known as an interpoint, middle dot, middot, and centered dot or centred dot, is a punctuation mark consisting of a vertically centered dot used for interword separation in ancient Latin script.
+(Word-separating spaces did not appear until some time between  600 and 800.)
+It appears in a variety of uses in some modern languages and is present in Unicode as code point .
+The multiplication dot ( or ), whose glyphs are similar or identical to the interpunct, is a multiplication sign optionally used instead of the styled ×: is equivalent to or "a times b".
+The same sign is also used in vector multiplication to discriminate between the scalar product () and the vector cross product () or exterior product ().
+As a multiplication operator, it is also encountered in symbols for compound units such as the newton-meter (N·m or ).
+The multiplication dot is a separate Unicode character (U+22C5), but is often silently replaced by the interpunct or bullet ().
+========,2,In written language.
+Various dictionaries use the interpunct (in this context, sometimes called hyphenation point) to indicate syllabification within a word with multiple syllables.
+There is also a separate Unicode character, .
+========,3,English.
+In British typography, the space dot is an interpunct used as the formal decimal point.
+Its use is advocated by laws and by academic circles such as the Cambridge University History Faculty Style Guide and is mandated by some UK-based academic journals such as "The Lancet".
+When the British currency was decimalised in 1971, the official advice issued was to write decimal amounts with a raised point (for example, £21·48) and to use a decimal point "on the line" only when typesetting constraints made it unavoidable.
+This usage, however, has been declining since the mid-1970s, as the importation of electronic typewriters, calculators and computers from the United States and Japan familiarised Britons with using full stops and made the space dot harder to typeset..
+The space dot may still be used frequently in handwriting, however.
+In the Shavian alphabet, interpuncts replace capitalization as the marker of proper nouns.
+The dot is placed at the beginning of a word.
+========,3,Catalan.
+The flown dot () is used in Catalan between two Ls in cases where each belongs to a separate syllable, for example , "cell".
+This distinguishes such "geminate Ls" (), which are pronounced , from "double L" (), which are written without the flown dot and are pronounced .
+In situations where the flown dot is unavailable, periods (as in ) or hyphens (as in ) are frequently used as substitutes, but this is tolerated rather than encouraged.
+Historically, medieval Catalan also used the symbol as a marker for certain elisions, much like the modern apostrophe (see Occitan below), and hyphenations.
+There is no separate keyboard layout for Catalan: the flown dot can be typed using Shift-3 in the Spanish (Spain) layout.
+It appears in Unicode as the letters (U+013F) and (U+0140), but they are compatibility characters and are not frequently used nor recommended.
+Similarly, the larger bullet (, U+2022, ***codice***) may be seen but is discouraged on aesthetic grounds.
+The preferred Unicode representation is (U+006C + U+00B7).
+========,3,Chinese.
+The partition sign (Unicode code point U+2027, Hyphenation Point) is used in Chinese (which generally lacks spacing between characters) to mark divisions in transliterated foreign words, particularly names.
+This is properly (and on Taiwan formally) a full-width punctuation mark, although sometimes narrower forms are substituted for aesthetic reasons.
+In particular, the regular interpunct is more commonly used as a computer input, although Chinese-language fonts typically render this as full width.
+When the Chinese text is romanized, the partition sign is simply replaced by a standard space or other appropriate punctuation.
+Thus, William Shakespeare is signified as or ( "Wēilián Shāshìbǐyà"), George W. Bush as or ( "Qiáozhì W. Bùshí"), and the full name of the prophet Muhammad as ( "Ābù Kǎxīmù Mùhǎnmòdé Běn Ābùdùlā Běn Ābùdùlè-Mùtǎlìbǔ Běn Hāxīmǔ").
+Titles and other translated words are not similarly marked: Genghis Khan and Elizabeth II are simply and or without a partition sign.
+The partition sign is also used to separate book and chapter titles when they are mentioned consecutively: book first and then chapter.
+It also appears in Swedish sinologist Bernhard Karlgren's works, where an interpunct is used to represent the glottal stop in his reconstruction of medieval Chinese.
+========,3,Minnan.
+In Pe̍h-ōe-jī for Taiwanese Hokkien, middle dot is often used as a workaround for "dot above right" diacritic because most early encoding systems did not support this diacritic.
+This is now encoded as .
+Unicode did not support this diacritic until June 2004.
+Newer fonts often support it natively; however, the practice of using middle dot still exists.
+Historically, it was derived in the late 19th century from an older barred-o with curly tail as an adaptation to the typewriter.
+========,3,Ethiopic.
+The Ge'ez (Ethiopic) language uses an interpunct of two vertically aligned dots, like a colon, but with larger dots.
+An example is .
+========,3,Greek.
+Ancient Greek did not have spacing or interpuncts but instead ran all the letters together.
+By Late Antiquity, various marks were used to separate words, particularly the Greek comma.
+The modern Greek ano teleia mark (, "ánō teleía", lit.
+"upper stop"), also known as the "áno stigmī́" (), is the infrequently-encountered Greek semicolon and is properly romanized as such.
+It is also used to introduce lists in the manner of an English colon.
+In Greek text, Unicode provides a unique code point——but it is also expressed as an interpunct.
+In practice, the separate code point for ano teleia canonically decomposes to the interpunct.
+The Hellenistic scholars of Alexandria first developed the mark for a function closer to the comma, before it fell out of use and was then repurposed for its present role.
+========,3,Japanese.
+Interpuncts are often used to separate transcribed foreign words written in katakana.
+For example, "Can't Buy Me Love" becomes (').
+A middle dot is also sometimes used to separate lists in Japanese instead of the Japanese comma ("" known as ').
+Dictionaries and grammar lessons in Japanese sometimes also use a similar symbol to separate a verb suffix from its root.
+Note that while some fonts may render the Japanese middle dot as a square under great magnification, this is not a defining property of the middle dot that is used in China or Japan.
+However, the Japanese writing system usually does not use space or punctuation to separate words (though the mixing of katakana, kanji, and hiragana gives some indication of word boundary).
+In Japanese typography, there exist two Unicode code points:
+***LIST***.
+The interpunct also has a number of other uses in Japanese, including the following: to separate titles, names and positions: (Assistant Section Head · Suzuki); as a decimal point when writing numbers in kanji: ; and in place of hyphens, dashes and colons when writing vertically.
+========,3,Korean.
+Interpuncts are used in written Korean to denote a list of two or more words, more or less in the same way a slash (/) is used to juxtapose words in many other languages.
+In this role it also functions in a similar way to the English en dash, as in , "American–Soviet relations".
+The use of interpuncts has declined in years of digital typography and especially in place of slashes, but, in the strictest sense, a slash cannot replace a middle dot in Korean typography.
+========,3,Latin.
+The interpunct () was regularly used in classical Latin to separate words.
+In addition to the most common round form, inscriptions sometimes use a small equilateral triangle for the interpunct, pointing either up or down.
+It may also appear as a mid-line comma, similar to the Greek practice of the time.
+The interpunct fell out of use 200, and Latin was then written "scripta continua" for several centuries.
+========,3,Occitan.
+In Occitan, especially in the Gascon dialect, the interpunct ("punt interior", literally, "inner dot", or "ponch naut" for "high / upper point") is used to distinguish the following graphemes:
+***LIST***.
+Although it is considered to be a spelling error, a period is frequently used when a middle dot is unavailable: "des.har, in.hèrn", which is the case for French keyboard layout.
+In Old Occitan, the symbol · was sometimes used to denote certain elisions, much like the modern apostrophe, the only difference being that the word that gets to be elided is always placed after the interpunct, the word before ending either in a vowel sound or the letter "n":
+***LIST***.
+========,3,Old Irish.
+In many linguistic works discussing Old Irish (but not in actual Old Irish manuscripts), the interpunct is used to separate a pretonic preverbal element from the stressed syllable of the verb, e.g.
+It is also used in citing the verb forms used after such preverbal elements (the prototonic forms), e.g.
+"carries", to distinguish them from forms used without preverbs, e.g.
+In other works, the hyphen () or colon () may be used for this purpose.
+========,3,Runes.
+Runic texts use either an interpunct-like or a colon-like punctuation mark to separate words.
+There are two Unicode characters dedicated for this: and .
+========,2,In mathematics and science.
+In SI units the middle dot or non-breaking space is used as a multiplication sign.
+Only a comma or full stop (period) may be used as a decimal marker.
+In mathematics, a small middle dot can be used to represent product; for example, "x" ∙ "y" for the product of "x" and "y".
+When dealing with scalars, it is interchangeable with the multiplication sign: "x" ⋅ "y" means the same thing as "x" × "y", but × is easily confused with the letter "x".
+However, when dealing with vectors, the dot product is distinct from the cross product.
+This usage has its own designated code point in Unicode, U+2219 (∙), called the "bullet operator".
+It is also sometimes used to denote the “AND” relationship in formal logic, due to the relationship between these two operations.
+In situations where the interpunct is used as a decimal point (as noted above, by many mathematics teachers in some countries), then the multiplication sign used is usually a full stop (period), not an interpunct.
+In computing, the middle dot is usually used to indicate white space in various software applications such as word processing, graphic design, web layout, desktop publishing or software development programs.
+In some word processors, interpuncts are used to denote not only hard space or space characters, but also sometimes used to indicate a space when put in paragraph format to show indentations and spaces.
+This allows the user to see where white space is located in the document and what sizes of white space are used, since normally white space is invisible so tabs, spaces, non-breaking spaces and such are indistinguishable from one another.
+In chemistry, the middle dot is used to separate the parts of formulas of addition compounds, mixture salts or solvates (mostly hydrates), such as of copper(II) sulphate pentahydrate, CuSO · 5HO.
+========,2,Keyboard input.
+On computers, the interpunct may be available through various key combinations, depending on the operating system and the keyboard layout.
+Assuming a QWERTY keyboard layout unless otherwise stated:
+***LIST***.

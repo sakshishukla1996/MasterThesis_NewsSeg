@@ -1,0 +1,28 @@
+========,1,preface.
+ISO 216 specifies international standard (ISO) paper sizes used in most countries in the world today, although not in Canada or the United States.
+The standard defines the "A" and "B" series of paper sizes, including A4, the most commonly available size.
+Two supplementary standards, ISO 217 and ISO 269, define related paper sizes; the ISO 269 "C" series is commonly listed alongside the A and B sizes.
+All ISO 216, ISO 217 and ISO 269 paper sizes (except some envelopes) have the same aspect ratio, 1:, at least to within the rounding to whole numbers of millimetres.
+This ratio has the unique property that when cut or folded in half widthwise, the halves also have the same aspect ratio.
+Each ISO paper size is one half of the area of the next larger size.
+========,2,C series.
+The C series formats are geometric means between the B series and A series formats with the same number (e.g., C2 is the geometric mean between B2 and A2).
+The width to height ratio is as in the A and B series.
+The C series formats are used mainly for envelopes.
+An A4 page will fit into a C4 envelope.
+C series envelopes follow the same ratio principle as the A series pages.
+For example, if an A4 page is folded in half so that it is A5 in size, it will fit into a C5 envelope (which will be the same size as a C4 envelope folded in half).
+The lengths of ISO C series paper are therefore times those of A-series paper – i.e., about 9% larger.
+A, B, and C paper fit together as part of a geometric progression, with ratio of successive side lengths of , though there is no size half-way between B"n" and A("n" − 1): A4, C4, B4, "D4", A3, …; there is such a D-series in the Swedish extensions to the system.
+The exact millimetre measurement of the long side of C"n" is given by ***formula***.
+========,2,Tolerances.
+The tolerances specified in the standard are:
+***LIST***.
+These are related to comparison between series A, B and C.
+========,2,Application.
+The ISO 216 formats are organized around the ratio 1:; two sheets next to each other together have the same ratio, sideways.
+In scaled photocopying, for example, two A4 sheets reduced to A5 size fit exactly onto one A4 sheet, and an A4 sheet in magnified size onto an A3 sheet; in each case, there is neither waste nor want.
+The principal countries not generally using the ISO paper sizes are the United States and Canada, which use the Letter, Legal and Executive system.
+Although they have also officially adopted the ISO 216 paper format, Mexico, Panama, Venezuela, Colombia, the Philippines, and Chile also use mostly U.S. paper sizes.
+Rectangular sheets of paper with the ratio 1: are popular in paper folding, such as origami, where they are sometimes called "A4 rectangles" or "silver rectangles".
+In other contexts, the term "silver rectangle" can also refer to a rectangle in the proportion 1:(1 + ), known as the silver ratio.

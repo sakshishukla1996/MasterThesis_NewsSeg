@@ -1,0 +1,36 @@
+========,1,preface.
+In computing, a system call is the programmatic way in which a computer program requests a service from the kernel of the operating system it is executed on.
+This may include hardware-related services (for example, accessing a hard disk drive), creation and execution of new processes, and communication with integral kernel services such as process scheduling.
+System calls provide an essential interface between a process and the operating system.
+In most systems, system calls can only be made from userspace processes, while in some systems, OS/360 and successors for example, privileged system code also issues system calls.
+========,2,Privileges.
+The architecture of most modern processors, with the exception of some embedded systems, involves a security model.
+For example, the "rings" model specifies multiple privilege levels under which software may be executed: a program is usually limited to its own address space so that it cannot access or modify other running programs or the operating system itself, and is usually prevented from directly manipulating hardware devices (e.g.
+the frame buffer or network devices).
+However, many normal applications obviously need access to these components, so system calls are made available by the operating system to provide well defined, safe implementations for such operations.
+The operating system executes at the highest level of privilege, and allows applications to request services via system calls, which are often initiated via interrupts.
+An interrupt automatically puts the CPU into some elevated privilege level, and then passes control to the kernel, which determines whether the calling program should be granted the requested service.
+If the service is granted, the kernel executes a specific set of instructions over which the calling program has no direct control, returns the privilege level to that of the calling program, and then returns control to the calling program.
+========,2,Typical implementations.
+Implementing system calls requires a control transfer from user space to kernel space, which involves some sort of architecture-specific feature.
+A typical way to implement this is to use a software interrupt or trap.
+Interrupts transfer control to the operating system kernel so software simply needs to set up some register with the system call number needed, and execute the software interrupt.
+This is the only technique provided for many RISC processors, but CISC architectures such as x86 support additional techniques.
+For example, the x86 instruction set contains the instructions SYSCALL/SYSRET and SYSENTER/SYSEXIT (these two mechanisms were independently created by AMD and Intel, respectively, but in essence they do the same thing).
+These are "fast" control transfer instructions that are designed to quickly transfer control to the kernel for a system call without the overhead of an interrupt.
+Linux 2.5 began using this on the x86, where available; formerly it used the INT instruction, where the system call number was placed in the EAX register before interrupt 0x80 was executed.
+An older x86 mechanism is the call gate.
+It allows a program to call a kernel function directly using a safe control transfer mechanism, which the operating system sets up in advance.
+This approach has been unpopular, presumably due to the requirement of a far call (a call to a procedure located in a different segment than the current code segment) which uses x86 memory segmentation and the resulting lack of portability it causes, and existence of the faster instructions mentioned above.
+For IA-64 architecture, EPC (Enter Privileged Code) instruction is used.
+The first eight system call arguments are passed in registers, and the rest are passed on the stack.
+In the IBM System/360 mainframe family, a Supervisor Call instruction implements a system call for legacy facilities; the Program Call (PC) instruction is used for newer facilities.
+In particular, PC is used when the caller might be in SRB mode.
+========,2,Processor mode and context switching.
+System calls in most Unix-like systems are processed in kernel mode, which is accomplished by changing the processor execution mode to a more privileged one, but no "process" context switch is necessary although a "privilege" context switch does occur.
+The hardware sees the world in terms of the execution mode according to the processor status register, and processes are an abstraction provided by the operating system.
+A system call does not generally require a context switch to another process; instead, it is processed in the context of whichever process invoked it.
+In a multithreaded process, system calls can be made from multiple threads.
+The handling of such calls is dependent on the design of the specific operating system kernel and the application runtime environment.
+The following list shows typical models followed by operating systems:
+***LIST***.

@@ -1,0 +1,64 @@
+========,1,preface.
+Isaac Barrow (October 1630 – 4 May 1677) was an English Christian theologian and mathematician who is generally given credit for his early role in the development of infinitesimal calculus; in particular, for the discovery of the fundamental theorem of calculus.
+His work centered on the properties of the tangent; Barrow was the first to calculate the tangents of the kappa curve.
+Isaac Newton was a student of Barrow's, and Newton went on to develop calculus in a modern form.
+========,2,Biography.
+Barrow was born in London.
+He was the son of Thomas Barrow, a linen draper by trade.
+In 1624, Thomas married Ann, daughter of William Buggin of North Cray, Kent and their son Isaac was born in 1630.
+It appears that Barrow was the only child of this union—certainly the only child to survive infancy.
+Ann died around 1634, and the widowed father sent the lad to his grandfather, Isaac, the Cambridgeshire J.P., who resided at Spinney Abbey.
+Within two years, however, Thomas remarried; the new wife was Katherine Oxinden, sister of Henry Oxinden of Maydekin, Kent.
+From this marriage, he had at least one daughter, Elizabeth (born 1641), and a son, Thomas, who apprenticed to Edward Miller, skinner, and won his release in 1647, emigrating to Barbados in 1680.
+Isaac went to school first at Charterhouse (where he was so turbulent and pugnacious that his father was heard to pray that if it pleased God to take any of his children he could best spare Isaac), and subsequently to Felsted School, where he settled and learned under the brilliant puritan Headmaster Martin Holbeach who ten years previously had educated John Wallis.
+Having learnt Greek, Hebrew, Latin and logic at Felsted, in preparation for university studies, he continued his education at Trinity College, Cambridge; he enrolled there because of an offer of support from an unspecified member of the Walpole family, "an offer that was perhaps prompted by the Walpoles' sympathy for Barrow's adherence to the Royalist cause."
+His uncle and namesake Isaac Barrow, afterwards Bishop of St Asaph, was a Fellow of Peterhouse.
+He took to hard study, distinguishing himself in classics and mathematics; after taking his degree in 1648, he was elected to a fellowship in 1649.
+Barrow received an MA from Cambridge in 1652 as a student of James Duport; he then resided for a few years in college, and became candidate for the Greek Professorship at Cambridge, but in 1655 having refused to sign the Engagement to uphold the Commonwealth, he obtained travel grants to go abroad.
+He spent the next four years travelling across France, Italy, Smyrna and Constantinople, and after many adventures returned to England in 1659.
+He was known for his courageousness.
+Particularly noted is the occasion of his having saved the ship to which he were upon by the merits of his own prowess, from capture by pirates.
+He is described as "low in stature, lean, and of a pale complexion", slovenly in his dress, and having a committed and long-standing habit of tobacco use (an " smoker").
+In respect to his courtly activities his aptitude to wit earned him favour with Charles II, and the respect of his fellow courtiers, in his writings one might find accordingly, a sustained and somewhat stately eloquence.
+An altogether impressive personage of the time, having lived a blameless life into which he exercised conduct with due care and conscientiousness.
+========,3,Career.
+On the Restoration in 1660, he was ordained and appointed to the Regius Professorship of Greek at Cambridge.
+In 1662 he was made professor of geometry at Gresham College, and in 1663 was selected as the first occupier of the Lucasian chair at Cambridge.
+During his tenure of this chair he published two mathematical works of great learning and elegance, the first on geometry and the second on optics.
+In 1669 he resigned his professorship in favour of Isaac Newton.
+About this time, Barrow composed his "Expositions of the Creed, The Lord's Prayer, Decalogue, and Sacraments".
+For the remainder of his life he devoted himself to the study of divinity.
+He was made a D.D.
+by Royal mandate in 1670, and two years later Master of Trinity College (1672), where he founded the library, and held the post until his death.
+Besides the works above mentioned, he wrote other important treatises on mathematics, but in literature his place is chiefly supported by his sermons, which are masterpieces of argumentative eloquence, while his "Treatise on the Pope's Supremacy" is regarded as one of the most perfect specimens of controversy in existence.
+Barrow's character as a man was in all respects worthy of his great talents, though he had a strong vein of eccentricity.
+He died unmarried in London at the early age of 46, and was buried at Westminster Abbey.
+His earliest work was a complete edition of the "Elements" of Euclid, which he issued in Latin in 1655, and in English in 1660; in 1657 he published an edition of the "Data".
+His lectures, delivered in 1664, 1665, and 1666, were published in 1683 under the title "Lectiones Mathematicae"; these are mostly on the metaphysical basis for mathematical truths.
+His lectures for 1667 were published in the same year, and suggest the analysis by which Archimedes was led to his chief results.
+In 1669 he issued his "Lectiones Opticae et Geometricae".
+It is said in the preface that Newton revised and corrected these lectures, adding matter of his own, but it seems probable from Newton's remarks in the fluxional controversy that the additions were confined to the parts which dealt with optics.
+This, which is his most important work in mathematics, was republished with a few minor alterations in 1674.
+In 1675 he published an edition with numerous comments of the first four books of the "On Conic Sections" of Apollonius of Perga, and of the extant works of Archimedes and Theodosius of Bithynia.
+In the optical lectures many problems connected with the reflection and refraction of light are treated with ingenuity.
+The geometrical focus of a point seen by reflection or refraction is defined; and it is explained that the image of an object is the locus of the geometrical foci of every point on it.
+Barrow also worked out a few of the easier properties of thin lenses, and considerably simplified the Cartesian explanation of the rainbow.
+Barrow was the first to find the integral of the secant function in closed form, thereby proving a conjecture that was well-known at the time.
+========,3,Calculating tangents.
+The geometrical lectures contain some new ways of determining the areas and tangents of curves.
+The most celebrated of these is the method given for the determination of tangents to curves, and this is sufficiently important to require a detailed notice, because it illustrates the way in which Barrow, Hudde and Sluze were working on the lines suggested by Fermat towards the methods of the differential calculus.
+Fermat had observed that the tangent at a point "P" on a curve was determined if one other point besides "P" on it were known; hence, if the length of the subtangent "MT" could be found (thus determining the point "T"), then the line "TP" would be the required tangent.
+Now Barrow remarked that if the abscissa and ordinate at a point "Q" adjacent to "P" were drawn, he got a small triangle "PQR" (which he called the
+differential triangle, because its sides "QR" and "RP" were the differences of the abscissae and ordinates of "P" and "Q"), so that
+To find "QR" : "RP" he supposed that "x", "y"
+were the co-ordinates of "P", and "x" − "e", "y"
+− "a" those of "Q" (Barrow actually used "p" for "x" and "m" for "y", but this article uses the standard modern notation).
+Substituting the co-ordinates of "Q" in the equation of the curve, and neglecting the squares and higher powers of "e" and "a" as compared with their first powers, he obtained "e" : "a".
+The ratio "a"/"e" was subsequently (in accordance with a suggestion made by Sluze) termed the angular coefficient of the tangent at the point.
+Barrow applied this method to the curves
+***LIST***.
+It will be sufficient here to take as an illustration the simpler case of the parabola "y" = "px".
+Using the notation given above, we have for the point "P", "y" = "px"; and for the point "Q":
+Subtracting we get But, if "a" be an infinitesimal quantity, "a" must be infinitely smaller and therefore may be neglected when compared with the quantities 2"ay" and "pe".
+This is exactly the procedure of the differential calculus, except that there we
+have a rule by which we can get the ratio "a"/"e" or "dy"/"dx" directly without the labour of going through a calculation similar to the above for every separate case.

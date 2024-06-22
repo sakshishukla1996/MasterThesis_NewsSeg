@@ -1,0 +1,46 @@
+========,1,preface.
+A superscalar processor is a CPU that implements a form of parallelism called instruction-level parallelism within a single processor.
+It therefore allows for more throughput (the number of instructions that can be executed in a unit of time) than would otherwise be possible at a given clock rate.
+A superscalar processor can execute more than one instruction during a clock cycle by simultaneously dispatching multiple instructions to different execution units on the processor.
+Each execution unit is not a separate processor (or a core if the processor is a multi-core processor), but an execution resource within a single CPU such as an arithmetic logic unit.
+In Flynn's taxonomy, a single-core superscalar processor is classified as an SISD processor (Single Instruction stream, Single Data stream), though many superscalar processors support short vector operations and so could be classified as SIMD (Single Instruction stream, Multiple Data streams).
+A multi-core superscalar processor is classified as an MIMD processor (Multiple Instruction streams, Multiple Data streams).
+While a superscalar CPU is typically also pipelined, pipelining and superscalar execution are considered different performance enhancement techniques.
+The former executes multiple instructions in the same execution unit in parallel by dividing the execution unit into different phases, whereas the latter executes multiple instructions in parallel by using multiple execution units.
+The superscalar technique is traditionally associated with several identifying characteristics (within a given CPU):
+***LIST***.
+========,2,History.
+Seymour Cray's CDC 6600 from 1966 is often mentioned as the first superscalar design.
+The Motorola MC88100 (1988), the Intel i960CA (1989) and the AMD 29000-series 29050 (1990) microprocessors were the first commercial single-chip superscalar microprocessors.
+RISC microprocessors like these were the first to have superscalar execution, because RISC architectures frees transistors and die area which could be used to include multiple execution units (this was why RISC designs were faster than CISC designs through the 1980s and into the 1990s).
+Except for CPUs used in low-power applications, embedded systems, and battery-powered devices, essentially all general-purpose CPUs developed since about 1998 are superscalar.
+The P5 Pentium was the first superscalar x86 processor; the Nx586, P6 Pentium Pro and AMD K5 were among the first designs which decode x86-instructions asynchronously into dynamic microcode-like "micro-op" sequences prior to actual execution on a superscalar microarchitecture; this opened up for dynamic scheduling of buffered "partial" instructions and enabled more parallelism to be extracted compared to the more rigid methods used in the simpler P5 Pentium; it also simplified speculative execution and allowed higher clock frequencies compared to designs such as the advanced Cyrix 6x86.
+========,2,Scalar to superscalar.
+The simplest processors are scalar processors.
+Each instruction executed by a scalar processor typically manipulates one or two data items at a time.
+By contrast, each instruction executed by a vector processor operates simultaneously on many data items.
+An analogy is the difference between scalar and vector arithmetic.
+A superscalar processor is a mixture of the two.
+Each instruction processes one data item, but there are multiple execution units within each CPU thus multiple instructions can be processing separate data items concurrently.
+Superscalar CPU design emphasizes improving the instruction dispatcher accuracy, and allowing it to keep the multiple execution units in use at all times.
+This has become increasingly important as the number of units has increased.
+While early superscalar CPUs would have two ALUs and a single FPU, a modern design such as the PowerPC 970 includes four ALUs, two FPUs, and two SIMD units.
+If the dispatcher is ineffective at keeping all of these units fed with instructions, the performance of the system will be no better than that of a simpler, cheaper design.
+A superscalar processor usually sustains an execution rate in excess of one instruction per machine cycle.
+But merely processing multiple instructions concurrently does not make an architecture superscalar, since pipelined, multiprocessor or multi-core architectures also achieve that, but with different methods.
+In a superscalar CPU the dispatcher reads instructions from memory and decides which ones can be run in parallel, dispatching each to one of the several execution units contained inside a single CPU.
+Therefore, a superscalar processor can be envisioned having multiple parallel pipelines, each of which is processing instructions simultaneously from a single instruction thread.
+========,2,Alternatives.
+Collectively, these limits drive investigation into alternative architectural changes such as very long instruction word (VLIW), explicitly parallel instruction computing (EPIC), simultaneous multithreading (SMT), and multi-core computing.
+With VLIW, the burdensome task of dependency checking by hardware logic at run time is removed and delegated to the compiler.
+Explicitly parallel instruction computing (EPIC) is like VLIW, with extra cache prefetching instructions.
+Simultaneous multithreading, often abbreviated as SMT, is a technique for improving the overall efficiency of superscalar processors.
+SMT permits multiple independent threads of execution to better utilize the resources provided by modern processor architectures.
+Superscalar processors differ from multi-core processors in that the several execution units are not entire processors.
+A single processor is composed of finer-grained execution units such as the ALU, integer multiplier, integer shifter, FPU, etc.
+There may be multiple versions of each execution unit to enable execution of many instructions in parallel.
+This differs from a multi-core processor that concurrently processes instructions from "multiple" threads, one thread per processing unit (called "core").
+It also differs from a pipelined processor, where the multiple instructions can concurrently be in various stages of execution, assembly-line fashion.
+The various alternative techniques are not mutually exclusive—they can be (and frequently are) combined in a single processor.
+Thus a multicore CPU is possible where each core is an independent processor containing multiple parallel pipelines, each pipeline being superscalar.
+Some processors also include vector capability.

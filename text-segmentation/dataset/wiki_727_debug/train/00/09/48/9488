@@ -1,0 +1,36 @@
+========,1,preface.
+Eta (uppercase ', lowercase '; or ) is the seventh letter of the Greek alphabet.
+Originally denoting a consonant /h/, its sound value in the classical Attic dialect of Ancient Greek was a long vowel , raised to in hellenistic Greek, a process known as iotacism.
+In the system of Greek numerals it has a value of 8.
+It was derived from the Phoenician letter heth .
+Letters that arose from eta include the Latin H and the Cyrillic letter И.
+========,2,History.
+========,3,Consonant h.
+The letter shape 'H' was originally used in most Greek dialects to represent the sound /h/, a voiceless glottal fricative.
+In this function, it was borrowed in the 8th century BC by the Etruscan and other Old Italic alphabets, which were based on the Euboean form of the Greek alphabet.
+This also gave rise to the Latin alphabet with its letter H.
+Other regional variants of the Greek alphabet (epichoric alphabets), in dialects that still preserved the sound /h/, employed various glyph shapes for consonantal "heta" side by side with the new vocalic "eta" for some time.
+In the southern Italian colonies of Heracleia and Tarentum, the letter shape was reduced to a "half-heta" lacking the right vertical stem (Ͱ).
+From this sign later developed the sign for rough breathing or "spiritus asper", which brought back the marking of the /h/ sound into the standardized post-classical (polytonic) orthography.
+Dionysius Thrax in the second century BC records that the letter name was still pronounced "heta" (ἥτα), correctly explaining this irregularity by stating "in the old days the letter Η served to stand for the rough breathing, as it still does with the Romans."
+========,3,Long e.
+In the East Ionic dialect, however, the sound /h/ disappeared by the sixth century BC, and the letter was re-used initially to represent a development of a long vowel , which later merged in East Ionic with instead.
+In 403 BC, Athens took over the Ionian spelling system and with it the vocalic use of H (even though it still also had the /h/ sound itself at that time).
+This later became the standard orthography in all of Greece.
+========,3,Itacism.
+During the time of post-classical Koiné Greek, the sound represented by eta was raised and merged with several other formerly distinct vowels, a phenomenon called "itacism" after the new pronunciation of the letter name as "ita" instead of "eta".
+Itacism is continued into Modern Greek, where the letter name is pronounced and represents the sound /i/ (a close front unrounded vowel).
+It shares this function with several other letters (ι, υ) and digraphs (ει, οι), which are all pronounced alike.
+This phenomenon at large is called iotacism.
+========,2,Uses.
+========,3,Letter.
+In Modern Greek the letter, pronounced , represents a close front unrounded vowel, .
+In Classical Greek, it represented a long open-mid front unrounded vowel, .
+========,3,Symbol.
+========,4,Upper case.
+The upper-case letter Η is used as a symbol in textual criticism for the Alexandrian text-type (from Hesychius, its once-supposed editor).
+In chemistry, the letter H as symbol of enthalpy sometimes is said to be a Greek eta, but since enthalpy comes from ἐνθάλπος, which begins in a smooth breathing and epsilon, it is more likely a Latin H for 'heat'.
+========,2,Character encodings.
+***LIST***.
+These characters are used only as mathematical symbols.
+Stylized Greek text should be encoded using the normal Greek letters, with markup and formatting to indicate text style.

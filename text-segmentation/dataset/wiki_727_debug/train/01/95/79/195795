@@ -1,0 +1,212 @@
+========,1,preface.
+In the mathematical field of differential geometry, a metric tensor is a type of function which takes as input a pair of tangent vectors and at a point of a surface (or higher dimensional differentiable manifold) and produces a real number scalar in a way that generalizes many of the familiar properties of the dot product of vectors in Euclidean space.
+In the same way as a dot product, metric tensors are used to define the length of and angle between tangent vectors.
+Through integration, the metric tensor allows one to define and compute the length of curves on the manifold.
+A metric tensor is called "positive definite" if it assigns a positive value to every nonzero vector .
+A manifold equipped with a positive definite metric tensor is known as a Riemannian manifold.
+On a Riemannian manifold, the curve connecting two points that (locally) has the smallest length is called a geodesic, and its length is the distance that a passenger in the manifold needs to traverse to go from one point to the other.
+Equipped with this notion of length, a Riemannian manifold is a metric space, meaning that it has a distance function whose value at a pair of points and is the distance from to .
+Conversely, the metric tensor itself is the derivative of the distance function (taken in a suitable manner).
+Thus the metric tensor gives the "infinitesimal" distance on the manifold.
+While the notion of a metric tensor was known in some sense to mathematicians such as Carl Gauss from the early 19th century, it was not until the early 20th century that its properties as a tensor were understood by, in particular, Gregorio Ricci-Curbastro and Tullio Levi-Civita, who first codified the notion of a tensor.
+The metric tensor is an example of a tensor field.
+The components of a metric tensor in a coordinate basis take on the form of a symmetric matrix whose entries transform covariantly under changes to the coordinate system.
+Thus a metric tensor is a covariant symmetric tensor.
+From the coordinate-independent point of view, a metric tensor is defined to be a nondegenerate symmetric bilinear form on each tangent space that varies smoothly from point to point.
+========,2,Introduction.
+Carl Friedrich Gauss in his 1827 "Disquisitiones generales circa superficies curvas" ("General investigations of curved surfaces") considered a surface parametrically, with the Cartesian coordinates , , and of points on the surface depending on two auxiliary variables and .
+Thus a parametric surface is (in today's terms) a vector-valued function depending on an ordered pair of real variables , and defined in an open set in the -plane.
+One of the chief aims of Gauss's investigations was to deduce those features of the surface which could be described by a function which would remain unchanged if the surface underwent a transformation in space (such as bending the surface without stretching it), or a change in the particular parametric form of the same geometrical surface.
+One natural such invariant quantity is the length of a curve drawn along the surface.
+Another is the angle between a pair of curves drawn along the surface and meeting at a common point.
+A third such quantity is the area of a piece of the surface.
+The study of these invariants of a surface led Gauss to introduce the predecessor of the modern notion of the metric tensor.
+========,3,Arc length.
+If the variables and are taken to depend on a third variable, , taking values in an interval , then will trace out a parametric curve in parametric surface .
+The arc length of that curve is given by the integral where ***formula*** represents the Euclidean norm.
+Here the chain rule has been applied, and the subscripts denote partial derivatives:
+The integrand is the restriction to the curve of the square root of the (quadratic) differential where The quantity in () is called the line element, while is called the first fundamental form of .
+Intuitively, it represents the principal part of the square of the displacement undergone by when is increased by units, and is increased by units.
+Using matrix notation, the first fundamental form becomes
+========,3,Coordinate transformations.
+Suppose now that a different parameterization is selected, by allowing and to depend on another pair of variables and .
+Then the analog of () for the new variables is The chain rule relates , , and to , , and via the matrix equation where the superscript T denotes the matrix transpose.
+The matrix with the coefficients , , and arranged in this way therefore transforms by the Jacobian matrix of the coordinate change A matrix which transforms in this way is one kind of what is called a tensor.
+The matrix with the transformation law () is known as the metric tensor of the surface.
+========,3,Invariance of arclength under coordinate transformations.
+ first observed the significance of a system of coefficients , , and , that transformed in this way on passing from one system of coordinates to another.
+The upshot is that the first fundamental form () is "invariant" under changes in the coordinate system, and that this follows exclusively from the transformation properties of , , and .
+Indeed, by the chain rule, so that
+========,3,Length and angle.
+Another interpretation of the metric tensor, also considered by Gauss, is that it provides a way in which to compute the length of tangent vectors to the surface, as well as the angle between two tangent vectors.
+In contemporary terms, the metric tensor allows one to compute the dot product of tangent vectors in a manner independent of the parametric description of the surface.
+Any tangent vector at a point of the parametric surface can be written in the form for suitable real numbers and .
+If two tangent vectors are given:
+then using the bilinearity of the dot product, This is plainly a function of the four variables , , , and .
+It is more profitably viewed, however, as a function that takes a pair of arguments and which are vectors in the -plane.
+That is, put This is a symmetric function in and , meaning that It is also bilinear, meaning that it is linear in each variable and separately.
+That is, for any vectors , , , and in the plane, and any real numbers and .
+In particular, the length of a tangent vector is given by and the angle between two vectors and is calculated by
+========,3,Area.
+The surface area is another numerical quantity which should depend only on the surface itself, and not on how it is parameterized.
+If the surface is parameterized by the function over the domain in the -plane, then the surface area of is given by the integral where denotes the cross product, and the absolute value denotes the length of a vector in Euclidean space.
+By Lagrange's identity for the cross product, the integral can be written where is the determinant.
+========,2,Definition.
+Let be a smooth manifold of dimension ; for instance a surface (in the case ) or hypersurface in the Cartesian space .
+At each point there is a vector space , called the tangent space, consisting of all tangent vectors to the manifold at the point .
+A metric at is a function which takes as inputs a pair of tangent vectors and at , and produces as an output a real number (scalar), so that the following conditions are satisfied:
+***LIST***.
+A metric tensor on assigns to each point of a metric in the tangent space at in a way that varies smoothly with .
+More precisely, given any open subset of manifold and any (smooth) vector fields and on , the real function is a smooth function of .
+========,2,Components of the metric.
+The components of the metric in any basis of vector fields, or frame, are given by The functions form the entries of an symmetric matrix, .
+If are two vectors at , then the value of the metric applied to and is determined by the coefficients () by bilinearity:
+Denoting the matrix by and arranging the components of the vectors and into column vectors and , where and denote the transpose of the vectors and , respectively.
+Under a change of basis of the form for some invertible matrix , the matrix of components of the metric changes by as well.
+That is, or, in terms of the entries of this matrix, For this reason, the system of quantities is said to transform covariantly with respect to changes in the frame .
+========,3,Metric in coordinates.
+A system of real-valued functions , giving a local coordinate system on an open set in , determines a basis of vector fields on 
+The metric has components relative to this frame given by
+Relative to a new system of local coordinates, say
+the metric tensor will determine a different matrix of coefficients,
+This new system of functions is related to the original by means of the chain rule
+so that
+Or, in terms of the matrices and ,
+where denotes the Jacobian matrix of the coordinate change.
+========,3,Signature of a metric.
+Associated to any metric tensor is the quadratic form defined in each tangent space by If is positive for all non-zero , then the metric is positive definite at .
+If the metric is positive definite at every , then is called a Riemannian metric.
+More generally, if the quadratic forms have constant signature independent of , then the signature of is this signature, and is called a pseudo-Riemannian metric.
+If is connected, then the signature of does not depend on .
+By Sylvester's law of inertia, a basis of tangent vectors can be chosen locally so that the quadratic form diagonalizes in the following manner for some between 1 and .
+Any two such expressions of (at the same point of ) will have the same number of positive signs.
+The signature of is the pair of integers , signifying that there are positive signs and negative signs in any such expression.
+Equivalently, the metric has signature if the matrix of the metric has positive and negative eigenvalues.
+Certain metric signatures which arise frequently in applications are:
+***LIST***.
+========,3,Inverse metric.
+Let be a basis of vector fields, and as above let be the matrix of coefficients One can consider the inverse matrix , which is identified with the inverse metric (or "conjugate" or "dual metric").
+The inverse metric satisfies a transformation law when the frame is changed by a matrix via The inverse metric transforms "contravariantly", or with respect to the inverse of the change of basis matrix .
+Whereas the metric itself provides a way to measure the length of (or angle between) vector fields, the inverse metric supplies a means of measuring the length of (or angle between) covector fields; that is, fields of linear functionals.
+To see this, suppose that is a covector field.
+To wit, for each point , determines a function defined on tangent vectors at so that the following linearity condition holds for all tangent vectors and , and all real numbers and :
+As varies, is assumed to be a smooth function in the sense that is a smooth function of for any smooth vector field .
+Any covector field has components in the basis of vector fields .
+These are determined by Denote the row vector of these components by Under a change of by a matrix , changes by the rule That is, the row vector of components transforms as a "covariant" vector.
+For a pair and of covector fields, define the inverse metric applied to these two covectors by The resulting definition, although it involves the choice of basis , does not actually depend on in an essential way.
+Indeed, changing basis to gives So that the right-hand side of equation () is unaffected by changing the basis to any other basis whatsoever.
+Consequently, the equation may be assigned a meaning independently of the choice of basis.
+The entries of the matrix are denoted by , where the indices and have been raised to indicate the transformation law ().
+========,3,Raising and lowering indices.
+In a basis of vector fields , any smooth tangent vector field can be written in the form for some uniquely determined smooth functions .
+Upon changing the basis by a nonsingular matrix , the coefficients change in such a way that equation () remains true.
+That is, Consequently, .
+In other words, the components of a vector transform "contravariantly" (with respect to the inverse) under a change of basis by the nonsingular matrix .
+The contravariance of the components of is notationally designated by placing the indices of in the upper position.
+A frame also allows covectors to be expressed in terms of their components.
+For the basis of vector fields define the dual basis to be the linear functionals such that That is, , the Kronecker delta.
+Let Under a change of basis for a nonsingular matrix , transforms via Any linear functional on tangent vectors can be expanded in terms of the dual basis  where denotes the row vector .
+The components transform when the basis is replaced by in such a way that equation () continues to hold.
+That is, whence, because , it follows that .
+That is, the components transform "covariantly" (by the matrix rather than its inverse).
+The covariance of the components of is notationally designated by placing the indices of in the lower position.
+Now, the metric tensor gives a means to identify vectors and covectors as follows.
+Holding fixed, the function of tangent vector defines a linear functional on the tangent space at .
+This operation takes a vector at a point and produces a covector .
+In a basis of vector fields , if a vector field has components , then the components of the covector field in the dual basis are given by the entries of the row vector
+Under a change of basis , the right-hand side of this equation transforms via
+so that : transforms covariantly.
+The operation of associating to the (contravariant) components of a vector field the (covariant) components of the covector field , where is called lowering the index.
+To "raise the index", one applies the same construction but with the inverse metric instead of the metric.
+If are the components of a covector in the dual basis , then the column vector has components which transform contravariantly:
+Consequently, the quantity does not depend on the choice of basis in an essential way, and thus defines a vector field on .
+The operation () associating to the (covariant) components of a covector the (contravariant) components of a vector given is called raising the index.
+In components, () is
+========,3,Induced metric.
+Let be an open set in , and let be a continuously differentiable function from into the Euclidean space , where .
+The mapping is called an immersion if its differential is injective at every point of .
+The image of is called an immersed submanifold.
+Suppose that is an immersion onto the submanifold .
+The usual Euclidean dot product in is a metric which, when restricted to vectors tangent to , gives a means for taking the dot product of these tangent vectors.
+This is called the induced metric.
+Suppose that is a tangent vector at a point of , say where are the standard coordinate vectors in .
+When is applied to , the vector goes over to the vector tangent to given by (This is called the pushforward of along .)
+Given two such vectors, and , the induced metric is defined by It follows from a straightforward calculation that the matrix of the induced metric in the basis of coordinate vector fields is given by where is the Jacobian matrix:
+========,2,Intrinsic definitions of a metric.
+The notion of a metric can be defined intrinsically using the language of fiber bundles and vector bundles.
+In these terms, a metric tensor is a function
+from the fiber product of the tangent bundle of with itself to such that the restriction of to each fiber is a nondegenerate bilinear mapping
+The mapping () is required to be continuous, and often continuously differentiable, smooth, or real analytic, depending on the case of interest, and whether can support such a structure.
+========,3,Metric as a section of a bundle.
+By the universal property of the tensor product, any bilinear mapping () gives rise naturally to a section of the dual of the tensor product bundle of with itself
+The section is defined on simple elements of by
+and is defined on arbitrary elements of by extending linearly to linear combinations of simple elements.
+The original bilinear form is symmetric if and only if where is the braiding map.
+Since is finite-dimensional, there is a natural isomorphism so that is regarded also as a section of the bundle of the cotangent bundle with itself.
+Since is symmetric as a bilinear mapping, it follows that is a symmetric tensor.
+========,3,Metric in a vector bundle.
+More generally, one may speak of a metric in a vector bundle.
+If is a vector bundle over a manifold , then a metric is a mapping from the fiber product of to which is bilinear in each fiber:
+Using duality as above, a metric is often identified with a section of the tensor product bundle .
+(See metric (vector bundle).)
+========,3,Tangent–cotangent isomorphism.
+The metric tensor gives a natural isomorphism from the tangent bundle to the cotangent bundle, sometimes called the musical isomorphism.
+This isomorphism is obtained by setting, for each tangent vector , the linear functional on which sends a tangent vector at to .
+That is, in terms of the pairing between and its dual space , for all tangent vectors and .
+The mapping is a linear transformation from to .
+It follows from the definition of non-degeneracy that the kernel of is reduced to zero, and so by the rank–nullity theorem, is a linear isomorphism.
+Furthermore, is a symmetric linear transformation in the sense that for all tangent vectors and .
+Conversely, any linear isomorphism defines a non-degenerate bilinear form on by means of This bilinear form is symmetric if and only if is symmetric.
+There is thus a natural one-to-one correspondence between symmetric bilinear forms on and symmetric linear isomorphisms of to the dual .
+As varies over , defines a section of the bundle of vector bundle isomorphisms of the tangent bundle to the cotangent bundle.
+This section has the same smoothness as : it is continuous, differentiable, smooth, or real-analytic according as .
+The mapping , which associates to every vector field on a covector field on gives an abstract formulation of "lowering the index" on a vector field.
+The inverse of is a mapping which, analogously, gives an abstract formulation of "raising the index" on a covector field.
+The inverse defines a linear mapping which is nonsingular and symmetric in the sense that for all covectors , .
+Such a nonsingular symmetric mapping gives rise (by the tensor-hom adjunction) to a map or by the double dual isomorphism to a section of the tensor product
+========,2,Arclength and the line element.
+Suppose that is a Riemannian metric on .
+In a local coordinate system , , the metric tensor appears as a matrix, denoted here by , whose entries are the components of the metric tensor relative to the coordinate vector fields.
+Let be a piecewise-differentiable parametric curve in , for .
+The arclength of the curve is defined by In connection with this geometrical application, the quadratic differential form is called the first fundamental form associated to the metric, while is the line element.
+When is pulled back to the image of a curve in , it represents the square of the differential with respect to arclength.
+For a pseudo-Riemannian metric, the length formula above is not always defined, because the term under the square root may become negative.
+We generally only define the length of a curve when the quantity under the square root is always of one sign or the other.
+In this case, define Note that, while these formulas use coordinate expressions, they are in fact independent of the coordinates chosen; they depend only on the metric, and the curve along which the formula is integrated.
+========,3,The energy, variational principles and geodesics.
+Given a segment of a curve, another frequently defined quantity is the (kinetic) energy of the curve:
+This usage comes from physics, specifically, classical mechanics, where the integral can be seen to directly correspond to the kinetic energy of a point particle moving on the surface of a manifold.
+Thus, for example, in Jacobi's formulation of Maupertuis' principle, the metric tensor can be seen to correspond to the mass tensor of a moving particle.
+In many cases, whenever a calculation calls for the length to be used, a similar calculation using the energy may be done as well.
+This often leads to simpler formulas by avoiding the need for the square-root.
+Thus, for example, the geodesic equations may be obtained by applying variational principles to either the length or the energy.
+In the latter case, the geodesic equations are seen to arise from the principle of least action: they describe the motion of a "free particle" (a particle feeling no forces) that is confined to move on the manifold, but otherwise moves freely, with constant momentum, within the manifold.
+========,2,Canonical measure and volume form.
+In analogy with the case of surfaces, a metric tensor on an -dimensional paracompact manifold gives rise to a natural way to measure the -dimensional volume of subsets of the manifold.
+The resulting natural positive Borel measure allows one to develop a theory of integrating functions on the manifold by means of the associated Lebesgue integral.
+A measure can be defined, by the Riesz representation theorem, by giving a positive linear functional on the space of compactly supported continuous functions on .
+More precisely, if is a manifold with a (pseudo-)Riemannian metric tensor , then there is a unique positive Borel measure such that for any coordinate chart , for all supported in .
+Here is the determinant of the matrix formed by the components of the metric tensor in the coordinate chart.
+That is well-defined on functions supported in coordinate neighborhoods is justified by Jacobian change of variables.
+It extends to a unique positive linear functional on by means of a partition of unity.
+If is in addition oriented, then it is possible to define a natural volume form from the metric tensor.
+In a positively oriented coordinate system the volume form is represented as where the are the coordinate differentials and denotes the exterior product in the algebra of differential forms.
+The volume form also gives a way to integrate functions on the manifold, and this geometric integral agrees with the integral obtained by the canonical Borel measure.
+========,2,Examples.
+========,3,Euclidean metric.
+The most familiar example is that of elementary Euclidean geometry: the two-dimensional Euclidean metric tensor.
+In the usual coordinates, we can write The length of a curve reduces to the formula:
+The Euclidean metric in some other common coordinate systems can be written as follows.
+Polar coordinates :
+So by trigonometric identities.
+In general, in a Cartesian coordinate system on a Euclidean space, the partial derivatives are orthonormal with respect to the Euclidean metric.
+Thus the metric tensor is the Kronecker delta δ in this coordinate system.
+The metric tensor with respect to arbitrary (possibly curvilinear) coordinates is given by
+========,4,The round metric on a sphere.
+The unit sphere in comes equipped with a natural metric induced from the ambient Euclidean metric.
+In standard spherical coordinates , with the colatitude, the angle measured from the -axis, and the angle from the -axis in the -plane, the metric takes the form This is usually written in the form
+========,3,Lorentzian metrics from relativity.
+In flat Minkowski space (special relativity), with coordinates the metric is, depending on choice of metric signature, For a curve with—for example—constant time coordinate, the length formula with this metric reduces to the usual length formula.
+For a timelike curve, the length formula gives the proper time along the curve.
+In this case, the spacetime interval is written as The Schwarzschild metric describes the spacetime around a spherically symmetric body, such as a planet, or a black hole.
+With coordinates we can write the metric as where (inside the matrix) is the gravitational constant and represents the total mass-energy content of the central object.

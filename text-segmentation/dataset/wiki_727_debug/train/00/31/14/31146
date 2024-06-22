@@ -1,0 +1,25 @@
+========,1,preface.
+In engineering, a transfer function (also known as system function or network function and, when plotted as a graph, transfer curve) is a mathematical representation for fit or to describe inputs and outputs of black box models.
+Typically it is a representation in terms of spatial or temporal frequency, of the relation between the input and output of a linear time-invariant (LTI) system with zero initial conditions and zero-point equilibrium.
+For optical imaging devices, for example, the optical transfer function is the Fourier transform of the point spread function (hence a function of spatial frequency) i.e., the intensity distribution caused by a point object in the field of view.
+A number of sources however use "transfer function" to mean some input-output characteristic in direct physical measures (e.g., output voltage as a function of input voltage of a two-port network) rather than its transform to the s-plane.
+========,2,Signal processing.
+========,3,Common transfer function families.
+While any LTI system can be described by some transfer function or another, there are certain "families" of special transfer functions that are commonly used.
+Some common transfer function families and their particular characteristics are:
+***LIST***.
+========,2,Control engineering.
+In control engineering and control theory the transfer function is derived using the Laplace transform.
+The transfer function was the primary tool used in classical control engineering.
+However, it has proven to be unwieldy for the analysis of multiple-input multiple-output (MIMO) systems, and has been largely supplanted by state space representations for such systems.
+In spite of this, a transfer matrix can be always obtained for any linear system, in order to analyze its dynamics and other properties: each element of a transfer matrix is a transfer function relating a particular input variable to an output variable.
+A useful representation bridging state space and transfer function methods was proposed by Howard H. Rosenbrock and is referred to as Rosenbrock system matrix.
+========,2,Optics.
+In optics, modulation transfer function indicates the capability of optical contrast transmission.
+For example, when observing a series of black-white-light fringes drawn with a specific spatial frequency, the image quality may decay.
+White fringes fade while black ones turn brighter.
+The modulation transfer function in a specific spatial frequency is defined by:
+Where modulation (M) is computed from the following image or light brightness:
+========,2,Non-linear systems.
+Transfer functions do not properly exist for many non-linear systems.
+For example, they do not exist for relaxation oscillators; however, describing functions can sometimes be used to approximate such nonlinear time-invariant systems.

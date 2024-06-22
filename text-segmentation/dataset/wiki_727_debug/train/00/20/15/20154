@@ -1,0 +1,88 @@
+========,1,preface.
+A metallocene is a compound typically consisting of two cyclopentadienyl anions (Cp, which is ) bound to a metal center (M) in the oxidation state II, with the resulting general formula (CH)M. Closely related to the metallocenes are the metallocene derivatives, e.g.
+titanocene dichloride, vanadocene dichloride.
+Certain metallocenes and their derivatives exhibit catalytic properties, although metallocenes are rarely used industrially.
+Cationic group 4 metallocene derivatives related to [CpZrCH] catalyze olefin polymerization.
+Metallocenes are a subset of a broader class of organometallic compounds called sandwich compounds.
+In the structure shown at right, the two pentagons are the cyclopentadienyl anions with circles inside them indicating they are aromatically stabilized.
+Here they are shown in a staggered conformation.
+========,2,History.
+The first metallocene to be classified was ferrocene, and was discovered simultaneously in 1951 by Kealy and Pauson, and Miller et al.
+Keally and Pauson were attempting to synthesize fulvalene through the oxidation of a cyclopentadienyl salt with anhydrous FeCl but obtained instead the substance CHFe At the same time, Miller "et al" reported the same iron product from a reaction of cyclopentadiene with iron in the presence of aluminum, potassium, or molybdenum oxides.
+The structure of "CHFe" was determined by Wilkinson et al.
+and by Fischer et al.
+These two were awarded the Nobel Prize in Chemistry in 1973 for their work on sandwich compounds, including the structural determination of ferrocene.
+They determined that the carbon atoms of the cyclopentadienyl (Cp) ligand contributed equally to the bonding and that bonding occurred due to the metal d-orbitals and the π-electrons in the p-orbitals of the Cp ligands.
+This complex is now known as ferrocene, and the group of transition metal dicyclopentadienyl compounds is known as metallocenes.
+Metallocenes have the general formula [("η"-CH)M].
+Fischer et al.
+first prepared the ferrocene derivatives involving Co and Ni.
+Often derived from substituted derivatives of cyclopentadienide, metallocenes of many elements have been prepared.
+========,2,Definition.
+The general name metallocene is derived from ferrocene, (CH)Fe or CpFe, systematically named bis("η"-cyclopentadienyl)iron(II).
+According to the IUPAC definition, a metallocene contains a transition metal and two cyclopentadienyl ligands coordinated in a sandwich structure, i.e., the two cyclopentadienyl anions are on parallel planes with equal bond lengths and strengths.
+Using the nomenclature of "hapticity", the equivalent bonding of all 5 carbon atoms of a cyclopentadienyl ring is denoted as "η", pronounced "pentahapto".
+There are exceptions, such as uranocene, which has two cyclooctatetraene rings sandwiching a uranium atom.
+In metallocene names, the prefix before the "-ocene" ending indicates what metallic element is between the Cp groups.
+For example, in ferrocene, iron(II), ferrous iron is present.
+In contrast to the more strict definition proposed by IUPAC, which requires a d-block metal and a sandwich structure, the term metallocene and thus the denotation "-ocene", is applied in the chemical literature also to non-transition metal compounds, such as barocene (CpBa), or structures where the aromatic rings are not parallel, such as found in manganocene or titanocene dichloride (CpTiCl).
+Some metallocene complexes of actinides have been reported where there are three cyclopendadienyl ligands for a monometallic complex, all three of them bound η.
+========,2,Classification.
+There are many ("η"-CH)–metal complexes and they can be classified by the following formulas:
+Metallocene complexes can also be classified by type:
+***LIST***.
+========,2,Synthesis of metallocenes.
+========,3,Using a metal salt and cyclopentadienyl reagents.
+Sodium cyclopentadienide (NaCp) is the preferred reagent for these types of reactions.
+It is most easily obtained by the reaction of molten sodium and dicyclopentadiene.
+Traditionally, the starting point is the cracking of dicyclopentadienyl, the dimer of cyclopentadiene.
+Cyclopentadiene is deprotonated by strong bases or alkali metals.
+NaCp acts as a reducing agent and a ligand in this reaction.
+========,3,Using a metal and cyclopentadiene.
+This technique provides using metal atoms in the gas phase rather than the solid metal.
+The highly reactive atoms or molecules are generated at a high temperature under vacuum and brought together with chosen reactants on a cold surface.
+========,3,Using cyclopentadienyl reagents.
+A variety of reagents have been developed that transfer Cp to metals.
+Once popular was thallium cyclopentadienide.
+It reacts with metal halides to give thallium chloride, which is poorly soluble, and the cyclopentadienyl complex.
+Trialkyltin derivatives of Cp have also been used.
+Many other methods have been developed.
+Chromocene can be prepared from chromium hexacarbonyl by direct reaction with cyclopentadiene in the presence of diethylamine; in this case, the formal deprotonation of the cyclopentadiene is followed by reduction of the resulting protons to hydrogen gas, facilitating the oxidation of the metal centre.
+Metallocenes generally have high thermal stability.
+Ferrocene can be sublimed in air at over 100 °C with no decomposition; metallocenes are generally purified by vacuum sublimation.
+Charge-neutral metallocenes are soluble in common organic solvents.
+Alkyl substituted derivative are particularly soluble, even in alkane solvents.
+========,2,Structure.
+A structural trend for the series MCp involves the variation of the M-C bonds, which elongate as the valence electron count deviates from 18.
+In metallocenes of the type (CR)M, the cyclopentadienyl rings rotate with very low barriers.
+Single crystal X-ray diffraction studies reveal both eclipsed or staggered rotamers.
+For non-substituted metallocenes the energy difference between the staggered and eclipsed conformations is only a few kJ/mol.
+Crystals of ferrocene and osmocene exhibit eclipsed conformations at low temperatures, whereas in the related bis(pentamethylcyclopentadienyl) complexes the rings usually crystallize in a staggered conformation, apparently to minimize steric hindrance between the methyl groups.
+========,2,Spectroscopic properties.
+========,3,Vibrational (infrared and Raman) spectroscopy of metallocenes.
+Infrared and Raman spectroscopies have proved to be important in the analysis of cyclic polyenyl metal sandwich species, with particular use in elucidating covalent or ionic M–ring bonds and distinguishing between central and coordinated rings.
+Some typical spectral bands and assignments of iron group metallocenes are shown in the following table:
+========,3,NMR (H and C) spectroscopy of metallocenes.
+Nuclear magnetic resonance (NMR) is the most applied tool in the study of metal sandwich compounds and organometallic species, giving information on nuclear structures in solution, as liquids, gases, and in the solid state.
+H NMR chemical shifts for diamagnetic organotransition-metal compounds is usually observed between 25 and 40 ppm, but this range is much more narrow for diamagnetic metallocene complexes, with chemical shifts usually observed between 3 and 7 ppm.
+========,3,Mass spectrometry of metallocenes.
+Mass spectrometry of metallocene complexes has been very well studied and the effect of the metal on the fragmentation of the organic moiety has received considerable attention and the identification of metal-containing fragments is often facilitated by the isotope distribution of the metal.
+The three major fragments observed in mass spectrometry are the molecular ion peak, [CHM], and fragment ions, [CHM] and M.
+========,2,Derivatives.
+========,3,Metallocenophanes.
+Metallocenophanes feature linking of the cyclopentadienyl or polyarenyl rings by the introduction of one or more heteroannular bridges.
+Some of these compounds undergo thermal ring-opening polymerizations (ROP) to give soluble high molecular weight polymers with transition metals in the polymer backbone.
+Ansa-metallocenes are derivatives of metallocenes with an intramolecular bridge between the two cyclopentadienyl rings.
+========,3,Multi-decker sandwich compounds.
+Triple-decker complexes are composed of three Cp anions and two metal cations in alternating order.
+The first triple-decker sandwich complex, [NiCp], was reported in 1972.
+Many examples have been reported subsequently, often with boron-containing rings.
+========,2,Applications.
+Many derivatives of early metal metallocenes are active catalysts for olefin polymerization.
+Unlike traditional and still dominant heterogeneous Ziegler-Natta catalysts, metallocene catalysts are homogeneous.
+Early metal metallocene derivatives, e.g.
+Tebbe's reagent, Petasis reagent, and Schwartz's reagent are useful in specialized organic synthetic operations.
+========,3,Potential applications.
+The ferrocene/ferrocenium biosensor has been discussed for determining the levels of glucose in a sample electrochemically through a series of connected redox cycles.
+Metallocene dihalides [CpMX] (M = Ti, Mo, Nb) exhibit anti-tumor properties, although none have proceeded far in clinical trials.
+Metallocenes may be useful for isotope separation.

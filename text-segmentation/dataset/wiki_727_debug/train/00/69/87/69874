@@ -1,0 +1,107 @@
+========,1,preface.
+The Phoenician alphabet, called by convention the Proto-Canaanite alphabet for inscriptions older than around 1050 BC, is the oldest verified alphabet.
+The Phoenician alphabet is an abjad consisting of 22 letters, all consonants, with" matres lectionis" used for some vowels in certain late varieties.
+It was used for the writing of Phoenician, a Northern Semitic language, used by the civilization of Phoenicia.
+The Phoenician alphabet is derived from Egyptian hieroglyphs.
+It became one of the most widely used writing systems, spread by Phoenician merchants across the Mediterranean world, where it evolved and was assimilated by many other cultures.
+The Paleo-Hebrew alphabet is a local variant of the Phoenician alphabetical script.
+Another derivative script is the Aramaic alphabet, which was the ancestor of the modern Arabic script.
+The Modern Hebrew script is a stylistic variant of the Aramaic script.
+The Greek alphabet (and by extension its descendants, such as Latin, Cyrillic, Runic, and Coptic) was also derived from Phoenician.
+As the letters were originally incised with a stylus, most of the shapes are angular and straight, although more cursive versions are increasingly attested in later times, culminating in the Neo-Punic alphabet of Roman-era North Africa.
+Phoenician was usually written from right to left, although there are some texts written in boustrophedon.
+========,2,History.
+========,3,Origin.
+The earliest known alphabetic (or "proto-alphabetic") inscriptions are the so-called Proto-Sinaitic (or Proto-Canaanite) script sporadically attested in the Sinai and in Canaan in the late Middle and Late Bronze Age.
+The script was not widely used until the rise of new Semitic kingdoms in the 13th and 12th centuries BC.
+The Phoenician alphabet is a direct continuation of the "Proto-Canaanite" script of the Bronze Age collapse period.
+The so-called Ahiram epitaph, engraved on the sarcophagus of king Ahiram from about 1200 BC, one of five known Byblian royal inscriptions, shows essentially the fully developed Phoenician script, although the name "Phoenician" is by convention given to inscriptions beginning in the mid 11th century BC.
+========,3,Spread of the alphabet and its social effects.
+Beginning in the 9th century BC, adaptations of the Phoenician alphabet -- such as Greek, Old Italic, Anatolian, and the Paleohispanic scripts -- were very successful.
+The alphabet's success was due in part to its phonetic nature; Phoenician was the first widely used script in which one sound was represented by one symbol, which meant that there were only a few dozen symbols to learn.
+This simple system contrasted with the other scripts in use at the time, such as cuneiform and Egyptian hieroglyphs, which employed many complex characters and were difficult to learn.
+Another reason for its success was the maritime trading culture of Phoenician merchants, which spread the use of the alphabet into parts of North Africa and Europe.
+Phoenician inscriptions have been found in archaeological sites at a number of former Phoenician cities and colonies around the Mediterranean, such as Byblos (in present-day Lebanon) and Carthage in North Africa.
+Later finds indicate earlier use in Egypt.
+Phoenician had long-term effects on the social structures of the civilizations that came in contact with it.
+As mentioned above, the script was the first widespread phonetic script.
+Its simplicity not only allowed it to be used in multiple languages, but it also allowed the common people to learn how to write.
+This upset the long-standing status of writing systems only being learned and employed by members of the royal and religious hierarchies of society, who used writing as an instrument of power to control access to information by the larger population.
+The appearance of Phoenician disintegrated many of these class divisions, although many Middle Eastern kingdoms, such as Assyria, Babylonia and Adiabene, would continue to use cuneiform for legal and liturgical matters well into the Common Era.
+========,3,Modern rediscovery.
+The Phoenician alphabet was first uncovered in the 17th century, but up to the 19th century its origin was unknown.
+It was at first believed that the script was a direct variation of Egyptian hieroglyphs.
+This idea was especially popular due to the recent decipherment of hieroglyphs.
+However, scholars could not find any link between the two writing systems, nor to hieratic or cuneiform.
+The theories of independent creation ranged from the idea of a single man conceiving it, to the Hyksos people forming it from corrupt Egyptian.
+This latter notion is reminiscent of the eventual discovery that the proto-Sinatic alphabet was inspired by the model of hieroglyphs.
+========,2,Development of the alphabet.
+The Phoenician letter forms shown here are idealized—actual Phoenician writing was cruder and more variable in appearance.
+There were also significant variations in Phoenician letter forms by era and region.
+When alphabetic writing began in Greece, the letter forms used were similar but not identical to the Phoenician ones and vowels were added, because the Phoenician alphabet did not contain any vowels.
+There were also distinct variants of the writing system in different parts of Greece, primarily in how those Phoenician characters that did not have an exact match to Greek sounds were employed.
+The Ionic variant evolved into the standard Greek alphabet, and the Cumae variant into the Latin alphabet, which accounts for many of the differences between the two.
+Occasionally, Phoenician used a short stroke or dot symbol as a word separator.
+The chart shows the "graphical" evolution of Phoenician letter forms into other alphabets.
+The sound values often changed significantly, both during the initial creation of new alphabets, and due to pronunciation changes of languages using the alphabets over time.
+========,2,Letter names.
+Phoenician used a system of acrophony to name letters.
+The names of the letters are essentially the same as in its parental scripts, which are in turn derived from the word values of the original hieroglyph for each letter.
+The original word was translated from Egyptian into its equivalent form in the Semitic language, and then the initial sound of the translated word became the letter's value.
+========,3,Alternative theories.
+According to a 1904 theory by Theodor Nöldeke, some of the letter names were changed in Phoenician from the Proto-Canaanite script.
+This includes:
+***LIST***.
+Other researchers, such as Prof. Yigael Yadin, went to great lengths to prove that they actually were tools of war, similar to the original drawings.
+Prof. Aron Demsky from Bar Ilan University showed that there were sequences of letters with close meanings, proving the correct reading of the drawings.
+In later research, it was postulated that the alphabet is actually two complete lists, the first dealing with land agriculture and activity, and the second dealing with water, sea and fishing.
+========,2,Numerals.
+The Phoenician numeral system consisted of separate symbols for 1, 10, 20, and 100.
+The sign for 1 was a simple vertical stroke (𐤖).
+Other numbers up to 9 were formed by adding the appropriate number of such strokes, arranged in groups of three.
+The symbol for 10 was a horizontal line or tack ().
+The sign for 20 (𐤘) could come in different glyph variants, one of them being a combination of two 10-tacks, approximately Z-shaped.
+Larger multiples of ten were formed by grouping the appropriate number of 20s and 10s.
+There existed several glyph variants for 100 (𐤙).
+The 100 symbol could be combined with a preceding numeral in a multiplicatory way, e.g.
+the combination of "4" and "100" yielded 400.
+Their system did not contain a numeral zero.
+========,2,Unicode.
+The Phoenician alphabet was added to the Unicode Standard in July 2006 with the release of version 5.0.
+An alternative proposal to handle it as a font variation of Hebrew was turned down.
+(See PDF summary.)
+The Unicode block for Phoenician is U+10900–U+1091F.
+It is intended for the representation of text in Palaeo-Hebrew, Archaic Phoenician, Phoenician, Early Aramaic, Late Phoenician cursive, Phoenician papyri, Siloam Hebrew, Hebrew seals, Ammonite, Moabite, and Punic.
+The letters are encoded U+10900 "aleph" through to U+10915 "taw", U+10916 , U+10917 , U+10918 and U+10919 encode the numerals 1, 10, 20 and 100 respectively and U+1091F is the word separator.
+========,2,Derived alphabets.
+========,3,Middle Eastern descendants.
+The Paleo-Hebrew alphabet, used to write early Hebrew, was a regional offshoot of Phoenician; it is nearly identical to the Phoenician one (in many early writings it is impossible to distinguish between the two).
+The Samaritan alphabet, used by the Samaritans, is a direct descendant of the Paleo-Hebrew alphabet.
+The current Hebrew alphabet is a stylized form of the Aramaic alphabet, itself a descendant of the Phoenician script.
+The Aramaic alphabet, used to write Aramaic, is another descendant of Phoenician.
+Aramaic being the "lingua franca" of the Middle East, was widely adopted.
+It later split off (due to power/political borders) into a number of related alphabets, including Hebrew, Syriac, and Nabataean, the latter of which in, its cursive form, became an ancestor of the Arabic alphabet that is currently used in Arabic-speaking countries from North Africa through the Levant to Iraq and the Persian Gulf region, as well as in Iran, Afghanistan, Pakistan and other countries.
+The Sogdian alphabet, a descendant of Phoenician via Syriac, is an ancestor of the Old Uyghur, which in turn is an ancestor of the Mongolian and Manchu alphabets, the former of which is still in use and the latter of which survives as the Xibe script.
+The Arabic script is a descendant of Phoenician via Aramaic.
+The Coptic alphabet, still used in Egypt for writing the Christian liturgical language Coptic (descended from Ancient Egyptian), is mostly based on the Greek alphabet, but with a few additional letters for sounds not in Greek at the time.
+Those additional letters are based on Demotic script.
+========,3,Derived European scripts.
+According to Herodotus, the Phoenician prince Cadmus was accredited with the introduction of the Phoenician alphabet—"phoinikeia grammata", "Phoenician letters"—to the Greeks, who adapted it to form their Greek alphabet, which was later introduced to the rest of Europe.
+Herodotus, who gives this account, estimates that Cadmus lived sixteen hundred years before his time, or around 2000 BC.
+However, Herodotus' writings are not used as a standard source by contemporary historians.
+The Greek alphabet is derived from the Phoenician alphabet.
+The phonology of Greek being different from that of Phoenician, the Greeks modified the Phoenician script to better suit their language.
+It was possibly more important in Greek to write out vowel sounds: Phoenician being a Semitic language, words were based on consonantal roots that permitted extensive removal of vowels without loss of meaning, a feature absent in the Indo-European Greek.
+(Or perhaps, the Phoenicians were simply following the lead of the Egyptians, who never wrote vowels.
+After all, Akkadian cuneiform, which wrote a related Semitic language, always indicated vowels.)
+In any case, the Greeks adapted the signs of the Phoenician consonants not present in Greek; each such name was shorn of its leading sound, and the sign took the value of the now leading vowel.
+For example, "ʾāleph", which designated a glottal stop in Phoenician, was re-purposed to represent the vowel ; "he" became , "ḥet" became (a long vowel), "ʿayin" became (because the pharyngeality altered the following vowel), while the two semi-consonants "wau" and "yod" became the corresponding high vowels, and .
+(Some dialects of Greek, which did possess and , continued to use the Phoenician letters for those consonants as well.)
+The Cyrillic script was derived from the Greek alphabet.
+Some Cyrillic letters (generally for sounds not in Mediaeval Greek) are based on Glagolitic forms, which in turn were influenced by the Hebrew or even Coptic alphabets.
+The Latin alphabet was derived from Old Italic (originally a form of the Greek alphabet), used for Etruscan and other languages.
+The origin of the Runic alphabet is disputed, and the main theories are that it evolved either from the Latin alphabet itself, some early Old Italic alphabet via the Alpine scripts or the Greek alphabet.
+Despite this debate, the Runic alphabet is clearly derived from one or more scripts that ultimately trace their roots back to the Phoenician alphabet.
+========,3,Brahmic scripts.
+Many Western scholars believe that the Brahmi script of India and the subsequent Indic alphabets are also derived from the Aramaic script, which would make Phoenician the ancestor of virtually every alphabetic writing system in use today.
+However, due to an indigenous-origin hypothesis of Brahmic scripts, no definitive scholarly consensus exists.

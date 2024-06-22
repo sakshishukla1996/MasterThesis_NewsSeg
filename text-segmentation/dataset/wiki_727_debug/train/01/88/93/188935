@@ -1,0 +1,51 @@
+========,1,preface.
+In quantum statistics, Bose–Einstein statistics (or more colloquially B–E statistics) is one of two possible ways in which a collection of non-interacting indistinguishable particles may occupy a set of available discrete energy states, at thermodynamic equilibrium.
+The aggregation of particles in the same state, which is a characteristic of particles obeying Bose–Einstein statistics, accounts for the cohesive streaming of laser light and the frictionless creeping of superfluid helium.
+The theory of this behaviour was developed (1924–25) by Satyendra Nath Bose, who recognized that a collection of identical and indistinguishable particles can be distributed in this way.
+The idea was later adopted and extended by Albert Einstein in collaboration with Bose.
+The Bose–Einstein statistics apply only to those particles not limited to single occupancy of the same state—that is, particles that do not obey the Pauli exclusion principle restrictions.
+Such particles have integer values of spin and are named bosons, after the statistics that correctly describe their behaviour.
+There must also be no significant interaction between the particles.
+========,2,Concept.
+At low temperatures, bosons behave differently from fermions (which obey the Fermi–Dirac statistics) in a way that an unlimited number of them can "condense" into the same energy state.
+This apparently unusual property also gives rise to the special state of matter – the Bose–Einstein condensate.
+Fermi–Dirac and Bose–Einstein statistics apply when quantum effects are important and the particles are "indistinguishable".
+Quantum effects appear if the concentration of particles satisfies
+where is the number of particles, is the volume, and is the quantum concentration, for which the interparticle distance is equal to the thermal de Broglie wavelength, so that the wavefunctions of the particles are barely overlapping.
+Fermi–Dirac statistics apply to fermions (particles that obey the Pauli exclusion principle), and Bose–Einstein statistics apply to bosons.
+As the quantum concentration depends on temperature, most systems at high temperatures obey the classical (Maxwell–Boltzmann) limit, unless they also have a very high density, as for a white dwarf.
+Both Fermi–Dirac and Bose–Einstein become Maxwell–Boltzmann statistics at high temperature or at low concentration.
+B–E statistics was introduced for photons in 1924 by Bose and generalized to atoms by Einstein in 1924–25.
+The expected number of particles in an energy state "i" for B–E statistics is
+with and where is the number of particles in state is the degeneracy of energy level is the energy of the "i"-th state, "μ" is the chemical potential, "k" is the Boltzmann constant, and "T" is absolute temperature.
+For comparison, the average number of fermions with energy ***formula*** given by Fermi–Dirac particle-energy distribution has a similar form:
+B–E statistics reduces to the Rayleigh–Jeans law distribution for ***formula***, namely
+========,2,History.
+While presenting a lecture at the University of Dhaka on the theory of radiation and the ultraviolet catastrophe, Satyendra Nath Bose intended to show his students that the contemporary theory was inadequate, because it predicted results not in accordance with experimental results.
+During this lecture, Bose committed an error in applying the theory, which unexpectedly gave a prediction that agreed with the experiment.
+The error was a simple mistake—similar to arguing that flipping two fair coins will produce two heads one-third of the time—that would appear obviously wrong to anyone with a basic understanding of statistics (remarkably, this error resembled the famous blunder by d'Alembert known from his "Croix ou Pile" article).
+However, the results it predicted agreed with experiment, and Bose realized it might not be a mistake after all.
+For the first time, he took the position that the Maxwell–Boltzmann distribution would not be true for all microscopic particles at all scales.
+Thus, he studied the probability of finding particles in various states in phase space, where each state is a little patch having volume h, and the position and momentum of the particles are not kept particularly separate but are considered as one variable.
+Bose adapted this lecture into a short article called "Planck's Law and the Hypothesis of Light Quanta" and submitted it to the "Philosophical Magazine".
+However, the referee's report was negative, and the paper was rejected.
+Undaunted, he sent the manuscript to Albert Einstein requesting publication in the "Zeitschrift für Physik".
+Einstein immediately agreed, personally translated the article from English into German (Bose had earlier translated Einstein's article on the theory of General Relativity from German to English), and saw to it that it was published.
+Bose's theory achieved respect when Einstein sent his own paper in support of Bose's to "Zeitschrift für Physik", asking that they be published together.
+This was done in 1924.
+The reason Bose produced accurate results was that since photons are indistinguishable from each other, one cannot treat any two photons having equal energy as being two distinct identifiable photons.
+By analogy, if in an alternate universe coins were to behave like photons and other bosons, the probability of producing two heads would indeed be one-third, and so is the probability of getting a head and a tail which equals one-half for the conventional (classical, distinguishable) coins.
+Bose's "error" leads to what is now called Bose–Einstein statistics.
+Bose and Einstein extended the idea to atoms and this led to the prediction of the existence of phenomena which became known as Bose–Einstein condensate, a dense collection of bosons (which are particles with integer spin, named after Bose), which was demonstrated to exist by experiment in 1995.
+========,2,Two derivations of the Bose–Einstein distribution.
+========,3,Derivation from the grand canonical ensemble.
+The Bose–Einstein distribution, which applies only to a quantum system of non-interacting bosons, is easily derived from the grand canonical ensemble.
+In this ensemble, the system is able to exchange energy and exchange particles with a reservoir (temperature "T" and chemical potential "µ" fixed by the reservoir).
+Due to the non-interacting quality, each available single-particle level (with energy level "ϵ") forms a separate thermodynamic system in contact with the reservoir.
+In other words, each single-particle level is a separate, tiny grand canonical ensemble.
+With bosons there is no limit on the number of particles "N" in the level, but due to indistinguishability each possible "N" corresponds to only one microstate (with energy "Nϵ").
+The resulting partition function for that single-particle level therefore forms a geometric series:
+and the average particle number for that single-particle substate is given by This result applies for each single-particle level and thus forms the Bose–Einstein distribution for the entire state of the system.
+The variance in particle number (due to thermal fluctuations) may also be derived:
+This level of fluctuation is much larger than for distinguishable particles, which would instead show Poisson statistics (***formula***).
+This is because the probability distribution for the number of bosons in a given energy level is a geometric distribution, not a Poisson distribution.

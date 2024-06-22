@@ -1,0 +1,28 @@
+========,1,preface.
+In chemistry, the mole fraction or molar fraction (x) is defined as the amount of a constituent (expressed in moles), "n", divided by the total amount of all constituents in a mixture (also expressed in moles), "n":
+The sum of all the mole fractions is equal to 1:
+The same concept expressed with a denominator of 100 is the mole percent or molar percentage or molar proportion (mol%).
+The mole fraction is also called the amount fraction.
+It is identical to the number fraction, which is defined as the number of molecules of a constituent "N" divided by the total number of all molecules "N".
+The mole fraction is sometimes denoted by the lowercase Greek letter "χ" (chi) instead of a Roman "x".
+For mixtures of gases, IUPAC recommends the letter "y".
+The National Institute of Standards and Technology of the United States prefers the term amount-of-substance fraction over mole fraction because it does not contain the name of the unit mole.
+Whereas mole fraction is a ratio of moles to moles, molar concentration is a quotient of moles to volume.
+The mole fraction is one way of expressing the composition of a mixture with a dimensionless quantity; mass fraction (percentage by weight, wt%) and volume fraction (percentage by volume, vol%) are others.
+========,2,Properties.
+Mole fraction is used very frequently in the construction of phase diagrams.
+It has a number of advantages:
+***LIST***.
+========,2,Related quantities.
+========,3,Mass fraction.
+The mass fraction "w" can be calculated using the formula where "M" is the molar mass of the component "i" and "M" is the average molar mass of the mixture.
+Replacing the expression of the molar mass:
+========,3,Molar mixing ratio.
+The mixing of two pure components can be expressed introducing the amount or molar mixing ratio of them ***formula***.
+Then the mole fractions of the components will be:
+========,3,Mass concentration.
+The conversion to and from mass concentration "ρ" is given by:
+where "M" is the average molar mass of the mixture.
+========,3,Molar concentration.
+The conversion to molar concentration "c" is given by:
+or where "M" is the average molar mass of the solution, "c" is the total molar concentration and "ρ" is the density of the solution.

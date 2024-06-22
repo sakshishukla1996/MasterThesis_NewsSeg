@@ -1,0 +1,64 @@
+========,1,preface.
+In economics, vendor lock-in, also known as proprietary lock-in or customer lock-in, makes a customer dependent on a vendor for products and services, unable to use another vendor without substantial switching costs.
+Lock-in costs which create barriers to market entry may result in antitrust action against a monopoly.
+========,2,Examples.
+========,3,Microsoft.
+The European Commission, in its March 24, 2004 decision on Microsoft's business practices, quotes, in paragraph 463, Microsoft general manager for C++ development Aaron Contorer as stating in a February 21, 1997 internal Microsoft memo drafted for Bill Gates:
+"The Windows API is so broad, so deep, and so functional that most ISVs would be crazy not to use it.
+And it is so deeply embedded in the source code of many Windows apps that there is a huge switching cost to using a different operating system instead.
+It is this switching cost that has given customers the patience to stick with Windows through all our mistakes, our buggy drivers, our high TCO, our lack of a sexy vision at times, and many other difficulties.
+[...] Customers constantly evaluate other desktop platforms, [but] it would be so much work to move over that they hope we just improve Windows rather than force them to move.
+In short, without this exclusive franchise called the Windows API, we would have been dead a long time ago.
+The Windows franchise is fueled by application development which is focused on our core APIs" Microsoft's application software also exhibits lock-in through the use of proprietary file formats.
+Microsoft Outlook uses a proprietary, publicly undocumented datastore format.
+Present versions of Microsoft Word have introduced a new format MS-OOXML.
+This may make it easier for competitors to write documents compatible with Microsoft Office in the future by reducing lock-in .
+Microsoft released full descriptions of the file formats for earlier versions of Word, Excel and PowerPoint in February 2008.
+========,3,Apple Inc.
+Prior to March 2009, digital music files with digital rights management were available for purchase from the iTunes Store, encoded in a proprietary derivative of the AAC format that used Apple's FairPlay DRM system.
+These files are compatible only with Apple's iTunes media player software on Macs and Windows, their iPod portable digital music players, iPhone smartphones, iPad tablet computers, and the Motorola ROKR E1 and SLVR mobile phones.
+As a result, that music was locked into this ecosystem and available for portable use only through the purchase of one of the above devices, or by burning to CD and optionally re-ripping to a DRM-free format such as MP3 or WAV.
+In January, 2005, an iPod purchaser named Thomas Slattery filed a suit against Apple for the "unlawful bundling" of their iTunes Music Store and iPod device.
+He stated in his brief: "Apple has turned an open and interactive standard into an artifice that prevents consumers from using the portable hard drive digital music player of their choice."
+At the time Apple was stated to have an 80% market share of digital music sales and a 90% share of sales of new music players, which he claimed allowed Apple to horizontally leverage its dominant positions in both markets to lock consumers into its complementary offerings.
+In September 2005, U.S. District Judge James Ware approved "Slattery v. Apple Computer Inc." to proceed with monopoly charges against Apple in violation of the Sherman Antitrust Act.
+On June 7, 2006, the Norwegian Consumer Council stated that Apple's iTunes Music Store violates Norwegian law.
+The contract conditions were vague and "clearly unbalanced to disfavor the customer".
+The retroactive changes to the DRM conditions and the incompatibility with other music players are the major points of concern.
+In an earlier letter to Apple, consumer ombudsman Bjørn Erik Thon complained that iTunes' DRM mechanism was a lock-in to Apple's music players, and argued that this was a conflict with consumer rights that he doubted would be defendable by Norwegian copyright law.
+, tracks on the EMI label became available in a DRM-free format called iTunes Plus.
+These files are unprotected and are encoded in the AAC format at 256 kilobits per second, twice the bitrate of standard tracks bought through the service.
+iTunes accounts can be set to display either standard or iTunes Plus formats for tracks where both formats exist.
+These files can be used with any player that supports the AAC file format and are not locked to Apple hardware.
+They can be converted to MP3 format if desired.
+As of January 6, 2009, all four big music studios (Warner Bros., Sony BMG, Universal, and EMI) have signed up to remove the DRM from their tracks, at no extra cost.
+However, Apple charges consumers to have previously purchased DRM music restrictions removed.
+========,3,Google.
+Although Google has stated its position in favor of interoperability, the company has taken steps away from open protocols replacing open standard Google Talk by proprietary protocol Google Hangouts.
+Also, Google's Data Liberation Front has been inactive on Twitter since 2013 and its official website www.dataliberation.org now redirects to a page on Google's FAQs, leading users to believe the project has been closed.
+========,2,Variations.
+***LIST***.
+This class of lock-in is potentially technologically hard to overcome if the monopoly is held up by barriers to market that are nontrivial to circumvent, such as patents, secrecy, cryptography or other technical hindrances.
+***LIST***.
+This class of lock-in is potentially inescapable to rational individuals not otherwise motivated, by creating a prisoner's dilemma — if the cost to resist is greater than the cost of joining, then the locally optimal choice is to join – a barrier that takes cooperation to overcome.
+The distributive property (cost to resist the locally dominant choice) alone is not a network effect, for lack of any positive feedback, however the addition of bistability per individual, such as by a switching cost, qualifies as a network effect, by distributing this instability to the collective as a whole.
+========,3,Technology lock-in.
+As defined by The Independent, this is a non-monopoly (mere technology), collective (on a society level) kind of lock-in:
+"Technological lock-in is the idea that the more a society adopts a certain technology, the more unlikely users are to switch."
+***LIST***.
+========,3,Personal technology lock-in.
+Technology lock-in, as defined, is strictly of the collective kind.
+However, the personal variant is also a possible permutation of the variations shown in the table, but with no monopoly and no collectivity, would be expected to be the weakest lock-in.
+Equivalent personal examples:
+***LIST***.
+========,3,Collective vendor lock-in.
+There exist lock-in situations that are both monopolistic and collective.
+Having the worst of two worlds, these can be very hard to escape — in many examples, the cost to resist incurs some level of isolation from the (dominating technology in) society, which can be socially costly, yet direct competition with the dominant vendor is hindered by compatibility.
+As one blogger expressed:
+"If I stopped using Skype, I'd lose contact with many people, because it's impossible to make them all change to "[other]" software".
+MP3 is both patented and entrenched, as noted by Richard Stallman in 2001 (in justifying a liberal license for Ogg Vorbis):
+"there is (…) the danger that people will settle on MP3 format even though it is patented, and we won't be *allowed* to write free encoders for the most popular format.
+(…) Ordinarily, if someone decides not to use a copylefted program because the license doesn't please him, that's his loss not ours.
+But if he rejects the Ogg/Vorbis code because of the license, and uses MP3 instead, then the problem rebounds on us—because his continued use of MP3 may help MP3 to become and stay entrenched."
+More examples:
+***LIST***.

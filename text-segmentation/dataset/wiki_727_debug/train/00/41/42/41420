@@ -1,0 +1,29 @@
+========,1,preface.
+In electronics, noise temperature is one way of expressing the level of available noise power introduced by a component or source.
+The power spectral density of the noise is expressed in terms of the temperature (in kelvins) that would produce that level of Johnson–Nyquist noise, thus:
+***LIST***.
+Thus the noise temperature is proportional to the power spectral density of the noise, ***formula***.
+That is the power that would be absorbed from the component or source by a matched load.
+Noise temperature is generally a function of frequency, unlike that of an ideal resistor which is simply equal to the actual temperature of the resistor at all frequencies.
+========,2,Noise voltage and current.
+A noisy component may be modelled as a noiseless component in series with a noisy voltage source producing a voltage of "v", or as a noiseless component in parallel with a noisy current source producing a current of "i".
+This equivalent voltage or current corresponds to the above power spectral density ***formula***, and would have a mean squared amplitude over a bandwidth "B" of:
+where "R" is the resistive part of the component's impedance or "G" is the conductance (real part) of the component's admittance.
+Speaking of noise temperature therefore offers a fair comparison between components having different impedances rather than specifying the noise voltage and qualifying that number by mentioning the component's resistance.
+It is also more accessible than speaking of the noise's power spectral density (in watts per hertz) since it is expressed as an ordinary temperature which can be compared to the noise level of an ideal resistor at room temperature (290 K).
+Note that one can only speak of the noise temperature of a component or source whose impedance has a substantial (and measurable) resistive component.
+Thus it doesn't make sense to talk about the noise temperature of a capacitor or of a voltage source.
+The noise temperature of an amplifier refers to the noise that would be added at the amplifier's "input" (relative to the input impedance of the amplifier) in order to account for the added noise observed following amplification.
+========,2,Noise figure.
+One use of noise temperature is in the definition of a system's noise factor or noise figure.
+The noise factor specifies the increase in noise power (referred to the input of an amplifier) due to a component or system when its input noise temperature is ***formula***.
+***LIST***.
+The noise factor (a linear term) is more often expressed as the "noise figure" (in decibels) using the conversion:
+The noise figure can also be seen as the decrease in signal to noise ratio (SNR) caused by passing a signal through a system if the original signal had a noise temperature of 290 K. This is a common way of expressing the noise contributed by a radio frequency amplifier regardless of the amplifier's gain.
+For instance, assume an amplifier has a noise temperature 870 K and thus a noise figure of 6 dB.
+If that amplifier is used to amplify a source having a noise temperature of about room temperature (290 K), as many sources do, then the insertion of that amplifier would reduce the SNR of a signal by 6 dB.
+This simple relationship is frequently applicable where the source's noise is of thermal origin since a passive transducer will often have a noise temperature similar to 290 K.
+However, in many cases the input source's noise temperature is much higher, such as an antenna at lower frequencies where atmospheric noise dominates.
+Then there will be little degradation of the SNR.
+On the other hand, a good satellite dish looking through the atmosphere into space (so that it sees a much lower noise temperature) would have the SNR of a signal degraded by "more" than 6 dB.
+In those cases a reference to the amplifier's noise temperature itself, rather than the noise figure defined according to room temperature, is more appropriate.

@@ -1,0 +1,43 @@
+========,1,preface.
+In computing, a Control key is a modifier key which, when pressed in conjunction with another key, performs a special operation (for example, ); similar to the Shift key, the Control key rarely performs any function when pressed by itself.
+The Control key is located on or near the bottom left side of most keyboards (in accordance with the international standard ISO/IEC 9995-2), with many featuring an additional one at the bottom right.
+It is usually labeled (rarely, or is seen) on keyboards which use English abbreviations for key labeling.
+Abbreviations in the language of the keyboard layout also are in use.
+e.g.
+the German layout uses as required by the German standard DIN 2137:2012-06.
+Also, there is a standardized keyboard symbol (to be used when Latin lettering is not preferred), given in ISO/IEC 9995-7 as symbol 26, and in ISO 7000 "“Graphical symbols for use on equipment”" as symbol ISO-7000-2028.
+This symbol is encoded in Unicode as U+2388 (⎈).
+========,2,History.
+On teletypewriters and early keyboards, holding down the Control key while pressing another key zeroed the leftmost two bits of the seven bits in the generated ASCII character.
+This allowed the operator to produce the first 32 characters in the ASCII table.
+These are non-printing characters that signal the computer to control where the next character will be placed on the display device, eject a printed page or erase the screen, ring the terminal bell, or some other operation.
+Aptly, these characters are also called "control characters".
+Using the key with either lowercase letters (e.g. )
+or uppercase letters () will generate the same ASCII code on a teletypewriter because holding down the control key grounds (zeros the voltage on) the two wires used to carry the leftmost two bits from the keyboard, ignoring their modification by the key.
+In modern computers, the interpretation of keypresses is generally left to the software.
+Modern keyboards distinguish each physical key from every other and report all keypresses and releases to the controlling software.
+This additional flexibility is not often taken advantage of and it usually does not matter, for example, whether the control key is pressed in conjunction with an upper or a lower case character.
+When the original purpose of the ASCII control characters became either obsolete or seldom used, later software appropriated the Control key combinations for other purposes.
+========,2,Location of the key.
+The keyboards of many early computer terminals, including the Teletype Model 33 ASR and Lear-Siegler ADM-3A, and early models of the IBM PC, positioned the Control key on the left of the keyboard, whereas caps lock resides in the same position on most modern keyboards.
+The traditional layout was preserved for later workstation systems and is often associated with Unix workstations.
+Keyboards from Sun Microsystems came in two layouts; "Unix" and "PC-style", with the Unix layout having the traditional placing of the Control key and other keys.
+The keyboards produced for One Laptop Per Child computers also have the Control key in this location.
+Other vendors produce keyboards for different computer systems with this placement of the Control key, such as the Happy Hacking Keyboard.
+Some users of keyboards with caps lock on the left remap the keys to exchange Control and caps lock, finding the traditional location more ergonomic for using programs benefiting from use of the Control key.
+Keyboard layout preferences specifically to address this need are available in some operating systems.
+Others leave the control key in the lower-left corner of the keyboard, and press it using the side of their palm.
+The choice of location for the control key often comes down to the typist's hand shape and posture.
+========,2,Notation.
+There are several common notations for pressing the Control key in conjunction with another key.
+Each notation below means press and hold while pressing the key:
+========,2,Similar concepts.
+Generally, the Command key, labeled with the ⌘ symbol on Apple Macintosh computers, performs the equivalent functions in classic Mac OS and macOS applications (for example, ⌘C copies, while ⌘P prints; the same holds for saving, cutting, and pasting).
+Macintoshes also have a Control key, but it has different functionality.
+The original Apple mouse design reduced complexity by only offering one button.
+As the interface developed, Contextual Menus were offered to access extra options.
+Another button was needed to access these.
+On Unix and Windows, the user had other mouse buttons to use.
+On Classic Mac OS and macOS, the Control key is used to invoke a "right-click".
+Apple calls this a "secondary click" as left-handers can choose which side this button is on.
+***LIST***.

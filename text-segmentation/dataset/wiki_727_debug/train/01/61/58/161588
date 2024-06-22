@@ -1,0 +1,75 @@
+========,1,preface.
+Theora is a free lossy video compression format.
+It is developed by the Xiph.Org Foundation and distributed without licensing fees alongside their other free and open media projects, including the Vorbis audio format and the Ogg container.
+The libtheora video codec is the reference implementation of the Theora video compression format being developed by the Xiph.Org Foundation.
+Theora is derived from the formerly proprietary VP3 codec, released into the public domain by On2 Technologies.
+It is broadly comparable in design and bitrate efficiency to MPEG-4 Part 2, early versions of Windows Media Video, and RealVideo while lacking some of the features present in some of these other codecs.
+It is comparable in open standards philosophy to the BBC's Dirac codec.
+Theora is named after Theora Jones, Edison Carter's Controller on the "Max Headroom" television program.
+========,2,Technical details.
+Theora is a variable-bitrate, DCT-based video compression scheme.
+Like most common video codecs, Theora also uses chroma subsampling, block-based motion compensation and an 8-by-8 DCT block.
+Pixels are grouped into various structures, namely blocks, super blocks, and macroblocks.
+Theora supports intra-coded frames and forward-predictive frames, but not bi-predictive frames which are found in H.264 and VC-1.
+Theora also does not support interlacing, or bit-depths larger than 8 bits per component.
+Theora video streams can be stored in any suitable container format, but they are most commonly found in the Ogg container with Vorbis or FLAC audio streams.
+This combination provides a completely open, royalty-free multimedia format.
+It can also be used with the Matroska container.
+The Theora video-compression format is essentially compatible with the VP3 video-compression format, consisting of a backward-compatible superset.
+Theora is a superset of VP3, and VP3 streams (with some minor syntactic modifications) can be converted into Theora streams without recompression (but not vice versa).
+VP3 video compression can be decoded using Theora implementations, but Theora video compression usually cannot be decoded using old VP3 implementations.
+========,2,History.
+Theora's predecessor "On2 TrueMotion VP3" was originally a proprietary and patent-encumbered video codec developed by On2 Technologies.
+VP3.1 was introduced in May 2000 and followed three months later by the VP3.2 release, which is the basis for Theora.
+========,3,Move to free software.
+In August 2001, On2 Technologies announced that they would be releasing an open source version of their VP3.2 video compression algorithm.
+In September 2001, On2 Technologies published the source code of the VP3.2 codec under the VP3.2 Public License 0.1, a custom open-source license.
+The license only granted the right to modify the source code if the resulting larger work continued to support playback of VP3.2 data.
+In March 2002, On2 responded to the public's reception by relicensing the VP3 codec under the GNU Lesser General Public License.
+In June 2002, On2 donated VP3 to the Xiph.Org Foundation and offered it under the Ogg Vorbis BSD-style license.
+On2 also made an irrevocable, royalty-free license grant for any patent claims it might have over the software and any derivatives, allowing anyone to use any VP3-derived codec for any purpose.
+In August 2002, On2 entered into an agreement with the Xiph.Org Foundation to make VP3 the basis of a new, free video codec, called Theora.
+On2 declared Theora to be VP3's successor.
+On 3 October 2002, On2 and Xiph announced the completion and availability of the initial alpha code release of "libtheora", Theora's reference implementation.
+There is no formal specification for VP3's bitstream format beyond the VP3 source code published by On2 Technologies.
+In 2003, Mike Melanson created an incomplete description of the VP3 bitstream format and decoding process at a higher level than source code, with some help from On2 and Xiph.Org Foundation.
+The Theora specification adopted some portions of this VP3 description.
+Project Daala is working on the successor to Theora.
+========,3,Theora I specification.
+The Theora I bitstream format was frozen in June 2004 after the libtheora 1.0alpha3 release.
+Videos encoded with any version of the libtheora since the alpha3 will be compatible with any future player.
+This is also true for videos encoded with any implementation of the Theora I specification since the format freeze.
+The "Theora I Specification" was completely published in 2004.
+Any later changes in the specification are minor updates.
+The Theora reference implementation libtheora spent several years in alpha and beta status.
+The first alpha version was released on 25 September 2002 and the first beta version was released on 22 September 2007.
+The first stable release of libtheora was made in November 2008.
+Work then focused on improving the codec's performance in the "Thusnelda" branch, which was released as version 1.1 in September 2009 as the second stable libtheora release.
+This release brought some technical improvements and new features, such as the new rate control module and the two-pass rate control.
+The codename for the next version of libtheora is "Ptalarbvorm".
+Theora is well established as a video format in open source applications, and is the format used for Wikipedia's video content.
+However, the proposed adoption of Theora as part of the baseline video support in HTML5 resulted in controversy.
+========,2,Performance.
+========,3,Encoding performance.
+Evaluations of the VP3 and early Theora encoders found that their subjective visual quality was inferior to that of contemporary video codecs.
+More recently however, Xiph developers have compared the 1.1 Theora encoder to YouTube's H.264 and H.263+ encoders, in response to concerns raised in 2009 about Theora's inferior performance by Chris DiBona, a Google employee.
+They found the results from Theora to be nearly the same as YouTube's H.264 output, and much better than the H.263+ output.
+The performance characteristics of the Theora 1.0 reference implementation are dominated mostly by implementation problems inherited from the original VP3 code base.
+Work leading up to the 1.1 stable release was focused on improving on or eliminating these.
+A May 2009 review of this work shows a considerable improvement in quality, both subjectively and as measured by PSNR, just by improving the forward DCT and quantisation matrices.
+A flaw in the version of FFmpeg used in the test initially led to incorrect reports of Theora PSNR surpassing that of H.264.
+Although not achieving this goal, the improvement in the measured PSNR and the perceived quality is considerable.
+In any case, the differences in quality, bitrate and file size between a YouTube H.264 video and a transcoded Ogg video file are negligible.
+Further work on adaptive quantization, as well as overall detailed subjective tuning of the codec, is still to come.
+========,3,Playback performance.
+There is an open source VHDL code base for a hardware Theora decoder in development.
+It began as a 2006 Google Summer of Code project, and it has been developed on both the Nios II and LEON processors.
+However, there are currently no Theora decoder chips in production, and portable media players, smartphones and similar devices with limited computing power rely on such chips to provide efficient playback.
+But since decoding Theora is less CPU intensive than decoding H.264, the need for hardware-accelerated Theora decoding may be somewhat less.
+========,2,Encoding.
+There are several third-party programs that support encoding through libtheora:
+The libtheora library contains the reference implementation of the Theora specification for encoding and decoding.
+libtheora is still under development by the Xiph.Org Foundation.
+The library is released under the terms of a BSD-style license.
+Also, several media frameworks have support for Theora.
+***LIST***.

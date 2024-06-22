@@ -1,0 +1,31 @@
+========,1,preface.
+Microbotics (or microrobotics) is the field of miniature robotics, in particular mobile robots with characteristic dimensions less than 1 mm.
+The term can also be used for robots capable of handling micrometer size components.
+========,2,History.
+Microbots were born thanks to the appearance of the microcontroller in the last decade of the 20th century, and the appearance of miniature mechanical systems on silicon (MEMS), although many microbots do not use silicon for mechanical components other than sensors.
+The earliest research and conceptual design of such small robots was conducted in the early 1970s in (then) classified research for U.S. intelligence agencies.
+Applications envisioned at that time included prisoner of war rescue assistance and electronic intercept missions.
+The underlying miniaturization support technologies were not fully developed at that time, so that progress in prototype development was not immediately forthcoming from this early set of calculations and concept design.
+As of 2008, the smallest microrobots use a Scratch Drive Actuator.
+The development of wireless connections, especially Wi-Fi (i.e.
+in domotic networks) has greatly increased the communication capacity of microbots, and consequently their ability to coordinate with other microbots to carry out more complex tasks.
+Indeed, much recent research has focused on microbot communication, including a 1,024 robot swarm at Harvard University that assembles itself into various shapes; and manufacturing microbots at SRI International for DARPA's "MicroFactory for Macro Products" program that can build lightweight, high-strength structures.
+========,2,Design considerations.
+While the 'micro' prefix has been used subjectively to mean small, standardizing on length scales avoids confusion.
+Thus a nanorobot would have characteristic dimensions at or below 1 micrometer, or manipulate components on the 1 to 1000 nm size range.
+A microrobot would have characteristic dimensions less than 1 millimeter, a millirobot would have dimensions less than a cm, a minirobot would have dimensions less than , and a small robot would have dimensions less than .
+Due to their small size, microbots are potentially very cheap, and could be used in large numbers (swarm robotics) to explore environments which are too small or too dangerous for people or larger robots.
+It is expected that microbots will be useful in applications such as looking for survivors in collapsed buildings after an earthquake, or crawling through the digestive tract.
+What microbots lack in brawn or computational power, they can make up for by using large numbers, as in swarms of microbots.
+The way microrobots move around is a function of their purpose and necessary size.
+At submicron sizes, the physical world demands rather bizarre ways of getting around.
+The Reynolds number for airborne robots is close to unity; the viscous forces dominate the inertial forces, so “flying” could use the viscosity of air, rather than Bernoulli's principle of lift.
+Robots moving through fluids may require rotating flagella like the motile form of E. coli.
+Hopping is stealthy and energy-efficient; it allows the robot to negotiate the surfaces of a variety of terrains.
+Pioneering calculations (Solem 1994) examined possible behaviours based on physical realities.
+One of the major challenges in developing a microrobot is to achieve motion using a very limited power supply.
+The microrobots can use a small lightweight battery source like a coin cell or can scavenge power from the surrounding environment in the form of vibration or light energy.
+Microrobots are also now using biological motors as power sources, such as flagellated "Serratia marcescens", to draw chemical power from the surrounding fluid to actuate the robotic device.
+These biorobots can be directly controlled by stimuli such as chemotaxis or galvanotaxis with several control schemes available.
+A popular alternative to an on-board battery is to power the robots using externally induced power.
+Examples include the use of electromagnetic fields, ultrasound and light to activate and control micro robots.

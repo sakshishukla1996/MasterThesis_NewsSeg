@@ -1,0 +1,19 @@
+========,1,preface.
+In computing, the Java API for XML Processing, or JAXP ( ), one of the Java XML Application programming interfaces (API)s, provides the capability of validating and parsing XML documents.
+It has three basic parsing interfaces:
+***LIST***.
+In addition to the parsing interfaces, the API provides an XSLT interface to provide data and structural transformations on an XML document.
+JAXP was developed under the Java Community Process as JSR 5 (JAXP 1.0), JSR 63 (JAXP 1.1 and 1.2), and JSR 206 (JAXP 1.3).
+JAXP version 1.4.4 was released on September 3, 2010.
+JAXP 1.3 was end-of-lifed on February 12, 2008.
+========,2,StAX interface.
+StAX was designed as a median between the DOM and SAX interface.
+In its metaphor, the programmatic entry point is a cursor that represents a point within the document.
+The application moves the cursor forward - 'pulling' the information from the parser as it needs.
+This is different from an event based API - such as SAX - which 'pushes' data to the application - requiring the application to maintain state between events as necessary to keep track of location within the document.
+========,2,XSLT interface.
+========,3,Example.
+The most primitive but complete example of XSLT transformation launching may look like this:
+It applies the following hardcoded XSLT transformation:
+To the following hardcoded XML document:
+The result of execution will be

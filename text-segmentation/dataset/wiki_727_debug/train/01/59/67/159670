@@ -1,0 +1,111 @@
+========,1,preface.
+Adenosine monophosphate deaminase deficiency type 1, also called myoadenylate deaminase deficiency (MADD), is a recessive genetic metabolic disorder that affects approximately 1–2% of populations of European descent.
+It appears to be considerably rarer in Asian populations.
+The genetic form is caused by a defect in the gene for AMP deaminase though there is also an acquired form of AMP deficiency.
+========,2,Causes.
+AMP deaminase is an enzyme that converts adenosine monophosphate (AMP) to inosine monophosphate (IMP), freeing an ammonia molecule in the process.
+It is a part of the metabolic process that converts sugar, fat, and protein into cellular energy.
+In order to use energy, a cell converts one of the above fuels into adenosine triphosphate (ATP) via the mitochondria.
+Cellular processes, especially muscles, then convert the ATP into adenosine diphosphate (ADP), freeing the energy to do work.
+During heavy or prolonged mild to moderate activity, other enzymes convert two molecules of ADP into one ATP molecule and one AMP molecule, making more ATP available to supply energy.
+AMP is normally converted into IMP by myoadenylate deaminase—so myoadenylate deaminase deficiency reduces energy that would be available to the cell through the purine nucleotide cycle.
+Instead of being converted to IMP, the AMP builds up in the cells of affected individuals, spills into the blood, and is eventually metabolized in the liver.
+In persons with a defective enzyme, 5'-nucleotidase removes the ribose and phosphorus from AMP, increasing levels of adenosine measured in muscle cells by ~16–25×, after exercise.
+========,2,Effects of failure to deaminate the AMP molecules.
+This failure to deaminate the AMP molecules has three major effects.
+First, significant amounts of AMP are lost from the cell and the body.
+Second, ammonia is not freed when the cell does work.
+Third, the level of IMP in the cell is not maintained.
+***LIST***.
+The following is a very simplified model of what may be going on inside a muscle cell with AMPD deficiency.
+There are two major semi-stable states: one with intra-cellular glycogen available, and one with glycogen exhausted.
+Both states are modified by how much the citric acid cycle is down-regulated by default.
+Start from the state where glycogen is available and the citric acid cycle is severely down-regulated.
+Once the cell has received a non-trivial load, and has expended the phosphocreatine reserve, a small quantity of ATP will become discharged down to AMP.
+AMP will instantly up-regulate myophosphorylase, which will start liberating glucose from glycogen and make it available to the glycolytic pathway, producing pyruvate and recharging AMP back to ATP.
+Due to the greater availability of pyruvate as a substrate, and pyruvate also contributing a citric acid cycle intermediate, α-ketoglutarate, while consuming glutamate, the citric acid cycle will also speed up.
+The combination of glycolysis and the citric acid cycle now balances ATP production with ATP demand and the pool of AMP does not grow further.
+Because all pyruvate is not burned down in the citric acid cycle, the excess is converted to lactate and passed into blood as lactic acid.
+In muscle cells with normal AMPD activity, the purine nucleotide cycle would now start to gradually add fumarate to the pool of the citric acid cycle intermediates.
+This would decrease the excess rate of pyruvate production by increasing its consumption, increase the rate of AMP recharge to ATP by the citric acid cycle, and consequently reduce liberation of glucose from glycogen, until increased supply of blood-borne fuels allows to shut down glycogenolysis completely.
+In muscle cells with AMPD deficiency, ATP production rate of the citric acid cycle will not be synchronized with ATP demand.
+It was demonstrated, that muscle cells, that lack AMPD1, stock and consume significantly more glutamate, and produce more alanine in this state, compared to healthy controls, which indicates occurrence of a higher concentration of pyruvate in the cell during exercise.
+The pool of AMP also grows bigger than in the controls, which would cause higher rate of glucose liberation from glycogen.
+This state can last for as long as glycogen is available, and can be prolonged by constantly eating carbohydrate-rich food.
+If the load on muscles is greater than the body's ability to recycle lactate back into glucose, lactate will start to build up in the blood.
+Once lactate reaches its renal re-absorption threshold (5–6 mmol/l in general population), it gets lost to urine, wasting many calories (and producing bright matte yellow particles on surfaces where urine dries).
+At about the same time the kidney will also start correcting blood acidity by acidifying urine.
+Overly acidic urine causes irritation that feels like a frequent urge to urinate (with little volume) and a "hot" urine.
+In order to excrete lactate, kidney must also excrete magnesium as an obligatory cation, which may lead to acute and chronic magnesium deficiency.
+Supplementary magnesium in the form of lactate or citrate may be rapidly lost in the same way.
+Because magnesium is essential to aerobic metabolism, over time, magnesium loss may lead to a vicious cycle, where the citric acid cycle is further down-regulated, lactate production is increased, and magnesium loss is increased again.
+Although probably unrelated to AMPD deficiency, if the person happens to have a high load of d-lactate in the blood (mostly from food and colonic fermentation), the precipitate, the lactate loss and the magnesium loss may occur even before l-lactate (mostly from muscles) reaches its renal re-absorption threshold.
+This happens because l-lactate and d-lactate compete with each other for renal re-absorption, and because d-lactate has a significantly lower renal re-absorption threshold, <1 mmol/l.
+In order to keep the excreted metabolites in solution, the kidney also has to excrete water.
+This is in contrast to complete oxidation of lactic acid, which would actually yield metabolic water for the body.
+This may lead to onset of acute thirst some tens of minutes into exercise in this state, if the water balance in the body was neutral initially.
+If the muscle load is small, lactate is mostly recycled back into glucose or burned by other cells in the body.
+However the newly generated glucose is made available to all cells in the body, not just to muscle cells.
+The ability of the body to assimilate lactate may also be diminished, if working muscle cells cannot take up glucose from blood, due to myophosphorylase maintaining a higher concentration of it inside loaded cells, and if liver has already filled its glycogen stores up to capacity.
+So, ultimately, in this state, working muscle cells are destined to lose all glycogen.
+AMP breakdown to adenosine in this state is minor, because the pool of AMP is kept small by the vigorous regulatory action of myophosphorylase.
+Maximum continuous exertion is limited by the onset of burning sensation from lactate accumulation in muscles.
+Eventually, all glycogen is exhausted, and the muscle cell enters another semi-stable state.
+During this transition, up-regulation of the citric acid cycle due to abundance of pyruvate is reversed, and a substantial part of the ATP pool is necessarily discharged down to AMP, which allows the citric acid cycle to be sped up by some other mechanism (perhaps by the allosteric mechanism that reacts to the lower concentration of ATP, or by amplification of the residual AMPD activity by the bloated AMP pool), until ATP production is balanced with ATP consumption.
+AMP conversion to adenosine, excretion to the blood (as AMP and its various metabolites), further conversion to uric acid and excretion to urine becomes significant for some time, until all AMP is eliminated from the muscle cell.
+The muscle movements become noticeably less precise.
+Breathing slows down.
+It becomes hard to rapidly increase the load on a muscle, as in McArdle's disease, and such a rapid load increase will dump even more purines into blood and urine (looking like translucent or rust-colored sharp shiny crystals and being highly irritating).
+The same situation would occur if blood flow to muscle cells becomes insufficient (except that somewhat less AMP is spilled over, and somewhat more of it is metabolized inside the muscle cell).
+On the other hand, there will be no lasting muscle pain from lactate, and continuous aerobic activity is possible.
+Oxidation of odd-numbered saturated fatty acids may provide another mechanism, although very gradual, to up-regulate citric acid cycle during exercise.
+As the short-term regulation of ATP production becomes very weak after the exhaustion of glycogen, the medium-term regulation becomes enabled, but with a progressively weaker authority at higher purine nucleotide energy charge levels, which causes some differences in symptoms compared to McArdle's.
+In McArdle's, the highly active AMP deaminase, which additionally experiences amplification from the bloated AMP pool due to the lack of the moderating effect of myophosphorylase, is able to produce a readily observable "second wind" phenomenon almost exactly 7 minutes after a significant load increment.
+In AMPD deficiency, glycogen-less muscles will feel mostly the same by the time they become able to take another load increment.
+A load decrement may produce some sense of relief, though, if the pool of the citric acid cycle intermediates built up so far is sufficient to maintain full purine nucleotide energy charge at the lower load.
+It is unclear, what, if anything, does it take to unknowingly trigger rhabdomyolysis at this point, assuming the muscle cell is otherwise healthy.
+Adenosine production and lack of ammonia overproduction seem to strongly suppress rhabdomyolysis down to the purine nucleotide energy charge level, where the cell is able to signal pain, or where individual muscle fibers start cramping (fail to relax from contraction in sync with the rest of the muscle), or the whole muscle fails to contract (when walking quickly downhill), allowing the person to appropriately modulate the exertion.
+Most of the AMP probably spills into blood unchanged, and is gradually returned to the muscle cell, if its concentration there falls due to gradual recharge to ATP.
+The blood thus plays a role of a big AMP buffer.
+Idle muscles may also take up some free AMP.
+The spillover also limits, how much the residual AMPD activity can be amplified in this state.
+Thus, it may take the residual AMPD activity less time to build up citric acid cycle intermediates, when the whole body is warmed up for an exercise at the same time, rather than a specific group of muscles needed in the exercise.
+In case of leg muscles, where circulation is substantially dependent on their cyclical contraction when the body is upright, a small but useful degree of initial up-regulation of the citric acid cycle may be achieved just by standing still for a few minutes.
+It is most useful when a long period of rest, or sitting in a vehicle, must be followed by brisk walking.
+Some seldom used but strong voluntary muscles, such as those involved in "pushing" during the act of defecation, are not tuned for aerobic mode, and may dump plenty of purines during their short work routine, if it happens in this state.
+If a food containing even small but perceivable amount of sugar (simple sugars or disaccharides that can be tasted sweet, or starch that is at least minimally hydrolyzed by salivary amylase, or even some non-sugar sweeteners) is eaten in this state, there may be a period of time after it enters stomach and before bulk absorption occurs, when continuous exercise becomes very hard, and easily triggers rhabdomyolysis.
+It probably happens because the digestive system senses and signals forthcoming delivery of sugars, inhibiting fatty acid release and oxidation, and starving glycogen-less muscle cells of the sole available source of energy.
+Even simple continuous exercise, like walking or washing dishes by hand right after the meal, may trigger rhabdomyolysis in the exercising muscles.
+This rhabdomyolysis is probably not of exertional, but of hypoglycemic nature, as loaded glycogen-less muscles can rapidly remove glucose from blood, and the normal mechanism of glucose homeostasis lacks the required responsiveness or capacity to prevent hypoglycemia.
+The broken down myocytes probably do not yield much glucose.
+Unlike the case with exertional rhabdomyolisys, there is no warning.
+At rest, however, the liver will effortlessly cover the whole body energy needs until absorption of carbohydrates occurs.
+If a large group of muscles is still actively drawing fuels from blood after the most recent continuous exercise, in order to replenish the ATP and the phosphocreatine reserve, it may become sour without any additional exercise by the time the carbohydrate meal is finished.
+If the carbohydrate meal consists of a food (which doesn't need to be carbohydrate itself), that requires prolonged vigorous chewing, and then some time to be digested, for instance parboiled long grain rice, chewing may suddenly become very slow and difficult halfway through the meal.
+When a carbohydrate-rich food has been eaten before AMP has been eliminated from muscle cells, when bulk absorption starts, plenty of glucose becomes available in the blood, is taken up by muscle cells, is added to the glycogen store, but then immediately becomes liberated by the still up-regulated myophosphorylase.
+The resulting excess of glucose is metabolized down to lactic acid (the body cannot increase aerobic metabolism in an instant), recharging all AMP to ATP.
+The lactate is dumped back into blood and urine.
+The higher the glycemic index of the food is, the greater proportion of carbohydrates (and calories) is wasted into urine.
+If the person is at rest at this moment, and pays attention, a sudden increase in the breathing frequency due to lactate dumping is readily observable.
+If the rise in the blood lactate is particularly sharp, and the person happened to be breathing slowly, a heart palpitation may sometimes be observable.
+The lactic acidosis with palpitation may also occur during sleep, if stomach emptying has been delayed e.g.
+due to digestion requirements of the food or its high volume, and the person went to sleep before absorption has started.
+In this case the person will be awaken in a state of distress, with rapid breathing.
+The person may recall seeing a nightmare.
+Delayed stomach emptying creates especially favorable conditions for the shock lactic acidosis, because the digestive system may meanwhile still inhibit fatty acid release and oxidation, helping more muscles to run out of glycogen in those persons, who are otherwise still able to maintain its stores between meals.
+It has been experimentally demonstrated, that delayed gastric emptying prolongs the duration of the GLP-1 signal.
+Notably, a small quantity of dietary fructose does not produce this effect (the lactic acidosis), as it is captured by liver and may be fully expended for replenishing liver glycogen.
+Once all AMP has been recharged to ATP, and glycogen stores allowed to replenish, the cell transitions back to the unmodified original state.
+If carbohydrate-rich food is not consumed in this state, AMP elimination from the cell eventually completes, glycogen stores can be replenished again, and the cell transitions back to the original state but with reduced ATP pool and an up-regulated citric acid cycle.
+========,2,Treatment.
+It is important for MADD patients to maintain strength and fitness without exercising or working to exhaustion.
+Learning this balance may be more difficult than normally, as muscle pain and fatigue may be perceived differently from normal individuals.
+Symptomatic relief from the effects of MADD may sometimes be achieved by administering ribose orally at a dose of approximately 10 grams per 100 pounds (0.2 g/kg) of body weight per day, and exercise modulation as appropriate.
+Taken hourly, ribose provides a direct but limited source of energy for the cells.
+Patients with myoadenylate deaminase deficiency do not retain ribose during heavy exercise, so supplementation may be required to rebuild levels of ATP.
+Creatine monohydrate could also be helpful for AMPD patients, as it provides an alternative source of energy for anaerobic muscle tissue and was found to be helpful in the treatment of other, unrelated muscular myopathies.
+========,2,Potential complications.
+There is an increased risk that statin (cholesterol-reducing drugs) will cause myopathy (muscle weakness) in individuals with MADD.
+Anesthesia has the potential to cause malignant hyperthermia, an uncontrolled increase in body temperature, and permanent muscle damage in patients with MADD.
+Individuals with MADD are advised to notify their anesthesiologist about their condition prior to surgery.
+In most cases where myopathy is present with MADD, a second muscle disease is present and symptoms are worse than either disease in isolation.

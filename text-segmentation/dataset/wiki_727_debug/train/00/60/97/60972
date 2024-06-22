@@ -1,0 +1,57 @@
+========,1,preface.
+SAX (Simple API for XML) is an event-driven online algorithm for parsing XML documents, with an API developed by the XML-DEV mailing list.
+SAX provides a mechanism for reading data from an XML document that is an alternative to that provided by the Document Object Model (DOM).
+Where the DOM operates on the document as a whole, i.e.
+building the full AST of XML document for convenience of the user, SAX parsers operate on each piece of the XML document sequentially, issuing parsing events while making single pass through the input stream.
+========,2,Definition.
+Unlike DOM, there is no "formal" specification for SAX.
+The Java implementation of SAX is considered to be normative.
+SAX processes documents state-independently, in contrast to DOM which is used for state-dependent processing of XML documents.
+========,2,Benefits.
+A SAX parser only needs to report each parsing event as it happens, and normally discards almost all of that information once reported (it does, however, keep some things, for example a list of all elements that have not been closed yet, in order to catch later errors such as end-tags in the wrong order).
+Thus, the minimum memory required for a SAX parser is proportional to the maximum depth of the XML file (i.e., of the XML tree) and the maximum data involved in a single XML event (such as the name and attributes of a single start-tag, or the content of a processing instruction, etc.).
+This much memory is usually considered negligible.
+A DOM parser, in contrast, has to build a tree representation of the entire document in memory to begin with, thus using memory that increases with the entire document length.
+This takes considerable time and space for large documents (memory allocation and data-structure construction take time).
+The compensating advantage, of course, is that once loaded "any" part of the document can be accessed in any order.
+Because of the event-driven nature of SAX, processing documents is generally far faster than DOM-style parsers, "so long as" the processing can be done in a start-to-end pass.
+Many tasks, such as indexing, conversion to other formats, very simple formatting, and the like, can be done that way.
+Other tasks, such as sorting, rearranging sections, getting from a link to its target, looking up information on one element to help process a later one, and the like, require accessing the document structure in complex orders and will be much faster with DOM than with multiple SAX passes.
+Some implementations do not neatly fit either category: a DOM approach can keep its persistent data on disk, cleverly organized for speed (editors such as SoftQuad Author/Editor and large-document browser/indexers such as DynaText do this); while a SAX approach can cleverly cache information for later use (any validating SAX parser keeps more information than described above).
+Such implementations blur the DOM/SAX tradeoffs, but are often very effective in practice.
+Due to the nature of DOM, streamed reading from disk requires techniques such as lazy evaluation, caches, virtual memory, persistent data structures, or other techniques (one such technique is disclosed in ).
+Processing XML documents larger than main memory is sometimes thought impossible because some DOM parsers do not allow it.
+However, it is no less possible than sorting a dataset larger than main memory using disk space as memory to sidestep this limitation.
+========,2,Drawbacks.
+The event-driven model of SAX is useful for XML parsing, but it does have certain drawbacks.
+Virtually any kind of XML validation requires access to the document in full.
+The most trivial example is that an attribute declared in the DTD to be of type IDREF, requires that there be an element in the document that uses the same value for an ID attribute.
+To validate this in a SAX parser, one must keep track of all ID attributes (any one of them "might" end up being referenced by an IDREF attribute at the very end); as well as every IDREF attribute until it is resolved.
+Similarly, to validate that each element has an acceptable sequence of child elements, information about what child elements have been seen for each parent, must be kept until the parent closes.
+Additionally, some kinds of XML processing simply require having access to the entire document.
+XSLT and XPath, for example, need to be able to access any node at any time in the parsed XML tree.
+Editors and browsers likewise need to be able to display, modify, and perhaps re-validate at any time.
+While a SAX parser may well be used to construct such a tree initially, SAX provides no help for such processing as a whole.
+========,2,XML processing with SAX.
+A parser that implements SAX (i.e., "a SAX Parser") functions as a stream parser, with an event-driven API.
+The user defines a number of callback methods that will be called when events occur during parsing.
+The SAX events include (among others):
+***LIST***.
+Some events correspond to XML objects that are easily returned all at once, such as comments.
+However, XML "elements" can contain many other XML objects, and so SAX represents them as does XML itself: by one event at the beginning, and another at the end.
+Properly speaking, the SAX interface does not deal in "elements", but in "events" that largely correspond to "tags".
+SAX parsing is unidirectional; previously parsed data cannot be re-read without starting the parsing operation again.
+There are many SAX-like implementations in existence.
+In practice, details vary, but the overall model is the same.
+For example, XML attributes are typically provided as name and value arguments passed to element events, but can also be provided as separate events, or via a hash or similar collection of all the attributes.
+For another, some implementations provide "Init" and "Fin" callbacks for the very start and end of parsing; others don't.
+The exact names for given event types also vary slightly between implementations.
+========,2,Example.
+Given the following XML document:
+This XML document, when passed through a SAX parser, will generate a sequence of events like the following:
+***LIST***.
+Note that the first line of the sample above is the XML Declaration and not a processing instruction; as such it will not be reported as a processing instruction event (although some SAX implementations provide a separate event just for the XML declaration).
+The result above may vary: the SAX specification deliberately states that a given section of text may be reported as multiple sequential text events.
+Many parsers, for example, return separate text events for numeric character references.
+Thus in the example above, a SAX parser may generate a different series of events, part of which might include:
+***LIST***.

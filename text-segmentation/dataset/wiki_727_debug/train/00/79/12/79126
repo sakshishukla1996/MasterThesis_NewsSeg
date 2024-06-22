@@ -1,0 +1,58 @@
+========,1,preface.
+Louis de Branges de Bourcia (born August 21, 1932) is a French-American mathematician.
+He is the Edward C. Elliott Distinguished Professor of Mathematics at Purdue University in West Lafayette, Indiana.
+He is best known for proving the long-standing Bieberbach conjecture in 1984, now called de Branges's theorem.
+He claims to have proved several important conjectures in mathematics, including the generalized Riemann hypothesis (GRH).
+Born to American parents who lived in Paris, de Branges moved to the U.S. in 1941 with his mother and sisters.
+His native language is French.
+He did his undergraduate studies at the Massachusetts Institute of Technology (1949–53), and received a PhD in mathematics from Cornell University (1953–7).
+His advisors were Wolfgang Fuchs and then-future Purdue colleague Harry Pollard.
+He spent two years (1959–60) at the Institute for Advanced Study and another two (1961–2) at the Courant Institute of Mathematical Sciences.
+He was appointed to Purdue in 1962.
+An analyst, de Branges has made incursions into real, functional, complex, harmonic (Fourier) and Diophantine analyses.
+As far as particular techniques and approaches are concerned, he is an expert in spectral and operator theories.
+========,2,Work.
+De Branges' proof of the Bieberbach conjecture was not initially accepted by the mathematical community.
+Rumors of his proof began to circulate in March 1984, but many mathematicians were skeptical because de Branges had earlier announced some false results, including a claimed proof of the invariant subspace conjecture in 1964 (incidentally, in December 2008 he published a new claimed proof for this conjecture on his website).
+It took verification by a team of mathematicians at Steklov Institute of Mathematics in Leningrad to validate de Branges' proof, a process that took several months and led later to significant simplification of the main argument.
+The original proof uses hypergeometric functions and innovative tools from the theory of Hilbert spaces of entire functions, largely developed by de Branges.
+Actually, the correctness of the Bieberbach conjecture was only the most important consequence of de Branges' proof, which covers a more general problem, the Milin conjecture.
+In June 2004 de Branges announced he had a proof of the Riemann hypothesis (RH; often called the greatest unsolved problem in mathematics) and published the 124-page proof on his website.
+That original preprint suffered a number of revisions until it was replaced in December 2007 by a much more ambitious claim, which he had been developing for one year in the form of a parallel manuscript.
+Since that time he has released evolving versions of two purported generalizations, following independent but complementary approaches, of his original argument.
+In the shortest of them (43 pages as of 2009), which he titles "Apology for the Proof of the Riemann Hypothesis" (using the word "apology" in the rarely used sense of apologia), he claims to use his tools on the theory of Hilbert spaces of entire functions to prove the Riemann Hypothesis for Dirichlet L-functions (thus proving GRH) and a similar statement for the Euler zeta function, and even to be able to assert that zeros are simple.
+In the other one (57 pages), he claims to modify his earlier approach on the subject by means of spectral theory and harmonic analysis to obtain a proof of RH for Hecke L-functions, a group even more general than Dirichlet L-functions (which would imply an even more powerful result if his claim was shown to be correct).
+As of January 2016, his paper entitled "A proof of the Riemann Hypothesis" is 74 pages long, but does not conclude with a proof of the Riemann Hypothesis.
+A commentary on his attempt is available on the Internet.
+Mathematicians remain skeptical, and neither proof has been subjected to a serious analysis.
+The main objection to his approach comes from a 1998 paper (published two years later) authored by Brian Conrey and Xian-Jin Li, one of de Branges' former Ph.D. students and discoverer of Li's criterion, a notable equivalent statement of RH.
+Peter Sarnak also gave contributions to the central argument.
+The paper which, contrarily to de Branges' claimed proof, was peer-reviewed and published in a scientific journal gives numerical counterexamples and non-numerical counterclaims to some positivity conditions concerning Hilbert spaces which would, according to previous demonstrations by de Branges, imply the correctness of RH.
+Specifically, the authors proved that the positivity required of an analytic function "F"("z") which de Branges would use to construct his proof would also force it to assume certain inequalities that, according to them, the functions actually relevant to a proof do not satisfy.
+As their paper predates the current purported proof by five years, and refers to work published in peer-reviewed journals by de Branges between 1986 and 1994, it remains to be seen whether de Branges has managed to circumvent their objections.
+He does not cite their paper in his preprints, but both of them cite a 1986 paper of his that was attacked by Li and Conrey.
+Journalist Karl Sabbagh, who in 2003 had written a book on the Riemann Hypothesis centered on de Branges, quoted Conrey as saying in 2005 that he still believed de Branges' approach was inadequate to tackling the conjecture, even though he acknowledged that it is a beautiful theory in many other ways.
+He gave no indication he had actually read the then current version of the purported proof (see reference 1).
+In a 2003 technical comment, Conrey states he does not believe RH is going to yield to functional analysis tools.
+De Branges, incidentally, also claims that his new proof represents a simplification of the arguments present in the removed paper on the classical RH, and insists that number theorists will have no trouble checking it.
+It must be stressed that Li and Conrey do not assert that de Branges' mathematics are wrong, only that the conclusions he drew from them in his original papers are, and that his tools are therefore inadequate to address the problems in question.
+Somewhat ironically, Li himself released a purported proof of the Riemann Hypothesis in the arXiv in July 2008.
+It was retracted a few days later, after several mainstream mathematicians exposed a crucial flaw, in a display of interest that his former advisor's claimed proofs have apparently not enjoyed so far.
+Meanwhile, the Apology has become a diary of sorts, in which he also discusses the historical context of the Riemann Hypothesis, and how his personal story is intertwined with the proofs.
+He signs his papers and preprints as "Louis de Branges", and is always cited this way.
+However, he does seem interested in his de Bourcia ancestors, and discusses the origins of both families in the Apology.
+The particular analysis tools he has developed, although largely successful in tackling the Bieberbach conjecture, have been mastered by only a handful of other mathematicians (many of whom have studied under de Branges).
+This poses another difficulty to verification of his current work, which is largely self-contained: most research papers de Branges chose to cite in his purported proof of RH were written by himself over a period of forty years.
+During most of his working life, he published articles as the sole author.
+The Riemann Hypothesis, although not so popular among pseudomathematicians (it is not easily formulated), is one of the deepest problems in all of mathematics.
+It ranks among one of the six unsolved Millennium Prize Problems.
+A simple search in the arXiv will yield several claims of proofs, some of them by mathematicians working at academic institutions, that remain unverified and are usually dismissed by mainstream scholars.
+A few of those have even cited de Branges' preprints in their references, which means that his work has not gone completely unnoticed.
+This shows that de Branges' apparent estrangement is not an isolated case, but he is probably the most renowned professional to have a current unverified claim.
+Two named concepts arose out of de Branges' work.
+An entire function satisfying a particular inequality is called a de Branges function.
+Given a de Branges function, the set of all entire functions satisfying a particular relationship to that function, is called a de Branges space.
+He has released another preprint in his site that claims to solve a measure problem due to Stefan Banach.
+========,2,Awards and honors.
+In 1989 he was the first recipient of the Ostrowski Prize and in 1994 he was awarded the Leroy P. Steele Prize for Seminal Contribution to Research.
+In 2012 he became a fellow of the American Mathematical Society.

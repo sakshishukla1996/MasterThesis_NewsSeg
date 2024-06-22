@@ -1,0 +1,40 @@
+========,1,preface.
+The unified atomic mass unit (symbol: u) or dalton (symbol: Da) is a standard unit of mass that quantifies mass on an atomic or molecular scale (atomic mass).
+One unified atomic mass unit is approximately the mass of one nucleon (either a single proton or neutron) and is numerically equivalent to 1g/mol.
+It is defined as one twelfth of the mass of an unbound neutral atom of carbon-12 in its nuclear and electronic ground state and at rest, and has a value of , or approximately 1.66 yoctograms.
+The CIPM has categorised it as a non-SI unit accepted for use with the SI, and whose value in SI units must be obtained experimentally.
+The amu without the "unified" prefix is technically an obsolete unit based on oxygen, which was replaced in 1961.
+However, many sources still use the term "amu" but now define it in the same way as u (i.e., based on carbon-12).
+In this sense, most uses of the terms "atomic mass units" and "amu" today actually refer to unified atomic mass unit.
+For standardization a specific atomic nucleus (carbon-12 vs. oxygen-16) had to be chosen because the average mass of a nucleon depends on the count of the nucleons in the atomic nucleus due to mass defect.
+This is also why the mass of a proton or neutron by itself is more than (and not equal to) 1 u.
+The atomic mass unit is not the unit of mass in the atomic units system, which is rather the electron rest mass ("m").
+========,2,History.
+The standard atomic weight (or atomic weight) scale has traditionally been a relative value, that is without a unit, with the first relative atomic mass basis suggested by John Dalton in 1803 as H. Despite the initial mass of H being used as the natural unit for relative atomic mass, it was suggested by Wilhelm Ostwald that relative atomic mass would be best expressed in terms of units of 1/16 mass of oxygen ().
+This evaluation was made prior to the discovery of the existence of elemental isotopes, which occurred in 1912.
+The discovery of isotopic oxygen in 1929 led to a divergence in relative atomic mass representation, with isotopically weighted oxygen (i.e., naturally occurring oxygen relative atomic mass) given a value of exactly 16 atomic mass units (amu) in chemistry, while pure O (oxygen-16) was given the mass value of exactly 16 amu in physics.
+The divergence of these values could result in errors in computations, and was unwieldy.
+The chemistry amu, based on the relative atomic mass (atomic weight) of natural oxygen (including the heavy naturally-occurring isotopes O and O), was about as massive as the physics amu, based on pure isotopic O.
+For these and other reasons, the reference standard for both physics and chemistry was changed to carbon-12 in 1961.
+The choice of carbon-12 was made to minimise further divergence with prior literature.
+The new and current unit was referred to as the "unified atomic mass unit" u. and given a new symbol, "u," which replaced the now deprecated "amu" that had been connected to the old oxygen-based system.
+The Dalton (Da) is another name for the unified atomic mass unit.
+Despite this change, modern sources often still use the old term "amu" but define it as u ( of the mass of a carbon-12 atom), as mentioned in the article's introduction.
+Therefore, in general, "amu" likely does not refer to the old oxygen standard unit, unless the source material originates from the 1960s or before.
+========,2,Terminology.
+The unified atomic mass unit and the dalton are different names for the same unit of measure.
+As with other unit names such as watt and newton, "dalton" is not capitalized in English, but its symbol Da is capitalized.
+With the introduction of the name "dalton", there has been a gradual change towards using that name in preference to the name "unified atomic mass unit":
+***LIST***.
+========,2,Relationship to SI.
+The definition of the mole, an SI base unit, was accepted by the CGPM in 1971 as:
+***LIST***.
+The definition of the mole also determines the value of the universal constant that relates the number of entities to amount of substance for any sample.
+This constant is called the Avogadro constant, symbol "N" or "L", and has the value (entities per mole).
+Given that the unified atomic mass unit is one twelfth the mass of one atom of carbon-12, meaning the mass of such an atom is 12 u, it follows that there are "N" atoms of carbon-12 in 0.012 kg of carbon-12.
+This can be expressed mathematically as
+========,2,Usage.
+Masses of proteins are often expressed in daltons.
+For example, a protein with a molecular weight of has a mass of 64 kDa.
+In research and commerce, the degree of polymerization of synthetic polymers is conventionally expressed in daltons.
+The US Supreme Court based a major precedent of appellate law on a disputed case of counting daltons for a molecular distribution.

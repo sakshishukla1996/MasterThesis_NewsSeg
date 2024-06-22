@@ -1,0 +1,22 @@
+========,1,preface.
+In mathematics, the Euler numbers are a sequence "E" of integers defined by the Taylor series expansion where is the hyperbolic cosine.
+The Euler numbers appear as a special value of the Euler polynomials.
+The odd-indexed Euler numbers are all zero.
+The even-indexed ones have alternating signs.
+Some values are:
+Some authors re-index the sequence in order to omit the odd-numbered Euler numbers with value zero, or change all signs to positive.
+This article adheres to the convention adopted above.
+The Euler numbers appear in the Taylor series expansions of the secant and hyperbolic secant functions.
+The latter is the function in the definition.
+They also occur in combinatorics, specifically when counting the number of alternating permutations of a set with an even number of elements.
+========,2,Explicit formulas.
+========,3,As an iterated sum.
+An explicit formula for Euler numbers is:
+where denotes the imaginary unit with .
+========,3,As a sum over partitions.
+The Euler number can be expressed as a sum over the even partitions of , as well as a sum over the odd partitions of , where in both cases and is a multinomial coefficient.
+The Kronecker deltas in the above formulas restrict the sums over the s to and to , respectively.
+As an example,
+========,2,Euler zigzag numbers.
+The Taylor series of is where is the Euler zigzag numbers, beginning with For all even , where is the Euler number; and for all odd , where is the Bernoulli number.
+For every "n",

@@ -1,0 +1,64 @@
+========,1,preface.
+In thermodynamics, the Joule–Thomson effect (also known as the Joule–Kelvin effect, Kelvin–Joule effect, or Joule–Thomson expansion) describes the temperature change of a "real" gas or liquid (as differentiated from an ideal gas) when it is forced through a valve or porous plug while kept insulated so that no heat is exchanged with the environment.
+This procedure is called a "throttling process" or "Joule–Thomson process".
+At room temperature, all gases except hydrogen, helium and neon cool upon expansion by the Joule–Thomson process; these three gases experience the same effect but only at lower temperatures.
+The throttling process is commonly exploited in thermal machines such as refrigerators, air conditioners, heat pumps, and liquefiers.
+Throttling is a fundamentally irreversible process.
+The throttling due to the flow resistance in supply lines, heat exchangers, regenerators, and other components of (thermal) machines is a source of losses that limits the performance.
+========,2,History.
+The effect is named after James Prescott Joule and William Thomson, 1st Baron Kelvin, who discovered it in 1852.
+It followed upon earlier work by Joule on Joule expansion, in which a gas undergoes free expansion in a vacuum and the temperature is unchanged, if the gas is ideal.
+========,2,Description.
+The "adiabatic" (no heat exchanged) expansion of a gas may be carried out in a number of ways.
+The change in temperature experienced by the gas during expansion depends not only on the initial and final pressure, but also on the manner in which the expansion is carried out.
+***LIST***.
+The temperature change produced during a Joule–Thomson expansion is quantified by the Joule–Thomson coefficient, ***formula***.
+This coefficient may be either positive (corresponding to cooling) or negative (heating); the regions where each occurs for molecular nitrogen, N, are shown in the figure.
+Note that most conditions in the figure correspond to N being a supercritical fluid, where it has some properties of a gas and some of a liquid, but can not be really described as being either.
+The coefficient is negative at both very high and very low temperatures; at very high pressure it is negative at all temperatures.
+The maximum inversion temperature (621 K for N) occurs as zero pressure is approached.
+For N gas at low pressures, ***formula*** is negative at high temperatures and positive at low temperatures.
+At temperatures below the gas-liquid coexistence curve, N condenses to form a liquid and the coefficient again becomes negative.
+Thus, for N gas below 621 K, a Joule–Thomson expansion can be used to cool the gas until liquid N forms.
+========,2,Applications.
+In practice, the Joule–Thomson effect is achieved by allowing the gas to expand through a throttling device (usually a valve) which must be very well insulated to prevent any heat transfer to or from the gas.
+No external work is extracted from the gas during the expansion (the gas must not be expanded through a turbine, for example).
+The cooling produced in the Joule–Thomson expansion makes it a valuable tool in refrigeration.
+In vapor-compression refrigeration, as used in common refrigerators and air conditioners, it produces cooling in the throttling valve.
+The effect is applied in the Linde technique as a standard process in the petrochemical industry, where the cooling effect is used to liquefy gases, and also in many cryogenic applications (e.g.
+for the production of liquid oxygen, nitrogen, and argon).
+A gas must be below its inversion temperature to be liquefied by the Linde cycle.
+For this reason, simple Linde cycle liquefiers, starting from ambient temperature, cannot be used to liquefy helium, hydrogen, or neon.
+However, the Joule–Thomson effect can be used to liquefy even helium, provided that the helium gas is first cooled below its inversion temperature of 40 K.
+========,2,Proof that the specific enthalpy remains constant.
+In thermodynamics so-called "specific" quantities are quantities per unit mass (kg) and are denoted by lower-case characters.
+So "h", "u", and "v" are the specific enthalpy, specific internal energy, and specific volume (volume per unit mass, or reciprocal density), respectively.
+In a Joule–Thomson process the specific enthalpy "h" remains constant.
+To prove this, the first step is to compute the net work done when a mass "m" of the gas moves through the plug.
+This amount of gas has a volume of "V" = "m" "v" in the region at pressure "P" (region 1) and a volume "V" = "m" "v" when in the region at pressure "P" (region 2).
+Then in region 1, the "flow work" done "on" the amount of gas by the rest of the gas is: W = "m" "P""v".
+In region 2, the work done "by" the amount of gas on the rest of the gas is: W = "m" "P""v".
+So, the total work done "on" the mass "m" of gas is The change in internal energy minus the total work done "on" the amount of gas is, by the first law of thermodynamics, the total heat supplied to the amount of gas.
+In the Joule–Thomson process the gas is insulated, so no heat is absorbed.
+This means that where "u" and "u" denote the specific internal energies of the gas in regions 1 and 2, respectively.
+Using the definition of the specific enthalpy "h = u + Pv", the above equation implies that where h and "h" denote the specific enthalpies of the amount of gas in regions 1 and 2, respectively.
+========,2,Throttling in the "T"-"s" diagram.
+A very convenient way to get a quantitative understanding of the throttling process is by using diagrams.
+There are many types of diagrams ("h"-"T" diagram, "h"-"P" diagram, etc.)
+Commonly used are the so-called "T"-"s" diagrams.
+Figure 2 shows the "T"-"s" diagram of nitrogen as an example.
+Various points are indicated as follows:
+As shown before, throttling keeps "h" constant.
+E.g.
+throttling from 200 bar and 300 K (point a in fig.
+2) follows the isenthalp (line of constant specific enthalpy) of 430 kJ/kg.
+At 1 bar it results in point b which has a temperature of 270 K. So throttling from 200 bar to 1 bar gives a cooling from room temperature to below the freezing point of water.
+Throttling from 200 bar and an initial temperature of 133 K (point c in fig.
+2) to 1 bar results in point d, which is in the two-phase region of nitrogen at a temperature of 77.2 K. Since the enthalpy is an extensive parameter the enthalpy in d ("h") is equal to the enthalpy in e ("h") multiplied with the mass fraction of the liquid in d ("x") plus the enthalpy in f ("h") multiplied with the mass fraction of the gas in d (1 − "x").
+So With numbers: 150 = "x" 28 + (1 − "x") 230 so "x" is about 0.40.
+This means that the mass fraction of the liquid in the liquid–gas mixture leaving the throttling valve is 40%.
+========,2,Joule's second law.
+It is easy to verify that for an ideal gas defined by suitable microscopic postulates that "αT" = 1, so the temperature change of such an ideal gas at a Joule–Thomson expansion is zero.
+For such an ideal gas, this theoretical result implies that:
+This rule was originally found by Joule experimentally for real gases and is known as Joule's second law.
+More refined experiments of course found important deviations from it.

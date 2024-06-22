@@ -1,0 +1,38 @@
+========,1,preface.
+In mathematics, a periodic function is a function that repeats its values in regular intervals or periods.
+The most important examples are the trigonometric functions, which repeat over intervals of 2"π" radians.
+Periodic functions are used throughout science to describe oscillations, waves, and other phenomena that exhibit periodicity.
+Any function which is not periodic is called aperiodic.
+========,2,Definition.
+A function is said to be periodic with period ( being a nonzero constant) if we have for all values of in the domain.
+If there exists a least positive constant with this property, it is called the fundamental period (also primitive period, basic period, or prime period.)
+A function with period will repeat on intervals of length , and these intervals are referred to as periods.
+Geometrically, a periodic function can be defined as a function whose graph exhibits translational symmetry.
+Specifically, a function is periodic with period if the graph of is invariant under translation in the -direction by a distance of .
+This definition of periodic can be extended to other geometric shapes and patterns, such as periodic tessellations of the plane.
+========,2,Double-periodic functions.
+A function whose domain is the complex numbers can have two incommensurate periods without being constant.
+The elliptic functions are such functions.
+========,2,Complex example.
+Using complex variables we have the common period function:
+As you can see, since the cosine and sine functions are periodic, and the complex exponential above is made up of cosine/sine waves, then the above (actually Euler's formula) has the following property.
+If "L" is the period of the function then:
+========,2,Generalizations.
+========,3,Antiperiodic functions.
+One common generalization of periodic functions is that of antiperiodic functions.
+This is a function "f" such that "f"("x" + "P") = −"f"("x") for all "x".
+(Thus, a "P"-antiperiodic function is a 2"P"-periodic function.)
+For example, the sine or cosine function is π-antiperiodic and 2π-periodic.
+========,3,Bloch-periodic functions.
+A further generalization appears in the context of Bloch waves and Floquet theory, which govern the solution of various periodic differential equations.
+In this context, the solution (in one dimension) is typically a function of the form:
+where "k" is a real or complex number (the "Bloch wavevector" or "Floquet exponent").
+Functions of this form are sometimes called Bloch-periodic in this context.
+A periodic function is the special case "k" = 0, and an antiperiodic function is the special case "k" = π/"P".
+========,3,Quotient spaces as domain.
+In signal processing you encounter the problem, that Fourier series represent periodic functions and that Fourier series satisfy convolution theorems (i.e.
+convolution of Fourier series corresponds to multiplication of represented periodic function and vice versa), but periodic functions cannot be convolved with the usual definition, since the involved integrals diverge.
+A possible way out is to define a periodic function on a bounded but periodic domain.
+To this end you can use the notion of a quotient space:
+That is, each element in ***formula*** is an equivalence class of real numbers that share the same fractional part.
+Thus a function like ***formula*** is a representation of a 1-periodic function.

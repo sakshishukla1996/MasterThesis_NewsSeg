@@ -1,0 +1,39 @@
+========,1,preface.
+Peristalsis is a radially symmetrical contraction and relaxation of muscles that propagates in a wave down a tube, in an anterograde direction.
+In much of a digestive tract such as the human gastrointestinal tract, smooth muscle tissue contracts in sequence to produce a peristaltic wave, which propels a ball of food (called a bolus while in the esophagus and upper gastrointestinal tract and chyme in the stomach) along the tract.
+Peristaltic movement comprises relaxation of circular smooth muscles, then their contraction behind the chewed material to keep it from moving backward, then longitudinal contraction to push it forward.
+Earthworms use a similar mechanism to drive their locomotion, and some modern machinery imitates this design.
+The word comes from New Latin and is derived from the Greek "peristellein", "to wrap around," from "peri"-, "around" + "stellein", "draw in, bring together; set in order".
+========,2,Human physiology.
+========,3,Esophagus.
+After food is chewed into a bolus, it is swallowed and moved through the esophagus.
+Smooth muscles contract behind the bolus to prevent it from being squeezed back into the mouth.
+Then rhythmic, unidirectional waves of contractions work to rapidly force the food into the stomach.
+The migrating motor complex (MMC) helps trigger peristaltic waves.
+This process works in one direction only and its sole esophageal function is to move food from the mouth into the stomach (the MMC also functions to clear out remaining food in the stomach to the small bowel, and remaining particles in the small bowel into the colon).
+In the esophagus, two types of peristalsis occur:
+***LIST***.
+During vomiting, the propulsion of food up the oesophagus and out the mouth comes from contraction of the abdominal muscles; peristalsis does not reverse in the esophagus.
+========,3,Small intestine.
+Once processed and digested by the stomach, the milky chyme is squeezed through the pyloric sphincter into the small intestine.
+Once past the stomach, a typical peristaltic wave only lasts for a few seconds, travelling at only a few centimeters per second.
+Its primary purpose is to mix the chyme in the intestine rather than to move it forward in the intestine.
+Through this process of mixing and continued digestion and absorption of nutrients, the chyme gradually works its way through the small intestine to the large intestine.
+In contrast to peristalsis, segmentation contractions result in that churning and mixing without pushing materials further down the digestive tract.
+========,3,Large intestine.
+Although the large intestine has peristalsis of the type that the small intestine uses, it is not the primary propulsion.
+Instead, general contractions called mass movements occur one to three times per day in the large intestine, propelling the chyme toward the rectum.
+Mass movements often tend to be triggered by meals, as the presence of chyme in the stomach and duodenum prompts them.
+========,3,Lymph.
+The human lymphatic system has no central pump.
+Instead, lymph circulates through peristalsis in the lymph capillaries, as well as valves in the capillaries, compression during contraction of adjacent skeletal muscle, and arterial pulsation.
+========,2,Earthworms.
+The earthworm is a limbless annelid worm with a hydrostatic skeleton that moves by peristalsis.
+Its hydrostatic skeleton consists of a fluid-filled body cavity surrounded by an extensible body wall.
+The worm moves by radially constricting the anterior portion of its body, resulting in an increase in length via hydrostatic pressure.
+This constricted region propagates posteriorly along the worm's body.
+As a result, each segment is extended forward, then relaxes and re-contacts the substrate, with hair-like setae preventing backwards slipping.
+========,2,Machinery.
+A peristaltic pump is a positive-displacement pump in which a motor pinches advancing portions of a flexible tube to propel a fluid within the tube.
+The pump isolates the fluid from the machinery, which is important if the fluid is abrasive or must remain sterile.
+Robots have been designed that use peristalsis to achieve locomotion, as the earthworm uses it.

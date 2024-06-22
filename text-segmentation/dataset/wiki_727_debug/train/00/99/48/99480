@@ -1,0 +1,40 @@
+========,1,preface.
+XPilot is a multiplayer video game.
+It is open source and runs on many platforms.
+Although its 2D graphics have improved over time, they still resemble the style of "Thrust".
+Gameplay includes Capture the Flag, base defense, racing and deathmatches.
+"XPilot" uses a client–server architecture, in which a central metaserver receives information from all "XPilot" servers on the Internet.
+========,2,History.
+In 1991, Bjørn Stabell and Ken Schouten, then computer science undergraduates at the University of Tromsø, began writing "XPilot", inspired by the earlier game "Thrust".
+It was originally developed in C on HP9000 workstations which ran Unix.
+Soon after its first public release in 1992, Stabell and Schouten began receiving feedback, suggestions, and patches from players all around the world.
+Other "XPilot" users wrote documentation and contributed source code to the project.
+By 1996, there were nearly one hundred "XPilot" servers worldwide.
+XPilot's code has been forked several times.
+XPilot5 is a complete rewrite of "XPilot" in C++.
+Unlike its predecessor, it comes with sound and is bundled with applications to configure the keyboard, ship shapes and behavior.
+The latest stable version of "XPilot5" is 5.0.0.
+In late 2000, another group of developers began a branch of "XPilot", later labeled XPilot NG (for next generation).
+Programmed in C, it contains two clients, either X11-based or SDL/OpenGL-based.
+Unlike the block-based maps of the original game, "XPilot NG" provides high frame rates and polygon maps.
+A new Java based map editor provides better map editing facilities.
+The latest version of "XPilot NG" is 4.7.2.
+In 2009, 7b5 Labs released XPilot iPhone, an "XPilot" client for Apple's iPhone and iPod touch.
+It is based on "XPilot" and "XPilot NG" and uses touchscreen controls.
+While these modern versions implement many new features, they are mostly compatible with the original program.
+========,2,Gameplay.
+The metaserver contains a list of all XPilot maps on the Internet.
+These maps, created by users, feature several types of gameplay.
+In deathmatches, points are earned by destroying other players or robots.
+Users can increase their firepower by picking up items such as missiles, mines and lasers.
+Players can also defend themselves by gathering cloaks, shields, ECMs and armor.
+In racing maps, players earn points based on their finishing position.
+The objective of team games is to "destroy" the opponent's ball by placing it in the treasure chest.
+Team games may also be run in a slightly different Capture the flag mode.
+Other modes exist, like trying to survive as long as possible surrounded by cannons, by dodging the bullets, or combinations of different modes.
+========,2,Community.
+"XPilot"s in-game chat and multiplayer functionality spawned the formation of a community.
+Contact between players was facilitated by newsgroups such as "alt.games.xpilot" and later "rec.games.computer.xpilot".
+Since 1991, several annual team tournaments, known "Cups", have been held.
+After the first HTML and image-rendering web browsers were introduced, members of the community developed the game's online documentation.
+There is also an IRC channel dedicated to XPilot.

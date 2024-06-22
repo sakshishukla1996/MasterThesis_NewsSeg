@@ -1,0 +1,33 @@
+========,1,preface.
+In graph theory, a branch of mathematics and computer science, the Chinese postman problem (CPP), postman tour or route inspection problem is to find a shortest closed path or circuit that visits every edge of a (connected) undirected graph.
+When the graph has an Eulerian circuit (a closed walk that covers every edge once), that circuit is an optimal solution.
+Otherwise, the optimization problem is to find the smallest number of graph edges to duplicate (or the subset of edges with the minimum possible total weight) so that the resulting multigraph does have an Eulerian circuit.
+It may be solved in polynomial time.
+The problem was originally studied by the Chinese mathematician Kwan Mei-Ko in 1960, whose Chinese paper was translated into English in 1962.
+The alternative name "Chinese postman problem" was coined in his honor; different sources credit the coinage either to Alan J. Goldman or Jack Edmonds, both of whom were at the U.S. National Bureau of Standards at the time.
+========,2,Undirected solution.
+The undirected route inspection problem may be solved in polynomial time by an algorithm based on the concept of a "T"-join.
+Let "T" be a subset of the vertex set of a graph.
+An edge set "J" is called a "T-join if the collection of vertices that have an odd number of neighboring edges in "J" is exactly the set "T".
+A "T"-join exists whenever every connected component of the graph contains an even number of vertices in "T".
+The "T-join problem is to find a "T"-join with the minimum possible number of edges or the minimum possible total weight.
+For any "T", a smallest "T"-join (when it exists) necessarily consists of ***formula***|"T"| paths that join the vertices of "T" in pairs.
+The paths will be such that the total length or total weight of all of them is as small as possible.
+In an optimal solution, no two of these paths will share any edge, but they may have shared vertices.
+A minimum "T"-join can be obtained by constructing a complete graph on the vertices of "T", with edges that represent shortest paths in the given input graph, and then finding a minimum weight perfect matching in this complete graph.
+The edges of this matching represent paths in the original graph, whose union forms the desired "T"-join.
+Both constructing the complete graph, and then finding a matching in it, can be done in O("n") computational steps.
+For the route inspection problem, "T" should be chosen as the set of all odd-degree vertices.
+By the assumptions of the problem, the whole graph is connected (otherwise no tour exists), and by the handshaking lemma it has an even number of odd vertices, so a "T"-join always exists.
+Doubling the edges of a "T"-join causes the given graph to become an Eulerian multigraph (a connected graph in which every vertex has even degree), from which it follows that it has an Euler tour, a tour that visits each edge of the multigraph exactly once.
+This tour will be an optimal solution to the route inspection problem.
+========,2,Directed solution.
+On a directed graph, the same general ideas apply, but different techniques must be used.
+If the graph is Eulerian, one need only find an Euler cycle.
+If it is not, one must find "T"-joins, which in this case entails finding paths from vertices with an in-degree greater than their out-degree to those with an out-degree greater than their in-degree such that they would make in-degree of every vertex equal to its out-degree.
+This can be solved as an instance of the minimum-cost flow problem in which there is one unit of supply for every unit of excess in-degree, and one unit of demand for every unit of excess out-degree.
+As such it is solvable in O(|"V"||"E"|) time.
+A solution exists if and only if the given graph is strongly connected.
+========,2,Windy postman problem.
+The windy postman problem is a variant of the route inspection problem in which the input is an undirected graph, but where each edge may have a different cost for traversing it in one direction than for traversing it in the other direction.
+In contrast to the solutions for directed and undirected graphs, it is NP-complete.

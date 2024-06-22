@@ -1,0 +1,15 @@
+========,1,preface.
+Collision is used in two slightly different senses in theoretical computer science and telecommunications.
+In computer science it refers to a situation where a function maps two distinct inputs to the same output.
+In telecommunications, a collision occurs when two nodes of a network attempt to transmit at the same time.
+========,2,In theoretical computer science.
+A collision or clash occurs when two different inputs to a function, typically one used to compress large data items into a smaller or fixed size, produce the same output, called (depending on the application) a hash value, checksum, fingerprint, or digest.
+Collisions are unavoidable whenever members of a very large set (such as all possible person names, or all possible computer files) are mapped to a relatively short bit string.
+This is merely an instance of the pigeonhole principle.
+========,2,In telecommunications.
+Half-duplex (HDX) data communications networks have the possibility that more than one node will transmit at the same or overlapping time.
+This event is referred to as a collision.
+The messages sent by the transmitting nodes are corrupted.
+The receiving nodes will receive (in most but not all cases) random data.
+In half-duplex networks, the transmitting node must ensure that the network is quiet prior to transmitting, and in addition there is usually some mechanism for transmitting nodes to detect overlapping transmissions.
+See also Collision domain.

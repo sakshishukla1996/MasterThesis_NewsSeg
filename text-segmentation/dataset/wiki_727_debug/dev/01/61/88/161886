@@ -1,0 +1,20 @@
+========,1,preface.
+The Isabelle theorem prover is an interactive theorem prover, a Higher Order Logic (HOL) theorem prover.
+It is an LCF-style theorem prover (written in Standard ML), so it is based on a small logical core to ease logical correctness.
+Isabelle is generic: it provides a meta-logic (a weak type theory), which is used to encode object logics like first-order logic (FOL), higher-order logic (HOL) or Zermelo–Fraenkel set theory (ZFC).
+Isabelle's main proof method is a higher-order version of resolution, based on higher-order unification.
+Though interactive, Isabelle also features efficient automatic reasoning tools, such as a term rewriting engine and a tableaux prover, as well as various decision procedures.
+Isabelle has been used to formalize numerous theorems from mathematics and computer science, like Gödel's completeness theorem, Gödel's theorem about the consistency of the axiom of choice, the prime number theorem, correctness of security protocols, and properties of programming language semantics.
+The Isabelle theorem prover is free software, released under the revised BSD license.
+Isabelle was named by Lawrence Paulson after Gérard Huet's daughter.
+========,2,Example proof.
+Isabelle allows proofs to be written in two different styles, the procedural and the declarative.
+Procedural proofs specify a series of tactics or procedures to apply; while reflecting the procedure that a human mathematician might apply to proving a result, they are typically hard to read as they do not describe the outcome of these steps.
+Declarative proofs (supported by Isabelle's proof language, Isar), on the other hand, specify the actual mathematical operations to be performed, and are therefore more easily read and checked by humans.
+The procedural style has been deprecated in recent versions of Isabelle.
+The Archive of Formal Proofs also recommends the declarative style.
+For example, a declarative proof by contradiction in Isar that the square root of two is not rational can be written as follows.
+========,2,Applications.
+Isabelle has been used to aid formal methods for the specification, development and verification of software and hardware systems.
+***LIST***.
+Larry Paulson keeps a list of research projects that use Isabelle.

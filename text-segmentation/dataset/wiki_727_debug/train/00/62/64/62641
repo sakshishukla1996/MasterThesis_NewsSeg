@@ -1,0 +1,114 @@
+========,1,preface.
+In vector calculus, a vector field is an assignment of a vector to each point in a subset of space.
+A vector field in the plane (for instance), can be visualised as: a collection of arrows with a given magnitude and direction, each attached to a point in the plane.
+Vector fields are often used to model, for example, the speed and direction of a moving fluid throughout space, or the strength and direction of some force, such as the magnetic or gravitational force, as it changes from point to point.
+The elements of differential and integral calculus extend naturally to vector fields.
+When a vector field represents force, the line integral of a vector field represents the work done by a force moving along a path, and under this interpretation conservation of energy is exhibited as a special case of the fundamental theorem of calculus.
+Vector fields can usefully be thought of as representing the velocity of a moving flow in space, and this physical intuition leads to notions such as the divergence (which represents the rate of change of volume of a flow) and curl (which represents the rotation of a flow).
+In coordinates, a vector field on a domain in "n"-dimensional Euclidean space can be represented as a vector-valued function that associates an "n"-tuple of real numbers to each point of the domain.
+This representation of a vector field depends on the coordinate system, and there is a well-defined transformation law in passing from one coordinate system to the other.
+Vector fields are often discussed on open subsets of Euclidean space, but also make sense on other subsets such as surfaces, where they associate an arrow tangent to the surface at each point (a tangent vector).
+More generally, vector fields are defined on differentiable manifolds, which are spaces that look like Euclidean space on small scales, but may have more complicated structure on larger scales.
+In this setting, a vector field gives a tangent vector at each point of the manifold (that is, a section of the tangent bundle to the manifold).
+Vector fields are one kind of tensor field.
+========,2,Definition.
+========,3,Vector fields on subsets of Euclidean space.
+Given a subset "S" in R, a vector field is represented by a vector-valued function "V": "S" → R in standard Cartesian coordinates ("x", ..., "x").
+If each component of "V" is continuous, then "V" is a continuous vector field, and more generally "V" is a "C" vector field if each component of "V" is "k" times continuously differentiable.
+A vector field can be visualized as assigning a vector to individual points within an "n"-dimensional space.
+Given two "C"-vector fields "V", "W" defined on "S" and a real valued "C"-function "f" defined on "S", the two operations scalar multiplication and vector addition define the module of "C"-vector fields over the ring of C-functions.
+========,3,Coordinate transformation law.
+In physics, a vector is additionally distinguished by how its coordinates change when one measures the same vector with respect to a different background coordinate system.
+The transformation properties of vectors distinguish a vector as a geometrically distinct entity from a simple list of scalars, or from a covector.
+Thus, suppose that ("x"...,"x") is a choice of Cartesian coordinates, in terms of which the components of the vector "V" are and suppose that ("y"...,"y") are "n" functions of the "x" defining a different coordinate system.
+Then the components of the vector "V" in the new coordinates are required to satisfy the transformation law Such a transformation law is called contravariant.
+A similar transformation law characterizes vector fields in physics: specifically, a vector field is a specification of "n" functions in each coordinate system subject to the transformation law () relating the different coordinate systems.
+Vector fields are thus contrasted with scalar fields, which associate a number or "scalar" to every point in space, and are also contrasted with simple lists of scalar fields, which do not transform under coordinate changes.
+========,2,Examples.
+========,3,Gradient field in euclidean spaces.
+Vector fields can be constructed out of scalar fields using the gradient operator (denoted by the del: ∇).
+A vector field "V" defined on an open set "S" is called a gradient field or a conservative field if there exists a real-valued function (a scalar field) "f" on "S" such that
+The associated flow is called the gradient flow, and is used in the method of gradient descent.
+The path integral along any closed curve "γ" ("γ"(0) = "γ"(1)) in a conservative field is zero:
+========,3,Central field in euclidean spaces.
+A "C"-vector field over R \ {0} is called a central field if where O("n", R) is the orthogonal group.
+We say central fields are invariant under orthogonal transformations around 0.
+The point 0 is called the center of the field.
+Since orthogonal transformations are actually rotations and reflections, the invariance conditions mean that vectors of a central field are always directed towards, or away from, 0; this is an alternate (and simpler) definition.
+A central field is always a gradient field, since defining it on one semiaxis and integrating gives an antigradient.
+========,2,Operations on vector fields.
+========,3,Line integral.
+A common technique in physics is to integrate a vector field along a curve, i.e.
+to determine its line integral.
+Given a particle in a gravitational vector field, where each vector represents the force acting on the particle at a given point in space, the line integral is the work done on the particle when it travels along a certain path.
+The line integral is constructed analogously to the Riemann integral and it exists if the curve is rectifiable (has finite length) and the vector field is continuous.
+Given a vector field "V" and a curve γ parametrized by ["a", "b"] (where "a" and "b" are real) the line integral is defined as
+========,3,Divergence.
+The divergence of a vector field on Euclidean space is a function (or scalar field).
+In three-dimensions, the divergence is defined by with the obvious generalization to arbitrary dimensions.
+The divergence at a point represents the degree to which a small volume around the point is a source or a sink for the vector flow, a result which is made precise by the divergence theorem.
+The divergence can also be defined on a Riemannian manifold, that is, a manifold with a Riemannian metric that measures the length of vectors.
+========,3,Curl in three-dimensions.
+The curl is an operation which takes a vector field and produces another vector field.
+The curl is defined only in three-dimensions, but some properties of the curl can be captured in higher dimensions with the exterior derivative.
+In three-dimensions, it is defined by The curl measures the density of the angular momentum of the vector flow at a point, that is, the amount to which the flow circulates around a fixed axis.
+This intuitive description is made precise by Stokes' theorem.
+========,3,Index of a vector field.
+The index of a vector field is an integer that helps to describe the behaviour of a vector field around an isolated zero (i.e., an isolated singularity of the field).
+In the plane, the index takes the value -1 at a saddle singularity but +1 at a source or sink singularity.
+Let the dimension of the manifold on which the vector field is defined be n. Take a small sphere S around the zero so that no other zeros lie in the interior of S. A map from this sphere to a unit sphere of dimensions "n" − 1 can be constructed by dividing each vector on this sphere by its length to form a unit length vector, which is a point on the unit sphere S. This defines a continuous map from S to S. The index of the vector field at the point is the degree of this map.
+It can be shown that this integer does not depend on the choice of S, and therefore depends only on the vector field itself.
+The index of the vector field as a whole is defined when it has just a finite number of zeroes.
+In this case, all zeroes are isolated, and the index of the vector field is defined to be the sum of the indices at all zeroes.
+The index is not defined at any non-singular point (i.e., a point where the vector is non-zero).
+it is equal to +1 around a source, and more generally equal to (−1) around a saddle that has k contracting dimensions and n-k expanding dimensions.
+For an ordinary (2-dimensional) sphere in three-dimensional space, it can be shown that the index of any vector field on the sphere must be 2.
+This shows that every such vector field must have a zero.
+This implies the hairy ball theorem, which states that if a vector in R is assigned to each point of the unit sphere S in a continuous manner, then it is impossible to "comb the hairs flat", i.e., to choose the vectors in a continuous way such that they are all non-zero and tangent to S.
+For a vector field on a compact manifold with a finite number of zeroes, the Poincaré-Hopf theorem states that the index of the vector field is equal to the Euler characteristic of the manifold.
+========,2,History.
+Vector fields arose originally in classical field theory in 19th century physics, specifically in magnetism.
+They were formalized by Michael Faraday, in his concept of "lines of force," who emphasized that the field "itself" should be an object of study, which it has become throughout physics in the form of field theory.
+In addition to the magnetic field, other phenomena that were modeled as vector fields by Faraday include the electrical field and light field.
+========,2,Flow curves.
+Consider the flow of a fluid through a region of space.
+At any given time, any point of the fluid has a particular velocity associated with it; thus there is a vector field associated to any flow.
+The converse is also true: it is possible to associate a flow to a vector field having that vector field as its velocity.
+Given a vector field "V" defined on "S", one defines curves γ("t") on "S" such that for each "t" in an interval "I"
+By the Picard–Lindelöf theorem, if "V" is Lipschitz continuous there is a "unique" "C"-curve γ for each point "x" in "S" so that, for some ε > 0,
+The curves γ are called integral curves or trajectories (or less commonly, flow lines) of the vector field "V" and partition "S" into equivalence classes.
+It is not always possible to extend the interval (−ε, +ε) to the whole real number line.
+The flow may for example reach the edge of "S" in a finite time.
+In two or three dimensions one can visualize the vector field as giving rise to a flow on "S".
+If we drop a particle into this flow at a point "p" it will move along the curve γ in the flow depending on the initial point "p".
+If "p" is a stationary point of "V" (i.e., the vector field is equal to the zero vector at the point "p"), then the particle will remain at "p".
+Typical applications are streamline in fluid, geodesic flow, and one-parameter subgroups and the exponential map in Lie groups.
+========,2,Difference between scalar and vector field.
+The difference between a scalar and vector field is not that "a scalar is just one number while a vector is several numbers".
+The difference is in: how their coordinates respond to coordinate transformations.
+A scalar "is" a coordinate whereas a vector "can be described" by coordinates, but it "is not" the collection of its coordinates.
+========,3,Example 1.
+This example is about 2-dimensional Euclidean space (R) where we examine Euclidean ("x", "y") and polar ("r", θ) coordinates (which are undefined at the origin).
+Thus "x" = "r" cos θ and "y" = "r" sin θ and also "r" = "x" + "y", cos θ = "x"/("x" + "y") and sin θ = "y"/("x" + "y").
+Suppose we have a scalar field which is given by the constant function 1, and a vector field which attaches a vector in the "r"-direction with length 1 to each point.
+More precisely, they are given by the functions Let us convert these fields to Euclidean coordinates.
+The vector of length 1 in the "r"-direction has the "x" coordinate cos θ and the "y" coordinate sin θ.
+Thus in Euclidean coordinates the same fields are described by the functions We see that while the scalar field remains the same, the vector field now looks different.
+The same holds even in the 1-dimensional case, as illustrated by the next example.
+========,3,Example 2.
+Consider the 1-dimensional Euclidean space R with its standard Euclidean coordinate "x".
+Suppose we have a scalar field and a vector field which are both given in the "x" coordinate by the constant function 1,
+Thus, we have a scalar field which has the value 1 everywhere and a vector field which attaches a vector in the "x"-direction with magnitude 1 unit of "x" to each point.
+Now consider the coordinate ξ := 2"x".
+If "x" changes one unit then ξ changes 2 units.
+But since we wish the integral of v along a path to be independent of coordinate, this means v*dx=v'*dξ.
+So from x increase by 1 unit, ξ increases by 1/2 unit, so v' must be 2.
+Thus this vector field has a magnitude of 2 in units of ξ.
+Therefore, in the ξ coordinate the scalar field and the vector field are described by the functions which are different.
+========,2,f-relatedness.
+Given a smooth function between manifolds, "f": "M" → "N", the derivative is an induced map on tangent bundles, "f": "TM" → "TN".
+Given vector fields "V": "M" → "TM" and "W": "N" → "TN", we say that "W" is "f"-related to "V" if the equation "W" ∘ "f" = "f" ∘ "V" holds.
+If "V" is "f"-related to "W", "i" = 1, 2, then the Lie bracket ["V", "V"] is "f"-related to ["W", "W"].
+========,2,Generalizations.
+Replacing vectors by "p"-vectors ("p"th exterior power of vectors) yields "p"-vector fields; taking the dual space and exterior powers yields differential "k"-forms, and combining these yields general tensor fields.
+Algebraically, vector fields can be characterized as derivations of the algebra of smooth functions on the manifold, which leads to defining a vector field on a commutative algebra as a derivation on the algebra, which is developed in the theory of differential calculus over commutative algebras.

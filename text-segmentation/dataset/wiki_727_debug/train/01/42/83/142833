@@ -1,0 +1,40 @@
+========,1,preface.
+RADARSAT-1 is Canada's first commercial Earth observation satellite.
+It utilized synthetic aperture radar (SAR) to obtain images of the Earth's surface to manage natural resources and monitor global climate change.
+As of March 2013, the satellite was declared non-operational and is no longer collecting data.
+========,2,Mission.
+RADARSAT-1 was launched at 14:22 UTC on 4 November 1995, from Vandenberg AFB in California, into a sun-synchronous orbit (dawn-dusk) above the Earth with an altitude of and inclination of 98.6 degrees.
+Developed under the management of the Canadian Space Agency (CSA) in co-operation with Canadian provincial governments and the private sector, it provided images of the Earth for both scientific and marketing purposes.
+Radarsat-1's images are useful in many fields, including agriculture, cartography, hydrology, forestry, oceanography, geology, ice and ocean monitoring, arctic surveillance, and detecting ocean oil slicks.
+========,2,History.
+National Aeronautics and Space Administration (NASA) provided the Delta II rocket to launch RADARSAT-1 in exchange for access to its data.
+Estimates are that the project, excluding launch, cost $620 million (Canadian).
+The Canadian federal government contributed about $500 million, the four participating provinces (Quebec, Ontario, Saskatchewan and British Columbia) about $57 million, and the private sector about $63 million.
+RADARSAT International, Inc. (RSI), a Canadian private company, was created in 1989 to process, market and distribute RADARSAT-1 data.
+(RADARSAT International, Inc. (RSI) was later acquired by MacDonald Dettwiler and Associates.)
+In 2006, RSI was rebranded MDA Geospatial Services International or MDA GSI.
+========,2,Payload.
+RADARSAT-1 used a synthetic aperture radar (SAR) sensor to image the Earth at a single microwave frequency of 5.3 GHz, in the C band (wavelength of 5.6 cm).
+The SAR support structure was designed and manufactured by Northrop Grumman Astro Aerospace and deployed to in length on orbit.
+Unlike optical satellites that sense reflected sunlight, SAR systems transmitted microwave energy towards the surface and recorded the reflections.
+Thus, Radarsat-1 imaged the Earth, day or night, in any atmospheric condition, such as cloud cover, rain, snow, dust or haze.
+Each of RADARSAT-1's seven beam modes offered a different image resolution.
+The modes included Fine, which covers an area of () with a resolution of ; Standard, which covered an area of () and had a resolution of ; and ScanSAR wide, which covered a () area with a resolution of .
+RADARSAT-1 also had the unique ability to direct its beam at different angles.
+========,2,Orbit.
+With an orbital period of 100.7 minutes, RADARSAT-1 circles the Earth 14 times a day.
+The orbit path repeats every 24 days, this means that the satellite is in exactly the same location and could take the same image (same beam mode and beam position) every 24 days.
+This is useful for interferometry and detecting changes at that location that took place during the 24 days.
+Using different beam positions, a location can also be scanned every few days.
+RADARSAT-1 was a right-looking satellite, meaning that the microwave beam transmits and receives on the right side of the satellite, relative to its orbital path.
+As it descends in its orbit from the North Pole, it faces west, and when it ascends from the South Pole, it faces east.
+Locations could therefore be imaged from opposite sides.
+Combined with the different beam modes and positions, this provided users with many possible perspectives from which to image a location.
+========,2,End of service.
+On November 4, 2010, RADARSAT-1 celebrated its 15-year service anniversary.
+It outlived its planned five-year lifetime by a wide margin.
+Radarsat-2 was launched on 14 December 2007 from Baikonur, Kazakhstan RADARSAT-1 covered the Arctic daily, and most of Canada every 72 hours depending on instrument orientation and mode.
+It covered the entire Earth every 24 days.
+On March 29, 2013, RADARSAT-1 experienced a technical problem.
+The Canadian Space Agency (CSA) assembled a team of engineers, who conducted an extensive investigation.
+Following numerous attempts to resolve the problem, the CSA, in consultation with its commercial data distributor MDA Geospatial Services Inc. concluded that RADARSAT-1 was no longer operational.

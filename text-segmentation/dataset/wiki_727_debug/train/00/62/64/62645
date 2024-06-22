@@ -1,0 +1,23 @@
+========,1,preface.
+The RiscPC (stylised with a half-space as ', also referred to as ' and codenamed Medusa) was Acorn Computers's next generation RISC OS/Acorn RISC Machine computer, launched on 15 April 1994, which superseded the Acorn Archimedes.
+The "Acorn PC card" and software allows PC compatible software to be run.
+Like the Archimedes, the RiscPC continued the practice of having the RISC OS operating system in a ROM module.
+RiscPC augmented the ROM-based core OS with a disk-based directory structure containing configuration information, and some applications which had previously been kept in ROM.
+At the 1996 BETT Educational Computing & Technology Awards, the machine was awarded "Gold" in the hardware category.
+========,2,RiscPC 2.
+Acorn set about designing the RiscPC 2, later renamed to Phoebe 2100 – a design with a 64 MHz front side bus, PCI slots, and a yellow-coloured NLX form-factor case.
+Slated for release in late 1998, the project was abandoned just before completion, when Acorn's Workstation Division was closed.
+Only two prototypes were ever built, and one was publicly displayed for historical interest at the RISC OS 2001 show in Berkshire, England; the remaining cases were bought by CTA Direct who sold them off to the public.
+========,2,RiscPC today.
+In 2003 it was confirmed that no more RiscPCs would be produced.
+However RISC OS computers based on other ARM processors machines have been manufactured by companies since this date.
+***LIST***.
+Significantly better performance has been pulled out of the aged RiscPC design by using the newer 203 (and later 236) MHz StrongARM CPU, using third-party video cards, overclocking, and having specially-designed CPU cards with RAM located upon them to sidestep the speed bottleneck of the slow system bus.
+========,2,Limitations.
+The 16 MHz front side bus is usually recognised as being the most significant fault of the computer; and the arrival of the (five times faster) StrongARM processor in 1996 meant that the RiscPC had a CPU significantly faster than the computer had been designed for.
+Acorn had originally expected ARM CPUs to progress from the 30 MHz ARM6 to the 40 MHz ARM7, and then onto the ARM8 cores, which at the time were clocked at around 50-80 MHz.
+In 2000, Castle released "Kinetic", a new StrongARM processor board with its own onboard memory slots augmenting main memory, reducing the need to negotiate the slow front side bus for memory accesses.
+The podule bus on the RiscPC (i.e.
+32-bit, on predecessor systems to the RiscPC: 16-bit) can achieve a maximum data throughput of approximately 6100 KByte/s.
+For comparison: the PCI bus, which was available in systems at the time of the RiscPC's introduction, is over 20 times faster (e.g.
+the transfer of 650 MB would take 2 minutes via podule, compared to 5 seconds via PCI).

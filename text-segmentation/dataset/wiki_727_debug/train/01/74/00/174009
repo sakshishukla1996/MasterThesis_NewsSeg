@@ -1,0 +1,96 @@
+========,1,preface.
+The Hall–Héroult process is the major industrial process for smelting aluminium.
+It involves dissolving aluminium oxide (alumina) (obtained most often from bauxite, aluminium's chief ore, through the Bayer process) in molten cryolite, and electrolysing the molten salt bath, typically in a purpose-built cell.
+The Hall–Héroult process applied at industrial scale happens at 940–980°C and produces 99.5–99.8% pure aluminium.
+Recycled aluminum requires no electrolysis, thus it does not end up in this process.
+========,2,Process.
+========,3,The challenge.
+Elemental aluminium cannot be produced by the electrolysis of an aqueous aluminium salt because hydronium ions readily oxidize elemental aluminium.
+Although a molten aluminium salt could be used instead, aluminium oxide has a melting point of 2072 °C so electrolysing it is impractical.
+In the Hall–Héroult process, alumina, AlO, is dissolved in molten synthetic cryolite, NaAlF, to lower its melting point for easier electrolysis.
+========,3,Theory.
+In the Hall–Héroult process the following simplified reactions take place at the carbon electrodes:
+In reality much more CO is formed at the anode than CO:
+Pure cryolite has a melting point of 1009 ± 1°C.
+With a small percentage of alumina dissolved in it, its melting point drops to about 1000°C.
+Besides having a relatively low melting point, cryolite is used as an electrolyte because among other things it also solves alumina well, conducts electricity, dissociates electrolytically at higher voltage than alumina and has a lighter density than aluminum at the temperatures required by the electrolysis.
+Aluminium fluoride (AlF) is usually added to the electrolyte.
+The ratio NaF/AlF is called the cryolite ratio and it is 3 in pure cryolite.
+In industrial production, AlF is added so that the cryolite ratio is 2–3 to further reduce the melting point so that the electrolysis can happen at temperatures between 940 and 980°C.
+The density of liquid aluminum is 2.3 g/ml at temperatures between 950 and 1000°C.
+The density of the electrolyte should be less than 2.1 g/ml so that the molten aluminum separates from the electrolyte and settles properly to the bottom of the electrolysis cell.
+In addition to AlF, other additives like lithium fluoride may be added to alter different properties (melting point, density, conductivity etc.)
+of the electrolyte.
+The mixture is electrolysed by passing a low voltage (under 5 V) direct current at 100–300 kA through it.
+This causes liquid aluminium metal to be deposited at the cathode while the oxygen from the alumina combines with carbon from the anode to produce mostly carbon dioxide.
+========,3,Cell operation.
+Cells in factories are operated 24 hours a day so that the molten material in them will not solidify.
+Temperature within the cell is maintained via electrical resistance.
+Oxidation of the carbon anode increases the electrical efficiency at a cost of consuming the carbon electrodes and producing carbon dioxide.
+While solid cryolite is denser than solid aluminium at room temperature, liquid aluminium is denser than molten cryolite at temperatures around .
+The aluminium sinks to the bottom of the electrolytic cell, where it is periodically collected.
+The liquid aluminium is removed from the cell via a siphon every 1 to 3 days in order to avoid having to use extremely high temperature valves and pumps.
+Alumina is added to the cells as the aluminum is removed.
+Collected aluminium from different cells in a factory is finally melted together to ensure uniform product and made into e.g.
+metal sheets However the electrolytic mixture is sprinkled with coke to prevent the anode's oxidation by the oxygen evolved.
+The cell produces gases at the anode.
+The exhaust is primarily CO produced from the anode consumption and hydrogen fluoride (HF) from the cryolite and flux (AlF).
+In modern facilities fluorides are almost completely recycled to the cells and therefore used again in the electrolysis.
+Escaped HF can be neutralized to its sodium salt, sodium fluoride.
+Particulates are captured using electrostatic or bag filters.
+The CO is usually vented into the atmosphere.
+Agitation of the molten material in the cell increase its production rate at the expense of an increase in cryolite impurities in the product.
+Properly designed cells can leverage magnetohydrodynamic forces induced by the electrolysing current to agitate the electrolyte.
+In non-agitating static pool cells the impurities either rise to the top of the metallic aluminium, or else sink to the bottom, leaving high-purity aluminium in the middle area.
+========,3,Electrodes.
+Electrodes in cells are mostly coke which has been purified at high temperatures.
+Pitch resin or tar is used as a binder.
+The materials most often used in anodes, coke and pitch resin, are mainly residues from petroleum industry and need to be of high enough purity so no impurities end up into the molten aluminum or the electrolyte.
+There are two primary technologies using the Hall–Héroult process: Söderberg technology and prebake technology.<br> In Söderberg or self-baking anodes using cells, there is a single anode per electrolysis cell.
+The anode is in a frame and as the bottom of the anode turns mainly into CO during the electrolysis the anode loses mass and being amorphous it slowly sinks within its frame.
+More material to the top of the anode is continuously added in the form of briquettes made from coke and pitch.
+The lost heat from the smelting operation is used to bake the briquettes into the carbon form required for reaction with alumina.
+This baking process in Söderberg anodes during electrolysis releases more carcinogenic PAHs and other pollutants than electrolysis with prebaked anodes and partially for this reason prebaked anodes using cells have become more common in aluminum industry.
+More alumina is added to the electrolyte from the sides of the Söderberg anode after the crust on top of the electrolyte mixture is broken.<br>
+Prebake technology is named after its anodes, which are baked in very large gas-fired ovens at high temperature before being lowered by various heavy industrial lifting systems into the electrolytic solution.
+There usually are 24 prebaked anodes in two rows in one cell.
+Each anode is lowered vertically and individually by a computer as the bottom surfaces of the anodes are eaten away during the electrolysis.
+Compared to Söderberg anodes computer controlled prebaked anodes can be brought closer to the molten aluminium layer at the bottom of the cell without any of them touching the layer and interfering with the electrolysis.
+This smaller distance decreases the resistance caused by the electrolyte mixture and increases the efficiency of prebaked anodes over Söderberg anodes.
+Prebake technology also has much lower risk of the anode effect (see below) happening, but cells using it are more expensive to build and labor-intensive to use as each prebaked anode in a cell needs to be removed and replaced once it has been used.
+Alumina is added to the electrolyte from between the anodes in prebake technology using cells.
+Prebaked anodes contain a smaller percentage of pitch, as they need to be more solid than Söderberg anodes.
+The remains of prebaked anodes are used to make more new prebaked anodes.
+Prebaked anodes either are made in the same factory where electrolysis happens or are brought there from elsewhere.
+The inside of the cell's bath is lined with cathode made from coke and pitch.
+Cathodes also degrade during electrolysis, but much more slowly than anodes do, and thus they need neither be as high in purity nor be maintained as often.
+Cathodes are typically replaced every 2–6 years.
+This requires the whole cell to be shut down.
+========,3,Anode effect.
+Anode effect is a situation where too many gas bubbles form to the bottom of the anode and join together forming a layer.
+This increases the resistance of the cell when smaller areas of the electrolyte touch the anode.
+These areas of the electrolyte and anode heat up when the density of the electric current of the cell focuses to go through only them.
+This heats up the gas layer and causes it to expand thus further reducing the surface area where electrolyte and anode are in contact with each other.
+Anode effect decreases the energy-efficiency and the aluminium production of the cell.
+It also induces the formation of tetrafluoromethane (CF) in significant quantities, increased formation of CO and to lesser extent also causes the formation of hexafluoroethane (CF).
+CF and CF are CFCs which, although not detrimental to the ozone layer, are still potent greenhouse gases.
+Anode effect is mainly a problem in Söderberg technology cells, not in prebake.
+========,2,History.
+========,3,An existing need.
+Aluminium is the most abundant metallic element in the Earth's crust, but it is rarely found in its elemental state.
+It occurs in many minerals but its primary commercial source is bauxite, a mixture of hydrated aluminium oxides and compounds of other elements such as iron.
+Prior to the Hall–Héroult process, elemental aluminium was made by heating ore along with elemental sodium or potassium in a vacuum.
+The method was complicated and consumed materials that were in themselves expensive at that time.
+This meant the cost to produce the small amount of aluminium made in the early 19th century was very high, higher than for gold or platinum.
+Bars of aluminium were exhibited alongside the French crown jewels at the Exposition Universelle of 1855, and Emperor Napoleon III of France was said to have reserved his few sets of aluminium dinner plates and eating utensils for his most honored guests.
+Production costs using older methods did come down, but when aluminium was selected as the material for the cap/lightning rod to sit atop the Washington Monument in Washington, D.C., it was still more expensive than silver.
+========,3,Independent discovery.
+The Hall–Héroult process was invented independently and almost simultaneously in 1886 by the American chemist Charles Martin Hall and by the Frenchman Paul Héroult.
+Some authors claim Hall was assisted by his sister Julia Brainerd Hall; however, the extent to which she was involved has been disputed.
+In 1888, Hall opened the first large-scale aluminium production plant in Pittsburgh.
+It later became the Alcoa corporation.
+In 1997 the Hall–Héroult process was designated a National Historic Chemical Landmark by the American Chemical Society in recognition of the importance of the process in the commercialization of aluminium.
+========,3,Economic impact.
+Aluminum produced via the Hall–Héroult process, in combination with cheaper electric power, helped make aluminium (and incidentally magnesium) an inexpensive commodity rather than a precious metal.
+This in turn helped make it possible for pioneers like Hugo Junkers to utilize aluminium and aluminium-magnesium alloys to make items like metal airplanes by the thousands, or Howard Lund to make aluminium fishing boats.
+In 2012 it was estimated that 12.7 tons of CO emissions are generated per ton of aluminium produced.

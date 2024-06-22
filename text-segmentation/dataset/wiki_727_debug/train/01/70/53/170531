@@ -1,0 +1,139 @@
+========,1,preface.
+Star Raiders is a space combat simulator video game for the Atari 8-bit family of computers.
+It was written by Doug Neubauer, an Atari employee, and released in cartridge form by Atari in 1979.
+It was later ported to other Atari computer and game platforms.
+The game simulates combat in 3D between the player's powerful ship and an invading fleet of alien "Zylon" vessels.
+"Star Raiders" was distinctive for its graphics, which (under most conditions) represented an out-the-cockpit, first-person view from a fictional combat spaceship traveling through a streaming 3D starfield in pursuit of enemy spacecraft.
+The game's attract mode, a simple streaming star field, was a common sight in computer stores of the early-1980s to show off the Atari computers' graphics capabilities.
+The game is commonly referred to as the platform's killer app.
+While there had already been simple target-shooting games using this perspective (including 1977's "Starhawk"), "Star Raiders" had considerably higher quality graphics and more complex game play.
+As a result, it inspired both imitators throughout the 1980s and later-generation space combat simulation games.
+Notably, it is one of the games that inspired the seminal title "Elite", and thus the "Wing Commander" and "X-Wing" series.
+It is also one in a string of first person space shooters (including 1977's "Starhawk" and 1979's "Star Fire") that appeared in the late-1970s and were arguably predecessors of the later seen first-person shooter genre.
+In 2007, "Star Raiders" was included as #2 in a list of the 10 most important video games of all time, as compiled by Stanford University's History of Science and Technology Collections.
+========,2,Production.
+Wanting to make an action-oriented "Star Trek"-type game, Doug Neubauer designed "Star Raiders" in about eight to ten months while working for Atari.
+He left the company while the game was still a prototype to return home to Oregon and join Hewlett-Packard, and reported that it took him six months to reach the highest player-level during development.
+"Star Raiders" was unusual at the time for Atari, as it made relatively few game cartridges for its computers, with most being adaptations of Atari 2600 titles.
+========,2,Game play.
+========,3,Galactic Chart and hyperspace.
+Like the text-based "Star Trek" games, in "Star Raiders" the player's ship maneuvers about a two-dimensional grid fighting a fleet of enemy spaceships.
+In "Star Raiders", this part of the game takes the form of a "Galactic Chart" display dividing the game's large-scale world into a grid of sectors, some of which are empty, while other are occupied by enemy ships or a friendly "starbase".
+The Galactic Map is the equivalent of the earlier "Star Trek"'s Long Range Scan.
+Flying about in the 3D view with the ship's normal engines is sufficient for travel within a sector; travel between sectors is via "hyperspace", accomplished through an elaborate and noisy "hyperwarp" sequence with graphics loosely reminiscent of the "Star Wars" and "Star Trek" films in which the stars seemed to stretch to radial lines.
+On the higher difficulty levels, hyperwarp has a skill element; the player has to keep a wandering cross hair roughly centered during the sequence in order to arrive precisely at the desired destination.
+========,3,Combat, damage and resources.
+To the "Star Trek" formula, the game added real-time 3D battles as a space combat simulator.
+In the main first-person display, the player can look out of the ship and shoot "photons" at Zylon ships, which come in three different varieties reminiscent of ships from "Star Wars", "Star Trek", and "Battlestar Galactica" (whose villains were the similarly titled Cylons).
+A small targeting display in the lower right corner gives a general indication of a distant enemy or starbase's position relative to the player's ship, and also indicates when weapons are locked on the enemy, at which point the player's weapons will fire two torpedoes simultaneously.
+There is also a "long-range scan" screen showing the surrounding region in a third-person overhead view centered on your ship, operating like a long-range radar display.
+Enemy ships come in three types.
+The standard Fighters resemble the TIE fighter.
+The Patrol ships, which do not fire until fired upon, loosely resemble the front-on view of a Cylon Raider or Klingon Battlecruiser.
+The most powerful Zylon ship, the Basestar, has a pulsating orange glow and resembles a Cylon Basestar.
+It also has shields, which protect it from incoming fire, thus requiring the player to either hit it multiple times in rapid succession at close range or get the it into a Target Lock, which results in two player torpedoes being fired simultaneously.
+The game has four difficulty levels; on all but the lowest "Novice" level players must steer the ship into hyperspace and collisions with random meteoroids and enemy fire can cause damage to the player's ship.
+Such damage includes malfunctioning or nonfunctional shields, engines, weapons or information displays.
+Any collision when shields are down destroys the ship and ends the game.
+Running out of energy likewise ends the game.
+The player has to manage finite energy reserves as well as damage to the ship; it can be repaired and restocked by rendezvous with a friendly starbase.
+The enemy can also destroy a star base if allowed to surround its Galactic Chart sector for too long, so the star bases have to be defended.
+All this lends "Star Raiders" a degree of complexity and a sense of player immersion that was rare in action games of the era.
+========,3,Scoring.
+In contrast to many games of the era, the player can actually win the game by destroying all enemy ships in the galaxy.
+However, there is no running score display; only upon winning, dying or quitting the game will the player receive a "rating", which is a quasi-military rank accompanied by a numerical class with particularly bad play earning a rank of "Garbage Scow Captain" or "Galactic Cook".
+The rating depends on a formula involving the game play level, energy and time used, star bases destroyed (both by player or the enemy), the number of enemies destroyed, and whether the player succeeded in destroying all enemies, was destroyed, or aborted (quit or ran out of energy) the mission.
+Some possible ratings reach from "Rookie" to "Star Commander".
+========,2,Technical details.
+"Star Raiders" uses many techniques that would become common features of Atari 8-bit game programming in the 1980s.
+One notable feature of the game was that the main simulation continued running even when the user was interacting with other display.
+For instance, one might be attacked while examining the Galactic Map.
+This was unusual for the time, if not unique.
+The primary playfield/star field is drawn in the graphics mode that (at full screen coverage) provides 160×96 bitmapped pixels utilizing four color registers at a time out of a palette of 128 colors provided by the CTIA chip in the early Atari computers.
+This is called ANTIC mode D, but accessed in Atari BASIC by use of the "GRAPHICS 7" command.
+The Atari's use of an indirect palette means that color changes associated with the presence or absence of energy shields, emergency alarms, and the screen flash representing destruction of the ship can be accomplished by simply changing the palette values in memory registers.
+Enemy ships, shots, and most other moving objects use Atari's variant of hardware sprites, known as "player-missile graphics", which have their own color registers independent of the current screen graphics mode.
+The Atari hardware supported only four each of the 8-bit wide "players" and two-bit wide "missiles", so not all of the animated or moving objects on-screen were accomplished using them.
+In particular, the "radar" display in the lower right of screen was drawn using the background graphics, and updated less frequently than the sprites.
+The same was true for the debris particles emitted when an enemy ship is destroyed, and are actually calculated as 3D points.
+Since the 6502 processor in the Atari 8-bit family does not have a native multiply or divide command, the game slows down considerably when several of these particles are active.
+The Atari 8-bit family allows different graphics modes and color palettes to be used in different horizontal bands on the screen, by using a simple display list and a type of horizontal blank interrupt.
+While other games make more extensive use of these techniques, "Star Raiders" uses them in a relatively simple fashion to combine text displays and graphics; the cockpit display uses a custom character set to display futuristic-looking characters and symbols reminiscent of MICR.
+"Star Raiders"' sounds of engines, shots, explosions, alarms, etc.
+are algorithmically synthesized directly using the Atari POKEY sound chip's capabilities.
+Neubauer was involved in the design of POKEY.
+The entire game, code and data, fits into 8K (8192 bytes) of ROM, and requires only 8K of RAM for its working data and display visuals; thus it can run on any Atari 8-bit computer.
+========,2,Reception.
+While criticizing the violent gameplay, after seeing a demonstration Ted Nelson wrote, "The Atari machine is the most extraordinary computer graphics box ever made, and "Star Raiders" is its virtuoso demonstration game".
+in 1980 wrote that "Star Raiders" is "incredibly exciting to play and just about as much fun to watch!"
+It praised the game's use of color and sound to alert the player, and warned that "THIS GAME IS ADDICTIVE!".
+"This game is absolutely guaranteed to put calluses on your trigger-finger", "InfoWorld" stated.
+The magazine reported that "Star Raiders"s complexity encouraged cooperative gameplay, and that "over twenty hours of grueling tests by a battery of ingenious children" had proven that it was free of bugs.
+"BYTE" wrote in 1981 "What can you say about a game that takes your breath away?
+There are not enough superlatives to describe Star Raiders.
+Just as the VisiCalc software ... has enticed many people into buying Apple II computers, I'm sure that the Star Raiders cartridge ... has sold its share of Atari 400 and 800 computers".
+It concluded, "To all software vendors, this is the game you have to surpass to get our attention".
+"Electronic Games" agreed, reporting that it "is the game that, in the opinion of many, sells a lot of 400 computers systems", and "has established the standards prospective software marketed will be trying to surpass over the next year or so".
+"Softline" in 1982 called "Star Raiders" "quite a game ... stands repeat play well and remains quite difficult".
+In 1983 the magazine's readers named it "The Most Popular Atari Program Ever", with 65% more weighted votes than second-place "Jawbreaker", and in 1984 they named the game the most popular Atari program of all time.
+"The Addison-Wesley Book of Atari Software 1984" gave it an overall A rating, praising the realistic graphics and sound.
+The book concluded that "the game is simply great" and that despite imitations, ""Star Raiders" remains the classic".
+"Antic" in 1986 stated that "it was the first program that showed all of the Atari computer's audio and visual capabilities.
+It was just a game, yes, but it revolutionized the idea of what a personal computer could be made to do."
+Jerry Pournelle of "BYTE" named the Atari ST version his game of the month for August 1986, describing it as "like the old 8-bit Star Raiders had died and gone to heaven.
+The action is fast, the graphics are gorgeous, and I've spent entirely too much time with it".
+On March 12, 2007, "The New York Times" reported that "Star Raiders" was named to a list of the ten most important video games of all time, the so-called game canon.
+The Library of Congress took up a video game preservation proposal and began with the games from this list, including Star Raiders.
+========,2,Legacy.
+========,3,Ports.
+Versions of "Star Raiders" were created for the Atari 2600, Atari 5200, and Atari ST series of computers.
+The Atari 5200 version was done by programmer Joe Copson and released in autumn 1982.
+This version is nearly identical to the computer version, but takes advantage of the 5200's analog joystick by allowing for variable speed turning, and puts all the game functions in the player's hand via the controller's 12-button keypad.
+Other changes are graphical improvements to the Sector Scan mode by displaying small images of enemy ships and objects instead of pinpoints, alterations to some of the text responses to be more specific to the game-ending action, and automatically switching to Forward View when Hyperspace is engaged.
+The Atari 2600 version was programmed by Carla Meninsky and released in 1982.
+It suffers somewhat due to the 2600's weaker graphics and sound capabilities.
+It shipped with a special keypad controller, the Video Touch Pad, to take the place of the computer keyboard.
+Although the controller was designed to accept overlays for compatibility with multiple games, "Star Raiders" was the only game to utilize it.
+In this version the Zylons are renamed to "Krylons".
+The 2600 version was made available on Microsoft's "Game Room" service for its Xbox 360 console and Microsoft Windows beginning on March 24, 2010 but was eventually pulled.
+The Atari ST version was designed and programmed by Robert Zdybel with graphics and animation by Jerome Domurat and released by Atari Corp. in 1986.
+It is a very different game in many ways, with more enemy ship types, different weapons, slower action, and a map featuring a triangular grid instead of a square one, which makes it much easier for the Zylon ships to surround starbases.
+========,3,Sequels.
+========,4,Unreleased "Star Raiders II".
+In 2015, Kevin Savetz, host of the ANTIC Podcast, was contacted by former Atari programmer Aric Wilmunder.
+Wilmunder mentioned that he had been working on a true sequel to "Star Raiders", known as "Star Raiders II".
+Wilmunder joined Atari Inc. after working at Epyx, where he worked on Atari ports of their games, notably the various "Temple of Apshai" series and "Crush, Crumble and Chomp".
+After working for a time with Chris Crawford, Wilmunder moved to a secret team within the coin-op division that was working on games for the 8-bit, and had decided to make a sequel to "Star Raiders".
+This version of "Star Raiders II" was faithful to the original in gameplay terms, but was designed to make use of new 32 kB cartridges that allowed the game code to be greatly expanded over the original 8 kB version.
+The most notable change in gameplay terms was the replacement of the torpedoes with a laser-like weapon that could be aimed semi-independently of the ship's motion, allowing for snap shots against the rapidly moving enemies.
+The enemies were now drawn as 3D wireframe ships instead of their former 2D sprites.
+Strategically the game also changed, removing the gridded galactic map and replacing it with a free-form version.
+In this version, the player's home planet is in the upper left of the map, and the enemy ships are ultimately attempting to attack it.
+A number of planets can also be attacked in a view based on the over-surface scene in the Atari arcade game "Star Wars", which was being developed down the hall from Wilmunder's office.
+The main part of the game was complete by early 1984, but it still needed polishing before release.
+But by this time Atari was in disarray and undergoing a continual downsizing that Wilmunder described as a sort of mine field—you would go into work every day to see the latest "crater", another employee that had been laid off.
+Eventually it was his turn to be laid off, but he kept the development code with him when he left.
+He continued to tweak it, and approached the "new" Atari—Atari Corp.—once things had settled in the summer of 1984.
+In spite of several positive meetings, Atari Corp. would not commit to supporting a release, and the effort was forgotten when Wilmunder moved to Lucasfilm Games.
+The game remained unknown until Wilmunder contacted Savetz, who managed to convince Wilmunder to compile a version for disk and release it.
+The game is in an untuned state, but functionally complete and completely playable.
+This appeared on the Internet Archive along with a basic user manual and Wilmunder's telling of the history of the game.
+========,3,Remakes and Clones.
+Many clones of "Star Raiders" appeared, such as "Starmaster" (Atari 2600) "Space Spartans" (Intellivision) and "Space Attack".
+Neubauer's own "Star Raiders" sequel, "Solaris" for the Atari 2600, is in many ways more sophisticated than its predecessor, despite the difference in technology between the two systems.
+"Star Raiders" inspired later space combat games like "Elite" and the "Wing Commander" series.
+"Star Rangers", an homage to "Star Raiders", was released in 2010 for the iPhone.
+It was written by former 8-bit game programmer Tom Hudson, who was at one time a technical editor for Atari hobbyist magazine "ANALOG Computing".
+As of October 2014, possibly earlier, "Star Rangers" is no longer in the iOS App Store.
+A re-imagining of "Star Raiders", developed by Incinerator Studios and published by Atari, was released for the PlayStation 3, Xbox 360 and Microsoft Windows on May 11, 2011.
+========,3,In popular culture.
+In 1983 DC Comics published a graphic novel inspired by the game; it was the first title of the "DC Graphic Novel" series.
+It was written by Elliot S!
+Maggin and illustrated by José Luis García-López.
+Early production copies of the Atari 2600 version of the game were accompanied by an Atari Force mini-comic (published by DC Comics).
+This particular issue was #3 in the series, preceded by mini-comics accompanying the Defender and Berserk games.
+Two final mini-comics followed with the games "Phoenix" and "Galaxian".
+========,3,Source code.
+An extensively documented assembly source code of Star Raiders, reverse-engineered from the ROM cartridge binary file, became available on GitHub in September 2015.
+The original, commented assembly source code of Star Raiders became available in October 2015 in the Internet Archive as scan.
+The community typed in the source code double checked in a github project, too.

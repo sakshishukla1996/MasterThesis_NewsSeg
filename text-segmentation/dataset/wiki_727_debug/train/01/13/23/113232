@@ -1,0 +1,42 @@
+========,1,preface.
+Three-dimensional chess (or 3D chess) refers to any of various chess variants that use multiple boards at different levels, allowing the chess pieces to move in three physical dimensions.
+Three-dimensional variants have existed since the late 19th century, one of the oldest being Raumschach (), invented in 1907 by Ferdinand Maack and considered the classic 3D game.
+Maack founded a Raumschach club in Hamburg in 1919, which remained active until World War II.
+Chapter 25 of Pritchard's "The Classified Encyclopedia of Chess Variants" discusses games using boards with three or more dimensions and contains some 50 such variations.
+Chapter 11 covers variants using multiple boards normally set side by side which can also be considered to add an extra dimension to chess.
+========,2,Raumschach.
+The inventor contended that for chess to be more like modern warfare, attack should be possible not only from a two-dimensional plane but also from above (aerial) and below (underwater).
+Maack's original formulation was for an 8×8×8 board, but after experimenting with smaller boards eventually settled on 5×5×5 as best.
+Other obvious differences from standard chess include two additional pawns per player, and a special piece (two per player) named "unicorn".
+========,3,Board.
+The Raumschach 3D board can be thought of as a cube sliced into five equal spaces across each of its three major coordinal planes.
+This sectioning yields a 5×5×5 (125-cube) gamespace.
+The cubes (usually represented by squares and often called "cells") alternate in color in all three dimensions.
+The horizontal levels are denoted by capital letters A through E. Ranks and files of a level are denoted using algebraic notation.
+White starts on the A and B levels and Black starts on E and D.
+========,3,Rules.
+White moves first.
+The game objective, as in standard chess, is checkmate.
+Rooks, bishops, and knights move as they do in chess in any given plane.
+========,2,"Star Trek" Tri-Dimensional Chess.
+Probably the most familiar 3D chess variant to the general public is the game of Tri-Dimensional Chess (or Tri-D Chess), which can be seen in many "Star Trek" TV episodes and movies, starting with (TOS) and proceeding in updated forms throughout the subsequent movies and spinoff series.
+The original "Star Trek" prop was crafted using boards from 3D Checkers and 3D Tic-Tac-Toe sets available in stores at the time (games also seen in TOS episodes) and adding chess pieces from the futuristic-looking "Classic" chess set designed by Peter Ganine in 1961.
+The design retained the 64 squares of a traditional chessboard, but distributed them onto separate platforms in a hierarchy of spatial levels, suggesting to audiences how chess adapted to a future predominated by space travel.
+Rules for the game were never invented within the series – in fact, the boards are sometimes not even aligned consistently from one scene to the next within a single episode.
+The Tri-D chessboard was further realized by its inclusion in the "Star Trek Star Fleet Technical Manual" by Franz Joseph, who created starting positions for the pieces and short, additional rules.
+========,3,Rules development.
+The complete Standard Rules for the game were originally developed in 1976 by Andrew Bartmess (with encouragement from Joseph) and were subsequently expanded by him into a commercially available booklet.
+A free summary in English of the Standard Rules is contained on Charles Roth's website, including omissions and ambiguities regarding piece moves across the four Tri-D gameboard 2×2 "attack boards".
+A complete set of tournament rules for Tri-Dimensional Chess written by Jens Meder is available on his website.
+Meder's rules are based on FIDE's rules more than Andrew Bartmess' Standard Rules, with some deviations too.
+A repository of Tournament Rules games can be found on the website of Michael Klein.
+========,3,Board details.
+Plans for constructing a Tri-D chessboard can be found on "The Chess Variant Pages", as well as in Bartmess' "Tri-D Chess Rules".
+Details for building a travel-size board are included on Meder's website.
+========,3,Software.
+There is software for playing Tri-D Chess.
+"Parmen" is a Windows application written by Doug Keenan and available free on his website.
+A free Android version of Tri D Chess is offered by AwfSoft.
+========,2,Millennium 3D Chess.
+Millennium 3D Chess, created by William L. D'Agostino in 2001, employs three stacked 8×8 boards.
+The inventor describes his objective as "extending the traditional chess game into a multilevel environment without distorting the basic game."

@@ -1,0 +1,54 @@
+========,1,preface.
+In trigonometry, the law of sines, sine law, sine formula, or sine rule is an equation relating the lengths of the sides of a triangle (any shape) to the sines of its angles.
+According to the law, where , and are the lengths of the sides of a triangle, and , and are the opposite angles (see the figure to the right), while is the diameter of the triangle's circumcircle.
+When the last of these equations is not used, the law is sometimes stated using the reciprocals; The law of sines can be used to compute the remaining sides of a triangle when two angles and a side are known—a technique known as triangulation.
+Numerical calculation using this technique may result in a numerical error if an angle is close to 90 degrees.
+It can also be used when two sides and one of the non-enclosed angles are known.
+In some such cases, the triangle is not uniquely determined by this data (called the "ambiguous case") and the technique gives two possible values for the enclosed angle.
+The law of sines is one of two trigonometric equations commonly applied to find lengths and angles in scalene triangles, with the other being the law of cosines.
+The law of sines can be generalized to higher dimensions on surfaces with constant curvature.
+========,2,Proof.
+The area of any triangle can be written as one half of its base times its height.
+Selecting one side of the triangle as the base, the height of the triangle relative to that base is computed as the length of another side times the sine of the angle between the chosen side and the base.
+Thus, depending on the selection of the base the area of the triangle can be written as any of:
+Multiplying these by gives
+========,2,The ambiguous case of triangle solution.
+When using the law of sines to find a side of a triangle, an ambiguous case occurs when two separate triangles can be constructed from the data provided (i.e., there are two different possible solutions to the triangle).
+In the case shown below they are triangles and .
+Given a general triangle the following conditions would need to be fulfilled for the case to be ambiguous:
+***LIST***.
+If all the above conditions are true, then both angles or produce a valid triangle; meaning both of the following are true:
+From there we can find the corresponding and or and if required, where is the side bounded by angles and and bounded by and .
+Without further information it is impossible to decide which is the triangle being asked for.
+========,2,Examples.
+========,3,Example 1.
+Given: side , side , and angle .
+Angle A is desired.
+Using the law of sines, we conclude that Note that the potential solution is excluded because that would necessarily give .
+========,2,Relation to the circumcircle.
+In the identity the common value of the three fractions is actually the diameter of the triangle's circumcircle.
+It can be shown that this quantity is equal to where is the area of the triangle and is the semiperimeter The second equality above readily simplifies to Heron's formula for the area.
+========,2,Curvature.
+========,3,Hyperbolic case.
+In hyperbolic geometry when the curvature is −1, the law of sines becomes
+In the special case when is a right angle, one gets
+which is the analog of the formula in Euclidean geometry expressing the sine of an angle as the opposite side divided by the hypotenuse.
+========,3,Unified formulation.
+Define a generalized sine function, depending also on a real parameter :
+The law of sines in constant curvature reads as By substituting , , and , one obtains respectively the Euclidean, spherical, and hyperbolic cases of the law of sines described above.
+Let indicate the circumference of a circle of radius in a space of constant curvature .
+Therefore the law of sines can also be expressed as:
+This formulation was discovered by János Bolyai.
+========,2,Higher dimensions.
+For an -dimensional simplex (i.e., triangle (), tetrahedron (), pentatope (), etc.)
+in -dimensional Euclidean space, the absolute value of the polar sine of the normal vectors of the faces that meet at a vertex, divided by the hyperarea of the face opposite the vertex is independent of the choice of the vertex.
+For example, a tetrahedron has four triangular faces.
+The absolute value of the polar sine of the normal vectors to three of the faces (which share a vertex) divided by the area of the fourth face will not depend upon the choice of the vertex:
+========,2,History.
+According to Ubiratàn D'Ambrosio and Helaine Selin, the spherical law of sines was discovered in the 10th century.
+It is variously attributed to Abu-Mahmud Khojandi, Abu al-Wafa' Buzjani, Nasir al-Din al-Tusi and Abu Nasr Mansur.
+Ibn Muʿādh al-Jayyānī's "The book of unknown arcs of a sphere" in the 11th century contains the general law of sines.
+The plane law of sines was later stated in the 13th century by Nasīr al-Dīn al-Tūsī.
+In his "On the Sector Figure", he stated the law of sines for plane and spherical triangles, and provided proofs for this law.
+According to Glen Van Brummelen, "The Law of Sines is really Regiomontanus's foundation for his solutions of right-angled triangles in Book IV, and these solutions are in turn the bases for his solutions of general triangles."
+Regiomontanus was a 15th-century German mathematician.

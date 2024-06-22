@@ -1,0 +1,57 @@
+========,1,preface.
+A Netpbm format is any graphics format used and defined by the Netpbm project.
+The portable pixmap format (PPM), the portable graymap format (PGM) and the portable bitmap format (PBM) are image file formats designed to be easily exchanged between platforms.
+They are also sometimes referred to collectively as the portable anymap format (PNM), not to be confused with the related portable arbitrary map format.
+========,2,History.
+The PBM format was invented by Jef Poskanzer in the 1980s as a format that allowed monochrome bitmaps to be transmitted within an email message as plain ASCII text, allowing it to survive any changes in text formatting.
+Poskanzer developed the first library of tools to handle the PBM format, Pbmplus, released in 1988.
+It mainly contained tools to convert between PBM and other graphics formats.
+By the end of 1988, Poskanzer had developed the PGM and PPM formats along with their associated tools and added them to Pbmplus.
+The final release of Pbmplus was December 10, 1991.
+In 1993, the Netpbm library was developed to replace the unmaintained Pbmplus.
+It was simply a repackaging of Pbmplus with additions and fixes submitted by people all over the world.
+========,2,File format description.
+Each file starts with a two-byte magic number (in ASCII) that identifies the type of file it is (PBM, PGM, and PPM) and its encoding (ASCII or binary).
+The magic number is a capital P followed by a single-digit number.
+A value of ***codice*** refers to the PAM file format that is covered as well by the netpbm library.
+The ASCII formats allow for human readability and easy transfer to other platforms; the binary formats are more efficient in file size but may have native byte-order issues.
+In the binary formats, PBM uses 1 bit per pixel, PGM uses 8 bits per pixel, and PPM uses 24 bits per pixel: 8 for red, 8 for green, 8 for blue.
+========,3,PBM example.
+A simple example of the PBM format is as follows (there is a newline character at the end of each line):
+The string "P1" identifies the file format.
+The hash sign introduces a comment.
+The next two numbers give the width and the height.
+Then follows the matrix with the pixel values (in the monochrome case here, only zeros and ones).
+Here is the resulting image:  Here it is again magnified 20 times:  Note that a 0 signifies a white pixel, and a 1 signifies a black pixel.
+This is in contrast to the other formats, where higher values signify brighter pixels.
+The P4 binary format of the same image represents each pixel with a single bit, packing 8 pixels per byte, with the first pixel as the most significant bit.
+Extra bits are added at the end of each row to fill a whole byte.
+========,3,PGM example.
+The PGM and PPM formats (both ASCII and binary versions) have an additional parameter for the maximum value (numbers of grey between black and white) after the X and Y dimensions and before the actual pixel data.
+Black is 0 and max value is white.
+There is a newline character at the end of each line.
+========,3,PPM example.
+This is an example of a color RGB image stored in PPM format.
+There is a newline character at the end of each line.
+The P6 binary format of the same image represents each color component of each pixel with one byte (thus three bytes per pixel) in the order red, green, then blue.
+The file is smaller, but the color information is difficult to read by humans.
+The PPM format is not compressed, and thus requires more space and bandwidth than a compressed format would.
+For example, the above 192×128 PNG (Portable Network Graphics) image has a file size of 166 bytes.
+When converted to a 192×128 PPM image, the file size is 73,848 bytes.
+The PPM format is generally an intermediate format used for image work before converting to a more efficient format, for example the PNG format, without any loss of information in the intermediate step.
+The image shown above using only 0 or the maximal value for the red-green-blue channels can be also encoded as:
+White space including line ends and comment lines is syntactically equivalent to a single space within the PNM headers.
+For the plain formats P1…P3 this also affects the pixmap lines; in fact lines should be limited to 70 characters:
+========,2,16-bit extensions.
+The original definition of the PGM and the PPM binary formats (the P5 and P6 formats) did not allow bit depths greater than 8 bits.
+One can of course use the ASCII format, but this format both slows down reading and makes the files much larger.
+Accordingly, many programmers extended the format to allow higher bit depths.
+Using higher bit depths encounters the problem of having to decide on the endianness of the file.
+The various implementations could not agree on which byte order to use, and some connected the 16-bit endianness to the pixel packing order.
+In Netpbm, the "de facto" standard implementation of the PNM formats, the most significant byte is first.
+Common RGB color depths include 24 = (3 × 8), 30 = (3 × 10), 32 = (4 × 8), 36 = (3 × 12), 48 = (3 × 16), and 64 = (4 × 16) (with three red–green–blue channels, and a fourth unused or RGBA alpha channel, respectively).
+Classic XnView can read "rgb48be" PPM, FFmpeg can also create "rgb48be" PPM.
+While 30 = (3 × 10) could fit into 32 bits, this is not supported by the binary PNM and PAM formats.
+All PPM bit depths with more than 8 bits are encoded in 48 bits.
+More than 8 gray bits end up as 16 bits without transparency (FFmpeg PGM or PAM pix_fmt "gray16be").
+"PGMYUV" is a PGM variant only used by FFmpeg.

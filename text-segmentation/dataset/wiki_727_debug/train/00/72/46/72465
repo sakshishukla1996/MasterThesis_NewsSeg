@@ -1,0 +1,22 @@
+========,1,preface.
+A tributary or affluent is a stream or river that flows into a larger stream or main stem (or parent) river or a lake.
+A tributary does not flow directly into a sea or ocean.
+Tributaries and the main stem river drain the surrounding drainage basin of its surface water and groundwater, leading the water out into an ocean.
+A confluence, where two or more bodies of water meet together, usually refers to the joining of tributaries.
+The opposite to a tributary is a distributary, a river or stream that branches off from and flows away from the main stream.
+Distributaries are most often found in river deltas.
+========,2,Terminology.
+"Right tributary" and "left tributary" (or "right-bank tributary" and "left-bank tributary") are terms stating the orientation of the tributary relative to the flow of the main stem river.
+These terms are defined from the perspective of looking downstream (in the direction the water current of the main stem is going).
+Where tributaries have the same name as the river into which they feed, they are called forks.
+These are typically designated by compass direction.
+For example, the American River receives flow from its North, Middle, and South forks.
+The Chicago River's North Branch has the East, West, and Middle Fork; the South Branch has its South Fork, and used to have a West Fork as well (now filled in).
+Forks are sometimes designated as right or left.
+Here, the "handedness" is from the point of view of an observer facing upstream.
+For instance, Steer Creek has a left tributary which is called Right Fork Steer Creek.
+========,2,Ordering and enumeration.
+Tributaries are sometimes listed starting with those nearest to the source of the river and ending with those nearest to the mouth of the river.
+The Strahler Stream Order examines the arrangement of tributaries in a hierarchy of first, second, third, and higher orders, with the first-order tributary being typically the least in size.
+For example, a second-order tributary would be the result of two or more first-order tributaries combining to form the second-order tributary.
+Another method is to list tributaries from mouth to source, in the form of a tree structure, stored as a tree data structure.

@@ -1,0 +1,46 @@
+========,1,preface.
+In computer science, locality of reference, also known as the principle of locality, is a term for the phenomenon in which the same values, or related storage locations, are frequently accessed, depending on the memory access pattern.
+There are two basic types of reference locality temporal and spatial locality.
+Temporal locality refers to the reuse of specific data, and/or resources, within a relatively small time duration.
+Spatial locality refers to the use of data elements within relatively close storage locations.
+Sequential locality, a special case of spatial locality, occurs when data elements are arranged and accessed linearly, such as, traversing the elements in a one-dimensional array.
+Locality is merely one type of predictable behavior that occurs in computer systems.
+Systems that exhibit strong "locality of reference" are great candidates for performance optimization through the use of techniques such as the caching, prefetching for memory and advanced branch predictors at the pipelining stage of processor core.
+========,2,Types of locality.
+There are several different types of locality of reference:
+***LIST***.
+In order to benefit from the very frequently occurring "temporal" and "spatial" kind of locality, most of the information storage systems are hierarchical; see below.
+The "equidistant" locality is usually supported by the diverse nontrivial increment instructions of the processors.
+For the case of "branch" locality, the contemporary processors have sophisticated branch predictors, and on the basis of this prediction the memory manager of the processor tries to collect and preprocess the data of the plausible alternatives.
+========,2,Relevance for locality.
+There are several reasons for locality.
+These reasons are either goals to achieve or circumstances to accept, depending on the aspect.
+The reasons below are not disjoint; in fact, the list below goes from the most general case to special cases:
+========,3,Efficiency of memory hierarchy use.
+Although random access memory presents the programmer with the ability to read or write anywhere at any time, in practice latency and throughput are affected by the efficiency of the cache, which is improved by increasing the locality of reference.
+Poor locality of reference results in cache thrashing and cache pollution and to avoid it, data-elements with poor locality can be bypassed from cache.
+========,2,General locality usage.
+If most of the time the substantial portion of the references aggregate into clusters, and if the shape of this system of clusters can be well predicted, then it can be used for performance optimization.
+There are several ways to benefit from locality using optimization techniques.
+Common techniques are:
+***LIST***.
+========,2,Spatial and temporal locality usage.
+========,3,Hierarchical memory.
+Hierarchical memory is a hardware optimization that takes the benefits of spatial and temporal locality and can be used on several levels of the memory hierarchy.
+Paging obviously benefits from "temporal and spatial locality".
+A cache is a simple example of exploiting temporal locality, because it is a specially designed, faster but smaller memory area, generally used to keep recently referenced data and data near recently referenced data, which can lead to potential performance increases.
+Data-elements in a cache do not necessarily correspond to data-elements that are spatially close in the main memory; however, data elements are brought into cache one cache line at a time.
+This means that spatial locality is again important: if one element is referenced, a few neighboring elements will also be brought into cache.
+Finally, temporal locality plays a role on the lowest level, since results that are referenced very closely together can be kept in the machine registers.
+Some programming languages (such as C) allow the programmer to suggest that certain variables be kept in registers.
+Data locality is a typical memory reference feature of regular programs (though many irregular memory access patterns exist).
+It makes the hierarchical memory layout profitable.
+In computers, memory is divided into a hierarchy in order to speed up data accesses.
+The lower levels of the memory hierarchy tend to be slower, but larger.
+Thus, a program will achieve greater performance if it uses memory while it is cached in the upper levels of the memory hierarchy and avoids bringing other data into the upper levels of the hierarchy that will displace data that will be used shortly in the future.
+This is an ideal, and sometimes cannot be achieved.
+Typical memory hierarchy (access times and cache sizes are approximations of typical values used for the purpose of discussion; actual values and actual numbers of levels in the hierarchy vary):
+***LIST***.
+Modern machines tend to read blocks of lower memory into the next level of the memory hierarchy.
+If this displaces used memory, the operating system tries to predict which data will be accessed least (or latest) and move it down the memory hierarchy.
+Prediction algorithms tend to be simple to reduce hardware complexity, though they are becoming somewhat more complicated.

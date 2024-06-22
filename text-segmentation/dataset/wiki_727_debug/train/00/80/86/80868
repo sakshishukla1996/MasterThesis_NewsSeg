@@ -1,0 +1,27 @@
+========,1,preface.
+High color graphics (variously spelled Highcolor, Hicolor, Hi-color, Hicolour, and Highcolour, and known as Thousands of colors on a Macintosh) is a method of storing image information in a computer's memory such that each pixel is represented by two bytes.
+Usually the color is represented by all 16 bits, but some devices also support 15-bit high color.
+More recently, "high color" has been used by Microsoft to distinguish display systems that can make use of more than 8-bits per color channel (10:10:10:2 or 16:16:16:16 rendering formats) from traditional 8-bit per color channel formats.
+This is a distinct usage from the 15-bit (5:5:5) or 16-bit (5:6:5) formats traditionally associated with the phrase "high color".
+========,2,15-bit high color.
+In 15-bit high color, one of the bits of the two bytes is ignored or set aside for an alpha channel, and the remaining 15 bits are split between the red, green, and blue components of the final color, like this:
+Each of the RGB components has 5 bits associated, giving 2 = 32 intensities of each component.
+This allows 32,768 possible colors for each pixel.
+The popular Cirrus Logic graphics chips of the early 1990s made use of the spare high-order bit for their so-called "mixed" video modes: with bit 15 clear, bits 0 through 14 would be treated as an RGB value as described above, while with bit 15 set, bit 0 through 7 would be interpreted as an 8-bit index into a 256-color palette (with bits 8 through 14 remaining unused.)
+This would have enabled display of (comparatively) high-quality color images side by side with palette-animated screen elements, but in practice, this feature was hardly used by any software.
+========,2,16-bit high color.
+When all 16 bits are used, one of the components (usually green, see below) gets an extra bit, allowing 64 levels of intensity for that component, and a total of 65,536 available colors.
+This can lead to small discrepancies in encoding, e.g.
+when one wishes to encode the 24-bit color RGB (40, 40, 40) with 16 bits (a problem common to subsampling).
+Forty in binary is 00101000.
+The red and blue channels will take the five most significant bits, and will have a value of 00101, or 5 on a scale from 0 to 31 (16.1%).
+The green channel, with six bits of precision, will have a binary value of 001010, or 10 on a scale from 0 to 63 (15.9%).
+Because of this, the color RGB (40, 40, 40) will have a slight purple (magenta) tinge when displayed in 16 bits.
+Note that 40 on a scale from 0 to 255 is 15.7%.
+Green is usually chosen for the extra bit in 16 bits because the human eye has its highest sensitivity for green shades.
+For a demonstration, look closely at the following picture (note: this will work only on monitors displaying true color, i.e., 24 or 32 bits) where dark shades of red, green and blue are shown using 128 levels of intensities for each component (7 bits).
+Readers with normal vision should see the individual shades of green relatively easily, while the shades of red should be difficult to see, and the shades of blue are likely indistinguishable.
+More rarely, some systems support having the extra bit of color depth on the red or blue channel, usually in applications where that color is more prevalent (photographing of skin tones or skies, for example).
+========,2,Other notes.
+There is generally no need for a color look up table (CLUT, or palette) when in high color mode, because there are enough available colors per pixel to represent graphics and photos reasonably satisfactorily, although the lack of precision decreases image fidelity.
+As a result, some image formats (e.g., TIFF) can save paletted 16-bit images with an embedded CLUT.

@@ -1,0 +1,33 @@
+========,1,preface.
+In logic and mathematics, or is the truth-functional operator of (inclusive) disjunction, also known as alternation; the "or" of a set of operands is true if and only if "one or more" of its operands is true.
+The logical connective that represents this operator is typically written as ∨ or +.
+""A" or "B"" is true if "A" is true, or if "B" is true, or if both "A" and "B" are true.
+In logic, "or" by itself means the "inclusive" "or", distinguished from an exclusive or, which is false when both of its arguments are true, while an "or" is true in that case.
+An operand of a disjunction is called a disjunct.
+Related concepts in other fields are:
+***LIST***.
+========,2,Notation.
+Or is usually expressed with an infix operator: in mathematics and logic, ∨; in electronics, +; and in most programming languages, |, ||, or or.
+In Jan Łukasiewicz's prefix notation for logic, the operator is A, for Polish "alternatywa" (English: alternative).
+========,2,Definition.
+Logical disjunction is an operation on two logical values, typically the values of two propositions, that has a value of "false" if and only if both of its operands are false.
+More generally, a disjunction is a logical formula that can have one or more literals separated only by 'or's.
+A single literal is often considered to be a degenerate disjunction.
+The disjunctive identity is false, which is to say that the "or" of an expression with false has the same value as the original expression.
+In keeping with the concept of vacuous truth, when disjunction is defined as an operator or function of arbitrary arity, the empty disjunction (OR-ing over an empty set of operands) is generally defined as false.
+========,2,Symbol.
+The mathematical symbol for logical disjunction varies in the literature.
+In addition to the word "or", and the formula "A"pq"", the symbol "***formula***", deriving from the Latin word "vel" (“either”, “or”) is commonly used for disjunction.
+For example: ""A" ***formula*** "B" " is read as ""A" or "B" ".
+Such a disjunction is false if both "A" and "B" are false.
+In all other cases it is true.
+All of the following are disjunctions:
+The corresponding operation in set theory is the set-theoretic union.
+========,2,Union.
+The membership of an element of an union set in set theory is defined in terms of a logical disjunction: "x" ∈ "A" ∪ "B" if and only if ("x" ∈ "A") ∨ ("x" ∈ "B").
+Because of this, logical disjunction satisfies many of the same identities as set-theoretic union, such as associativity, commutativity, distributivity, and de Morgan's laws.
+========,2,Natural language.
+As with other notions formalized in mathematical logic, the meaning of the natural-language coordinating conjunction "or" is closely related to, but different from the logical "or".
+For example, "Please ring me or send an email" likely means "do one or the other, but not both".
+On the other hand, "Her grades are so good that she's either very bright or studies hard" does not exclude the possibility of both.
+In other words, in ordinary language "or" (even if used with "either") can mean the inclusive or exclusive or.

@@ -1,0 +1,40 @@
+========,1,preface.
+In mathematics, a Kleene algebra ( ; named after Stephen Cole Kleene) is an idempotent (and thus partially ordered) semiring endowed with a closure operator.
+It generalizes the operations known from regular expressions.
+========,2,Definition.
+Various inequivalent definitions of Kleene algebras and related structures have been given in the literature.
+Here we will give the definition that seems to be the most common nowadays.
+A Kleene algebra is a set "A" together with two binary operations + : "A" × "A" → "A" and · : "A" × "A" → "A" and one function : "A" → "A", written as "a" + "b", "ab" and "a" respectively, so that the following axioms are satisfied.
+***LIST***.
+The above axioms define a semiring.
+We further require:
+***LIST***.
+It is now possible to define a partial order ≤ on "A" by setting "a" ≤ "b" if and only if "a" + "b" = "b" (or equivalently: "a" ≤ "b" if and only if there exists an "x" in "A" such that "a" + "x" = "b"; with any definition, "a" ≤ "b" ≤ "a" implies "a" = "b").
+With this order we can formulate the last two axioms about the operation :
+***LIST***.
+Intuitively, one should think of "a" + "b" as the "union" or the "least upper bound" of "a" and "b" and of "ab" as some multiplication which is monotonic, in the sense that "a" ≤ "b" implies "ax" ≤ "bx".
+The idea behind the star operator is "a" = 1 + "a" + "aa" + "aaa" + ... From the standpoint of programming language theory, one may also interpret + as "choice", · as "sequencing" and as "iteration".
+========,2,Properties.
+Zero is the smallest element: 0 ≤ "a" for all "a" in "A".
+The sum "a" + "b" is the least upper bound of "a" and "b": we have "a" ≤ "a" + "b" and "b" ≤ "a" + "b" and if "x" is an element of "A" with "a" ≤ "x" and "b" ≤ "x", then "a" + "b" ≤ "x".
+Similarly, "a" + ... + "a" is the least upper bound of the elements "a", ..., "a".
+Multiplication and addition are monotonic: if "a" ≤ "b", then 
+***LIST***.
+for all "x" in "A".
+Regarding the star operation, we have 
+***LIST***.
+If "A" is a Kleene algebra and "n" is a natural number, then one can consider the set M("A") consisting of all "n"-by-"n" matrices with entries in "A".
+Using the ordinary notions of matrix addition and multiplication, one can define a unique -operation so that M("A") becomes a Kleene algebra.
+========,2,History.
+Kleene introduced regular expressions and gave some of their algebraical laws.
+Although he didn't define Kleene algebras, he asked for a decision procedure for equivalence of regular expressions.
+Redko proved that no finite set of "equational" axioms can characterize the algebra of regular languages.
+Salomaa gave complete axiomatizations of this algebra, however depending on problematic inference rules.
+The problem of providing a complete set of axioms, which would allow derivation of all equations among regular expressions, was intensively studied by John Horton Conway under the name of "regular algebras", however, the bulk of his treatment was infinitary.
+In 1981, Kozen gave a complete infinitary equational deductive system for the algebra of regular languages.
+In 1994, he gave the above finite axiom system, which uses unconditional and conditional equalities, and is equationally complete for the algebra of regular languages, that is, two regular expressions "a" and "b" denote the same language only if "a"="b" follows from the above axioms.
+========,2,Generalization (or relation to other structures).
+Kleene algebras are a particular case of closed semirings, also called quasi-regular semirings or Lehmann semirings, which are semirings in which every element has at least one quasi-inverse satisfying the equation: a* = aa* + 1 = a*a + 1.
+This quasi-inverse is not necessarily unique.
+In a Kleene algebra, a* is the least solution to the fixpoint equations: X = aX + 1 and X = Xa + 1.
+Closed semirings and Kleene algebras appear in algebraic path problems, a generalization of the shortest path problem.

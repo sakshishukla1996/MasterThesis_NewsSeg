@@ -1,0 +1,105 @@
+========,1,preface.
+Osmium tetroxide (also osmium(VIII) oxide) is the chemical compound with the formula OsO.
+The compound is noteworthy for its many uses, despite its toxicity and the rarity of osmium.
+It also has a number of interesting properties, one being that the solid is volatile.
+The compound is colourless, but most samples appear yellow.
+This is most likely due to the presence of the impurity OsO, which is yellow-brown in colour.
+========,2,Physical properties.
+Osmium(VIII) oxide forms monoclinic crystals.
+It has a characteristic acrid chlorine-like odor.
+The element name osmium is derived from "osme", Greek for "odor".
+OsO is volatile: it sublimes at room temperature.
+It is soluble in a wide range of organic solvents.
+It is also moderately soluble in water, with which it reacts reversibly to form osmic acid (see below).
+"Pure" osmium(VIII) oxide is probably colourless and it has been suggested that its yellow hue is due to osmium dioxide (OsO) impurities.
+The osmium tetroxide molecule is tetrahedral and therefore non-polar.
+This nonpolarity helps OsO penetrate charged cell membranes.
+OsO is 518 times more soluble in carbon tetrachloride than in water.
+========,2,Structure and electron configuration.
+The osmium of OsO has an oxidation number of VIII, however the metal does not possess a corresponding 8+ charge as the bonding in the compound is largely covalent in character (the ionization energy required to produce a formal 8+ charge also far exceeds the energies available in normal chemical reactions).
+The osmium atom has eight valence electrons (6s, 5d) with double bonds to the four oxide ligands resulting in a 16 electron complex.
+This is isoelectronic with permanganate and chromate ions.
+========,2,Synthesis.
+OsO is formed slowly when osmium powder reacts with O at ambient temperature.
+Reaction of bulk solid requires heating to 400 °C.
+========,2,Reactions.
+========,3,Oxidation of alkenes.
+Alkenes add to OsO to give diolate species that hydrolyze to "cis"-diols.
+The net process is called dihydroxylation.
+This proceeds via a [3 + 2] cycloaddition reaction between the OsO and alkene to form an intermediate osmate ester which rapidly hydrolyses to yield the vicinal diol.
+As the oxygen atoms are added in a concerted step the resulting stereochemistry is "cis".
+OsO is expensive and highly toxic, making it an unappealing reagent to use in stoichiometric amounts.
+However its reactions are made catalytic by adding reagents to reoxidise the Os(VI) by-product back to Os(VIII).
+Typical reagents include HO (Milas hydroxylation), N-methylmorpholine N-oxide (Upjohn dihydroxylation) and KFe(CN), as these will not react with the alkenes on their own.
+Other osmium compounds can be used as catalysts, including osmate(VI) salts ([OsO(OH))], and osmium trichloride hydrate (OsCl·"x"HO).
+These species oxidise to osmium(VIII) in the presence of such oxidants.
+Lewis bases such as tertiary amines and pyridines increase the rate of dihydroxylation.
+This "ligand-acceleration" arises via the formation of adduct OsOL, which adds more rapidly to the alkene.
+If the amine is chiral, then the dihydroxylation can proceed with enantioselectivity (see Sharpless asymmetric dihydroxylation).
+OsO does not react with most carbohydrates.
+The process can be extended to give to aldehydes in the Lemieux–Johnson oxidation, which uses periodate to achieve diol cleavage and to regenerate the catalytic loading of OsO.
+This process is equivalent to that of ozonolysis.
+========,3,Coordination chemistry.
+OsO is a Lewis acid and a mild oxidant.
+It reacts with alkaline aqueous solution to give the perosmate anion OsO(OH).
+This species is easily reduced to osmate anion, OsO(OH).
+When the Lewis base is an amine, adducts are also formed.
+Thus OsO can be stored in the form of osmeth, in which OsO is complexed with hexamine.
+Osmeth can be dissolved in tetrahydrofuran (THF) and diluted in an aqueous buffer solution to make a dilute (0.25%) working solution of OsO.
+With tert-BuNH, the imido derivative is produced:
+Similarly, with NH one obtains the nitrido complex:
+The [Os(N)O] anion is isoelectronic and isostructural with OsO.
+OsO is very soluble in tert-butyl alcohol.
+In solution, it is readily reduced by hydrogen to osmium metal.
+The suspended osmium metal can be used to catalyze hydrogenation of a wide variety of organic chemicals containing double or triple bonds.
+OsO undergoes "reductive carbonylation" with carbon monoxide in methanol at 400 K and 200 bar of pressure to produce the triangular cluster Os(CO):
+========,4,Oxofluorides.
+Osmium forms several oxofluorides, all of which are very sensitive to moisture.
+Purple "cis"-OsOF forms at 77 K in an anhydrous HF solution:
+OsO also reacts with F to form yellow OsOF:
+OsO reacts with one equivalent of [MeN]F at 298 K and 2 equivalents at 253 K:
+========,2,Uses.
+========,3,Organic synthesis.
+In organic synthesis OsO is widely used to oxidise alkenes to the vicinal diols, adding two hydroxyl groups at the same side (syn addition).
+See reaction and mechanism above.
+This reaction has been made both catalytic (Upjohn dihydroxylation) and asymmetric (Sharpless asymmetric dihydroxylation).
+Osmium(VIII) oxide is also used in catalytic amounts in the Sharpless oxyamination to give vicinal amino-alcohols.
+In combination with sodium periodate, OsO is used for the oxidative cleavage of alkenes (Lemieux-Johnson oxidation) when the periodate serves both to cleave the diol formed by dihydroxylation, and to reoxidize the OsO back to OsO.
+The net transformation is identical to that produced by ozonolysis.
+Below an example from the total synthesis of Isosteviol.
+========,3,Biological staining.
+OsO is a widely used staining agent used in transmission electron microscopy (TEM) to provide contrast to the image.
+As a lipid stain, it is also useful in scanning electron microscopy (SEM) as an alternative to sputter coating.
+It embeds a heavy metal directly into cell membranes, creating a high electron scattering rate without the need for coating the membrane with a layer of metal, which can obscure details of the cell membrane.
+In the staining of the plasma membrane, osmium(VIII) oxide binds phospholipid head regions, thus creating contrast with the neighbouring protoplasm (cytoplasm).
+Additionally, osmium(VIII) oxide is also used for fixing biological samples in conjunction with HgCl.
+Its rapid killing abilities are used to quickly kill live specimens such as protozoa.
+OsO stabilizes many proteins by transforming them into gels without destroying structural features.
+Tissue proteins that are stabilized by OsO are not coagulated by alcohols during dehydration.
+Osmium(VIII) oxide is also used as a stain for lipids in optical microscopy.
+OsO also stains the human cornea (see safety considerations).
+========,3,Polymer staining.
+It is also used to stain copolymers preferentially, the best known example being block copolymers where one phase can be stained so as to show the microstructure of the material.
+For example, styrene-butadiene block copolymers have a central polybutadiene chain with polystyrene end caps.
+When treated with OsO, the butadiene matrix reacts preferentially and so absorbs the oxide.
+The presence of a heavy metal is sufficient to block the electron beam, so the polystyrene domains are seen clearly in thin films in TEM.
+========,3,Osmium ore refining.
+OsO is an intermediate in the extraction of osmium from its ores.
+Osmium-containing residues are treated with sodium peroxide (NaO) forming Na[OsO(OH)], which is soluble.
+When exposed to chlorine, this salt gives OsO.
+In the final stages of refining, crude OsO is dissolved in alcoholic NaOH forming Na[OsO(OH)], which, when treated with NHCl, to give (NH)[OsOCl].
+This salt is reduced under hydrogen to give osmium.
+========,3,Buckminsterfullerene adduct.
+OsO allowed for the confirmation of the soccer ball model of buckminsterfullerene, a 60 atom carbon allotrope.
+The adduct, formed from a derivative of OsO, was C(OsO)(4-"tert"-butylpyridine).
+The adduct broke the fullerene's symmetry allowing for crystallization and confirmation of the structure of C by X-ray crystallography.
+========,2,Safety considerations.
+OsO is highly poisonous, even at low exposure levels, and must be handled with appropriate precautions.
+In particular, inhalation at concentrations well below those at which a smell can be perceived can lead to pulmonary edema and subsequent death.
+Noticeable symptoms can take hours to appear after exposure.
+OsO also stains the human cornea, which can lead to blindness if proper safety precautions are not observed.
+The permissible exposure limit for osmium(VIII) oxide (8 hour time-weighted average) is 200 µg/m.
+Osmium(VIII) oxide can penetrate plastics and therefore is stored in glass under refrigeration.
+On April 6, 2004 British intelligence sources believed they had foiled a plot to detonate a bomb involving OsO.
+Experts interviewed by "New Scientist" affirmed osmium(VIII) oxide's toxicity, though some highlighted the difficulties of using it in a weapon: osmium(VIII) oxide is very expensive.
+The osmium(VIII) oxide may be destroyed by the blast; remaining toxic fumes may also be dispersed by the blast.

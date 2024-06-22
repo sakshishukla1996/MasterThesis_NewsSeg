@@ -1,0 +1,149 @@
+========,1,preface.
+Glutathione (GSH) is an important antioxidant in plants, animals, fungi, and some bacteria and archaea.
+Glutathione is capable of preventing damage to important cellular components caused by reactive oxygen species such as free radicals, peroxides, lipid peroxides, and heavy metals.
+It is a tripeptide with a gamma peptide linkage between the carboxyl group of the glutamate side chain and the amine group of cysteine, and the carboxyl group of cysteine is attached by normal peptide linkage to a glycine.
+Thiol groups are reducing agents, existing at a concentration around 5 mM in animal cells.
+Glutathione reduces disulfide bonds formed within cytoplasmic proteins to cysteines by serving as an electron donor.
+In the process, glutathione is converted to its oxidized form, glutathione disulfide (GSSG), also called -(–)-glutathione.
+Once oxidized, glutathione can be reduced back by glutathione reductase, using NADPH as an electron donor.
+The ratio of reduced glutathione to oxidized glutathione within cells is often used as a measure of cellular oxidative stress.
+========,2,Biosynthesis.
+The biosynthesis pathway for glutathione is found in some bacteria, such as cyanobacteria and proteobacteria, but is missing in many other bacteria.
+Most eukaryotes, including humans, synthesize glutathione, but some do not, such as Leguminosae, "Entamoeba", and "Giardia".
+The only archaea that make glutathione are halobacteria.
+Glutathione is not an essential nutrient for humans, since it can be synthesized in the body from the amino acids -cysteine, -glutamic acid, and glycine; it does not have to be present as a supplement in the diet.
+The sulfhydryl group (SH) of cysteine serves as a proton donor and is responsible for its biological activity.
+Cysteine is the rate-limiting factor in cellular glutathione biosynthesis, since this amino acid is relatively rare in foods.
+Cells make glutathione in two adenosine triphosphate-dependent steps:
+***LIST***.
+Animal glutamate cysteine ligase (GCL) is a heterodimeric enzyme composed of a catalytic and a modulatory subunit.
+The catalytic subunit is necessary and sufficient for all GCL enzymatic activity, whereas the modulatory subunit increases the catalytic efficiency of the enzyme.
+Mice lacking the catalytic subunit (i.e., lacking all "de novo" GSH synthesis) die before birth.
+Mice lacking the modulatory subunit demonstrate no obvious phenotype, but exhibit marked decrease in GSH and increased sensitivity to toxic insults.
+While all animal cells are capable of synthesizing glutathione, glutathione synthesis in the liver has been shown to be essential.
+GCLC knockout mice die within a month of birth due to the absence of hepatic GSH synthesis.
+Major transport into the blood stream is driven by an electrochemical gradient, specifically through the transport proteins RcGshT and RsGshT.
+Similarly, glutathione "S"-conjugates, synthesized hepatically, feature preferential secretion into bile.
+The plant glutamate cysteine ligase (GCL) is a redox-sensitive homodimeric enzyme, conserved in the plant kingdom.
+In an oxidizing environment, intermolecular disulfide bridges are formed and the enzyme switches to the dimeric active state.
+The midpoint potential of the critical cysteine pair is -318 mV.
+In addition to the redox-dependent control, the plant GCL enzyme is feedback inhibited by glutathione.
+GCL is exclusively located in plastids, and glutathione synthetase (GS) is dual-targeted to plastids and cytosol, thus GSH and gamma-glutamylcysteine are exported from the plastids.
+Both glutathione biosynthesis enzymes are essential in plants; knock-outs of GCL and GS are lethal to embryo and seedling.
+========,2,Function.
+Glutathione exists in both reduced (GSH) and oxidized (GSSG) states.
+In the reduced state, the thiol group of cysteine is able to donate a reducing equivalent (H+ e) to other molecules, such as reactive oxygen species to neutralize them, or to protein cysteines to maintain their reduced forms.
+With donating an electron, glutathione itself becomes reactive and readily reacts with another reactive glutathione to form glutathione disulfide (GSSG).
+Such a reaction is probable due to the relatively high concentration of glutathione in cells (up to 7 mM in the liver).
+Generally, interactions between GSH and other molecules with higher relative electrophilicity deplete GSH levels within the cell.
+An exception to this case involves the sensitivity of GSH to the electrophilic compound's relative concentration.
+In high concentrations, the organic molecule Diethyl maleate fully depleted GSH levels in cells.
+However, in low concentrations, a minor decrease in cellular GSH levels was followed by a two-fold increase.
+GSH can be regenerated from GSSG by the enzyme glutathione reductase (GSR): NADPH reduces FAD present in GSR to produce a transient FADH-anion.
+This anion then quickly breaks a disulfide bond (Cys58 – Cys63) and leads to Cys63's nucleophilically attacking the nearest sulfide unit in the GSSG molecule (promoted by His467), which creates a mixed disulfide bond (GS-Cys58) and a GS-anion.
+His467 of GSR then protonates the GS-anion to form the first GSH.
+Next, Cys63 nucleophilically attacks the sulfide of Cys58, releasing a GS-anion, which, in turn, picks up a solvent proton and is released from the enzyme, thereby creating the second GSH.
+So, for every GSSG and NADPH, two reduced GSH molecules are gained, which can again act as antioxidants scavenging reactive oxygen species in the cell.
+In healthy cells and tissue, more than 90% of the total glutathione pool is in the reduced form (GSH) and less than 10% exists in the disulfide form (GSSG).
+An increased GSSG-to-GSH ratio is considered indicative of oxidative stress.
+Glutathione has multiple functions:
+***LIST***.
+========,3,Function in animals.
+GSH is known as a substrate in conjugation reactions, which is catalyzed by glutathione S-transferase enzymes in cytosol, microsomes, and mitochondria.
+However, GSH is also capable of participating in nonenzymatic conjugation with some chemicals.
+In the case of "N"-acetyl-"p"-benzoquinone imine (NAPQI), the reactive cytochrome P450-reactive metabolite formed by paracetamol (acetaminophen), which becomes toxic when GSH is depleted by an overdose of acetaminophen, glutathione is an essential antidote to overdose.
+Glutathione conjugates to NAPQI and helps to detoxify it.
+In this capacity, it protects cellular protein thiol groups, which would otherwise become covalently modified; when all GSH has been spent, NAPQI begins to react with the cellular proteins, killing the cells in the process.
+The preferred treatment for an overdose of this painkiller is the administration (usually in atomized form) of "N"-acetyl--cysteine (often as a preparation called Mucomyst), which is processed by cells to -cysteine and used in the "de novo" synthesis of GSH.
+Glutathione (GSH) participates in leukotriene synthesis and is a cofactor for the enzyme glutathione peroxidase.
+It is also important as a hydrophilic molecule that is added to lipophilic toxins and waste in the liver during biotransformation before they can become part of the bile.
+Glutathione is also needed for the detoxification of methylglyoxal, a toxin produced as a byproduct of metabolism.
+This detoxification reaction is carried out by the glyoxalase system.
+Glyoxalase I (EC 4.4.1.5) catalyzes the conversion of methylglyoxal and reduced glutathione to "S"--lactoyl-glutathione.
+Glyoxalase II (EC 3.1.2.6) catalyzes the hydrolysis of "S"--lactoyl-glutathione to glutathione and -lactic acid.
+Glutathione, along with oxidized glutathione (GSSG) and S-nitrosoglutathione (GSNO), have been found to bind to the glutamate recognition site of the NMDA and AMPA receptors (via their γ-glutamyl moieties), and may be endogenous neuromodulators.
+At millimolar concentrations, they may also modulate the redox state of the NMDA receptor complex.
+Glutathione has been found to bind to and activate ionotropic receptors that are different from any other excitatory amino acid receptor, and which may constitute "glutathione receptors", potentially making it a neurotransmitter.
+Glutathione is also able to activate the purinergic P2X7 receptor from Müller glia, inducing acute calcium transient signals and GABA release from both retinal neurons and glial cells.
+========,3,Function in plants.
+In plants, glutathione is crucial for biotic and abiotic stress management.
+It is a pivotal component of the glutathione-ascorbate cycle, a system that reduces poisonous hydrogen peroxide.
+It is the precursor of phytochelatins, glutathione oligomers that chelate heavy metals such as cadmium.
+Glutathione is required for efficient defence against plant pathogens such as "Pseudomonas syringae" and "Phytophthora brassicae".
+Adenylyl-sulfate reductase, an enzyme of the sulfur assimilation pathway, uses glutathione as an electron donor.
+Other enzymes using glutathione as a substrate are glutaredoxins.
+These small oxidoreductases are involved in flower development, salicylic acid, and plant defence signalling.
+========,2,Supplementation.
+Calcitriol (1,25-dihydroxyvitamin D), the active metabolite of vitamin D, after being synthesized from calcifediol in the kidney, increases glutathione levels in the brain and appears to be a catalyst for glutathione production.
+It takes about ten days for the body to process vitamin D into calcitriol.
+"S"-adenosylmethionine (SAMe), a cosubstrate involved in methyl group transfer, has also been shown to increase cellular glutathione content in persons suffering from a disease-related glutathione deficiency.
+Low glutathione is commonly observed in wasting and negative nitrogen balance, as seen in cancer, HIV/AIDS, sepsis, trauma, burns, and athletic overtraining.
+Low levels are also observed in periods of starvation.
+These effects are hypothesized to be influenced by the higher glycolytic activity associated with cachexia, which result from reduced levels of oxidative phosphorylation.
+========,2,Methods to determine glutathione.
+========,3,Small molecule based glutathione probes.
+========,4,Ellman's reagent and Monobromobimane.
+Reduced glutathione may be visualized using Ellman's reagent or bimane derivatives such as monobromobimane.
+The monobromobimane method is more sensitive.
+In this procedure, cells are lysed and thiols extracted using a HCl buffer.
+The thiols are then reduced with dithiothreitol and labelled by monobromobimane.
+Monobromobimane becomes fluorescent after binding to GSH.
+The thiols are then separated by HPLC and the fluorescence quantified with a fluorescence detector.
+========,4,Monochlorobimane.
+Monochlorobimane can be used to quantify glutathione in vivo.
+The quantification is done by confocal laser scanning microscopy after application of the dye to living cells.
+This quantification process relies on measuring the rates of fluorescence changes and is limited to plant cells.
+========,4,5-Chloromethylfluorescein diacetate (CMFDA).
+CMFDA was initially used as a cell tracker.
+Unfortunately, it has also been mistakenly used as a glutathione probe.
+Unlike monochlorobimane, whose fluorescence increases upon reacting with glutathione, the fluorescence increase of CMFDA is due to the hydrolysis of the acetate groups inside cells.
+Although CMFDA may react with glutathione in cells, the fluorescence increase does not reflect the reaction.
+Therefore, studies using CMFDA as a glutathione probe should be revisited and re-interpreted.
+========,4,ThiolQuant Green.
+The major limitation of these bimane based probes and many other reported probes is that these probes are based on irreversible chemical reactions with glutathione, which renders these probes incapable of monitoring the real-time glutathione dynamics.
+Recently, the first reversible reaction based fluorescent probe-ThiolQuant Green (TQG)-for glutathione was reported.
+ThiolQuant Green can not only perform high resolution measurements of glutathione levels in single cells using a confocal microscope, but also be applied in flow cytometry to perform bulk measurements.
+========,3,Protein based glutathione probes.
+Another approach, which allows measurement of the glutathione redox potential at a high spatial and temporal resolution in living cells is based on redox imaging using the redox-sensitive green fluorescent protein (roGFP) or redox sensitive yellow fluorescent protein (rxYFP)
+GSSG because its very low physiological concentration is difficult to measure accurately unless the procedure is carefully executed and monitored and the occurrence of interfering compounds is properly addressed.
+GSSG concentration ranges from 10 to 50 μM in all solid tissues, and from 2 to 5 μM in blood (13–33 nmol per gram Hb).
+GSH-to-GSSG ratio ranges from 100 to 700.
+========,2,Other biological implications.
+========,3,Cancer.
+Once a tumor has been established, elevated levels of glutathione may act to protect cancerous cells by conferring resistance to chemotherapeutic drugs.
+The antineoplastic mustard drug canfosfamide was modelled on the structure of glutathione.
+========,3,Alzheimer's disease (AD).
+Whilst extracellular amyloid beta (Aβ) plaques, neurofibrillary tangles (NFT), inflammation in the form of reactive astrocytes and microglia, and neuronal loss are all consistent pathological features of AD, a mechanistic link between these factors is yet to be clarified.
+Although the majority of past research has focused on fibrillar Aβ, soluble oligomeric Aβ species are now considered to be of major pathological importance in AD.
+Up-regulation of GSH may be protective against the oxidative and neurotoxic effects of oligomeric Aβ.
+========,2,Uses.
+========,3,Winemaking.
+The content of glutathione in must, the first raw form of wine, determines the browning, or caramelizing effect, during the production of white wine by trapping the caffeoyltartaric acid quinones generated by enzymic oxidation as grape reaction product.
+Its concentration in wine can be determined by UPLC-MRM mass spectrometry.
+========,3,Cosmetics.
+Glutathione plays an important role in preventing oxidative damage to the skin.
+In addition to its many recognized biological functions, glutathione has also been associated with skin lightening ability.
+The role of glutathione as a skin whitener was discovered as a side effect of large doses of glutathione.
+Glutathione utilizes different mechanisms to exert its action as a skin whitening agent at various levels of melanogenesis.
+It inhibits melanin synthesis by means of stopping the neurotransmitter precursor L-DOPA's ability to interact with tyrosinase in the process of melanin production.
+Glutathione inhibits the actual production as well as agglutination of melanin by interrupting the function of L-DOPA.
+Another study found that glutathione inhibits melanin formation by direct inactivation of the enzyme tyrosinase by binding and chelating copper within the enzyme's active site.
+Glutathione's antioxidant property allows it to inhibit melanin synthesis by quenching of free radicals and peroxides that contribute to tyrosinase activation and melanin formation.
+Its antioxidant property also protects the skin from UV radiation and other environmental as well as internal stressors that generate free radicals that cause skin damage and hyperpigmentation.
+In most mammals, melanin formation consists of eumelanin (brown-black pigment) and pheomelanin ( yellow-red pigment) as either mixtures or co-polymers.
+Increase in glutathione level may induce the pigment cell to produce pheomelanin instead of eumelanin pigments.
+A research by Te-Sheng Chang found lowest levels of reduced glutathione to be associated with eumelanin type pigmentation, whereas the highest ones were associated with the pheomelanin.
+As a result, it is reasonable to assume that depletion of glutathione would result in eumelanin formation.
+Prota observed that decreased glutathione concentration led to the conversion of L-Dopaquinone to Dopachrome, increasing the formation of brown-black pigment (eumelanin).
+========,2,Importance of gamma-glutamylcysteine as a precursor for glutathione synthesis.
+Gamma-glutamylcysteine (GGC) is the immediate precursor to GSH.
+GGC supplementation would circumvent feedback inhibitory control of GCL by the end product GSH.
+Accordingly, a method of elevating GSH levels with the notable advantage of bypassing negative feedback inhibition has been described.
+Because of this, GGC has been the focus of therapeutic efforts since Puri and Meister 1983.
+The first documented use of GGC in brains appears to be Pileblad and Magnusson, 1992.
+Astroglia cells are capable of utilising GGC.
+Direct delivery of the GSH precursor GCC to brain has been reported to effectively replenish levels of GSH in the brain.
+Most of the work done on GGC has been preclinical, based on in vivo animal models, or in vitro brain cultures.
+In order for the therapeutic value of GGC elevation against AD to be vindicated, three empirical hurdles have to be cleared.
+The first is to demonstrate that delivery of GCC into the brain can indeed increase GSH.
+The second is to demonstrate that the increase in GGC can indeed reduce oxidative stress in the brain, a condition frequently linked with cognitive decline.

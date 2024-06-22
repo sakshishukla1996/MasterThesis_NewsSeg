@@ -1,0 +1,73 @@
+========,1,preface.
+Information retrieval (IR) is the activity of obtaining information resources relevant to an information need from a collection of information resources.
+Searches can be based on full-text or other content-based indexing.
+Information retrieval is the science of searching for information in a document, searching for documents themselves, and also searching for metadata that describe data, and for databases of texts, images or sounds.
+Automated information retrieval systems are used to reduce what has been called "information overload".
+Many universities and public libraries use IR systems to provide access to books, journals and other documents.
+Web search engines are the most visible IR applications.
+========,2,Overview.
+An information retrieval process begins when a user enters a query into the system.
+Queries are formal statements of information needs, for example search strings in web search engines.
+In information retrieval a query does not uniquely identify a single object in the collection.
+Instead, several objects may match the query, perhaps with different degrees of relevancy.
+An object is an entity that is represented by information in a content collection or database.
+User queries are matched against the database information.
+However, as opposed to classical SQL queries of a database, in information retrieval the results returned may or may not match the query, so results are typically ranked.
+This ranking of results is a key difference of information retrieval searching compared to database searching.
+Depending on the application the data objects may be, for example, text documents, images, audio, mind maps or videos.
+Often the documents themselves are not kept or stored directly in the IR system, but are instead represented in the system by document surrogates or metadata.
+Most IR systems compute a numeric score on how well each object in the database matches the query, and rank the objects according to this value.
+The top ranking objects are then shown to the user.
+The process may then be iterated if the user wishes to refine the query.
+========,2,History.
+The idea of using computers to search for relevant pieces of information was popularized in the article "As We May Think" by Vannevar Bush in 1945.
+It would appear that Bush was inspired by patents for a 'statistical machine' - filed by Emanuel Goldberg in the 1920s and '30s - that searched for documents stored on film.
+The first description of a computer searching for information was described by Holmstrom in 1948, detailing an early mention of the Univac computer.
+Automated information retrieval systems were introduced in the 1950s: one even featured in the 1957 romantic comedy, Desk Set.
+In the 1960s, the first large information retrieval research group was formed by Gerard Salton at Cornell.
+By the 1970s several different retrieval techniques had been shown to perform well on small text corpora such as the Cranfield collection (several thousand documents).
+Large-scale retrieval systems, such as the Lockheed Dialog system, came into use early in the 1970s.
+In 1992, the US Department of Defense along with the National Institute of Standards and Technology (NIST), cosponsored the Text Retrieval Conference (TREC) as part of the TIPSTER text program.
+The aim of this was to look into the information retrieval community by supplying the infrastructure that was needed for evaluation of text retrieval methodologies on a very large text collection.
+This catalyzed research on methods that scale to huge corpora.
+The introduction of web search engines has boosted the need for very large scale retrieval systems even further.
+========,2,Model types.
+For effectively retrieving relevant documents by IR strategies, the documents are typically transformed into a suitable representation.
+Each retrieval strategy incorporates a specific model for its document representation purposes.
+The picture on the right illustrates the relationship of some common models.
+In the picture, the models are categorized according to two dimensions: the mathematical basis and the properties of the model.
+========,2,Performance and correctness measures.
+The evaluation of an information retrieval system is the process of assessing how well a system meets the information needs of its users.
+Traditional evaluation metrics, designed for Boolean retrieval or top-k retrieval, include precision and recall.
+Many more measures for evaluating the performance of information retrieval systems have also been proposed.
+In general, measurement considers a collection of documents to be searched and a search query.
+All common measures described here assume a ground truth notion of relevancy: every document is known to be either relevant or non-relevant to a particular query.
+In practice, queries may be ill-posed and there may be different shades of relevancy.
+Virtually all modern evaluation metrics (e.g., mean average precision, discounted cumulative gain) are designed for ranked retrieval without any explicit rank cutoff, taking into account the relative order of the documents retrieved by the search engines and giving more weight to documents returned at higher ranks.
+The mathematical symbols used in the formulas below mean:
+***LIST***.
+========,3,Precision.
+Precision is the fraction of the documents retrieved that are relevant to the user's information need.
+In binary classification, precision is analogous to positive predictive value.
+Precision takes all retrieved documents into account.
+It can also be evaluated at a given cut-off rank, considering only the topmost results returned by the system.
+This measure is called "precision at n" or "P@n".
+Note that the meaning and usage of "precision" in the field of information retrieval differs from the definition of accuracy and precision within other branches of science and statistics.
+========,3,Recall.
+Recall is the fraction of the documents that are relevant to the query that are successfully retrieved.
+In binary classification, recall is often called sensitivity.
+So it can be looked at as "the probability that a relevant document is retrieved by the query".
+It is trivial to achieve recall of 100% by returning all documents in response to any query.
+Therefore, recall alone is not enough but one needs to measure the number of non-relevant documents also, for example by computing the precision.
+========,3,Fall-out.
+The proportion of non-relevant documents that are retrieved, out of all non-relevant documents available:
+In binary classification, fall-out is closely related to specificity and is equal to ***formula***.
+It can be looked at as "the probability that a non-relevant document is retrieved by the query".
+It is trivial to achieve fall-out of 0% by returning zero documents in response to any query.
+========,3,Precision at K.
+For modern (Web-scale) information retrieval, recall is no longer a meaningful metric, as many queries have thousands of relevant documents, and few users will be interested in reading all of them.
+Precision at k documents (P@k) is still a useful metric (e.g., P@10 or "Precision at 10" corresponds to the number of relevant results on the first search results page), but fails to take into account the positions of the relevant documents among the top k. Another shortcoming is that on a query with fewer relevant results than k, even a perfect system will have a score less than 1.
+It is easier to score manually since only the top k results need to be examined to determine if they are relevant or not.
+========,3,Mean average precision.
+Mean average precision for a set of queries is the mean of the average precision scores for each query.
+where "Q" is the number of queries.

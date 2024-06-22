@@ -1,0 +1,64 @@
+========,1,preface.
+The S-100 bus or Altair bus, "IEEE696-1983 (withdrawn)", was an early computer bus designed in 1974 as a part of the Altair 8800.
+The S-100 bus was the first industry standard expansion bus for the microcomputer industry.
+S-100 computers, consisting of processor and peripheral cards, were produced by a number of manufacturers.
+The S-100 bus formed the basis for homebrew computers whose builders (e.g., the Homebrew Computer Club) implemented drivers for CP/M and MP/M.
+These S-100 microcomputers ran the gamut from hobbyist toy to small business workstation and were common in early home computers until the advent of the IBM PC (which some of them outperformed).
+========,2,Architecture.
+The S-100 bus is a passive backplane of 100-pin printed circuit board edge connectors wired in parallel.
+Circuit cards measuring 5 × 10-inches serving the functions of CPU, memory, or I/O interface plugged into these connectors.
+The bus signal definitions closely follow those of an 8080 microprocessor system, since the Intel 8080 microprocessor was the first microprocessor hosted on the S-100 bus.
+The 100 lines of the S-100 bus can be grouped into four types: 1) Power, 2) Data, 3) Address, and 4) Clock and control.
+Power supplied on the bus was unregulated +8 V and ±16 V, designed to be regulated on the cards to +5 V (used by TTL) and ±12 V (typically used on RS-232 lines or disk drive motors).
+The onboard voltage regulation was typically performed by devices of the 78xx family (for example, a 7805 device to produce +5 volts).
+These were linear regulators which commonly were mounted on heat sinks.
+The bi-directional 8-bit data bus of the Intel 8080 was split into two unidirectional 8-bit data buses.
+Later these two 8-bit busses would be combined to support a 16-bit data width for more advanced processors.
+The address bus was 16-bits wide in the initial implementation and later extended to 24-bits wide.
+A bus control signal could put these lines in a tri-state condition to allow direct memory access.
+The Cromemco Dazzler, for example, was an early S-100 card that retrieved digital images from memory using direct memory access.
+Clock and control signals were used to manage the traffic on the bus.
+For example the "DO Disable" line would tristate the address lines during direct memory access.
+Unassigned lines of the original bus specification were later assigned to support more advanced processors.
+For example, the Zilog Z-80 processor had a non-maskable interrupt line that the Intel 8080 processor did not.
+One unassigned line of the S-100 bus then was reassigned to support the non-maskable interrupt request.
+========,2,History.
+ During the design of the Altair, the hardware required to make a usable machine was not available in time for the January 1975 launch date.
+The designer, Ed Roberts, also had the problem of the backplane taking up too much room.
+Attempting to avoid these problems, he placed the existing components in a case with additional "slots", so that the missing components could be plugged in later when they became available.
+The backplane was split into four separate cards, with the CPU on a fifth.
+He then looked for an inexpensive source of connectors, and he came across a supply of military surplus 100-pin edge connectors.
+The 100-pin bus was created by an anonymous draftsman, who selected the connector from a parts catalog and arbitrarily assigned signal names to groups of connector pins.
+A burgeoning industry of "clone" machines followed the introduction of the Altair in 1975.
+Most of these used the same bus layout as the Altair, creating a new industry standard.
+These companies were forced to refer to the system as the "Altair bus", and wanted another name in order to avoid referring to their competitor when describing their own system.
+The “S-100” name was coined by Harry Garland and Roger Melen, co-founders of Cromemco, while on a flight to attend the Atlantic City PC '76 microcomputer conference in August 1976.
+The term first appeared in print in a Cromemco advertisement in the November 1976 issue of Byte magazine.
+The first symposium on the S-100 bus, moderated by Jim Warren, was held November 20, 1976 at Diablo Valley College with a panel consisting of Harry Garland, George Morrow, and Lee Felsenstein.
+Just one year later the S-100 Bus would be described as "the most used busing standard ever developed in the computer industry."
+Cromemco was the largest of the S-100 manufacturers, followed by Vector Graphic and North Star Computers.
+Other innovators were companies such as Alpha Microsystems, IMS Associates, Inc., Godbout Electronics (later CompuPro), and Ithaca Intersystems.
+In May 1984 "Microsystems" published a comprehensive S-100 product directory listing over 500 "S-100/IEEE-696" products from over 150 companies.
+The S-100 bus signals were simple to create using an 8080 CPU, but increasingly less so when using other processors like the 68000.
+More board space was occupied by signal conversion logic.
+Nonetheless by 1984 eleven different processors were hosted on the S-100 bus, from the 8-bit Intel 8080 to the 16-bit Zilog Z-8000.
+In 1986 Cromemco introduced the XXU card, designed by Ed Lupin, utilizing a 32-bit Motorola 68020 processor.
+========,2,IEEE-696 Standard.
+As the S-100 bus gained momentum there was a need to develop a formal specification of the bus to help assure compatibility of products produced by different manufacturers, and to extend the bus so that it could support processors more capable than the Intel 8080 used in the original Altair Computer.
+In May 1978 George Morrow and Howard Fullmer published a “Proposed Standard for the S-100 Bus” noting that 150 vendors were already supplying products for the S-100 Bus.
+This proposed standard documented the 8-bit data path and 16-bit address path of the bus and stated that consideration was being given to extending the data path to 16 bits and the address path to 24 bits.
+In July 1979 Kells Elmquist, Howard Fullmer, David Gustavson, and George Morrow published a “Standard Specification for S-100 Bus Interface Devices.” In this specification the data path was extended to 16 bits and the address path was extended to 24 bits.
+The IEEE 696 Working Group, chaired by Mark Garetz, continued to develop the specification which was proposed as an IEEE Standard and approved by the IEEE Computer Society on June 10, 1982.
+The American National Standards Institute (ANSI) approved the IEEE standard on September 8, 1983.
+The computer bus structure developed by Ed Roberts for the Altair 8800 computer had been extended, rigorously documented, and now designated as the American National Standard IEEE Std 696-1983.
+========,2,Retirement.
+IBM introduced the IBM Personal Computer in 1981 and followed it with increasingly capable models: the XT in 1983 and the AT in 1984.
+The success of these computers cut deeply into the market for S-100 bus products.
+In May 1984 Sol Libes (who had been a member of the IEEE-696 Working Group) wrote in "Microsystems": “there is no doubt that the S-100 market can now be considered a mature industry with only moderate growth potential, compared to the IBM PC-compatible market.”
+As the IBM PC products captured the low-end of the market, S-100 machines moved up-scale to more powerful OEM and multiuser systems.
+Banks of S-100 bus computers were used, for example, to process the trades at the Chicago Mercantile Exchange; the United States Air Force deployed S-100 bus machines for their mission planning systems.
+However throughout the 1980s the market for S-100 bus machines for the hobbyist, for personal use, and even for small business was on the decline.
+The market for S-100 bus products continued to contract through the early 1990s, as IBM-compatible computers became more capable.
+In 1992 the Chicago Mercantile Exchange, for example, replaced their S-100 bus computers with the IBM model PS/2.
+By 1994 the S-100 bus industry had contracted sufficiently that the IEEE did not see a need to continue supporting the IEEE-696 standard.
+The IEEE-696 standard was retired on June 14, 1994.

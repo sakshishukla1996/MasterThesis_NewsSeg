@@ -1,0 +1,48 @@
+========,1,preface.
+MPEG-7 is a multimedia content description standard.
+It was standardized in ISO/IEC 15938 (Multimedia content description interface).
+This description will be associated with the content itself, to allow fast and efficient searching for material that is of interest to the user.
+MPEG-7 is formally called "Multimedia Content Description Interface".
+Thus, it is "not" a standard which deals with the actual encoding of moving pictures and audio, like MPEG-1, MPEG-2 and MPEG-4.
+It uses XML to store metadata, and can be attached to timecode in order to tag particular events, or synchronise lyrics to a song, for example.
+It was designed to standardize:
+***LIST***.
+The combination of MPEG-4 and MPEG-7 has been sometimes referred to as MPEG-47.
+========,2,Introduction.
+MPEG-7 is intended to provide complementary functionality to the previous MPEG standards, representing information about the content, not the content itself ("the bits about the bits").
+This functionality is the standardization of multimedia content descriptions.
+MPEG-7 can be used independently of the other MPEG standards - the description might even be attached to an analog movie.
+The representation that is defined within MPEG-4, i.e.
+the representation of audio-visual data in terms of objects, is however very well suited to what will be built on the MPEG-7 standard.
+This representation is basic to the process of categorization.
+In addition, MPEG-7 descriptions could be used to improve the functionality of previous MPEG standards.With these tools, we can build an MPEG-7 Description and deploy it.
+According to the
+requirements document,1 “a Description consists
+of a Description Scheme (structure) and the
+set of Descriptor Values (instantiations) that
+describe the Data.” A Descriptor Value is “an
+instantiation of a Descriptor for a given data set
+(or subset thereof).”
+The Descriptor is the syntatic and semantic definition of the content.
+extraction algorithms are inside the scope of the standard because their standardization isn’t required to allow interoperability.
+========,2,Parts.
+The MPEG-7 (ISO/IEC 15938) consists of different Parts.
+Each part covers a certain aspect of the whole specification.
+========,2,Relation between description and content.
+An MPEG-7 architecture requirement is that description must be separate from the audiovisual content.
+On the other hand, there must be a relation between the content and description.
+Thus the description is multiplexed with the content itself.
+On the right side you can see this relation between description and content.
+========,2,MPEG-7 tools.
+MPEG-7 uses the following tools:
+***LIST***.
+On the right side you can see the relation between MPEG-7 tools.
+========,2,MPEG-7 applications.
+There are many applications and application domains which will benefit from the MPEG-7 standard.
+A few application examples are:
+***LIST***.
+========,2,Limitations.
+The MPEG-7 standard was originally written in XML Schema (XSD), which constitutes semi-structured data.
+For example, the running time of a movie annotated using MPEG-7 in XML is machine-readable data, so software agents will know that the number expressing the running time is a positive integer, but such data is not machine-interpretable (cannot be understood by agents), because it does not convey semantics (meaning), known as the “Semantic Gap.” To address this issue, there were many attempts to map the MPEG-7 XML Schema to the Web Ontology Language (OWL), which is a structured data equivalent of the terms of the MPEG-7 standard (MPEG-7Ontos, COMM, SWIntO, etc.).
+However, these mappings did not really bridge the “Semantic Gap,” because low-level video features alone are inadequate for representing video semantics.
+In other words, annotating an automatically extracted video feature, such as color distribution, does not provide the meaning of the actual visual content.

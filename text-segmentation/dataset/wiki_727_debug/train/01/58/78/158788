@@ -1,0 +1,63 @@
+========,1,preface.
+In organic chemistry, a carbonyl group is a functional group composed of a carbon atom double-bonded to an oxygen atom: C=O.
+It is common to several classes of organic compounds, as part of many larger functional groups.
+A compound containing a carbonyl group is often referred to as a carbonyl compound.
+The term carbonyl can also refer to carbon monoxide as a ligand in an inorganic or organometallic complex (a metal carbonyl, e.g.
+nickel carbonyl).
+The remainder of this article concerns itself with the organic chemistry definition of carbonyl, where carbon and oxygen share a double bond.
+========,2,Carbonyl compounds.
+A carbonyl group characterizes the following types of compounds:
+Note that the most specific labels are usually employed.
+For example, R(CO)O(CO)R' structures are known as acid anhydride rather than the more generic ester, even though the ester motif is present.
+Other organic carbonyls are urea and the carbamates, the derivatives of acyl chlorides chloroformates and phosgene, carbonate esters, thioesters, lactones, lactams, hydroxamates, and isocyanates.
+Examples of inorganic carbonyl compounds are carbon dioxide and carbonyl sulfide.
+A special group of carbonyl compounds are 1,3-dicarbonyl compounds that have acidic protons in the central methylene unit.
+Examples are Meldrum's acid, diethyl malonate and acetylacetone.
+========,2,Reactivity.
+========,3,Carbonyl resonance chemistry.
+Because oxygen is more electronegative than carbon, carbonyl compounds often have resonance structures which affect their reactivity.
+This relative electronegativity draws electron density away from carbon, increasing the bond's polarity, therefore making carbon an electrophile (i.e.
+slightly positive).
+Carbon can then be attacked by nucleophiles (e.g.
+negatively charged ions, like the cyanide ion) or a negatively charged part of another molecule (e.g.
+the lone pair electrons of nitrogen in the[ammonia]] molecule).
+During the reaction, the carbon-oxygen double bond is broken, and the carbonyl group may experience addition reactions.
+This reaction is known as addition-elimination (because a water molecule is often lost) or condensation.
+The electronegative oxygen also can react with an electrophile; for example a proton in an acidic solution or with Lewis acids to form an oxocarbenium ion.
+The polarity of oxygen also makes the alpha hydrogens of carbonyl compounds "much" more acidic (roughly 10 times more acidic) than typical sp C-H bonds, such as those in methane.
+For example, the pK values of acetaldehyde and acetone are 16.7 and 19 respectively, while the pK value of methane is extrapolated to be approximately 50.
+This is because a carbonyl is in tautomeric resonance with an enol.
+The deprotonation of the enol with a strong base produces an enolate, which is a powerful nucleophile and can alkylate electrophiles such as other carbonyls.
+Amides are the most stable of the carbonyl couplings due to their high resonance stabilization between the nitrogen-carbon and carbon-oxygen bonds.
+========,3,Carbonyl reduction.
+Carbonyl groups can be reduced by reaction with hydride reagents such as NaBH and LiAlH, with baker's yeast, or by catalytic hydrogenation.
+Ketones give secondary alcohols while aldehydes, esters and carboxylic acids give primary alcohols.
+========,3,Carbonyl alkylation.
+Carbonyls can be alkylated in nucleophilic addition reactions using organometallic compounds such as organolithium reagents, Grignard reagents, or acetylides.
+Carbonyls also may be alkylated by enolates as in aldol reactions.
+Carbonyls are also the prototypical groups with vinylogous reactivity (e.g.
+the Michael reaction where an unsaturated carbon in conjugation with the carbonyl is alkylated instead of the carbonyl itself).
+========,3,Carbonyl chemoselectivity.
+In case of multiple carbonyl types in one molecule, one can expect the most electrophilic carbonyl carbon to react first.
+Acyl chlorides and carboxylic anhydrides react fastest, followed by aldehydes and ketones.
+Esters react much more slowly and amides are almost completely unreactive due to resonance of the amide nitrogen towards the carbonyl group.
+This reactivity difference allows chemoselectivity when a reactant contains multiple carbonyl groups.
+An instructive example is found in the last part of the total synthesis of monensin by Kishi in 1979:
+The left-hand reactant possesses two potential electrophilic sites: an aldehyde (indicated in blue) and an ester (indicated in green).
+Only the aldehyde, which is more electrophilic, will react with the enolate of the methyl ketone in the other part of the molecule.
+The methyl ester remains untouched.
+Of course, other effects can play a role in this selectivity process, including electronic effects, steric effects, and thermodynamic versus kinetic reaction control.
+========,2,α,β-Unsaturated carbonyl compounds.
+α,β-Unsaturated carbonyl compounds are an important class of carbonyl compounds with the general structure (O=CR)−C=C-R; for example enones and enals.
+In these compounds the carbonyl group is conjugated with an alkene (hence the adjective "unsaturated"), from which they derive special properties.
+Unlike the case for simple carbonyls, α,β-unsaturated carbonyl compounds are often attacked by nucleophiles at the β carbon.
+This pattern of reactivity is called vinylogous.
+Examples of unsaturated carbonyls are acrolein (propenal), mesityl oxide, acrylic acid, and maleic acid.
+Unsaturated carbonyls can be prepared in the laboratory in an aldol reaction and in the Perkin reaction.
+The carbonyl group draws electrons away from the alkene, and the alkene group is, therefore, deactivated towards an electrophile, such as bromine or hydrochloric acid.
+As a general rule with asymmetric electrophiles, hydrogen attaches itself at the α-position in an electrophilic addition.
+On the other hand, these compounds are activated towards nucleophiles in nucleophilic conjugate addition.
+Since α,β-unsaturated compounds are electrophiles, many α,β-unsaturated carbonyl compounds are toxic, mutagenic and carcinogenic.
+DNA can attack the β carbon and thus be alkylated.
+However, the endogenous scavenger compound glutathione naturally protects from toxic electrophiles in the body.
+Some drugs (amifostine, "N"-acetylcysteine) containing thiol group may protect biomolecules from such harmful alkylation

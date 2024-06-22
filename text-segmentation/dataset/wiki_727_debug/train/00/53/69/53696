@@ -1,0 +1,105 @@
+========,1,preface.
+Division is one of the four basic operations of arithmetic, the others being addition, subtraction, and multiplication.
+The division of two natural numbers is the process of calculating the number of times one number is contained within one another.
+For example, in the picture on the right, the 20 apples are divided into groups of five apples, and there exist four groups, meaning that five can be contained within 20 four times, or .
+Division can also be thought of as the process of evaluating a fraction, and fractional notation ( and ) is commonly used to represent division.
+Division can be viewed either as quotition or as partition.
+In quotition, 20 ÷ 5 means the number of 5s that must be added to get 20.
+In partition, 20 ÷ 5 means the size of each of 5 parts into which a set of size 20 is divided.
+Division is the inverse of multiplication; if , then , as long as is not zero.
+Division by zero is undefined for the real numbers and most other contexts, because if , then cannot be deduced from and , as then will always equal zero regardless of .
+In some contexts, division by zero can be defined although to a limited extent, and limits involving division of a real number as it approaches zero are defined.
+In division, the "dividend" is divided by the "divisor" to get a "quotient".
+In the above example, 20 is the dividend, five is the divisor, and four is the quotient.
+In some cases, the divisor may not be contained fully by the dividend; for example, leaves a "remainder" of one, as 10 is not a multiple of three.
+Sometimes this remainder is added to the quotient as a fractional part, so is equal to or , but in the context of integer division, where numbers have no fractional part, the remainder is kept separately or discarded.
+Besides dividing apples, division can be applied to other physical and abstract objects.
+Division has been defined in several contexts, such as for the real and complex numbers and for more abstract contexts such as for vector spaces and fields.
+Division is the most mentally difficult of the four basic operations of arithmetic, but the discipline and mastery of it provides an educational bridge from arithmetic to number theory and algebra.
+Teaching the objective concept of dividing integers introduces students to the arithmetic of fractions.
+Unlike addition, subtraction, and multiplication, the set of all integers is not closed under division.
+Dividing two integers may result in a remainder.
+To complete the division of the remainder, the number system is extended to include fractions or rational numbers as they are more generally called.
+When students advance to algebra, the abstract theory of division intuited from arithmetic naturally extends to algebraic division of variables, polynomials, and matrices.
+========,2,Computing.
+========,3,Manual methods.
+Division is often introduced through the notion of "sharing out" a set of objects, for example a pile of sweets, into a number of equal portions.
+Distributing the objects several at a time in each round of sharing to each portion leads to the idea of "chunking", i.e., division by repeated subtraction.
+More systematic and more efficient (but also more formalised and more rule-based, and more removed from an overall holistic picture of what division is achieving), a person who knows the multiplication tables can divide two integers using pencil and paper using the method of short division, if the divisor is simple.
+Long division is used for larger integer divisors.
+If the dividend has a fractional part (expressed as a decimal fraction), one can continue the algorithm past the ones place as far as desired.
+If the divisor has a fractional part, we can restate the problem by moving the decimal to the right in both numbers until the divisor has no fraction.
+A person can calculate division with an abacus by repeatedly placing the dividend on the abacus, and then subtracting the divisor the offset of each digit in the result, counting the number of divisions possible at each offset.
+A person can use logarithm tables to divide two numbers, by subtracting the two numbers' logarithms, then looking up the antilogarithm of the result.
+A person can calculate division with a slide rule by aligning the divisor on the C scale with the dividend on the D scale.
+The quotient can be found on the D scale where it is aligned with the left index on the C scale.
+The user is responsible, however, for mentally keeping track of the decimal point.
+========,3,By computer or with computer assistance.
+Modern computers compute division by methods that are faster than long division: see Division algorithm.
+In modular arithmetic, some numbers have a multiplicative inverse with respect to the modulus.
+We can calculate division by multiplication in such a case.
+This approach is useful in computers that do not have a fast division instruction.
+========,2,Properties.
+Division is right-distributive over addition and subtraction.
+That means:
+in the same way as in multiplication ***formula***.
+But division is not left-distributive, i.e.
+we have unlike multiplication.
+If there are multiple divisions in a row the order of operation goes from left to right:
+========,2,Euclidean division.
+The Euclidean division is the mathematical formulation of the outcome of the usual process of division of integers.
+It asserts that, given two integers, "a", the "dividend", and "b", the "divisor", such that "b" ≠ 0, there are unique integers "q", the "quotient", and "r", the remainder, such that "a" = "bq" + "r" and 0 ≤ "r" < , where denotes the absolute value of "b".
+========,2,Of integers.
+Division of integers is not closed.
+Apart from division by zero being undefined, the quotient is not an integer unless the dividend is an integer multiple of the divisor.
+For example, 26 cannot be divided by 11 to give an integer.
+Such a case uses one of five approaches:
+***LIST***.
+Dividing integers in a computer program requires special care.
+Some programming languages, such as C, treat integer division as in case 5 above, so the answer is an integer.
+Other languages, such as MATLAB and every computer algebra system return a rational number as the answer, as in case 3 above.
+These languages also provide functions to get the results of the other cases, either directly or from the result of case 3.
+Names and symbols used for integer division include div, /, \, and %.
+Definitions vary regarding integer division when the dividend or the divisor is negative: rounding may be toward zero (so called T-division) or toward −∞ (F-division); rarer styles can occur – see Modulo operation for the details.
+Divisibility rules can sometimes be used to quickly determine whether one integer divides exactly into another.
+========,2,Of rational numbers.
+The result of dividing two rational numbers is another rational number when the divisor is not 0.
+The division of two rational numbers "p"/"q" and "r"/"s" can be computed as All four quantities are integers, and only "p" may be 0.
+This definition ensures that division is the inverse operation of multiplication.
+========,2,Of real numbers.
+Division of two real numbers results in another real number when the divisor is not 0.
+It is defined such "a"/"b" = "c" if and only if "a" = "cb" and "b" ≠ 0.
+========,2,By zero.
+Division of any number by zero (where the divisor is zero) is undefined.
+This is because zero multiplied by any finite number always results in a product of zero.
+Entry of such an expression into most calculators produces an error message.
+========,2,Of complex numbers.
+Dividing two complex numbers results in another complex number when the divisor is not 0, which is found using the conjugate of the denominator:
+This process of multiplying and dividing by ***formula*** is called 'realisation' or (by analogy) rationalisation.
+All four quantities "p", "q", "r", "s" are real numbers, and "r" and "s" may not both be 0.
+Division for complex numbers expressed in polar form is simpler than the definition above:
+Again all four quantities "p", "q", "r", "s" are real numbers, and "r" may not be 0.
+========,2,Of polynomials.
+One can define the division operation for polynomials in one variable over a field.
+Then, as in the case of integers, one has a remainder.
+See Euclidean division of polynomials, and, for hand-written computation, polynomial long division or synthetic division.
+========,2,Of matrices.
+One can define a division operation for matrices.
+The usual way to do this is to define , where denotes the inverse of "B", but it is far more common to write out explicitly to avoid confusion.
+An elementwise division can also be defined in terms of the Hadamard product.
+========,3,Left and right division.
+Because matrix multiplication is not commutative, one can also define a left division or so-called "backslash-division" as .
+For this to be well defined, need not exist, however does need to exist.
+To avoid confusion, division as defined by is sometimes called "right division" or "slash-division" in this context.
+Note that with left and right division defined this way, is in general not the same as and nor is the same as , but and .
+========,2,Abstract algebra.
+In abstract algebra, given a magma with binary operation ∗ (which could nominally be termed multiplication), left division of "b" by "a" (written ) is typically defined as the solution "x" to the equation , if this exists and is unique.
+Similarly, right division of "b" by "a" (written ) is the solution "y" to the equation .
+Division in this sense does not require ∗ to have any particular properties (such as commutativity, associativity, or an identity element).
+"Division" in the sense of "cancellation" can be done in any magma by an element with the cancellation property.
+Examples include matrix algebras and quaternion algebras.
+A quasigroup is a structure in which division is always possible, even without an identity element and hence inverses.
+In an integral domain, where not every element need have an inverse, "division" by a cancellative element "a" can still be performed on elements of the form "ab" or "ca" by left or right cancellation, respectively.
+If a ring is finite and every nonzero element is cancellative, then by an application of the pigeonhole principle, every nonzero element of the ring is invertible, and "division" by any nonzero element is possible.
+To learn about when "algebras" (in the technical sense) have a division operation, refer to the page on division algebras.
+In particular Bott periodicity can be used to show that any real normed division algebra must be isomorphic to either the real numbers R, the complex numbers C, the quaternions H, or the octonions O.

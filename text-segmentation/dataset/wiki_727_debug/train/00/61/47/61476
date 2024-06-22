@@ -1,0 +1,68 @@
+========,1,preface.
+In mathematics, the radius of convergence of a power series is the radius of the largest disk in which the series converges.
+It is either a non-negative real number or ***formula***.
+When it is positive, the power series converges absolutely and uniformly on compact sets inside the open disk of radius equal to the radius of convergence, and it is the Taylor series of the analytic function to which it converges.
+========,2,Definition.
+For a power series "ƒ" defined as:
+where The radius of convergence "r" is a nonnegative real number or ***formula*** such that the series converges if and diverges if Some may prefer an alternative definition, as existence is obvious:
+On the boundary, that is, where |"z" − "a"| = "r", the behavior of the power series may be complicated, and the series may converge for some values of "z" and diverge for others.
+The radius of convergence is infinite if the series converges for all complex numbers "z".
+========,2,Finding the radius of convergence.
+Two cases arise.
+The first case is theoretical: when you know all the coefficients ***formula*** then you take certain limits and find the precise radius of convergence.
+The second case is practical: when you construct a power series solution of a difficult problem you typically will only know a finite number of terms in a power series, anywhere from a couple of terms to a hundred terms.
+In this second case, extrapolating a plot estimates the radius of convergence.
+========,3,Theoretical radius.
+The radius of convergence can be found by applying the root test to the terms of the series.
+The root test uses the number "lim sup" denotes the limit superior.
+The root test states that the series converges if "C" < 1 and diverges if "C" > 1.
+It follows that the power series converges if the distance from "z" to the center "a" is less than and diverges if the distance exceeds that number; this statement is the Cauchy–Hadamard theorem.
+Note that "r" = 1/0 is interpreted as an infinite radius, meaning that "ƒ" is an entire function.
+The limit involved in the ratio test is usually easier to compute, and when that limit exists, it shows that the radius of convergence is finite.
+This is shown as follows.
+The ratio test says the series converges if That is equivalent to
+========,2,Radius of convergence in complex analysis.
+A power series with a positive radius of convergence can be made into a holomorphic function by taking its argument to be a complex variable.
+The radius of convergence can be characterized by the following theorem:
+The set of all points whose distance to "a" is strictly less than the radius of convergence is called the "disk of convergence".
+"The nearest point" means the nearest point in the complex plane, not necessarily on the real line, even if the center and all coefficients are real.
+For example, the function has no singularities on the real line, since ***formula*** has no real roots.
+Its Taylor series about 0 is given by The root test shows that its radius of convergence is 1.
+In accordance with this, the function "ƒ"("z") has singularities at ±"i", which are at a distance 1 from 0.
+For a proof of this theorem, see analyticity of holomorphic functions.
+========,3,A simple example.
+The arctangent function of trigonometry can be expanded in a power series familiar to calculus students:
+It is easy to apply the root test in this case to find that the radius of convergence is 1.
+========,3,A more complicated example.
+Consider this power series:
+where the rational numbers "B" are the Bernoulli numbers.
+It may be cumbersome to try to apply the ratio test to find the radius of convergence of this series.
+But the theorem of complex analysis stated above quickly solves the problem.
+At "z" = 0, there is in effect no singularity since the singularity is removable.
+The only non-removable singularities are therefore located at the "other" points where the denominator is zero.
+We solve by recalling that if "z" = "x" + "iy" and "e" = cos("y") + "i" sin("y") then and then take "x" and "y" to be real.
+Since "y" is real, the absolute value of cos("y") + "i" sin("y") is necessarily 1.
+Therefore, the absolute value of "e" can be 1 only if "e" is 1; since "x" is real, that happens only if "x" = 0.
+Therefore "z" is pure imaginary and cos("y") + "i" sin("y") = 1.
+Since "y" is real, that happens only if cos("y") = 1 and sin("y") = 0, so that "y" is an integer multiple of 2.
+Consequently the singular points of this function occur at The singularities nearest 0, which is the center of the power series expansion, are at ±2"i".
+The distance from the center to either of those points is 2, so the radius of convergence is 2.
+========,2,Convergence on the boundary.
+If the power series is expanded around the point "a" and the radius of convergence is , then the set of all points such that is a circle called the "boundary" of the disk of convergence.
+A power series may diverge at every point on the boundary, or diverge on some points and converge at other points, or converge at all the points on the boundary.
+Furthermore, even if the series converges everywhere on the boundary (even uniformly), it does not necessarily converge absolutely.
+Example 1: The power series for the function , expanded around , which is simply has radius of convergence 1 and diverges at every point on the boundary.
+Example 2: The power series for , expanded around , which is has radius of convergence 1, and diverges for but converges for all other points on the boundary.
+The function of Example 1 is the derivative of .
+Example 3: The power series has radius of convergence 1 and converges everywhere on the boundary absolutely.
+If is the function represented by this series on the unit disk, then the derivative of "h"("z") is equal to "g"("z")/"z" with "g" of Example 2.
+It turns out that is the dilogarithm function.
+Example 4: The power series has radius of convergence 1 and converges uniformly on the entire boundary {|"z"| = 1}, but does not converge absolutely on the boundary.
+========,2,Comments on rate of convergence.
+If we expand the function around the point "x" = 0, we find out that the radius of convergence of this series is ***formula*** meaning that this series converges for all complex numbers.
+However, in applications, one is often interested in the precision of a numerical answer.
+Both the number of terms and the value at which the series is to be evaluated affect the accuracy of the answer.
+For example, if we want to calculate ƒ(0.1) = sin(0.1) accurate up to five decimal places, we only need the first two terms of the series.
+However, if we want the same precision for "x" = 1, we must evaluate and sum the first five terms of the series.
+For ƒ(10), one requires the first 18 terms of the series, and for ƒ(100), we need to evaluate the first 141 terms.
+So the fastest convergence of a power series expansion is at the center, and as one moves away from the center of convergence, the rate of convergence slows down until you reach the boundary (if it exists) and cross over, in which case the series will diverge.

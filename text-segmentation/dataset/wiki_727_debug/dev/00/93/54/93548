@@ -1,0 +1,34 @@
+========,1,preface.
+Edgar Frank "Ted" Codd (19 August 1923 – 18 April 2003) was an English computer scientist who, while working for IBM, invented the relational model for database management, the theoretical basis for relational databases.
+He made other valuable contributions to computer science, but the relational model, a very influential general theory of data management, remains his most mentioned achievement.
+========,2,Biography.
+Edgar Frank Codd was born in Fortuneswell, on the Isle of Portland in Dorset, England.
+After attending Poole Grammar School, he studied mathematics and chemistry at Exeter College, Oxford, before serving as a pilot in the RAF Coastal Command during the Second World War, flying Sunderlands.
+In 1948, he moved to New York to work for IBM as a mathematical programmer.
+In 1953, angered by Senator Joseph McCarthy, Codd moved to Ottawa, Ontario, Canada.
+In 1957 he returned to the US working for IBM and from 1961–1965 pursuing his doctorate in computer science at the University of Michigan in Ann Arbor.
+Two years later he moved to San Jose, California, to work at IBM's San Jose Research Laboratory, where he continued to work until the 1980s.
+He was appointed IBM Fellow in 1976.
+During the 1990s, his health deteriorated and he ceased work.
+Codd received the Turing Award in 1981, and in 1994 he was inducted as a Fellow of the Association for Computing Machinery.
+Codd died of heart failure at his home in Williams Island, Florida, at the age of 79 on 18 April 2003
+========,2,Work.
+Codd received a PhD in 1965 from the University of Michigan, Ann Arbor advised by John Henry Holland.
+His thesis was about self-replication in cellular automata, extending on work of von Neumann and showing that a set of eight states was sufficient for universal computation and construction.
+His design for a self-replicating computer was only implemented in 2010.
+In the 1960s and 1970s he worked out his theories of data arrangement, issuing his paper "A Relational Model of Data for Large Shared Data Banks" in 1970, after an internal IBM paper one year earlier.
+To his disappointment, IBM proved slow to exploit his suggestions until commercial rivals started implementing them.
+Initially, IBM refused to implement the relational model to preserve revenue from IMS/DB.
+Codd then showed IBM customers the potential of the implementation of its model, and they in turn pressured IBM.
+Then IBM included in its Future Systems project a System R subproject – but put in charge of it developers who were not thoroughly familiar with Codd's ideas, and isolated the team from Codd.
+As a result, they did not use Codd's own Alpha language but created a non-relational one, SEQUEL.
+Even so, SEQUEL was so superior to pre-relational systems that it was copied, in 1979, based on pre-launch papers presented at conferences, by Larry Ellison, of Relational software Inc, in his Oracle Database, which actually reached market before SQL/DS – because of the then-already proprietary status of the original name, SEQUEL had been renamed SQL.
+Codd continued to develop and extend his relational model, sometimes in collaboration with Christopher J.
+One of the normalised forms, the Boyce–Codd normal form, is named after him.
+Codd's theorem, a result proven in his seminal work on the relational model, equates the expressive power of relational algebra and relational calculus (both of which, lacking recursion, are strictly less powerful than first-order logic).
+As the relational model started to become fashionable in the early 1980s, Codd fought a sometimes bitter campaign to prevent the term being misused by database vendors who had merely added a relational veneer to older technology.
+As part of this campaign, he published his 12 rules to define what constituted a relational database.
+This made his position in IBM increasingly difficult, so he left to form his own consulting company with Chris Date and others.
+Codd coined the term "Online analytical processing (OLAP)" and wrote the "twelve laws of online analytical processing".
+Controversy erupted, however, after it was discovered that this paper had been sponsored by Arbor Software (subsequently Hyperion, now acquired by Oracle), a conflict of interest that had not been disclosed, and ComputerWorld withdrew the paper.
+In 2004, SIGMOD renamed its highest prize to the SIGMOD Edgar F. Codd Innovations Award, in his honour.

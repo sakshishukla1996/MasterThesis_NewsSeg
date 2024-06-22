@@ -1,0 +1,35 @@
+========,1,preface.
+Histocompatibility, or tissue compatibility, is the property of having the same, or sufficiently similar, alleles of a set of genes called human leukocyte antigens (HLA).
+Histocompatibility testing is most relevant for topics related to whole organ, tissue, or stem cell transplants.
+HLA is the human form of the major histocompatibility complex (MHC) genes found in all vertebrates.
+On a population level there is a great number of different alleles at each HLA locus on chromosome 6 at 6p21.3 in humans with new ones being continuously discovered.
+Each individual inherits two different HLA alleles.
+Each of these alleles contain six loci (location on the chromosome) which code for major histocompatibility complex (MHC) proteins.
+These genes are codominantly expressed, meaning every individual expresses each of the inherited alleles, both paternal and maternal.
+This results in a mixture of different types of MHC proteins for every individual.
+The similarity or difference of one individual's HLA alleles, and therefore MHC proteins, to another person's is what makes the tissues either compatible or incompatible.
+========,2,Major histocompatibility complex (MHC).
+MHC proteins are critical to the adaptive immune response and come in two forms, MHC class I and MHC Class II.
+MHC Class I molecules are present on all cells and are responsible for signaling to an immune cell that an antigen has invaded and taken over the cell.
+MHC Class II molecules are only present on antigen presenting cells such as dendritic cells and are responsible for alerting the immune cells, particularly the T helper cells that an antigen has entered into the system, though it has not taken over the antigen presenting cell.
+MHC molecules are also self antigens, to which the immune system raises antibodies to recognize, but becomes tolerant to.
+The immune system at first makes antibodies to all sorts of antigens, including those it has never been exposed to, but stops making them to self antigens (MHCs) present on own tissues.
+========,2,Necessary for transplantation.
+When receiving a transplant in the form of a tissue graft or full organ such as a liver or kidney, the recipient's immune system will react naturally as if the tissue is a dangerous foreign antigen and cause an immune response to destroy the tissue.
+This response will continue unless the MHC proteins expressed by the donor's tissue are the same, or at least very similar to the MHC proteins expressed by the recipient's, for which it has learned not to react against.
+Which is to say the more similar the spread of HLA alleles are between two people, the more tolerant they would be to each other's tissue or organ MHC antigens.
+Practically organizing transplant operations means seeking out donors with similar tissue types, most often siblings, though due to the number of HLA loci involved it is rare to find a complete tissue type match even between siblings (unless they are identical twins).
+This is why most transplants will require post-operative immunosuppressant therapy to lessen the immune response to the transplant and prevent tissue rejection – unless the transplanted tissue enjoys immune privilege, such as with corneal transplants.
+========,2,Testing.
+To test for histocompatibility between donor and recipient tissues, medical professionals or medical laboratories specifically will be comparing the antibodies of the recipient as well as the donor.
+The presence of specific anti-HLA antibodies indicates the presence of the corresponding MHC protein.
+One common technique used for histocompatibility testing is microcytotoxicity assays.
+This involves adding a sample of the donor or recipient's cells containing MHC proteins to a serum containing known anti-HLA antibodies.
+The antibodies that bind to the cells activate a complement signaling cascade resulting in cell lysis.
+When a particular cell is lysed it will take up an added dye such as trypan blue allowing for identification.
+Histocompatibility testing has evolved greatly with the technological advances in DNA based molecular typing and solid phase immunoassays, which enable detection of very small amounts of HLA specific antibodies within an individual.
+This has produced a major challenge for transplant teams as it is still unclear whether or not such small concentrations of antibodies are clinically relevant.
+Histocompatibility testing is only one of many criteria necessary for matching transplant donors to recipients.
+Currently certain MHC proteins, DR, HLA-B, and HLA-A are known to have more of a negative affect and must be the same between tissues in order for a transplant team to proceed.
+Blood type, age, and overall health are also taken into consideration.
+These criteria are different across the globe - in Europe, the Histocompatibility threshold of older patients is different as a result of several studies stating that the immune response of older transplant patients towards MHC proteins is slower and therefore less compatibility is necessary for positive results.

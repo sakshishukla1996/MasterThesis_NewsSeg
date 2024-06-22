@@ -1,0 +1,19 @@
+========,1,preface.
+In computer programming, dead code is a section in the source code of a program which is executed but whose result is never used in any other computation.
+The execution of dead code wastes computation time and memory.
+While the result of a dead computation may never be used, it may raise exceptions or affect some global state, thus removal of such code may change the output of the program and introduce unintended bugs.
+Compiler optimizations are typically conservative in their approach to dead code removal if there is any ambiguity as to whether removal of the dead code will affect the program output.
+The programmer may aid the compiler in this matter by making additional use of static and/or inline functions and enabling the use of link-time optimization.
+========,2,Example.
+In the above example, although the division of iX by iY is computed and never used, it will throw an exception when a division by zero occurs.
+Therefore the removal of the dead code may change the output of the program.
+========,2,Analysis.
+Dead code elimination is a form of compiler optimization in which dead code is removed from a program.
+Dead code analysis can be performed using live variable analysis, a form of static code analysis and data flow analysis.
+This is in contrast to unreachable code analysis which is based on control flow analysis.
+The dead code elimination technique is in the same class of optimizations as unreachable code elimination and redundant code elimination.
+In large programming projects, it is sometimes difficult to recognize and eliminate dead code, particularly when entire modules become dead.
+Test scaffolding can make it appear that the code is still live, and at times, contract language can require delivery of the code even when the code is no longer relevant.
+Some IDEs (such as Visual Studio 2010 and Eclipse Galileo ) have the ability to locate dead code during the compiling stage.
+While most optimization techniques seek to remove dead code in an implementation, in extreme forms of optimization for size it may sometimes be desirable to deliberately introduce and carefully shape seemingly dead code, when it allows to fold otherwise unrelated code sections together (and thereby reduce their combined size) so that the extra code will effectively not harm the first path of execution through the code but is used to carry out the actions necessary for the alternative paths of execution, for which other sections of the code may become dead code.
+On a more functional level, this can be seen as both, artificially introduction of harmless/useful side-effects and reduction of the redundancy of the code, but it can also be used down to opcode level in order to allow the usage of shorter instructions, which would not be possible when folding code sequences without the concerted introduction of side-effects caused by the dead code.

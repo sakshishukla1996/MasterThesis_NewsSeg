@@ -1,0 +1,85 @@
+========,1,preface.
+In computing, a namespace is a set of symbols that are used to organize objects of various kinds, so that these objects may be referred to by name.
+Prominent examples include:
+***LIST***.
+Namespaces are commonly structured as hierarchies to allow reuse of names in different contexts.
+As an analogy, consider a system of naming of people where each person has a proper name, as well as a family name shared with their relatives.
+If, in each family, the names of family members are unique, then each person can be uniquely identified by the combination of first name and family name; there is only one Jane Doe, though there may be many Janes.
+Within the namespace of the Doe family, just "Jane" suffices to unambiguously designate this person, while within the "global" namespace of all people, the full name must be used.
+In a similar way, hierarchical file systems organize files in directories.
+Each directory is a separate namespace, so that the directories "letters" and "invoices" may both contain a file "to_jane".
+In computer programming, namespaces are typically employed for the purpose of grouping symbols and identifiers around a particular functionality and to avoid name collisions between multiple identifiers that share the same name.
+In networking, the Domain Name System organizes websites (and other resources) into hierarchical namespaces.
+========,2,Name conflicts.
+Element names are defined by the developer.
+This often results in a conflict when trying to mix XML documents from different XML applications.
+This XML carries HTML table information:
+This XML carries information about a table (i.e.
+a piece of furniture):
+If these XML fragments were added together, there would be a name conflict.
+Both contain a <table> element, but the elements have different content and meaning.
+An XML parser will not know how to handle these differences.
+========,3,Solution via prefix.
+Name conflicts in XML can easily be avoided using a name prefix.
+The following XML distinguishes between information about the HTML table and furniture by prefixing "h" and "f" at the beginning xml/xml_namespaces.asp
+========,2,Naming system.
+A name in a namespace consists of a namespace identifier and a local name.
+The namespace name is usually applied as a prefix to the local name.
+In augmented Backus–Naur form:
+When local names are used by themselves, name resolution is used to decide which (if any) particular item is alluded to by some particular local name.
+========,3,Delegation.
+Delegation of responsibilities between parties is important in real-world applications, such as the structure of the World Wide Web.
+Namespaces allow delegation of identifier assignment to multiple name issuing organisations whilst retaining global uniqueness.
+A central Registration authority registers the assigned namespace identifiers allocated.
+Each namespace identifier is allocated to an organisation which is subsequently responsible for the assignment of names in their allocated namespace.
+This organisation may be a name issuing organisation that assign the names themselves, or another Registration authority which further delegates parts of their namespace to different organisations.
+========,3,Hierarchy.
+A naming scheme that allows subdelegation of namespaces to third parties is a hierarchical namespace.
+A hierarchy is recursive if the syntax for the namespace identifiers is the same for each subdelegation.
+An example of a recursive hierarchy is the Domain name system.
+An example of a non-recursive hierarchy are Uniform resource name representing an Internet Assigned Numbers Authority (IANA) number.
+========,3,Namespace versus scope.
+A namespace identifier may provide context ("Scope" in computer science) to a name, and the terms are sometimes used interchangeably.
+However, the context of a name may also be provided by other factors, such as the location where it occurs or the syntax of the name.
+========,2,In programming languages.
+For many programming languages, namespace is a context for their identifiers.
+In an operating system, an example of namespace is a directory.
+Each name in a directory uniquely identifies one file or subdirectory, but one file may have the same name multiple times.
+As a rule, names in a namespace cannot have more than one meaning; that is, different meanings cannot share the same name in the same namespace.
+A namespace is also called a context, because the same name in different namespaces can have different meanings, each one appropriate for its namespace.
+Following are other characteristics of namespaces:
+***LIST***.
+As well as its abstract language technical usage as described above, some languages have a specific keyword used for explicit namespace control, amongst other uses.
+Below is an example of a namespace in C++:
+========,3,Computer-science considerations.
+A namespace in computer science (sometimes also called a name scope), is an abstract container or environment created to hold a logical grouping of unique identifiers or symbols (i.e.
+An identifier defined in a namespace is associated only with that namespace.
+The same identifier can be independently defined in multiple namespaces.
+That is, an identifier defined in one namespace may or may not have the same meaning as the same identifier defined in another namespace.
+Languages that support namespaces specify the rules that determine to which namespace an identifier (not its definition) belongs.
+This concept can be illustrated with an analogy.
+Imagine that two companies, X and Y, each assign ID numbers to their employees.
+X should not have two employees with the same ID number, and likewise for Y; but it is not a problem for the same ID number to be used at both companies.
+For example, if Bill works for company X and Jane works for company Y, then it is not a problem for each of them to be employee #123.
+In this analogy, the ID number is the identifier, and the company serves as the namespace.
+It does not cause problems for the same identifier to identify a different person in each namespace.
+In large computer programs or documents it is not uncommon to have hundreds or thousands of identifiers.
+Namespaces (or a similar technique, see Emulating namespaces) provide a mechanism for hiding local identifiers.
+They provide a means of grouping logically related identifiers into corresponding namespaces, thereby making the system more modular.
+Data storage devices and many modern programming languages support namespaces.
+Storage devices use directories (or folders) as namespaces.
+This allows two files with the same name to be stored on the device so long as they are stored in different directories.
+In some programming languages (e.g.
+C++, Python), the identifiers naming namespaces are themselves associated with an enclosing namespace.
+Thus, in these languages namespaces can nest, forming a namespace tree.
+At the root of this tree is the unnamed global namespace.
+========,3,Emulating namespaces.
+In programming languages lacking language support for namespaces, namespaces can be emulated to some extent by using an identifier naming convention.
+For example, C libraries such as Libpng often use a fixed prefix for all functions and variables that are part of their exposed interface.
+Libpng exposes identifiers such as:
+This naming convention provides reasonable assurance that the identifiers are unique and can therefore be used in larger programs without naming collisions.
+Likewise, many packages originally written in Fortran (e.g., BLAS, LAPACK) reserve the first few letters of a function's name to indicate which group it belongs to.
+Unfortunately, this technique has several drawbacks:
+***LIST***.
+Fortunately, there are several advantages:
+***LIST***.

@@ -1,0 +1,28 @@
+========,1,preface.
+An Original Equipment Manufacturer (OEM) is a company that produces parts and equipment that may be marketed by another manufacturer.
+For example, if Acme Manufacturing Co. makes power cords that are used on IBM computers, Acme is an OEM.
+However, the term is used in several other ways, which causes ambiguity.
+It sometimes means the maker of a system that includes other companies' subsystems, an end-product producer, an automotive part that is manufactured by the same company that produced the original part used in the automobile's assembly, or a value-added reseller.
+========,2,Automotive parts.
+When referring to auto parts, OEM refers to the manufacturer of the original equipment, that is, the parts assembled and installed during the construction of a new vehicle.
+In contrast, aftermarket parts are those made by companies other than the OEM, which might be installed as replacements after the car comes out of the factory.
+For example, if Ford used Autolite spark plugs, Exide batteries, Bosch fuel injectors, and Ford's own engine blocks and heads when building a car, then car restorers and collectors consider those to be the OEM parts.
+Other-brand parts would be considered aftermarket, such as Champion spark plugs, DieHard batteries, Kinsler fuel injectors, and BMP engine blocks and heads.
+Many auto parts manufacturers sell parts through multiple channels, for example to car makers for installation during new-vehicle construction, to car makers for resale as automaker-branded replacement parts, and through general merchandising supply chains.
+Any given brand of part can be OE on some vehicle models and aftermarket on others.
+========,2,Computer software.
+Microsoft is a popular example of a company that issues OEM software for their Windows operating systems.
+OEM product keys are priced lower than their retail counterparts, but use the same software as retail versions of Windows.
+They are primarily for direct OEM manufacturers and system builders, and as such are typically sold in volume licensing deals to a variety of manufacturers (HP, Dell, Toshiba, etc.).
+Individuals may also purchase them for personal use (to include virtual hardware), or for sale/resale on PCs which they built.
+Per Microsoft’s EULA regarding OEM, the product key is tied to the PC motherboard which it’s initially installed on, and there is "typically" no transferring the key between PCs afterward.
+This is in contrast to retail keys, which may be transferred, provided they are only activated on one PC at a time.
+A significant hardware change will trigger a reactivation notice, just as with retail.
+However, a motherboard change for reasons other than a defect will officially cause Windows Activation to consider it a new PC, and will likely result in permanent deactivation on said PC.
+Direct OEMs are officially held liable for things such as installation media, although they are not required to provide it upon sale of a PC hardware, and may indeed exclude it to reduce cost.
+Instead, manufacturers tend to include a recovery partition on the hard drive for the user to repair or restore their systems to the factory state.
+System builders further have a different requirement regarding installation media from Direct OEMs.
+On versions of Windows which require a valid product key for media download from Microsoft (like Windows 7), OEM keys will be rejected, and the party will be given a notice to refer to the manufacturer.
+========,2,Economies of scale.
+OEMs rely on their ability to drive down the cost of production through economies of scale.
+Also, using an OEM allows the purchasing company to obtain needed components or products without owning and operating a factory.

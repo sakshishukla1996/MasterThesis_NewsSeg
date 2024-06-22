@@ -1,0 +1,24 @@
+========,1,preface.
+The Motorola DSP56000 (also known as 56K) is a family of digital signal processor (DSP) chips produced by Motorola Semiconductor (later known as Freescale Semiconductor, now acquired by NXP) starting in 1986 and is still being produced in more advanced models in the 2010s.
+The 56k series was quite popular for a time in a number of computers, including the NeXT, Atari Falcon (56001), and SGI Indigo workstations.
+Upgraded 56k versions are still used in audio gear, radars, communications devices (like mobile phones) and various other embedded DSP applications.
+The 56000 was also used as the basis for the updated 96000, which was not commercially successful.
+========,2,Technical description.
+The DSP56000 uses fixed-point arithmetic, with 24-bit program words and 24-bit data words.
+It includes two 24-bit registers, which can also be referred to as a single 48-bit register.
+It also includes two 56-bit accumulators, each with an 8-bit "extension" (aka headroom); otherwise, the accumulators are similar to the other 24/48-bit registers.
+Being a Modified Harvard architecture processor, the 56k has three memory spaces+buses (and on-chip memory banks in some of the models): a program memory space/bus and two data memory space/bus.
+24 bits were selected as the basic word length because it gave the system a reasonable number range and precision for processing audio (sound), the 56000's main concern.
+24 bits correspond to a large dynamic range, sufficient in the 1980s when analog-to-digital converters (ADCs) and digital-to-analog converters (DACs) rarely exceeded 20 bits.
+One example is ADSL applications, where filters typically require 20 bits of accuracy.
+The leftmost four bits are considered ample headroom for calculations.
+The processor is capable of carrying out 16.5 Million Instructions Per Second (MIPS) at the maximum specified clock speed of , and has hardware support for block-floating point FFT.
+It uses TTL levels and consumes approximately
+========,2,Applications and variants.
+In most designs the 56000 is dedicated to one single task, because digital signal processing using special hardware is mostly real-time and does not allow any interruption.
+For somewhat more mildly demanding tasks which are not time-critical, or more of a simple "if-then" type, designers normally use a separate CPU or MCU.
+The 56000 can execute a 1024-point complex Fast Fourier transform (FFT) in which takes at or a rate of just over 555 operations per second, allowing both realtime decoding and encoding of/to reasonably advanced audio codecs such as MP3 for direct-to-disc recording purposes.
+The addition of SIMD instructions to most desktop computer CPUs have meant that dedicated DSP chips like the 56000 have partly retreated from some application fields, but they continue to be used widely in communications and other professional uses.
+To this end the 56800 series added a complete MCU which created a single-chip "DSPcontroller" solution, while the opposite occurred in the 68456—a 68000 with a 56000 on it.
+A still quite prevalent model of the 56000 is the third generation 563xx family developed in the 2000s, which features several models with special applications hard- and firmware built-in, like PCI interface logic, CRC processors, or audio companders.
+Core clock frequencies ranged up to .

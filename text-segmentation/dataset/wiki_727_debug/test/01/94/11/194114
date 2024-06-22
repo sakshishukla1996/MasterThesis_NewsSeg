@@ -1,0 +1,27 @@
+========,1,preface.
+In telecommunication and data transmission, serial communication is the process of sending data one bit at a time, sequentially, over a communication channel or computer bus.
+This is in contrast to parallel communication, where several bits are sent as a whole, on a link with several parallel channels.
+Serial communication is used for all long-haul communication and most computer networks, where the cost of cable and synchronization difficulties make parallel communication impractical.
+Serial computer buses are becoming more common even at shorter distances, as improved signal integrity and transmission speeds in newer serial technologies have begun to outweigh the parallel bus's advantage of simplicity (no need for serializer and deserializer, or SerDes) and to outstrip its disadvantages (clock skew, interconnect density).
+The migration from PCI to PCI Express is an example.
+========,2,Cables.
+Many serial communication systems were originally designed to transfer data over relatively large distances through some sort of data cable.
+The term "serial" most often refers to the RS232 port on the back of the original IBM PC, often called "the" serial port, and "the" serial cable designed to plug into it, and the many devices designed to be compatible with it.
+Practically all long-distance communication transmits data one bit at a time, rather than in parallel, because it reduces the cost of the cable.
+The cables that carry this data (other than "the" serial cable) and the computer ports they plug into are usually referred to with a more specific name, to reduce confusion.
+Keyboard and mouse cables and ports are almost invariably serial—such as PS/2 port and Apple Desktop Bus and USB.
+The cables that carry digital video are almost invariably serial—such as coax cable plugged into a HD-SDI port, a webcam plugged into a USB port or Firewire port, Ethernet cable connecting an IP camera to a Power over Ethernet port, FPD-Link, etc.
+Other such cables and ports, transmitting data one bit at a time, include Serial ATA, Serial SCSI, Ethernet cable plugged into Ethernet ports, the Display Data Channel using previously reserved pins of the VGA connector or the DVI port or the HDMI port.
+========,2,Serial buses.
+Many communication systems were generally designed to connect two integrated circuits on the same printed circuit board, connected by signal traces on that board (rather than external cables).
+Integrated circuits are more expensive when they have more pins.
+To reduce the number of pins in a package, many ICs use a serial bus to transfer data when speed is not important.
+Some examples of such low-cost serial buses include SPI, I²C, DC-BUS, UNI/O, and 1-Wire.
+========,2,Serial versus parallel.
+The communication links across which computers—or parts of computers—talk to one another may be either serial or parallel.
+A parallel link transmits several streams of data simultaneously along multiple channels (e.g., wires, printed circuit tracks, or optical fibres); whereas, a serial link transmits only a single stream of data.
+Although a serial link may seem inferior to a parallel one, since it can transmit less data per clock cycle, it is often the case that serial links can be clocked considerably faster than parallel links in order to achieve a higher data rate.
+Several factors allow serial to be clocked at a higher rate:
+***LIST***.
+In many cases, serial is cheaper to implement than parallel.
+Many ICs have serial interfaces, as opposed to parallel ones, so that they have fewer pins and are therefore less expensive.

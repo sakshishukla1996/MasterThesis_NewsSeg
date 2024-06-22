@@ -1,0 +1,50 @@
+========,1,preface.
+========,2,Overview.
+The exponential function arises whenever a quantity grows or decays at a rate proportional to its current value.
+One such situation is continuously compounded interest, and in fact it was this observation that led Jacob Bernoulli in 1683 to the number now known as .
+Later, in 1697, Johann Bernoulli studied the calculus of the exponential function.
+If a principal amount of 1 earns interest at an annual rate of compounded monthly, then the interest earned each month is times the current value, so each month the total value is multiplied by , and the value at the end of the year is .
+If instead interest is compounded daily, this becomes .
+Letting the number of time intervals per year grow without bound leads to the limit definition of the exponential function, first given by Euler.
+This is one of a number of characterizations of the exponential function; others involve series or differential equations.
+From any of these definitions it can be shown that the exponential function obeys the basic exponentiation identity, which is why it can be written as .
+The derivative (rate of change) of the exponential function is the exponential function itself.
+More generally, a function with a rate of change "proportional" to the function itself (rather than equal to it) is expressible in terms of the exponential function.
+This function property leads to exponential growth and exponential decay.
+The exponential function extends to an entire function on the complex plane.
+Euler's formula relates its values at purely imaginary arguments to trigonometric functions.
+The exponential function also has analogues for which the argument is a matrix, or even an element of a Banach algebra or a Lie algebra.
+========,2,Derivatives and differential equations.
+The importance of the exponential function in mathematics and the sciences stems mainly from its definition as the unique function which is equal to its derivative and is equal to 1 when .
+That is, Functions of the form for constant are the only functions that are equal to their derivative (by the Picard–Lindelöf theorem).
+Other ways of saying the same thing include:
+***LIST***.
+If a variable's growth or decay rate is proportional to its size—as is the case in unlimited population growth (see Malthusian catastrophe), continuously compounded interest, or radioactive decay—then the variable can be written as a constant times an exponential function of time.
+Explicitly for any real constant , a function satisfies if and only if for some constant .
+Furthermore, for any differentiable function , we find, by the chain rule:
+========,2,Continued fractions for.
+A continued fraction for can be obtained via an identity of Euler:
+The following generalized continued fraction for converges more quickly:
+or, by applying the substitution :
+with a special case for :
+This formula also converges, though more slowly, for .
+For example:
+========,2,Complex plane.
+========,3,Computation of where both and are complex.
+Complex exponentiation can be defined by converting to polar coordinates and using the identity :
+However, when is not an integer, this function is multivalued, because is not unique (see failure of power and logarithm identities).
+========,2,Matrices and Banach algebras.
+The power series definition of the exponential function makes sense for square matrices (for which the function is called the matrix exponential) and more generally in any Banach algebra .
+In this setting, , and is invertible with inverse for any in .
+If , then , but this identity can fail for noncommuting and .
+Some alternative definitions lead to the same function.
+For instance, can be defined as Or can be defined as , where is the solution to the differential equation with initial condition .
+========,2,Lie algebras.
+Given a Lie group and its associated Lie algebra ***formula***, the exponential map is a map ***formula*** satisfying similar properties.
+In fact, since is the Lie algebra of the Lie group of all positive real numbers under multiplication, the ordinary exponential function for real arguments is a special case of the Lie algebra situation.
+Similarly, since the Lie group of invertible matrices has as Lie algebra , the space of all matrices, the exponential function for square matrices is a special case of the Lie algebra exponential map.
+The identity can fail for Lie algebra elements and that do not commute; the Baker–Campbell–Hausdorff formula supplies the necessary correction terms.
+========,2,Similar properties of and the function.
+The function is not in (i.e., is not the quotient of two polynomials with complex coefficients).
+For distinct complex numbers }, the set } is linearly independent over .
+The function is transcendental over .

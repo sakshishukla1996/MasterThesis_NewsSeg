@@ -1,0 +1,127 @@
+========,1,preface.
+A virtual private network (VPN) extends a private network across a public network, and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network.
+("In the simplest terms, it creates a secure, encrypted connection, which can be thought of as a tunnel, between your computer and a server operated by the VPN service.")
+Applications running across the VPN may therefore benefit from the functionality, security, and management of the private network.
+VPNs may allow employees to securely access a corporate intranet while located outside the office.
+They are used to securely connect geographically separated offices of an organization, creating one cohesive network.
+Individual Internet users may secure their wireless transactions with a VPN, to circumvent geo-restrictions and censorship, or to connect to proxy servers for the purpose of protecting personal identity and location.
+However, some Internet sites block access to known VPN technology to prevent the circumvention of their geo-restrictions.
+A VPN is created by establishing a virtual point-to-point connection through the use of dedicated connections, virtual tunneling protocols, or traffic encryption.
+A VPN available from the public Internet can provide some of the benefits of a wide area network (WAN).
+From a user perspective, the resources available within the private network can be accessed remotely.
+Traditional VPNs are characterized by a point-to-point topology, and they do not tend to support or connect broadcast domains, so services such as Microsoft Windows NetBIOS may not be fully supported or work as they would on a local area network (LAN).
+Designers have developed VPN variants, such as Virtual Private LAN Service (VPLS), and layer-2 tunneling protocols, to overcome this limitation.
+========,2,Types.
+Early data networks allowed VPN-style remote connectivity through dial-up modem or through leased line connections utilizing Frame Relay and Asynchronous Transfer Mode (ATM) virtual circuits, provisioned through a network owned and operated by telecommunication carriers.
+These networks are not considered true VPNs because they passively secure the data being transmitted by the creation of logical data streams.
+They have been replaced by VPNs based on IP and IP/Multi-protocol Label Switching (MPLS) Networks, due to significant cost-reductions and increased bandwidth provided by new technologies such as Digital Subscriber Line (DSL) and fiber-optic networks.
+VPNs can be either remote-access (connecting a computer to a network) or site-to-site (connecting two networks).
+In a corporate setting, remote-access VPNs allow employees to access their company's intranet from home or while travelling outside the office, and site-to-site VPNs allow employees in geographically disparate offices to share one cohesive virtual network.
+A VPN can also be used to interconnect two similar networks over a dissimilar middle network; for example, two IPv6 networks over an IPv4 network.
+VPN systems may be classified by:
+***LIST***.
+========,2,Security mechanisms.
+VPNs cannot make online connections completely anonymous, but they can usually increase privacy and security.
+To prevent disclosure of private information, VPNs typically allow only authenticated remote access using tunneling protocols and encryption techniques.
+The VPN security model provides:
+***LIST***.
+Secure VPN protocols include the following:
+***LIST***.
+========,3,Authentication.
+Tunnel endpoints must be authenticated before secure VPN tunnels can be established.
+User-created remote-access VPNs may use passwords, biometrics, two-factor authentication or other cryptographic methods.
+Network-to-network tunnels often use passwords or digital certificates.
+They permanently store the key to allow the tunnel to establish automatically, without intervention from the administrator.
+========,2,Routing.
+Tunneling protocols can operate in a point-to-point network topology that would theoretically not be considered as a VPN, because a VPN by definition is expected to support arbitrary and changing sets of network nodes.
+But since most router implementations support a software-defined tunnel interface, customer-provisioned VPNs often are simply defined tunnels running conventional routing protocols.
+========,3,Provider-provisioned VPN building-blocks.
+Depending on whether a provider-provisioned VPN (PPVPN) operates in layer 2 or layer 3, the building blocks described below may be L2 only, L3 only, or combine them both.
+Multi-protocol label switching (MPLS) functionality blurs the L2-L3 identity.
+RFC 4026 generalized the following terms to cover L2 and L3 VPNs, but they were introduced in RFC 2547.
+More information on the devices below can also be found in Lewis, Cisco Press.
+***LIST***.
+A device that is within a customer's network and not directly connected to the service provider's network.
+C devices are not aware of the VPN.
+***LIST***.
+A device at the edge of the customer's network which provides access to the PPVPN.
+Sometimes it's just a demarcation point between provider and customer responsibility.
+Other providers allow customers to configure it.
+***LIST***.
+A PE is a device, or set of devices, at the edge of the provider network which connects to customer networks through CE devices and presents the provider's view of the customer site.
+PEs are aware of the VPNs that connect through them, and maintain VPN state.
+***LIST***.
+A P device operates inside the provider's core network and does not directly interface to any customer endpoint.
+It might, for example, provide routing for many provider-operated tunnels that belong to different customers' PPVPNs.
+While the P device is a key part of implementing PPVPNs, it is not itself VPN-aware and does not maintain VPN state.
+Its principal role is allowing the service provider to scale its PPVPN offerings, for example, by acting as an aggregation point for multiple PEs.
+P-to-P connections, in such a role, often are high-capacity optical links between major locations of providers.
+========,2,User-visible PPVPN services.
+========,3,OSI Layer 2 services.
+***LIST***.
+A Layer 2 technique that allow for the coexistence of multiple LAN broadcast domains, interconnected via trunks using the IEEE 802.1Q trunking protocol.
+Other trunking protocols have been used but have become obsolete, including Inter-Switch Link (ISL), IEEE 802.10 (originally a security protocol but a subset was introduced for trunking), and ATM LAN Emulation (LANE).
+***LIST***.
+Developed by Institute of Electrical and Electronics Engineers, VLANs allow multiple tagged LANs to share common trunking.
+VLANs frequently comprise only customer-owned facilities.
+Whereas VPLS as described in the above section (OSI Layer 1 services) supports emulation of both point-to-point and point-to-multipoint topologies, the method discussed here extends Layer 2 technologies such as 802.1d and 802.1q LAN trunking to run over transports such as Metro Ethernet.
+***LIST***.
+PW is similar to VPLS, but it can provide different L2 protocols at both ends.
+Typically, its interface is a WAN protocol such as Asynchronous Transfer Mode or Frame Relay.
+In contrast, when aiming to provide the appearance of a LAN contiguous between two or more locations, the Virtual Private LAN service or IPLS would be appropriate.
+***LIST***.
+EtherIP (RFC 3378) is an Ethernet over IP tunneling protocol specification.
+EtherIP has only packet encapsulation mechanism.
+It has no confidentiality nor message integrity protection.
+EtherIP was introduced in the FreeBSD network stack and the SoftEther VPN server program.
+***LIST***.
+A subset of VPLS, the CE devices must have Layer 3 capabilities; the IPLS presents packets rather than frames.
+It may support IPv4 or IPv6.
+========,3,OSI Layer 3 PPVPN architectures.
+This section discusses the main architectures for PPVPNs, one where the PE disambiguates duplicate addresses in a single routing instance, and the other, virtual router, in which the PE contains a virtual router instance per VPN.
+The former approach, and its variants, have gained the most attention.
+One of the challenges of PPVPNs involves different customers using the same address space, especially the IPv4 private address space.
+The provider must be able to disambiguate overlapping addresses in the multiple customers' PPVPNs.
+***LIST***.
+In the method defined by RFC 2547, BGP extensions advertise routes in the IPv4 VPN address family, which are of the form of 12-byte strings, beginning with an 8-byte Route Distinguisher (RD) and ending with a 4-byte IPv4 address.
+RDs disambiguate otherwise duplicate addresses in the same PE.
+PEs understand the topology of each VPN, which are interconnected with MPLS tunnels, either directly or via P routers.
+In MPLS terminology, the P routers are Label Switch Routers without awareness of VPNs.
+***LIST***.
+The virtual router architecture, as opposed to BGP/MPLS techniques, requires no modification to existing routing protocols such as BGP.
+By the provisioning of logically independent routing domains, the customer operating a VPN is completely responsible for the address space.
+In the various MPLS tunnels, the different PPVPNs are disambiguated by their label, but do not need routing distinguishers.
+========,3,Unencrypted tunnels.
+Some virtual networks use tunneling protocols without encryption for protecting the privacy of data.
+While VPNs often do provide security, an unencrypted overlay network does not neatly fit within the secure or trusted categorization.
+For example, a tunnel set up between two hosts with Generic Routing Encapsulation (GRE) is a virtual private network, but neither secure nor trusted.
+Native plaintext tunneling protocols include Layer 2 Tunneling Protocol (L2TP) when it is set up without IPsec and Point-to-Point Tunneling Protocol (PPTP) or Microsoft Point-to-Point Encryption (MPPE).
+========,2,Trusted delivery networks.
+Trusted VPNs do not use cryptographic tunneling, and instead rely on the security of a single provider's network to protect the traffic.
+***LIST***.
+From the security standpoint, VPNs either trust the underlying delivery network, or must enforce security with mechanisms in the VPN itself.
+Unless the trusted delivery network runs among physically secure sites only, both trusted and secure models need an authentication mechanism for users to gain access to the VPN.
+========,2,VPNs in mobile environments.
+Mobile virtual private networks are used in settings where an endpoint of the VPN is not fixed to a single IP address, but instead roams across various networks such as data networks from cellular carriers or between multiple Wi-Fi access points.
+Mobile VPNs have been widely used in public safety, where they give law enforcement officers access to mission-critical applications, such as computer-assisted dispatch and criminal databases, while they travel between different subnets of a mobile network.
+They are also used in field service management and by healthcare organizations, among other industries.
+Increasingly, mobile VPNs are being adopted by mobile professionals who need reliable connections.
+They are used for roaming seamlessly across networks and in and out of wireless coverage areas without losing application sessions or dropping the secure VPN session.
+A conventional VPN can not withstand such events because the network tunnel is disrupted, causing applications to disconnect, time out, or fail, or even cause the computing device itself to crash.
+Instead of logically tying the endpoint of the network tunnel to the physical IP address, each tunnel is bound to a permanently associated IP address at the device.
+The mobile VPN software handles the necessary network authentication and maintains the network sessions in a manner transparent to the application and the user.
+The Host Identity Protocol (HIP), under study by the Internet Engineering Task Force, is designed to support mobility of hosts by separating the role of IP addresses for host identification from their locator functionality in an IP network.
+With HIP a mobile host maintains its logical connections established via the host identity identifier while associating with different IP addresses when roaming between access networks.
+========,2,VPN on routers.
+With the increasing use of VPNs, many have started deploying VPN connectivity on routers for additional security and encryption of data transmission by using various cryptographic techniques.
+Setting up VPN support on a router and establishing a VPN allows any networked device to have access to the entire network—all devices look like local devices with local addresses.
+Supported devices are not restricted to those capable of running a VPN client.
+Many router manufacturers, including Asus, Cisco, DrayTek, Linksys, Netgear, and Yamaha, supply routers with built-in VPN clients.
+Some use open-source firmware such as DD-WRT, OpenWRT and Tomato, in order to support additional protocols such as OpenVPN.
+Setting up VPN services on a router requires a deep knowledge of network security and careful installation.
+Minor misconfiguration of VPN connections can leave the network vulnerable.
+Performance will vary depending on the ISP.
+========,2,Networking limitations.
+One major limitation of traditional VPNs is that they are point-to-point, and do not tend to support or connect broadcast domains.
+Therefore, communication, software, and networking, which are based on layer 2 and broadcast packets, such as NetBIOS used in Windows networking, may not be fully supported or work exactly as they would on a real LAN.
+Variants on VPN, such as Virtual Private LAN Service (VPLS), and layer 2 tunneling protocols, are designed to overcome this limitation.

@@ -1,0 +1,70 @@
+========,1,preface.
+Standard ML (SML) is a general-purpose, modular, functional programming language with compile-time type checking and type inference.
+It is popular among compiler writers and programming language researchers, as well as in the development of theorem provers.
+SML is a modern descendant of the ML programming language used in the Logic for Computable Functions (LCF) theorem-proving project.
+It is distinctive among widely used languages in that it has a formal specification, given as typing rules and operational semantics in "The Definition of Standard ML" (1990, revised and simplified as "The Definition of Standard ML (Revised)" in 1997).
+========,2,Language.
+========,3,Type synonyms.
+A type synonym is defined with the type keyword.
+Here is a type synonym for points in the plane, and functions computing the distances between two points, and the area of a triangle with the given corners as per Heron's formula.
+========,3,Algebraic datatypes and pattern matching.
+Standard ML provides strong support for algebraic datatypes.
+An ML datatype can be thought of as a disjoint union of tuples (or a "sum of products").
+They are easy to define and easy to program with, in large part because of Standard ML's pattern matching as well as most Standard ML implementations' pattern exhaustiveness checking and pattern redundancy checking.
+A datatype is defined with the datatype keyword, as in Order matters in pattern matching; patterns that are textually first are tried first.
+Pattern matching can be syntactically embedded in function definitions as follows:
+Note that subcomponents whose values are not needed in a particular computation are elided with underscores, or so-called wildcard patterns.
+The so-called "clausal form" style function definition, where patterns appear immediately after the function name, is merely syntactic sugar for Pattern exhaustiveness checking will make sure each case of the datatype has been accounted for, and will produce a warning if not.
+The following pattern is inexhaustive:
+There is no pattern for the Triangle case in the center function.
+The compiler will issue a warning that the pattern is inexhaustive, and if, at runtime, a Triangle is passed to this function, the exception Match will be raised.
+The set of clauses in the following function definition is exhaustive and not redundant:
+If control gets past the first pattern (the Circle), we know the value must be either a Square or a Triangle.
+In either of those cases, we know the shape has corners, so we can return true without discriminating which case we are in.
+The pattern in the second clause of the following (meaningless) function is redundant:
+Any value that matches the pattern in the second clause will also match the pattern in the first clause, so the second clause is unreachable.
+Therefore, this definition as a whole exhibits redundancy, and causes a compile-time warning.
+C programmers can use tagged unions, dispatching on tag values, to accomplish what ML accomplishes with datatypes and pattern matching.
+Nevertheless, while a C program decorated with appropriate checks will be in a sense as robust as the corresponding ML program, those checks will of necessity be dynamic; ML provides a set of static checks that give the programmer a high degree of confidence in the correctness of the program at compile time.
+Note that in object-oriented programming languages, such as Java, a disjoint union can be expressed by designing class hierarchies.
+However, as opposed to class hierarchies, ADTs are closed.
+This makes ADT extensible in a way that is orthogonal to the extensibility of class hierarchies.
+Class hierarchies can be extended with new subclasses but no new methods, while ADTs can be extended to provide new behavior for all existing constructors, but do not allow defining new constructors.
+========,3,Higher-order functions.
+Functions can consume functions as arguments:
+Functions can produce functions as return values:
+Functions can also both consume and produce functions:
+The function ***codice*** from the basis library is one of the most commonly used higher-order functions in Standard ML:
+========,2,Code examples.
+Snippets of SML code are most easily studied by entering them into a "top-level", also known as a read-eval-print loop or REPL.
+This is an interactive session that prints the inferred types of resulting or defined expressions.
+Many SML implementations provide an interactive REPL, including SML/NJ:
+Code can then be entered at the "-" prompt.
+For example, to calculate 1+2*3:
+The top-level infers the type of the expression to be "int" and gives the result "7".
+========,3,Hello world.
+The following program "hello.sml":
+can be compiled with MLton:
+and executed:
+========,3,Quicksort.
+Quicksort can be expressed as follows.
+This generic quicksort consumes an order operator ***codice***.
+========,3,Arbitrary-precision factorial function (libraries).
+In SML, the IntInf module provides arbitrary-precision integer arithmetic.
+Moreover, integer literals may be used as arbitrary-precision integers without the programmer having to do anything.
+The following program "fact.sml" implements an arbitrary-precision factorial function and prints the factorial of 120:
+and can be compiled and run with:
+========,3,Discrete wavelet transform (pattern matching).
+The 1D Haar wavelet transform of an integer-power-of-two-length list of numbers can be implemented very succinctly in SML and is an excellent example of the use of pattern matching over lists, taking pairs of elements ("h1" and "h2") off the front and storing their sums and differences on the lists "s" and "d", respectively:
+For example:
+Pattern matching is a useful construct that allows complicated transformations to be represented clearly and succinctly.
+Moreover, SML compilers turn pattern matches into efficient code, resulting in programs that are not only shorter but also faster.
+========,2,Implementations.
+Many SML implementations exist, including:
+***LIST***.
+All of these implementations are open-source and freely available.
+Most are implemented themselves in SML.
+There are no longer any commercial SML implementations.
+Harlequin once produced a commercial IDE and compiler for SML called MLWorks.
+The company is now defunct.
+MLWorks passed on to Xanalys and was later acquired by Ravenbrook Limited on 2013-04-26 and open sourced.

@@ -1,0 +1,18 @@
+========,1,preface.
+In cryptography, RC6 (Rivest cipher 6) is a symmetric key block cipher derived from RC5.
+It was designed by Ron Rivest, Matt Robshaw, Ray Sidney, and Yiqun Lisa Yin to meet the requirements of the Advanced Encryption Standard (AES) competition.
+The algorithm was one of the five finalists, and also was submitted to the NESSIE and CRYPTREC projects.
+It was a proprietary algorithm, patented by RSA Security.
+RC6 proper has a block size of 128 bits and supports key sizes of 128, 192, and 256 bits up to 2040-bits, but, like RC5, it may be parameterised to support a wide variety of word-lengths, key sizes, and number of rounds.
+RC6 is very similar to RC5 in structure, using data-dependent rotations, modular addition, and XOR operations; in fact, RC6 could be viewed as interweaving two parallel RC5 encryption processes, although RC6 does use an extra multiplication operation not present in RC5 in order to make the rotation dependent on every bit in a word, and not just the least significant few bits.
+========,2,Encryption/decryption.
+Note that the key expansion algorithm is practically identical to that of RC5.
+The only difference is that for RC6, more words are derived from the user-supplied key.
+========,2,Possible use in NSA "implants".
+In August 2016, code reputed to be Equation Group or NSA "implants" for various network security devices was disclosed.
+The accompanying instructions revealed that some of these programs use RC6 for confidentiality of network communications.
+========,2,Licensing.
+As RC6 has not been selected for the AES, it was not guaranteed that RC6 is royalty-free.
+, a web page on the official web site of the designers of RC6, RSA Laboratories, states the following:
+The emphasis on the word "if" suggests that RSA Security Inc. may have required licensing and royalty payments for any products using the RC6 algorithm.
+RC6 was a patented encryption algorithm ( and ); however, the patents expired between 2015 and 2017.

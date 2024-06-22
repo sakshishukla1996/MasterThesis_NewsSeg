@@ -1,0 +1,41 @@
+========,1,preface.
+In statistics, the Gauss–Markov theorem, named after Carl Friedrich Gauss and Andrey Markov, states that in a linear regression model in which the errors have expectation zero and are uncorrelated and have equal variances, the best linear unbiased estimator (BLUE) of the coefficients is given by the ordinary least squares (OLS) estimator, provided it exists.
+Here "best" means giving the lowest variance of the estimate, as compared to other unbiased, linear estimators.
+The errors do not need to be normal, nor do they need to be independent and identically distributed (only uncorrelated with mean zero and homoscedastic with finite variance).
+The requirement that the estimator be unbiased cannot be dropped, since biased estimators exist with lower variance.
+See, for example, the James–Stein estimator (which also drops linearity) or ridge regression.
+========,2,Generalized least squares estimator.
+The generalized least squares (GLS), developed by Aitken, extends the Gauss–Markov theorem to the case where the error vector has a non-scalar covariance matrix.
+The Aitken estimator is also a BLUE.
+========,2,Gauss–Markov theorem as stated in econometrics.
+In most treatments of OLS, the regressors in the design matrix ***formula*** are assumed to be fixed in repeated samples.
+This assumption is considered inappropriate for a predominantly nonexperimental science like econometrics.
+Instead, the assumptions of the Gauss–Markov theorem are stated conditional on ***formula***.
+========,3,Full rank.
+The sample data matrix ***formula*** must be non-singular, i.e.
+it must have full rank.
+Otherwise ***formula*** is not invertible and the OLS estimator cannot be computed.
+A violation of this assumption is perfect multicollinearity, i.e.
+some explanatory variables are linearly dependent.
+One scenario in which this will occur is called "dummy variable trap," when a base dummy variable is not omitted resulting in perfect correlation between the dummy variables and the constant term.
+Multicollinearity (as long as it is not "perfect") can be present resulting in a less efficient, but still unbiased estimate.
+The estimates will be less precise and highly sensitive to particular sets of data.
+Multicollinearity can be detected from condition number or the variance inflation factor, among other tests.
+========,3,Spherical errors.
+The outer product of the error vector must be spherical.
+This implies the error term has uniform variance (homoscedasticity) and no serial dependence.
+If this assumption is violated, OLS is still unbiased, but inefficient.
+The term "spherical errors" will describe the multivariate normal distribution: if ***formula*** in the multivariate normal density, then the equation f(x)=c is the formula for a “ball” centered at μ with radius σ in n-dimensional space.
+Heteroskedasticity occurs when the amount of error is correlated with an independent variable.
+For example, in a regression on food expenditure and income, the error is correlated with income.
+Low income people generally spend a similar amount on food, while high income people may spend a very large amount or as little as low income people spend.
+Heteroskedastic can also be caused by changes in measurement practices.
+For example, as statistical offices improve their data, measurement error decreases, so the error term declines over time.
+This assumption is violated when there is autocorrelation.
+Autocorrelation can be visualized on a data plot when a given observation is more likely to lie above a fitted line if adjacent observations also lie above the fitted regression line.
+Autocorrelation is common in time series data where a data series may experience "inertia."
+If a dependent variable takes a while to fully absorb a shock.
+Spatial autocorrelation can also occur geographic areas are likely to have similar errors.
+Autocorrelation may be the result of misspecification such as choosing the wrong functional form.
+In these cases, correcting the specification is one possible way to deal with autocorrelation.
+In the presence of non-spherical errors, the generalized least squares estimator can be shown to be BLUE.

@@ -1,0 +1,51 @@
+========,1,preface.
+Tux Racer is a free software 3D computer game starring the Linux mascot, Tux the penguin.
+In the game, the player controls Tux (or one of three other characters) as he slides down a course of snow and ice collecting herring.
+"Tux Racer" has been met with positive reviews from critics.
+========,2,Gameplay.
+The left/right steering controls are typical of a racing simulation game, except that the up arrow key causes Tux to "paddle" with his flippers.
+Correct use of the paddle command is essential to getting good race times.
+Paddling slows Tux down when at a high speed but speeds him up at slow speeds.
+Paddling when in mid-air may also be used to increase the length of a jump.
+Jumps can be caused by the shape of the landscape or by holding down the "energy" key and releasing it.
+Releasing the key when a jump is imminent will naturally make a larger jump.
+Versions with other controls instead of keyboard exist; for example, wiimote and an arcade version with a steering wheel.
+Sliding on ice makes Tux go faster, whereas sliding on snow allows for more maneuverability and sliding on rocky patches will slow Tux down.
+There are also trees to block Tux's path and flags for the sake of marking out the course.
+Points are also scored by collecting herring that are scattered along the various courses.
+In order to progress to the next level of the game, the player must both collect sufficient herring and reach the end of the course within a preset time limit.
+Like many open-source games, the replay value of "Tux Racer" is extended by easy modification of the game.
+New maps can be created by making three raster images to indicate elevation, terrain, and object placement.
+========,2,Development.
+"Tux Racer" was originally developed by Jasmin Patry, a student attending the University of Waterloo (UW) in Ontario, Canada, where he aimed to begin a career in the video game industry by pursuing a computer systems analyst (CSA) degree.
+Development of the game as a project began in August 1999 as a final computer graphics project in Computer Graphics Lab (CGL).
+The game was completed and presented in three days; a web page for the game was then started, when one of Patry's classmates, having enjoyed the presentation, suggested he released the software as open source.
+Patry felt releasing the game as open source "made sense" due to Tux being the mascot for Linux, which is open source software, and continued to work on the game throughout the year, hoping fellow students would join in on developing the game.
+In December 1999, Patry and his former classmates Patrick Gilhuly, Eric Hall, Rick Knowles, Mark Riddell, and Rob Kroeger announced the foundation of the company Sunspire Studios to develop a video game project.
+Patry stated the game "would feature a massively multiplayer, persistent universe with real-time strategy and first-person shooter components," "[...] something that would make the "Quake 3" or "Unreal" engine look tame in comparison."
+Fine arts undergraduate classmate Roger Fernandez was chosen as the artist; however, the project was eventually abandoned due to limitations in contemporary graphical software.
+In August 2000, Knowles suggested the company resume working on "Tux Racer", which became their first official project.
+The game was released as free software under the GNU General Public License on October 2, 2000.
+========,2,Commercial version.
+In August 2000, Patry and his two friends Rick Knowles and Mark Riddell announced the development of an enhanced version of "Tux Racer" under a closed source license.
+In 2001, a demo version of the software was included with a January 2001 issue of "PC Gamer".
+On January 16, 2002, the game was released for Linux, Mac OS X, and Microsoft Windows operating systems.
+Patry states that had the game sold better, ports for the Nintendo GameCube and Xbox would be "fairly logical" choices.
+In 2003, Sunspire Studios ceased business.
+Their Internet domains are now commercially cybersquatted.
+According to archive.org, there had been no significant changes to their site since September 22, 2002, when the Tux Racer 1.1.1 Linux Patch was released.
+It appears that the site continued to exist almost unchanged until 2003.
+========,2,Reception.
+In 2000 CNN placed Tux Racer on first position on the "Top 10 Linux games for the holidays".
+"TuxRadar" praised in 2001 "Tux Racer" for briefly providing a "shining light" of what free applications could achieve.
+Lee Anderson of LinuxWorld.com praised in 2000 the game's graphics and the easiness of the ability to create tracks.
+"PC Magazine" ranked the game as one of the best free software of 2007.
+Daniel Voicu of "Softpedia" praised the "Extreme Tux Racer" fork for being relaxing and funny and having the ability to rewind and reset Tux to a safe position after being stuck in gaps, but criticized it for not being interactive and having Tux look like a plastic puppet.
+A print magazine LinuxUser review mentioned Tux Racer favourably in 2003.
+The game achieved the second place in 2004 in Linux Journal's category "Readers' Choice: Favorite Linux Game" and the third place in 2003, 2008, and 2009.
+========,2,Legacy.
+Despite the game ceasing production, certain forks of "Tux Racer" exist, including "Open Racer", an open source fork of the original "Tux Racer" created by Nathan Matias for SourceForge in 2001; this version was eventually abandoned.
+A fork entitled "PlanetPenguin Racer", an enhanced version of the GPL-licensed version of "Tux Racer", was created; however, it was discontinued in 2006, with the latest release being in 2005.
+Another project based on "PlanetPenguin Racer" entitled "Extreme Tux Racer" was released on September 2007.
+An arcade redemption game entitled "Tux Racer Arcade" has been released by Roxor Games.
+A sequel to "Tux Racer Arcade" entitled "Tux 2 Arcade" has also been released, featuring four courses and four characters from the commercial version: Tux; his friend Trixi, a female penguin; Boris, a bear; and Samuel, a seal.

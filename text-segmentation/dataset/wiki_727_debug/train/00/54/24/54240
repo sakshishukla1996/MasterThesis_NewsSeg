@@ -1,0 +1,28 @@
+========,1,preface.
+In mathematics, a singularity is in general a point at which a given mathematical object is not defined, or a point of an exceptional set where it fails to be well-behaved in some particular way, such as differentiability.
+See Singularity theory for general discussion of the geometric theory, which only covers some aspects.
+For example, the function on the real line has a singularity at "x" = 0, where it seems to "explode" to ±∞ and is not defined.
+The function "g"("x") = |"x"| (see absolute value) also has a singularity at "x" = 0, since it is not differentiable there.
+The algebraic set defined by ***formula*** in the ("x", "y") coordinate system has a singularity (singular point) at (0, 0) because it does not admit a tangent there.
+========,2,Real analysis.
+========,3,Coordinate singularities.
+A coordinate singularity (or coördinate singularity) occurs when an apparent singularity or discontinuity occurs in one coordinate frame, which can be removed by choosing a different frame.
+An example is the apparent singularity at the 90 degree latitude in spherical coordinates.
+An object moving due north (for example, along the line 0 degrees longitude) on the surface of a sphere will suddenly experience an instantaneous change in longitude at the pole (in the case of the example, jumping from longitude 0 to longitude 180 degrees).
+This discontinuity, however, is only apparent; it is an artifact of the coordinate system chosen, which is singular at the poles.
+A different coordinate system would eliminate the apparent discontinuity, e.g.
+by replacing latitude/longitude with n-vector.
+========,2,Complex analysis.
+========,3,Nonisolated singularities.
+Other than isolated singularities, complex functions of one variable may exhibit other singular behaviour.
+Namely, two kinds of nonisolated singularities exist:
+***LIST***.
+========,2,Algebraic geometry and commutative algebra.
+In algebraic geometry, a singularity of an algebraic variety is a point of the variety where the tangent space may not be regularly defined.
+The simplest example of singularities are curves that cross themselves.
+But there are other types of singularities, like cusps.
+For example, the equation defines a curve that has a cusp at the origin .
+One could define the -axis as a tangent at this point, but this definition can not be the same as the definition at other points.
+In fact, in this case, the -axis is a "double tangent."
+For affine and projective varieties, the singularities are the points where the Jacobian matrix has a rank which is lower than at other points of the variety.
+An equivalent definition in terms of commutative algebra may be given, which extends to abstract varieties and schemes: A point is "singular" if the local ring at this point is not a regular local ring.

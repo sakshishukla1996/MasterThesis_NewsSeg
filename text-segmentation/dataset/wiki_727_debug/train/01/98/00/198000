@@ -1,0 +1,28 @@
+========,1,preface.
+Template metaprogramming (TMP) is a metaprogramming technique in which templates are used by a compiler to generate temporary source code, which is merged by the compiler with the rest of the source code and then compiled.
+The output of these templates include compile-time constants, data structures, and complete functions.
+The use of templates can be thought of as compile-time execution.
+The technique is used by a number of languages, the best-known being C++, but also Curl, D, and XL.
+Template metaprogramming was, in a sense, discovered accidentally.
+Some other languages support similar, if not more powerful compile-time facilities (such as Lisp macros), but those are outside the scope of this article.
+========,2,Components of template metaprogramming.
+The use of templates as a metaprogramming technique requires two distinct operations: a template must be defined, and a defined template must be instantiated.
+The template definition describes the generic form of the generated source code, and the instantiation causes a specific set of source code to be generated from the generic form in the template.
+Template metaprogramming is Turing-complete, meaning that any computation expressible by a computer program can be computed, in some form, by a template metaprogram.
+Templates are different from "macros".
+A macro, which is also a compile-time language feature, generates code in-line using text manipulation and substitution.
+Macro systems often have limited compile-time process flow abilities and usually lack awareness of the semantics and type system of their companion language (an exception should be made with Lisp's macros, which are written in Lisp itself and involve manipulation and substitution of Lisp code represented as data structures as opposed to text).
+Template metaprograms have no mutable variables— that is, no variable can change value once it has been initialized, therefore template metaprogramming can be seen as a form of functional programming.
+In fact many template implementations implement flow control only through recursion, as seen in the example below.
+========,3,Using template metaprogramming.
+Though the syntax of template metaprogramming is usually very different from the programming language it is used with, it has practical uses.
+Some common reasons to use templates are to implement generic programming (avoiding sections of code which are similar except for some minor variations) or to perform automatic compile-time optimization such as doing something once at compile time rather than every time the program is run — for instance, by having the compiler unroll loops to eliminate jumps and loop count decrements whenever the program is executed.
+========,2,Compile-time class generation.
+What exactly "programming at compile-time" means can be illustrated with an example of a factorial function, which in non-template C++ can be written using recursion as follows:
+The code above will execute at run time to determine the factorial value of the literals 4 and 0.
+By using template metaprogramming and template specialization to provide the ending condition for the recursion, the factorials used in the program—ignoring any factorial not used—can be calculated at compile time by this code:
+The code above calculates the factorial value of the literals 4 and 0 at compile time and uses the result as if they were precalculated constants.
+To be able to use templates in this manner, the compiler must know the value of its parameters at compile time, which has the natural precondition that factorial<X>::value can only be used if X is known at compile time.
+In other words, X must be a constant literal or a constant expression.
+In C++11, constexpr, a way to let the compiler execute simple constant expressions, was added.
+Using constexpr, one can use the usual recursive factorial definition.

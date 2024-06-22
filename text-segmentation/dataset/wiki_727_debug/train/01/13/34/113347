@@ -1,0 +1,15 @@
+========,1,preface.
+Constant folding and constant propagation are related compiler optimizations used by many modern compilers.
+An advanced form of constant propagation known as sparse conditional constant propagation can more accurately propagate constants and simultaneously remove dead code.
+========,2,Constant folding and cross compilation.
+In implementing a cross compiler, care must be taken to ensure that the behaviour of the arithmetic operations on the host architecture matches that on the target architecture, as otherwise enabling constant folding will change the behaviour of the program.
+This is of particular importance in the case of floating point operations, whose precise implementation may vary widely.
+========,2,Constant propagation.
+Constant propagation is the process of substituting the values of known constants in expressions at compile time.
+Such constants include those defined above, as well as intrinsic functions applied to constant values.
+Consider the following pseudocode:
+Propagating x yields:
+Continuing to propagate yields the following (which would likely be further optimized by dead code elimination of both x and y.)
+Constant propagation is implemented in compilers using reaching definition analysis results.
+If all a variable's reaching definitions are the same assignment which assigns a same constant to the variable, then the variable has a constant value and can be replaced with the constant.
+Constant propagation can also cause conditional branches to simplify to one or more unconditional statements, when the conditional expression can be evaluated to true or false at compile time to determine the only possible outcome.

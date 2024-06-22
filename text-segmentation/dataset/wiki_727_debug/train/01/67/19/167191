@@ -1,0 +1,12 @@
+========,1,preface.
+The Phong reflection model (also called Phong illumination or Phong lighting) is an empirical model of the local illumination of points on a surface.
+In 3D computer graphics, it is sometimes ambiguously referred to as "Phong shading", in particular if the model is used in combination with the interpolation method of the same name and in the context of pixel shaders or other places where a lighting calculation can be referred to as “shading”.
+========,2,History.
+The Phong reflection model was developed by Bui Tuong Phong at the University of Utah, who published it in his 1975 Ph.D. dissertation.
+It was published in conjunction with a method for interpolating the calculation for each individual pixel that is rasterized from a polygonal surface model; the interpolation technique is known as Phong shading, even when it is used with a reflection model other than Phong's.
+Phong's methods were considered radical at the time of their introduction, but have since become the de facto baseline shading method for many rendering applications.
+Phong's methods have proven popular due to their generally efficient use of computation time per rendered pixel.
+========,2,Applications.
+As already implied, the Phong reflection model is often used together with Phong shading to shade surfaces in 3D computer graphics software.
+Apart from this, it may also be used for other purposes.
+For example, it has been used to model the reflection of thermal radiation from the Pioneer probes in an attempt to explain the Pioneer anomaly.

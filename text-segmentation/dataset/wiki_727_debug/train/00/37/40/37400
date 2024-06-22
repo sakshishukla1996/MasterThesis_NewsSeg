@@ -1,0 +1,86 @@
+========,1,preface.
+The mole is the unit of measurement in the International System of Units (SI) for amount of substance.
+The unit is defined as the amount of a chemical substance that contains as many representative particles, e.g., atoms, molecules, ions, electrons, or photons, as there are atoms in 12 grams of carbon-12 (C), the isotope of carbon with standard atomic weight 12 by definition.
+This number is expressed by the Avogadro constant, which has a value of , which is just over 602 sextillion (thousand million million million).
+The mole is one of the base units of the SI, and has the unit symbol mol.
+The mole is widely used in chemistry as a convenient way to express amounts of reactants and products of chemical reactions.
+For example, the chemical equation implies that 2 moles of dihydrogen (H) and 1 mole of dioxygen (O) react to form 2 moles of water (HO).
+The mole may also be used to express the number of atoms, ions, or other elementary entities in a given sample of any substance.
+The concentration of a solution is commonly expressed by its molarity, defined as the number of moles of the dissolved substance per litre of solution.
+The number of molecules per mole is known as Avogadro's constant, and is defined such that the mass of one mole of a substance, expressed in grams, is equal to the mean relative molecular mass of the substance.
+For example, the mean relative molecular mass of natural water is about 18.015, therefore, one mole of water has a mass of about 18.015 grams.
+The term "gram-molecule" was formerly used for essentially the same concept.
+The term "gram-atom" has been used for a related but distinct concept, namely a quantity of a substance that contains Avogadro's number of "atoms", whether isolated or combined in molecules.
+Thus, for example, 1 mole of MgBr is 1 gram-molecule of MgBr but 3 gram-atoms of MgBr.
+In honor of the unit, some chemists celebrate October 23, which is a reference to the 10 scale of the Avogadro constant, as "Mole Day".
+Some also do the same for February 6 and June 2.
+========,2,Definition and related concepts.
+, the mole is defined by International Bureau of Weights and Measures to be the amount of substance of a system which contains the same number of elementary entities (e.g.
+atoms, molecules, ions, electrons, photons) as atoms in 0.012 kilograms of carbon-12 (C), the isotope of carbon with standard atomic weight 12.
+Thus, by definition, one mole of pure C has a mass of "exactly" 12 g. It also follows from the definition that "X" moles of any substance will contain the same number of molecules as "X" moles of any other substance (though their masses may be different).
+The mass per mole of a substance is called its molar mass.
+Since the atomic mass unit (amu) is defined as 1/12 of the mass of the C atom, it follows that the molar mass of a substance, measured in grams per mole, is numerically equal to its mean atomic or molecular mass measured in amu.
+The number of elementary entities in a sample of a substance is technically called its (chemical) amount.
+Therefore, the mole is a convenient unit for that physical quantity.
+One can determine the chemical amount of a known substance, in moles, by dividing the sample's mass by the substance's molar mass.
+Other methods include the use of the molar volume or the measurement of electric charge.
+The mass of one mole of a substance depends not only on its molecular formula, but also on the proportion of the isotopes of each element present in it.
+For example, one mole of calcium-40 is ± grams, whereas one mole of calcium-42 is ± grams, and one mole of calcium with the normal isotopic mix is 40.078 ± 0.004 grams.
+Since the definition of the gram is not () mathematically tied to that of the atomic mass unit, the number "N" of molecules in a mole (Avogadro's number) must be determined experimentally.
+The value adopted by CODATA in 2010 is "N" = ± .
+In 2011 the measurement was refined to ± .
+The number of moles of a sample is the sample mass divided by the molar mass of the material.
+========,2,History.
+The history of the mole is intertwined with that of molecular mass, atomic mass unit, Avogadro's number and related concepts.
+The first table of standard atomic weight (atomic weight) was published by John Dalton (1766–1844) in 1805, based on a system in which the relative atomic mass of hydrogen was defined as 1.
+These relative atomic masses were based on the stoichiometric proportions of chemical reaction and compounds, a fact that greatly aided their acceptance: It was not necessary for a chemist to subscribe to atomic theory (an unproven hypothesis at the time) to make practical use of the tables.
+This would lead to some confusion between atomic masses (promoted by proponents of atomic theory) and equivalent weights (promoted by its opponents and which sometimes differed from relative atomic masses by an integer factor), which would last throughout much of the nineteenth century.
+Jöns Jacob Berzelius (1779–1848) was instrumental in the determination of relative atomic masses to ever-increasing accuracy.
+He was also the first chemist to use oxygen as the standard to which other masses were referred.
+Oxygen is a useful standard, as, unlike hydrogen, it forms compounds with most other elements, especially metals.
+However, he chose to fix the atomic mass of oxygen as 100, an innovation that did not catch on.
+Charles Frédéric Gerhardt (1816–56), Henri Victor Regnault (1810–78) and Stanislao Cannizzaro (1826–1910) expanded on Berzelius' works, resolving many of the problems of unknown stoichiometry of compounds, and the use of atomic masses attracted a large consensus by the time of the Karlsruhe Congress (1860).
+The convention had reverted to defining the atomic mass of hydrogen as 1, although at the level of precision of measurements at that time—relative uncertainties of around 1%—this was numerically equivalent to the later standard of oxygen = 16.
+However the chemical convenience of having oxygen as the primary atomic mass standard became ever more evident with advances in analytical chemistry and the need for ever more accurate atomic mass determinations.
+Developments in mass spectrometry led to the adoption of oxygen-16 as the standard substance, in lieu of natural oxygen.
+The current definition of the mole, based on carbon-12, was approved during the 1960s.
+The four different definitions were equivalent to within 1%.
+The name "mole" is an 1897 translation of the German unit "Mol", coined by the chemist Wilhelm Ostwald in 1894 from the German word "Molekül" (molecule).
+However, the related concept of equivalent mass had been in use at least a century earlier.
+The mole was made the seventh SI base unit in 1971 by the 14th CGPM.
+========,2,Unit.
+Since its adoption into the International System of Units in 1971, there have been a number of criticisms of the concept of the mole as a unit like the metre or the second:
+***LIST***.
+In chemistry, it has been known since Proust's law of definite proportions (1794) that knowledge of the mass of each of the components in a chemical system is not sufficient to define the system.
+Amount of substance can be described as mass divided by Proust's "definite proportions", and contains information that is missing from the measurement of mass alone.
+As demonstrated by Dalton's law of partial pressures (1803), a measurement of mass is not even necessary to measure the amount of substance (although in practice it is usual).
+There are many physical relationships between amount of substance and other physical quantities, the most notable one being the ideal gas law (where the relationship was first demonstrated in 1857).
+The term "mole" was first used in a textbook describing these colligative properties.
+========,2,Other units called "mole".
+Chemical engineers use the concept extensively, but the unit is rather small for industrial use.
+For convenience in avoiding conversions in the Imperial (or American customary units), some engineers adopted the "pound-mole" (notation "lb-mol" or "lbmol"), which is defined as the number of entities in 12 lb of C. One lb-mol is equal to .
+In the metric system, chemical engineers once used the "kilogram-mole" (notation "kg-mol"), which is defined as the number of entities in 12 kg of C, and often referred to the mole as the "gram-mole" (notation "g-mol"), when dealing with laboratory data.
+Late 20th century chemical engineering practice came to use the "kilomole" (kmol), which is numerically identical to the kilogram-mole, but whose name and symbol adopt the SI convention for standard multiples of metric units - thus kmol means 1000 moles.
+This is analogous to the use of kg instead of g. The use of kmol is not only for "magnitude convenience" but also makes the equations used for modelling chemical engineering systems coherent.
+For example, the conversion of a flowrate of kg/s to kmol/s only requires the molecular mass not the factor 1000 unless the basic SI unit of mol/s were to be used.
+Indeed, the appearance of any conversion factors in a model can cause confusion and is to be avoided; possibly a definition of coherence is the absence of conversion factors in sets of equations developed for modelling.
+Concentrations expressed as kmol/m are numerically the same as those in mol/dm i.e.
+the molarity conventionally used by chemists for bench measurements; this equality can be convenient for scale-up.
+Greenhouse and growth chamber lighting for plants is sometimes expressed in micromoles per square meter per second, where 1 mole of photons = 6.02 x 10 photons.
+========,2,Proposed future definition.
+In 2011, the 24th meeting of the General Conference on Weights and Measures (CGPM) agreed a plan for a possible revision of the SI base unit definitions on an as yet undetermined date.
+This plan, set forward in the meeting's first resolution, included a proposal to redefine the mole in a way that will fix "the Avogadro constant to be equal to exactly 6.022 14X ×10 when it is expressed in the SI unit mol... ... the symbol X in this Draft Resolution represents one or more additional digits to be added to the numerical values ... using values based on the most recent CODATA adjustment".
+========,2,Related units.
+The SI units for molar concentration are mol/m.
+However, most chemical literature traditionally uses mol/dm, or mol dm, which is the same as mol/L.
+These traditional units are often denoted by a capital letter M (pronounced "molar"), sometimes preceded by an SI prefix, for example, millimoles per litre (mmol/L) or millimolar (mM), micromoles/litre (µmol/L) or micromolar (µM), or nanomoles/L (nmol/L) or nanomolar (nM).
+The "demal" (D) is an obsolete unit for expressing the concentration of a solution.
+It is equal to molar concentration at 0 °C, i.e., 1 D represents one mole of the solute present in one cubic decimeter of the solution at 0 °C.
+It was first proposed in 1924 as a unit of concentration based on the decimeter rather than the liter; at the time there was a factor of 1.000028 difference between the liter and the cubic decimeter.
+The demal was used as a unit of concentration in electrolytic conductivity primary standards.
+These standards were later redefined in terms of molar concentration.
+========,2,The unit's holiday.
+October 23, denoted 10/23 in the US, is recognized by some as Mole Day.
+It is an informal holiday in honor of the unit among chemists.
+The date is derived from Avogadro's constant, which is approximately 6.022×10.
+It starts at 6:02 a.m. and ends at 6:02 p.m. Alternatively, some chemists celebrate June 2 or February 6, a reference to the 6.02 part of the constant.

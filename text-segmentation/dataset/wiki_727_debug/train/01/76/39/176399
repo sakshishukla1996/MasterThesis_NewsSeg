@@ -1,0 +1,32 @@
+========,1,preface.
+The Zeeman effect (; ), named after the Dutch physicist Pieter Zeeman, is the effect of splitting a spectral line into several components in the presence of a static magnetic field.
+It is analogous to the Stark effect, the splitting of a spectral line into several components in the presence of an electric field.
+Also similar to the Stark effect, transitions between different components have, in general, different intensities, with some being entirely forbidden (in the dipole approximation), as governed by the selection rules.
+Since the distance between the Zeeman sub-levels is a function of the magnetic field, this effect can be used to measure the magnetic field, e.g.
+that of the Sun and other stars or in laboratory plasmas.
+The Zeeman effect is very important in applications such as nuclear magnetic resonance spectroscopy, electron spin resonance spectroscopy, magnetic resonance imaging (MRI) and Mössbauer spectroscopy.
+It may also be utilized to improve accuracy in atomic absorption spectroscopy.
+A theory about the magnetic sense of birds assumes that a protein in the retina is changed due to the Zeeman effect.
+When the spectral lines are absorption lines, the effect is called inverse Zeeman effect.
+========,2,Nomenclature.
+Historically, one distinguishes between the normal and an anomalous Zeeman effect (discovered by Thomas Preston in Dublin, Ireland ).
+The anomalous effect appears on transitions where the net spin of the electrons is an odd half-integer, so that the number of Zeeman sub-levels is even.
+It was called "anomalous" because the electron spin had not yet been discovered, and so there was no good explanation for it at the time that Zeeman observed the effect.
+At higher magnetic fields the effect ceases to be linear.
+At even higher field strength, when the strength of the external field is comparable to the strength of the atom's internal field, electron coupling is disturbed and the spectral lines rearrange.
+This is called the Paschen-Back effect.
+In the modern scientific literature, these terms are rarely used, with a tendency to use just the "Zeeman effect".
+========,2,Weak field (Zeeman effect).
+========,3,Example: Lyman alpha transition in hydrogen.
+The Lyman alpha transition in hydrogen in the presence of the spin-orbit interaction involves the transitions
+In the presence of an external magnetic field, the weak-field Zeeman effect splits the 1S and 2P levels into 2 states each (***formula***) and the 2P level into 4 states (***formula***).
+The Landé g-factors for the three levels are:
+Note in particular that the size of the energy splitting is different for the different orbitals, because the g values are different.
+On the left, fine structure splitting is depicted.
+This splitting occurs even in the absence of a magnetic field, as it is due to spin-orbit coupling.
+Depicted on the right is the additional Zeeman splitting, which occurs in the presence of magnetic fields.
+========,2,Applications.
+========,3,Astrophysics.
+George Ellery Hale was the first to notice the Zeeman effect in the solar spectra, indicating the existence of strong magnetic fields in sunspots.
+Such fields can be quite high, on the order of 0.1 tesla or higher.
+Today, the Zeeman effect is used to produce magnetograms showing the variation of magnetic field on the sun.

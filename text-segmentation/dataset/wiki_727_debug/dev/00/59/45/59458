@@ -1,0 +1,16 @@
+========,1,preface.
+In cryptography, the ElGamal encryption system is an asymmetric key encryption algorithm for public-key cryptography which is based on the Diffie–Hellman key exchange.
+It was described by Taher Elgamal in 1985.
+ElGamal encryption is used in the free GNU Privacy Guard software, recent versions of PGP, and other cryptosystems.
+The DSA (Digital Signature Algorithm) is a variant of the ElGamal signature scheme, which should not be confused with ElGamal encryption.
+ElGamal encryption can be defined over any cyclic group ***formula***.
+Its security depends upon the difficulty of a certain problem in ***formula*** related to computing discrete logarithms (see below).
+========,2,The algorithm.
+========,3,Practical use.
+The ElGamal cryptosystem is usually used in a hybrid cryptosystem.
+I.e., the message itself is encrypted using a symmetric cryptosystem and ElGamal is then used to encrypt the key used for the symmetric cryptosystem.
+This is because asymmetric cryptosystems like Elgamal are usually slower than symmetric ones for the same level of security, so it is faster to encrypt the symmetric key (which most of the time is quite small if compared to the size of the message) with Elgamal and the message (which can be arbitrarily large) with a symmetric cypher.
+========,2,Efficiency.
+ElGamal encryption is probabilistic, meaning that a single plaintext can be encrypted to many possible ciphertexts, with the consequence that a general ElGamal encryption produces a 2:1 expansion in size from plaintext to ciphertext.
+Encryption under ElGamal requires two exponentiations; however, these exponentiations are independent of the message and can be computed ahead of time if need be.
+Decryption only requires one exponentiation:

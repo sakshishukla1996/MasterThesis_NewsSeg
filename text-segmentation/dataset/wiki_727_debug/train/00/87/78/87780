@@ -1,0 +1,23 @@
+========,1,preface.
+MP/M (Multi-Programming Monitor Control Program) is a discontinued multi-user version of the CP/M operating system, created by Digital Research developer Tom Rolander in 1979.
+It allowed multiple users to connect to a single computer, each using a separate terminal.
+MP/M was a fairly advanced operating system for its era, at least on microcomputers.
+It included a priority-scheduled multitasking kernel (before such a name was used, the kernel was referred to as the "nucleus") with memory protection, concurrent input/output (XIOS) and support for spooling and queueing.
+It also allowed for each user to run multiple programs, and switch between them.
+========,2,MP/M platforms.
+========,3,MP/M-80.
+The system required a 8080 (or Z80) CPU and a minimum of 32 kB of RAM to run, but this left little memory for user applications.
+In order to support reasonable setups, MP/M allowed for memory to be switched in and out of the machine's "real memory" area.
+So for instance a program might be loaded into a "bank" of RAM that was not addressable by the CPU, and when it was time for the program to run that bank of RAM would be "switched" to appear in low memory (typically the lower 32 or 48 kB) and thus become visible to the OS.
+This technique, known as bank switching was subsequently added to the single user version of CP/M with version 3.0.
+One of the primary uses of MP/M, perhaps to the surprise of DRI, was as a "power user" version of CP/M for a single user.
+The ability to run several programs at the same time and address large amounts of memory made the system worth the extra price.
+MP/M II 2.0 added file sharing capabilities in 1981, MP/M II 2.1 came with extended file locking in January 1982.
+***LIST***.
+========,3,MP/M-86.
+Like CP/M, MP/M was eventually ported to the Intel 8086, and appeared as MP/M-86 2.0 in September 1981.
+Known revisions of MP/M-86 2.0 were dated 1981-09-25 and 1981-10-05.
+There also was a MP/M-86 2.1 dated 1982-07-20.
+MP/M-86 2.x absorbed some of the technology of CP/M-86 1.1 (BDOS 2.2) to become Concurrent CP/M-86 3.0 (BDOS 3.0) in 1982/1983.
+In December 1983, a DOS emulator named PC-MODE became available as an optional module for Concurrent CP/M-86 3.1 (BDOS 3.1), shipping on 1984-02-21, and the system was further developed into the MS-DOS compatible Concurrent DOS (BDOS 3.1 and higher).
+This in turn continued to evolve into FlexOS and Multiuser DOS and as such is still in use in some industrial applications.

@@ -1,0 +1,41 @@
+========,1,preface.
+Eliezer Shlomo Yudkowsky (born September 11, 1979) is an American AI researcher and writer best known for popularising the idea of friendly artificial intelligence.
+He is a co-founder and research fellow at the Machine Intelligence Research Institute, a private research nonprofit based in Berkeley, California..
+He never attended high school or college and has no formal education in artificial intelligence.
+Yudkowsky says he is self-taught in the field.
+His work on the prospect of a runaway intelligence explosion was a seminal influence on Nick Bostrom's ".
+========,2,Work in artificial intelligence safety.
+========,3,Goal learning and incentives in software systems.
+Yudkowsky's views on the safety challenges posed by future generations of AI systems are discussed in the standard undergraduate textbook in AI, Stuart Russell and Peter Norvig's ".
+Noting the difficulty of formally specifying general-purpose goals by hand, Russell and Norvig cite Yudkowsky's proposal that autonomous and adaptive systems be designed to learn correct behavior over time:
+Citing Steve Omohundro's idea of instrumental convergence, Russell and Norvig caution that autonomous decision-making systems with poorly designed goals would have default incentives to treat humans adversarially, or as dispensable resources, unless specifically designed to counter such incentives: "even if you only want your program to play chess or prove theorems, if you give it the capability to learn and alter itself, you need safeguards".
+In response to the instrumental convergence concern, Yudkowsky and other MIRI researchers have recommended that work be done to specify software agents that converge on safe default behaviors even when their goals are misspecified.
+The Future of Life Institute (FLI) summarizes this research program in the Open Letter on Artificial Intelligence research priorities document:
+Yudkowsky argues that as AI systems become increasingly intelligent, new formal tools will be needed in order to avert default incentives for harmful behavior, as well as to inductively teach correct behavior.
+These lines of research are discussed in MIRI's 2015 technical agenda.
+========,3,System reliability and transparency.
+Yudkowsky studies decision theories that achieve better outcomes than causal decision theory in Newcomblike problems.
+This includes decision procedures that allow agents to cooperate with equivalent reasoners in the one-shot prisoner's dilemma.
+Yudkowsky has also written on theoretical prerequisites for self-verifying software.
+Yudkowsky argues that it is important for advanced AI systems to be cleanly designed and transparent to human inspection, both to ensure stable behavior and to allow greater human oversight and analysis.
+Citing papers on this topic by Yudkowsky and other MIRI researchers, the FLI research priorities document states that work on defining correct reasoning in embodied and logically non-omniscient agents would be valuable for the design, use, and oversight of AI agents.
+========,3,Capabilities forecasting.
+In their discussion of Omohundro and Yudkowsky's work, Russell and Norvig cite I. J.
+Good's 1965 prediction that when computer systems begin to outperform humans in software engineering tasks, this may result in a feedback loop of increasingly capable AI systems.
+This raises the possibility that AI's impact could increase very quickly after it reaches a certain level of capability.
+In the intelligence explosion scenario inspired by Good's hypothetical, recursively self-improving AI systems quickly transition from subhuman general intelligence to superintelligent.
+Nick Bostrom's 2014 book "" sketches out Good's argument in greater detail, while making a broader case for expecting AI systems to eventually outperform humans across the board.
+Bostrom cites writing by Yudkowsky on inductive value learning and on the risk of anthropomorphizing advanced AI systems, e.g.
+: "AI might make an "apparently" sharp jump in intelligence purely as the result of anthropomorphism, the human tendency to think of 'village idiot' and 'Einstein' as the extreme ends of the intelligence scale, instead of nearly indistinguishable points on the scale of minds-in-general."
+The Open Philanthropy Project, an offshoot of the charity evaluator GiveWell, credits Yudkowsky and Bostrom with several (paraphrased) arguments for expecting future AI advances to have a large societal impact:
+Russell and Norvig raise the objection that there are known limits to intelligent problem-solving from computational complexity theory; if there are strong limits on how efficiently algorithms can solve various computer science tasks, then intelligence explosion may not be possible.
+Yudkowsky has debated the likelihood of intelligence explosion with economist Robin Hanson, who argues that AI progress is likely to accelerate over time, but is not likely to be localized or discontinuous.
+========,2,Rationality writing.
+Between 2006 and 2009, Yudkowsky and Robin Hanson were the principal contributors to "Overcoming Bias", a cognitive and social science blog sponsored by the Future of Humanity Institute of Oxford University.
+In February 2009, Yudkowsky founded "LessWrong", a "community blog devoted to refining the art of human rationality".
+"Overcoming Bias" has since functioned as Hanson's personal blog.
+"LessWrong" has been covered in depth in "Business Insider".
+Yudkowsky has also written several works of fiction.
+His fan fiction story, "Harry Potter and the Methods of Rationality", uses plot elements from J.K. Rowling's "Harry Potter" series to illustrate topics in science.
+"The New Yorker" describes "Harry Potter and the Methods of Rationality" as a retelling of Rowling's original "in an attempt to explain Harry's wizardry through the scientific method".
+Over 300 blogposts by Yudkowsky have been released as six books, collected in a single ebook titled "Rationality: From AI to Zombies" by the Machine Intelligence Research Institute in 2015.

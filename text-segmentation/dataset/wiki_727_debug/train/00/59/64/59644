@@ -1,0 +1,159 @@
+========,1,preface.
+A digital signature is a mathematical scheme for demonstrating the authenticity of digital messages or documents.
+A valid digital signature gives a recipient reason to believe that the message was created by a known sender (authentication), that the sender cannot deny having sent the message (non-repudiation), and that the message was not altered in transit (integrity).
+Digital signatures are a standard element of most cryptographic protocol suites, and are commonly used for software distribution, financial transactions, contract management software, and in other cases where it is important to detect forgery or tampering.
+========,2,Explanation.
+Digital signatures are often used to implement electronic signatures, a broader term that refers to any electronic data that carries the intent of a signature, but not all electronic signatures use digital signatures.
+In some countries, including the United States, Turkey, India, Brazil, Indonesia, Mexico, Saudi Arabia, Switzerland and the countries of the European Union, electronic signatures have legal significance.
+Digital signatures employ asymmetric cryptography.
+In many instances they provide a layer of validation and security to messages sent through a non-secure channel: Properly implemented, a digital signature gives the receiver reason to believe the message was sent by the claimed sender.
+Digital seals and signatures are equivalent to handwritten signatures and stamped seals.
+Digital signatures are equivalent to traditional handwritten signatures in many respects, but properly implemented digital signatures are more difficult to forge than the handwritten type.
+Digital signature schemes, in the sense used here, are cryptographically based, and must be implemented properly to be effective.
+Digital signatures can also provide non-repudiation, meaning that the signer cannot successfully claim they did not sign a message, while also claiming their private key remains secret; further, some non-repudiation schemes offer a time stamp for the digital signature, so that even if the private key is exposed, the signature is valid.
+Digitally signed messages may be anything re-presentable as a bitstring: examples include electronic mail, contracts, or a message sent via some other cryptographic protocol.
+========,2,Definition of Digital Signature.
+A digital signature scheme typically consists of 3 algorithms;
+***LIST***.
+Two main properties are required.
+First, the authenticity of a signature generated from a fixed message and fixed private key can be verified by using the corresponding public key.
+Secondly, it should be computationally infeasible to generate a valid signature for a party without knowing that party's private key.
+A digital signature is an authentication mechanism that enables the creator of the message to attach a code that acts as a signature.
+The Digital Signature Algorithm (DSA), developed by the National Institute of Standards and Technology, is one of many examples of a signing algorithm.
+In the following discussion, 1 refers to a unary number.
+Formally, a digital signature scheme is a triple of probabilistic polynomial time algorithms, ("G", "S", "V"), satisfying:
+***LIST***.
+For correctness, "S" and "V" must satisfy
+A digital signature scheme is secure if for every non-uniform probabilistic polynomial time adversary, "A"
+where "A" denotes that "A" has access to the oracle, "S"("sk", · ), and "Q" denotes the set of the queries on "S" made by "A", which knows the public key, "pk", and the security parameter, "n".
+Note that we require any adversary cannot directly query the string, "x", on "S".
+========,2,History of Digital Signature.
+In 1976, Whitfield Diffie and Martin Hellman first described the notion of a digital signature scheme, although they only conjectured that such schemes existed based on functions that are trapdoor one-way permutations.
+Soon afterwards, Ronald Rivest, Adi Shamir, and Len Adleman invented the RSA algorithm, which could be used to produce primitive digital signatures (although only as a proof-of-concept – "plain" RSA signatures are not secure).
+The first widely marketed software package to offer digital signature was Lotus Notes 1.0, released in 1989, which used the RSA algorithm.
+Other digital signature schemes were soon developed after RSA, the earliest being Lamport signatures, Merkle signatures (also known as "Merkle trees" or simply "Hash trees"), and Rabin signatures.
+In 1984, Shafi Goldwasser, Silvio Micali, and Ronald Rivest became the first to rigorously define the security requirements of digital signature schemes.
+They described a hierarchy of attack models for signature schemes, and also presented the GMR signature scheme, the first that could be proved to prevent even an existential forgery against a chosen message attack which is the currently accepted security definition for signature schemes..
+The first such scheme which is not built on trapdoor functions but rather on a family of function with a much weaker required property of one-way permutation was presented by Moni Naor and Moti Yung .
+========,2,How they work.
+To create RSA signature keys, generate a RSA key pair containing a modulus, "N", that is the product of two large primes, along with integers, "e" and "d", such that "e d" ≡ 1 (mod φ("N")), where φ is the Euler phi-function.
+The signer's public key consists of "N" and "e", and the signer's secret key contains "d".
+To sign a message, "m", the signer computes a signature, σ, such that σ ≡ "m" (mod "N").
+To verify, the receiver checks that σ ≡ "m" (mod "N").
+As noted earlier, this basic scheme is not very secure.
+To prevent attacks, one can first apply a cryptographic hash function to the message, "m", and then apply the RSA algorithm described above to the result.
+This approach is secure assuming the hash function is a random oracle.
+Most early signature schemes were of a similar type: they involve the use of a trapdoor permutation, such as the RSA function, or in the case of the Rabin signature scheme, computing square modulo composite, "n." A trapdoor permutation family is a family of permutations, specified by a parameter, that is easy to compute in the forward direction, but is difficult to compute in the reverse direction without already knowing the private key ("trapdoor").
+Trapdoor permutations can be used for digital signature schemes, where computing the reverse direction with the secret key is required for signing, and computing the forward direction is used to verify signatures.
+Used directly, this type of signature scheme is vulnerable to a key-only existential forgery attack.
+To create a forgery, the attacker picks a random signature σ and uses the verification procedure to determine the message, "m", corresponding to that signature.
+In practice, however, this type of signature is not used directly, but rather, the message to be signed is first hashed to produce a short digest that is then signed.
+This forgery attack, then, only produces the hash function output that corresponds to σ, but not a message that leads to that value, which does not lead to an attack.
+In the random oracle model, this hash-then-sign form of signature is existentially unforgeable, even against a chosen-plaintext attack.
+There are several reasons to sign such a hash (or message digest) instead of the whole document.
+***LIST***.
+========,2,Notions of security.
+In their foundational paper, Goldwasser, Micali, and Rivest lay out a hierarchy of attack models against digital signatures:
+***LIST***.
+They also describe a hierarchy of attack results:
+***LIST***.
+The strongest notion of security, therefore, is security against existential forgery under an adaptive chosen message attack.
+========,2,Applications of digital signatures.
+As organizations move away from paper documents with ink signatures or authenticity stamps, digital signatures can provide added assurances of the evidence to provenance, identity, and status of an electronic document as well as acknowledging informed consent and approval by a signatory.
+The United States Government Printing Office (GPO) publishes electronic versions of the budget, public and private laws, and congressional bills with digital signatures.
+Universities including Penn State, University of Chicago, and Stanford are publishing electronic student transcripts with digital signatures.
+Below are some common reasons for applying a digital signature to communications:
+========,3,Authentication.
+Although messages may often include information about the entity sending a message, that information may not be accurate.
+Digital signatures can be used to authenticate the source of messages.
+When ownership of a digital signature secret key is bound to a specific user, a valid signature shows that the message was sent by that user.
+The importance of high confidence in sender authenticity is especially obvious in a financial context.
+For example, suppose a bank's branch office sends instructions to the central office requesting a change in the balance of an account.
+If the central office is not convinced that such a message is truly sent from an authorized source, acting on such a request could be a grave mistake.
+========,3,Integrity.
+In many scenarios, the sender and receiver of a message may have a need for confidence that the message has not been altered during transmission.
+Although encryption hides the contents of a message, it may be possible to "change" an encrypted message without understanding it.
+(Some encryption algorithms, known as nonmalleable ones, prevent this, but others do not.)
+However, if a message is digitally signed, any change in the message after signature invalidates the signature.
+Furthermore, there is no efficient way to modify a message and its signature to produce a new message with a valid signature, because this is still considered to be computationally infeasible by most cryptographic hash functions (see collision resistance).
+========,3,Non-repudiation.
+Non-repudiation, or more specifically "non-repudiation of origin", is an important aspect of digital signatures.
+By this property, an entity that has signed some information cannot at a later time deny having signed it.
+Similarly, access to the public key only does not enable a fraudulent party to fake a valid signature.
+Note that these authentication, non-repudiation etc.
+properties rely on the secret key "not having been revoked "prior to its usage.
+Public revocation of a key-pair is a required ability, else leaked secret keys would continue to implicate the claimed owner of the key-pair.
+Checking revocation status requires an "online" check; e.g., checking a certificate revocation list or via the Online Certificate Status Protocol.
+Very roughly this is analogous to a vendor who receives credit-cards first checking online with the credit-card issuer to find if a given card has been reported lost or stolen.
+Of course, with stolen key pairs, the theft is often discovered only after the secret key's use, e.g., to sign a bogus certificate for espionage purpose.
+========,2,Additional security precautions.
+========,3,Putting the private key on a smart card.
+All public key / private key cryptosystems depend entirely on keeping the private key secret.
+A private key can be stored on a user's computer, and protected by a local password, but this has two disadvantages:
+***LIST***.
+A more secure alternative is to store the private key on a smart card.
+Many smart cards are designed to be tamper-resistant (although some designs have been broken, notably by Ross Anderson and his students).
+In a typical digital signature implementation, the hash calculated from the document is sent to the smart card, whose CPU signs the hash using the stored private key of the user, and then returns the signed hash.
+Typically, a user must activate his smart card by entering a personal identification number or PIN code (thus providing two-factor authentication).
+It can be arranged that the private key never leaves the smart card, although this is not always implemented.
+If the smart card is stolen, the thief will still need the PIN code to generate a digital signature.
+This reduces the security of the scheme to that of the PIN system, although it still requires an attacker to possess the card.
+A mitigating factor is that private keys, if generated and stored on smart cards, are usually regarded as difficult to copy, and are assumed to exist in exactly one copy.
+Thus, the loss of the smart card may be detected by the owner and the corresponding certificate can be immediately revoked.
+Private keys that are protected by software only may be easier to copy, and such compromises are far more difficult to detect.
+========,3,Using smart card readers with a separate keyboard.
+Entering a PIN code to activate the smart card commonly requires a numeric keypad.
+Some card readers have their own numeric keypad.
+This is safer than using a card reader integrated into a PC, and then entering the PIN using that computer's keyboard.
+Readers with a numeric keypad are meant to circumvent the eavesdropping threat where the computer might be running a keystroke logger, potentially compromising the PIN code.
+Specialized card readers are also less vulnerable to tampering with their software or hardware and are often EAL3 certified.
+========,3,Using digital signatures only with trusted applications.
+One of the main differences between a digital signature and a written signature is that the user does not "see" what he signs.
+The user application presents a hash code to be signed by the digital signing algorithm using the private key.
+An attacker who gains control of the user's PC can possibly replace the user application with a foreign substitute, in effect replacing the user's own communications with those of the attacker.
+This could allow a malicious application to trick a user into signing any document by displaying the user's original on-screen, but presenting the attacker's own documents to the signing application.
+To protect against this scenario, an authentication system can be set up between the user's application (word processor, email client, etc.)
+and the signing application.
+The general idea is to provide some means for both the user application and signing application to verify each other's integrity.
+For example, the signing application may require all requests to come from digitally signed binaries.
+========,3,Using a network attached hardware security module.
+One of the main differences between a cloud based digital signature service and a locally provided one is risk.
+Many risk averse companies, including governments, financial and medical institutions, and payment processors require more secure standards, like FIPS 140-2 level 3 and FIPS 201 certification, to ensure the signature is validated and secure.
+========,3,WYSIWYS.
+Technically speaking, a digital signature applies to a string of bits, whereas humans and applications "believe" that they sign the semantic interpretation of those bits.
+In order to be semantically interpreted, the bit string must be transformed into a form that is meaningful for humans and applications, and this is done through a combination of hardware and software based processes on a computer system.
+The problem is that the semantic interpretation of bits can change as a function of the processes used to transform the bits into semantic content.
+It is relatively easy to change the interpretation of a digital document by implementing changes on the computer system where the document is being processed.
+From a semantic perspective this creates uncertainty about what exactly has been signed.
+WYSIWYS (What You See Is What You Sign) means that the semantic interpretation of a signed message cannot be changed.
+In particular this also means that a message cannot contain hidden information that the signer is unaware of, and that can be revealed after the signature has been applied.
+WYSIWYS is a necessary requirement for the validity of digital signatures, but this requirement is difficult to guarantee because of the increasing complexity of modern computer systems.
+The term WYSIWYS was coined by Peter Landrock and Torben Pedersen to describe some of the principles in delivering secure and legally binding digital signatures for Pan-European projects.
+========,3,Digital signatures versus ink on paper signatures.
+An ink signature could be replicated from one document to another by copying the image manually or digitally, but to have credible signature copies that can resist some scrutiny is a significant manual or technical skill, and to produce ink signature copies that resist professional scrutiny is very difficult.
+Digital signatures cryptographically bind an electronic identity to an electronic document and the digital signature cannot be copied to another document.
+Paper contracts sometimes have the ink signature block on the last page, and the previous pages may be replaced after a signature is applied.
+Digital signatures can be applied to an entire document, such that the digital signature on the last page will indicate tampering if any data on any of the pages have been altered, but this can also be achieved by signing with ink and numbering all pages of the contract.
+========,2,The current state of use – legal and practical.
+All digital signature schemes share the following basic prerequisites regardless of cryptographic theory or legal provision:
+***LIST***.
+Only if all of these conditions are met will a digital signature actually be any evidence of who sent the message, and therefore of their assent to its contents.
+Legal enactment cannot change this reality of the existing engineering possibilities, though some such have not reflected this actuality.
+Legislatures, being importuned by businesses expecting to profit from operating a PKI, or by the technological avant-garde advocating new solutions to old problems, have enacted statutes and/or regulations in many jurisdictions authorizing, endorsing, encouraging, or permitting digital signatures and providing for (or limiting) their legal effect.
+The first appears to have been in Utah in the United States, followed closely by the states Massachusetts and California.
+Other countries have also passed statutes or issued regulations in this area as well and the UN has had an active model law project for some time.
+These enactments (or proposed enactments) vary from place to place, have typically embodied expectations at variance (optimistically or pessimistically) with the state of the underlying cryptographic engineering, and have had the net effect of confusing potential users and specifiers, nearly all of whom are not cryptographically knowledgeable.
+Adoption of technical standards for digital signatures have lagged behind much of the legislation, delaying a more or less unified engineering position on interoperability, algorithm choice, key lengths, and so on what the engineering is attempting to provide.
+========,2,Industry standards.
+Some industries have established common interoperability standards for the use of digital signatures between members of the industry and with regulators.
+These include the Automotive Network Exchange for the automobile industry and the SAFE-BioPharma Association for the healthcare industry.
+========,3,Using separate key pairs for signing and encryption.
+In several countries, a digital signature has a status somewhat like that of a traditional pen and paper signature, like in the EU digital signature legislation.
+Generally, these provisions mean that anything digitally signed legally binds the signer of the document to the terms therein.
+For that reason, it is often thought best to use separate key pairs for encrypting and signing.
+Using the encryption key pair, a person can engage in an encrypted conversation (e.g., regarding a real estate transaction), but the encryption does not legally sign every message he sends.
+Only when both parties come to an agreement do they sign a contract with their signing keys, and only then are they legally bound by the terms of a specific document.
+After signing, the document can be sent over the encrypted link.
+If a signing key is lost or compromised, it can be revoked to mitigate any future transactions.
+If an encryption key is lost, a backup or key escrow should be utilized to continue viewing encrypted content.
+Signing keys should never be backed up or escrowed unless the backup destination is securely encrypted.

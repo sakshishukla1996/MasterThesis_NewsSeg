@@ -1,0 +1,61 @@
+========,1,preface.
+The Java Transaction API (JTA), one of the Java Enterprise Edition (Java EE) APIs, enables distributed transactions to be done across multiple X/Open XA resources in a Java environment.
+JTA is a specification developed under the Java Community Process as JSR 907.
+JTA provides for:
+***LIST***.
+========,2,X/Open XA architecture.
+In the X/Open XA architecture, a transaction manager or transaction processing monitor (TP monitor) coordinates the transactions across multiple resources such as databases and message queues.
+Each resource has its own resource manager.
+The resource manager typically has its own API for manipulating the resource, for example the JDBC API to work with relational databases.
+In addition, the resource manager allows a TP monitor to coordinate a distributed transaction between its own and other resource managers.
+Finally, there is the application which communicates with the TP monitor to begin, commit or roll back the transactions.
+The application also communicates with the individual resources using their own API to modify the resource.
+========,2,JTA implementation of the X/Open XA architecture.
+The JTA API consists of classes in two Java packages:
+The JTA is modelled on the X/Open XA architecture, but it defines two different APIs for demarcating transaction boundaries.
+It distinguishes between an application server such as an EJB server and an application component.
+It provides an interface, , that is used by the application server itself to begin, commit and roll back the transactions.
+It provides a different interface, the , that is used by general client code such as a servlet or an EJB to manage the transactions.
+The JTA architecture requires that each resource manager must implement the interface in order to be managed by the TP monitor.
+As stated previously, each resource will have its own specific API, for instance:
+***LIST***.
+========,2,Java Transaction API.
+========,3,UserTransaction interface.
+The interface provides the application the ability to control transaction boundaries programmatically.
+This interface may be used by Java client programs or EJB beans.
+The method starts a global transaction and associates the transaction with the calling thread.
+The transaction-to-thread association is managed transparently by the Transaction Manager.
+Support for nested transactions is not required.
+The UserTransaction.begin method throws the NotSupportedException when the calling thread is already associated with a transaction and the transaction manager implementation does not support nested transactions.
+Transaction context propagation between application programs is provided by the underlying transaction manager implementations on the client and server machines.
+The transaction context format used for propagation is protocol dependent and must be negotiated between the client and server hosts.
+For example, if the transaction manager is an implementation of the JTS specification, it will use the transaction context propagation format as specified in the CORBA OTS 1.1 specification.
+Transaction propagation is transparent to application programs.
+========,3,@Transactional annotation.
+The annotation provides the application the ability to control transaction boundaries declaratively.
+This annotation can be applied to any class that the Java EE specification defines as a managed bean (which includes CDI managed beans).
+The code sample below illustrates the usage of @Transactional in a request scoped CDI managed bean:
+Transactional behavior can be configured via an attribute on the annotation.
+The available options closely mirror those of the EJB specification.
+========,3,@TransactionScoped annotation.
+The annotation provides the application the ability to declare that the scope during which a bean lives is tied to the time a given transaction is active.
+The code sample below illustrates the usage of @TransactionScoped in a request scoped CDI managed bean:
+If method "foo()" is first called on a managed instance of ExampleBean and then subsequently method "bar()" is called, the number printed will be 0 and not 1.
+This is because each method had its own transaction and therefore its own instance of TxScopedBean.
+The number 1 that was set during the call to "foo()" will therefore not be seen during the call to "bar()".
+========,2,Open source JTA implementations.
+========,3,Narayana.
+Narayana (TM), formerly known as JBossTS and Arjuna Transaction Service, comes with a very robust implementation, which supports both the JTA and JTS APIs.
+Narayana comes with a recovery service, which could be run as a separate process from your application processes.
+Narayana is the default transaction manager for Java EE WildFly and JBoss EAP application servers.
+It supports for three Extended Transaction models: Nested Top Level Transactions, Nested Transactions and a compensation-based model based on "Sagas".
+Webservice and RESTful Transactions are supported as well.
+Narayana could be used out-of-the box with Spring Boot.
+There is need a manual integration with Spring framework, but it is easy task to do.
+========,3,Atomikos TransactionsEssentials.
+Atomikos TransactionsEssentials's documentation and literature on the internet show that it is a production quality implementation, which also supports recovery and some exotic features beyond the JTA API.
+Atomikos provides out-of-the-box Spring integration along with some nice examples.
+It also provides support for pooled connections for both database and JMS resources.
+========,3,Bitronix JTA.
+Bitronix claims to support transaction recovery as well as or even better than some of the commercial products.
+Bitronix also provides connection pooling and session pooling out of the box.

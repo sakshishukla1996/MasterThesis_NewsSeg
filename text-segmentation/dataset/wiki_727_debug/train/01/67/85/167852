@@ -1,0 +1,36 @@
+========,1,preface.
+GNU TeXmacs is a free scientific word processor and typesetting component of the GNU Project.
+It was inspired by TeX and GNU Emacs, though it shares no code with those programs.
+TeXmacs does use TeX fonts.
+It is written and maintained by Joris van der Hoeven.
+The program produces structured documents with a WYSIWYW user interface.
+New document styles can be created by the user.
+The editor provides high-quality typesetting algorithms and TeX fonts for publishing professional looking documents.
+========,2,Features.
+TeXmacs can handle mathematical formulas and is used as a front-end to a number of computer algebra systems such as Maxima and SageMath.
+TeXmacs also supports a Scheme extension language called Guile for customizing the program and writing extensions.
+Like many WYSIWYG editors (such as Microsoft Word), authors manipulate a document on screen which should print to a similar looking paper copy.
+The goal of TeXmacs is to provide a WYSIWYG editor that nevertheless makes it possible to write correctly structured documents with aesthetically pleasing typesetting results.
+TeXmacs is "not" a front-end to LaTeX but TeXmacs documents can be converted to either TeX or LaTeX.
+LaTeX also can be imported (to some extent), and both import to HTML, Scheme, "Verbatim", and XML and export to them is provided.
+There is a converter for MathML as well, and TeXmacs can output PDF and PostScript for printing.
+TeXmacs currently runs on most Unix-based architectures including Linux, FreeBSD, Cygwin and macOS.
+Along with the Cygwin version, a native beta port is available for Microsoft Windows.
+TeXmacs also features a presentation mode and there are plans to evolve towards a complete scientific office suite with spreadsheet capacities and a technical drawing editor.
+========,3,Mathematical typography.
+TeXmacs facilitates the inputting of mathematical formulas by mapping sequences of keyboard symbols to symbols.
+For example, the symbol ***formula*** can be input by typing =>.
+Some symbols have no such representation (***formula*** for instance).
+These can be input with tab key.
+This keyboard-based entry differs from other formulae editors, that tend to provide point-an-click menus for this task.
+========,3,Batch processing.
+It is possible to use TeXmacs as a batch processor (which is LaTeX's usual operation mode), using X virtual framebuffer to avoid opening unwanted windows while processing.
+For example, the command generates a PDF file "article.pdf" from a TeXmacs document "article.tm".
+========,2,Supported back ends.
+TeXmacs has back-ends supporting many technologies.
+Programming languages:
+CLISP, CMUCL, Python, QCL, R, Shell Computer algebra systems:
+Axiom, Giac, Macaulay 2, Mathematica, Maxima, Mupad, PARI/GP, Reduce, SageMath, Yacas Numeric matrix systems:
+GNU Octave, Matlab, Scilab Plotting packages:
+gnuplot, Graphviz, XYpic, Mathemagix Other:
+DraTeX, Eukleides, GTybalt, Lush,  Juris-M or Zotero (research citation references and bibliography manager, better than BibTeX.)

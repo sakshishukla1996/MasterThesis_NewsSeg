@@ -1,0 +1,68 @@
+========,1,preface.
+In music, an altered chord, an example of alteration (see below), is a chord with one or more diatonic notes replaced by a neighboring pitch in the chromatic scale.
+The simplest use of altered chords is the use of "borrowed" chords—borrowed from the tonic minor of a major key, or from the tonic major of a minor key.
+========,2,Background.
+"Borrowing" of this type is seen in music from the Renaissance music era and the Baroque music era (1600–1750), such as with the use of the Picardy third, in which a piece in a minor key has a final or intermediate cadence in the tonic major chord.
+"Borrowing" is also common in 20th century popular music and rock music.
+For example, in music in a major key, such as E major, composers and songwriters may use a D major chord, which is "borrowed" from the key of E minor (where it is the VII chord).
+Similarly, in music in a minor key, such as A minor, composers and songwriters often "borrow" chords from the tonic major.
+For example, pieces in B/G minor often use E/C major and F/D major chords (IV and V chords), which are "borrowed" from the key of B/G major.
+More advanced types of altered chords were used by Romantic music era composers in the 19th century, such as Chopin and by jazz composers and improvisers in the 20th and 21st century.
+For example, the chord progression on the left uses four unaltered chords:
+The progression on the right uses an altered IV chord and is an alteration of the previous progression.
+The A in the altered chord serves as a leading tone to G, which is the root of the next chord.
+========,2,Jazz.
+In jazz and jazz harmony, the term altered chord, notated as an alt chord (e.g.
+G ), refers to a dominant chord, in which neither the fifth nor the ninth appears unaltered—namely, where the 5th and the 9th are raised or lowered by a single semitone, or omitted.
+Altered chords are thus constructed using the following notes, some of which may be omitted:
+***LIST***.
+Altered chords may include "both" a flattened and sharpened form of the altered fifth or ninth, e.g.
+G; however, it is more common to use only one such alteration per tone, e.g.
+G, G, G, or G. in practice, many fake books do not specify all the alterations; the chord is typically just labelled as G, and the alteration of 9ths, 11ths and 13ths is left to the artistic discretion of the comping musician.
+The use of chords labeled "G" can create challenges in jazz ensembles where more than one chordal instrument are playing chords (e.g., a large band with an electric guitar player and a Hammond organ player), because the guitarist might interpret a G chord as containing a 9 and 13, whereas the organ player may interpret the same chord as containing a 9 and a 13; this can lead to clashing harmonies.
+To deal with this issue, bands with more than once chordal instrument may work out the alt chord voicings beforehand or alternate playing of choruses.
+The choice of inversion, or the omission of certain tones within the chord (e.g.
+omitting the root, common in jazz harmony and chord voicings), can lead to many different possible colorings, substitutions, and enharmonic equivalents.
+Altered chords are ambiguous harmonically, and may play a variety of roles, depending on such factors as voicing, modulation, and voice leading.
+The altered chord's harmony is built on the altered scale, which includes all the alterations shown in the chord elements above:
+***LIST***.
+Because they do not have natural fifths, altered dominant (7alt) chords support tritone substitution (5 substitution).
+Thus the 7alt chord on a given root can be substituted with the 1311 chord on the root a tritone away (e.g., G is the same as D ).
+Tritone substitution in jazz is often used to create chromatic root movement in the roots of chords.
+An example of a standard jazz chord progression with tritone substitution is the "ii/V/I" progression.
+For example, in the key of C major, this progression includes the chords D minor, G dominant seventh and C major (or Dm/G/C in abbreviated jazz chord notation).
+A common application of tritone substitution to the ii/V/I progression is to replace the dominant seventh chord with another dominant seventh chord a tritone away.
+Thus Dm/G/C would become Dm/D/C.
+This new tritone substitution progression contains a chromatic movement of root notes.
+Altered chords are commonly substituted for regular dominant V chords on the same root in ii-V-I progressions, most commonly in minor harmony leading to a i (tonic minor 7th) chord but also in ii/V/I progressions in a major key.
+More generally in jazz, the terms "altered chord" and "altered tone" also refer to the family of chords that involve 9 and 5 voicing, as well as to certain other chords with related ambiguous harmony.
+Thus the "79 chord" (e.g.
+G) is used in the context of a dominant resolution to a major tonic, which is typically voiced with a 13 rather than the 13 of the alt chord.
+When voiced with a 13, jazz musicians typically play the half-step/whole-step diminished scale over the 9 chord (e.g.
+G, A, B, B, C, D, E, F over G).
+Note that in chord substitution and comping (accompaniment by a chordal instrumentalist, such as an electric guitarist or piano player), a 79 is often used to replace a diminished chord, for which it may be the more "correct" substitution due to its incorporation of an appropriate root tone.
+Thus, in a progression where a diminished chord (denoted °) is written in place of a G chord, i.e.
+where the dominant chord is replaced by an A° (A–C–E = G–B–D), D° (D–F–A), B° (B–D–F), or F° (F–A–C = F–G–B)), a G is often played instead.
+G (G–B–D–F–A) contains the same notes as any of these diminished chords with an added G root.
+========,2,Alteration.
+In music, alteration, an example of chromaticism, is the use of a neighboring pitch in the chromatic scale in place of its diatonic neighbor such as in an altered chord.
+This should not be confused with borrowing (as in borrowed chord), in which pitches or chords from the parallel key are used in place of those of the original key.
+Altered notes may be used as leading tones to emphasize their diatonic neighbors.
+Contrast with chord extension: "Whereas chord extension generally involves adding notes that are logically implied, chord alteration involves changing some of the typical notes.
+This is usually done on dominant chords, and the four alterations that are commonly used are the 5, 5, 9 and 9.
+Using one (or more) of these notes in a resolving dominant chord greatly increases the bite in the chord and therefore the power of the resolution."
+"The more tension, the more powerful the resolution… we can pile that tension on to make the resolution really spectacular."
+The 9 chord is recommended for resolution to minor chords, for example VI to ii (G to Cm) in the I-vi-ii-V turnaround.
+The 9 chord is also known as the "Purple Haze chord", is most often notated with the enharmonic equivalent 3, and is thus used with the blues.
+The 5 in a 5 chord is enharmonically equivalent to a 4 or 11, but the sharp eleventh chord includes the 5 while in the flat fifth chord it is replaced.
+The 5 chord is enharmonically equivalent to a 13, does not include the 5, and is more common than the 13 chord.
+Both the flat and sharp fifth resolve nicely to the natural ninth.
+In jazz, chromatic alteration is either the addition of notes not in the scale, or expansion of a [chord] progression by adding extra non-diatonic chords.
+For example, "A C major scale with an added D note, for instance, is a chromatically altered scale" while, "one bar of Cmaj moving to Fmaj in the next bar can be chromatically altered by adding the ii and V of Fmaj on the second two beats of bar" one.
+Techniques include the ii-V-I turnaround, as well as movement by half-step or minor third.
+For example, an altered dominant or V chord may be G–B–D (5 and 9).
+========,2,Altered seventh chord.
+An altered seventh chord is a seventh chord with one, or all, of its factors raised or lowered by a semitone (altered), for example the augmented seventh chord (7+ or 7+5) featuring a raised fifth (C: C–E–G–B).
+Most likely the fifth, then the ninth, then the thirteenth.
+In classical music, the raised fifth is more common than the lowered fifth, which in a dominant chord adds Phrygian flavor through the introduction of .
+(For example, in C the dominant is G, its fifth is D, the second scale degree.)

@@ -1,0 +1,18 @@
+========,1,preface.
+The horse paradox is a falsidical paradox that arises from flawed demonstrations, which purport to use mathematical induction, of the statement "All horses are the same color".
+There is no actual contradiction, as these arguments have a crucial flaw that makes them incorrect.
+This example was originally raised by George Pólya.
+The paradox was also used by Joel E. Cohen as an example of the subtle errors that can occur in attempts to prove statements by induction.
+========,2,The argument.
+========,3,Base case: One horse.
+The case with just one horse is trivial.
+If there is only one horse in the "group", then clearly all horses in that group have the same color.
+========,2,Explanation.
+The argument above makes the implicit assumption that the two subsets of horses to which the induction assumption is applied have a common element.
+This is not true when the original set (prior to either removal) only contains two horses.
+Let the two horses be horse A and horse B.
+When horse A is removed, it is true that the remaining horses in the set are the same color (only horse B remains).
+The same is true when horse B is removed.
+However the statement "the first horse in the group is of the same color as the horses in the middle" is meaningless, because there are no "horses in the middle" (common elements (horses) in the two sets).
+Therefore the above proof has a logical link broken.
+The proof forms a falsidical paradox; it seems to show by valid reasoning something that is manifestly false, but in fact the reasoning is flawed.

@@ -1,0 +1,75 @@
+========,1,preface.
+The knapsack problem or rucksack problem is a problem in combinatorial optimization: Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible.
+It derives its name from the problem faced by someone who is constrained by a fixed-size knapsack and must fill it with the most valuable items.
+The problem often arises in resource allocation where there are financial constraints and is studied in fields such as combinatorics, computer science, complexity theory, cryptography, applied mathematics, and daily fantasy sports.
+The knapsack problem has been studied for more than a century, with early works dating as far back as 1897.
+The name "knapsack problem" dates back to the early works of mathematician Tobias Dantzig (1884–1956), and refers to the commonplace problem of packing your most valuable or useful items without overloading your luggage.
+========,2,Applications.
+A 1998 study of the Stony Brook University Algorithm Repository showed that, out of 75 algorithmic problems, the knapsack problem was the 18th most popular and the 4th most needed after kd-trees, suffix trees, and the bin packing problem.
+Knapsack problems appear in real-world decision-making processes in a wide variety of fields, such as finding the least wasteful way to cut raw materials, selection of investments and portfolios, selection of assets for asset-backed securitization, and generating keys for the Merkle–Hellman and other knapsack cryptosystems.
+One early application of knapsack algorithms was in the construction and scoring of tests in which the test-takers have a choice as to which questions they answer.
+For small examples it is a fairly simple process to provide the test-takers with such a choice.
+For example, if an exam contains 12 questions each worth 10 points, the test-taker need only answer 10 questions to achieve a maximum possible score of 100 points.
+However, on tests with a heterogeneous distribution of point values—i.e.
+different questions are worth different point values— it is more difficult to provide choices.
+Feuerman and Weiss proposed a system in which students are given a heterogeneous test with a total of 125 possible points.
+The students are asked to answer all of the questions to the best of their abilities.
+Of the possible subsets of problems whose total point values add up to 100, a knapsack algorithm would determine which subset gives each student the highest possible score.
+========,2,Computational complexity.
+The knapsack problem is interesting from the perspective of computer science for many reasons:
+***LIST***.
+There is a link between the "decision" and "optimization" problems in that if there exists a polynomial algorithm that solves the "decision" problem, then one can find the maximum value for the optimization problem in polynomial time by applying this algorithm iteratively while increasing the value of k .
+On the other hand, if an algorithm finds the optimal value of the optimization problem in polynomial time, then the decision problem can be solved in polynomial time by comparing the value of the solution output by this algorithm with the value of k .
+Thus, both versions of the problem are of similar difficulty.
+One theme in research literature is to identify what the "hard" instances of the knapsack problem look like, or viewed another way, to identify what properties of instances in practice might make them more amenable than their worst-case NP-complete behaviour suggests.
+The goal in finding these "hard" instances is for their use in public key cryptography systems, such as the Merkle-Hellman knapsack cryptosystem.
+========,2,Solving.
+========,3,Approximation algorithms.
+As for most NP-complete problems, it may be enough to find workable solutions even if they are not optimal.
+Preferably, however, the approximation comes with a guarantee on the difference between the value of the solution found and the value of the optimal solution.
+As with many useful but computationally complex algorithms, there has been substantial research on creating and analyzing algorithms that approximate a solution.
+The knapsack problem, though NP-Hard, is one of a collection of algorithms that can still be approximated to any specified degree.
+This means that the problem has a polynomial time approximation scheme.
+To be exact, the knapsack problem has a fully polynomial time approximation scheme (FPTAS).
+========,3,Dominance relations.
+Solving the unbounded knapsack problem can be made easier by throwing away items which will never be needed.
+For a given item "i", suppose we could find a set of items "J" such that their total weight is less than the weight of "i", and their total value is greater than the value of "i".
+Then "i" cannot appear in the optimal solution, because we could always improve any potential solution containing "i" by replacing "i" with the set "J".
+Therefore, we can disregard the "i"-th item altogether.
+In such cases, "J" is said to dominate "i".
+(Note that this does not apply to bounded knapsack problems, since we may have already used up the items in "J".)
+Finding dominance relations allows us to significantly reduce the size of the search space.
+There are several different types of dominance relations, which all satisfy an inequality of the form:
+***LIST***.
+***LIST***.
+========,2,Variations.
+There are many variations of the knapsack problem that have arisen from the vast number of applications of the basic problem.
+The main variations occur by changing the number of some problem parameter such as the number of items, number of objectives, or even the number of knapsacks.
+========,3,Multi-objective knapsack problem.
+This variation changes the goal of the individual filling the knapsack.
+Instead of one objective, such as maximizing the monetary profit, the objective could have several dimensions.
+For example, there could be environmental or social concerns as well as economic goals.
+Problems frequently addressed include portfolio and transportation logistics optimizations.
+As a concrete example, suppose you ran a cruise ship.
+You have to decide how many famous comedians to hire.
+This boat can handle no more than one ton of passengers and the entertainers must weigh less than 1000 lbs.
+Each comedian has a weight, brings in business based on their popularity and asks for a specific salary.
+In this example you have multiple objectives.
+You want, of course, to maximize the popularity of your entertainers while minimizing their salaries.
+Also, you want to have as many entertainers as possible.
+========,3,Multiple knapsack problem.
+This variation is similar to the Bin Packing Problem.
+It differs from the Bin Packing Problem in that a subset of items can be selected, whereas, in the Bin Packing Problem, all items have to be packed to certain bins.
+The concept is that there are multiple knapsacks.
+This may seem like a trivial change, but it is not equivalent to adding to the capacity of the initial knapsack.
+This variation is used in many loading and scheduling problems in Operations Research and has a PTAS
+========,3,Quadratic knapsack problem.
+As described by Wu et al.
+The quadratic knapsack problem (QKP) maximizes a quadratic objective function subject to a binary and linear capacity constraint.
+The quadratic knapsack problem was discussed under that title by Gallo, Hammer, and Simeone in 1980.
+However, Gallo and Simeone attribute the first treatment of the problem to Witzgall in 1975.
+========,3,Subset-sum problem.
+The subset sum problem is a special case of the decision and 0-1 problems where each kind of item, the weight equals the value: ***formula***.
+In the field of cryptography, the term "knapsack problem" is often used to refer specifically to the subset sum problem and is commonly known as one of Karp's 21 NP-complete problems.
+The generalization of subset sum problem is called multiple subset-sum problem, in which multiple bins exist with the same capacity.
+It has been shown that the generalization does not have an FPTAS.

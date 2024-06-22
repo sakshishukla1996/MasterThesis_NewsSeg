@@ -1,0 +1,461 @@
+========,1,preface.
+The TRS-80 Micro Computer System (TRS-80; later known as the Model I to distinguish it from successors) is a desktop microcomputer launched in 1977 and sold by Tandy Corporation through their Radio Shack stores.
+The name is an abbreviation of "Tandy/Radio Shack, Z-80 microprocessor".
+It was one of the earliest mass-produced and mass-marketed retail personal computers.
+Notable features of the TRS-80 included its full-stroke QWERTY keyboard, its then-new Zilog Z80 processor (rather than the more common Intel 8080), 4K RAM standard memory (many 8-bit computers then shipped with only 1K RAM), small size and desk footprint, its floating-point BASIC programming language, an included 64 column video monitor, and a starting price of US$600 (equivalent to US$ in 2016).
+An extensive line of upgrades and hardware peripherals for the TRS-80 was developed and marketed by Tandy/Radio Shack.
+The basic system could be expanded with up to 48K of RAM (in 16K increments), and up to four floppy disk drives and/or hard disk drives.
+Tandy/Radio Shack provided full service after-sales support including upgrade, repair, and training services in their thousands of stores worldwide.
+By 1979, the TRS-80 had the largest selection of software in the microcomputer market.
+Until 1982, the TRS-80 was the best-selling PC line, outselling the Apple II series by a factor of 5 according to one analysis.
+In mid-1980, the broadly compatible TRS-80 Model III was released.
+The Model I was discontinued shortly after, primarily due to stricter FCC regulations on the radio-frequency interference it caused in surrounding electronics.
+In April 1983 the Model III was in turn succeeded by the compatible Model 4.
+As well as the original Model I and its compatible descendants, the TRS-80 name was later used as a generic brand on other technically unrelated computer lines sold by Tandy, such as the TRS-80 Model II, TRS-80 Model 2000, TRS-80 Model 100, TRS-80 Color Computer and TRS-80 Pocket Computer.
+========,2,History.
+In the mid-1970s, Tandy Corporation's Radio Shack division was a successful American chain of more than 3,000 electronics stores.
+After buyer Don French purchased a MITS Altair kit computer, he began designing his own and showed it to vice president of manufacturing John Roach.
+Although the design did not impress Roach, the idea of selling a microcomputer did.
+When the two men visited National Semiconductor in California in mid-1976, Steve Leininger's expertise on the SC/MP microprocessor impressed them.
+National executives refused to provide Leininger's contact information when French and Roach wanted to hire him as a consultant, but they found Leininger working part-time at Byte Shop and he and French began working together in June 1976.
+The company envisioned a kit, but Leininger persuaded the others that because "too many people can't solder", a preassembled computer would be better.
+Tandy had 11 million customers that might buy a microcomputer, but it would be much more expensive than the median price of a Radio Shack product, and a great risk for the very conservative company.
+Many opposed the project; one executive told French, "Don't waste my time—we can't sell computers."
+As the popularity of CB radio—at one point comprising more than 20% of Radio Shack's sales—declined, however, the company sought new products.
+In December 1976 French and Leininger received official approval for the project but were told to emphasize cost savings; for example, leaving out lowercase characters saved US$1.50 in components and reduced the retail price by .
+In February 1977 they showed their prototype, running a simple tax-accounting program, to Charles Tandy, head of Tandy Corporation.
+The program quickly crashed as the computer could not handle the figure that Tandy typed in as his salary, and the two men added support for floating-point math to its Tiny BASIC to prevent a recurrence.
+After the demonstration Tandy revealed that he had already leaked the computer's existence to the press, so the project was approved.
+MITS sold 1,000 Altairs in February 1975, and was selling 10,000 a year.
+Leininger and French suggested that Radio Shack could sell 50,000 computers, but others disagreed and suggested 1,000 to 3,000 per year at the target US$199 price.
+Roach persuaded Tandy to agree to build 3,500—the number of Radio Shack stores—so that each store could use a computer for inventory purposes if they did not sell.
+Having spent less than on development, Radio Shack announced the TRS-80 (Tandy Radio Shack) at a New York City press conference on August 3, 1977.
+It cost ($ today), or ($ today) with a 12" monitor and a Radio Shack tape recorder as datacassette storage; the most expensive product Radio Shack previously sold was a stereo.
+The company hoped that the new computer would help Radio Shack sell higher-priced products, and improve its "schlocky" image among customers.
+Small businesses were the primary target market, followed by educators, then consumers and hobbyists; despite its hobbyist customer base, Radio Shack saw them as "not the mainstream of the business" and "never our large market".
+Although the press conference did not receive much media attention because of a terrorist bombing elsewhere in the city, the computer received much more publicity at the Personal Computer Faire in Boston two days later.
+A front-page Associated Press article discussed the novelty of a large consumer-electronics company selling a home computer that could "do a payroll for up to 15 people in a small business, teach children mathematics, store your favorite recipes or keep track of an investment portfolio.
+It can also play cards."
+Six sacks of mail arrived at Tandy headquarters asking about the computer, over 15,000 people called to purchase a TRS-80—paralyzing the company switchboard—and 250,000 joined the waiting list with a $100 deposit.
+Despite the internal skepticism, Radio Shack aggressively entered the market.
+The company advertised "The $599 personal computer" as "the most important, useful, exciting, electronic product of our time".
+Company president Lewis Kornfeld stated when announcing the TRS-80, "This device is inevitably in the future of everyone in the civilized world—in some way—now and so far as ahead as one can think", and Tandy's 1977 annual report called the computer "probably the most important product we've ever built in a company factory".
+Unlike competitor Commodore—which had announced the PET several months earlier but had not yet shipped any—Tandy had its own factories and distribution network, and even small towns had Radio Shack stores.
+The company announced plans to be selling by Christmas a range of peripherals and software for the TRS-80, began shipping computers by September, and opened its first computer-only store in October.
+Still forecasting 3,000 sales a year, Radio Shack sold over 10,000 TRS-80s Model Is in its first one and a half months of sales, and over 200,000 during the product's lifetime; one entered the Smithsonian's National Museum of American History.
+By mid-1978 the waits of two months or more for delivery were over, and the company could state in advertisements that TRS-80 was "on demonstration and available "from stock now" at every Radio Shack store in this community!".
+The first units, ordered unseen, were delivered in November 1977, and rolled out to the stores the third week of December.
+The line won popularity with hobbyists, home users, and small-businesses.
+Tandy Corporation's leading position in what "Byte" Magazine called the "1977 Trinity" (Apple, Commodore and Tandy) had much to do with Tandy's retailing the computer through more than 3,000 of its Radio Shack storefronts in the USA.
+Tandy claimed it had "7000 [Radio Shack] stores in 40 countries".
+The pre-release price for the basic system (CPU/keyboard and video monitor) was US$500 and a US$50 deposit was required, with a money-back guarantee at time of delivery.
+Starting in 1978 Tandy/Radio Shack promoted itself as "The Biggest Name in Little Computers".
+By 1980 "InfoWorld" described Radio Shack as "the dominant supplier of small computers".
+"Kilobaud Microcomputing" estimated that it was selling three times as many computers as Apple Computer, with both companies ahead of Commodore.
+By 1981 hundreds of small companies produced TRS-80 software and accessories, and Adam Osborne described Tandy as "the number-one microcomputer manufacturer" despite having "so few roots in microcomputing".
+Roach became Tandy's CEO that year, Leininger became director of strategic planning, and French founded a software company.
+Although selling computers did not change the company's "schlocky" image, the Radio Shack name embarrassed business customers, and Tandy executives disliked the "Trash-80" nickname for its products, by 1984 computers accounted for 35% of sales and the company had 500 Tandy Radio Shack Computer Centers.
+Following the Model III launch in mid-1980, Tandy initially claimed that the Model I had not been dropped.
+However, it had been discontinued by the end of the year.
+Tandy cited one of the main reasons as being the prohibitive cost of redesigning it to meet stricter FCC regulations covering the significant levels of radio-frequency interference emitted by the original design.
+The Model I radiated so much interference that, while playing games, an AM radio placed next to the computer could be used to provide sounds.
+========,2,Hardware.
+The Model I combined the mainboard and keyboard into one unit, in what was to be a common case design trend throughout the 8-bit microcomputer era, although it had a separate power supply unit.
+It used a Zilog Z80 processor clocked at 1.77 MHz (later models were shipped with a Z80A).
+The basic model originally shipped with 4k of RAM, consisting of eight 2104 chips (4kx1) and eventually 16k of RAM consisting of eight 4116 chips (16kx1)
+The OS ROMs, I/O area, video memory and OS work space occupy the first 16k of memory space on the Model I, the remainder being free RAM usable by programs.
+Although the Z80 CPU can use port-based I/O, the Model I's I/O is memory-mapped aside from the cassette and RS-232 ports.
+The memory layout of the Model I and III notably rendered them incompatible with standard CP/M which was designed to load at $0000 and have its TPA (Transient Program Area) start at $0100.
+Although CP/M was available for both computers, it required custom-modified software which defeated the basic point of the OS, which was portability.
+========,3,Keyboard.
+The implementation of the keyboard was unusual.
+Instead of transferring data through an I/O chip, the hardware mapped the keyboard to dedicated locations in the processor's memory.
+Performing a read from the keyboard area of the memory would return the state of a particular set of keys.
+Many users complained about the TRS-80 keyboards, which used mechanical switches and suffered from "keyboard bounce", resulting in multiple letters being typed accidentally.
+The problem was so widespread that Wayne Green's editorial in the first issue of "80 Micro" mentioned it.
+A Keyboard De-Bounce tape was distributed, which altered the system's software to reduce the effect of bounce and to slow down polling of the keyboard.
+Eventually, this change was added to a later ROM revision.
+The keyboard hardware was also changed to be less vulnerable to bounce.
+Later production runs of the computer replaced the nameplate with a numeric keypad.
+Older machines could be upgraded by keyboard replacement, which was desirable also to remedy the problem with key bounce.
+========,3,Video and audio.
+The TRS-80 was accompanied by a modified RCA black-and-white television.
+The color of the screen text is light bluish (the standard "P4" phosphor used in black-and white televisions).
+Green and amber filters, or replacement tubes to make the display easier on the eyes, were common aftermarket items.
+Later models came with a green-on-black display.
+Many users complained about the poor quality of the video display; as Green wrote, "hells bells, [the monitor] "is" a cheap black and white television set with a bit of conversion for computer use".
+(The computer could be purchased without the Radio Shack monitor.)
+Any access to the screen memory caused "flicker" on the screen.
+The bus arbitration logic would block video display while access was given to the CPU, causing a short black line.
+This had little effect on normal BASIC programs, but fast programs made in assembly language could be affected.
+Many software authors were able to minimize this effect.
+Notwithstanding this primitive display hardware, many arcade-style games were available for the Tandy TRS-80.
+Because of bandwidth problems in the interface card that replaced the TV's tuner, the display would lose horizontal sync if large areas of white were displayed; a simple hardware fix (involving less than half an hour's work) could be applied to correct that.
+Like the Apple II, the original TRS-80 Model I cannot display lowercase letters.
+Although the letters exist in its character set, the computer uses seven 2102 SRAMs (1kx1) for the video memory, for a total of 896 bytes.
+Since these are 1-bit chips, the eighth bit is missing, meaning the video RAM cannot store values greater than 127.
+An eighth 2102 chip must be added to enable a full 256 characters.
+The 1978 manual for the popular word processor Electric Pencil came with instructions for modifying the computer.
+Although the modification needed to be disabled for Level II BASIC, its design became the industry standard and was widely sold in kit form, along with a character chip with descenders for the lowercase letters.
+Later models came with the hardware for lowercase character set to be displayed with descenders.
+The video hardware can only display text at 64 or 32 characters wide by 16 lines of resolution.
+This is because the video memory system uses a single kilobyte of RAM.
+Seven bits of each byte are used to display ASCII characters, with the eighth bit used to differentiate between text and "semigraphics" characters.
+Primitive graphics ("text semigraphics", rather than a true bitmap) can be displayed because the upper 64 characters of the 128-character set appear as a grid of 2×3 blocks resembling Teletext.
+BASIC routines can write directly to the virtual 128×48 grid.
+The Model I has no sound hardware.
+Square wave tones can be produced by outputting data to the cassette port and plugging headphones or an amplifier into the Data Out line.
+Some games use this ability for sound effects.
+An adapter was available to use Atari joysticks.
+========,2,Peripherals.
+========,3,Cassette tape drive.
+User data was originally stored on cassette tape.
+Radio Shack's model CTR-41 cassette recorder was included with the US$599 package.
+The software-based cassette tape interface was very slow and erratic; Green described it as "crummy ... drives users up the wall", and the first issue of "80 Micro" had three articles on how to improve cassette performance.
+It was sensitive to audio volume changes, and the machine gave only the very crudest indication as to whether the correct volume was set, via a blinking character on screen while data was being loaded.
+To find the correct volume, one would sometimes have to attempt to load a program once, adjusting volume until the machine picked up the data, then reset the machine, rewind the tape and attempt the loading again.
+Users quickly learned to save a file three or more times in hopes that one copy would prove to be readable.
+Automatic gain control or indicator circuits could be constructed to compensate for this (the owner's manual provided complete circuit diagrams for the whole machine, including the peripheral interfaces, with notes on operation).
+An alternative tape interface could receive transmissions from the BBC's "Chip Shop" programme in the UK, which broadcast software for several different microcomputers over the radio.
+A special program loaded using the conventional tape interface was needed to access the custom interface.
+Tandy eventually replaced the CTR-41 unit with the CTR-80 which had built-in AGC circuitry (and no volume control).
+This helped the situation, but tape operation was still unreliable.
+TRS-80s with Level I BASIC read and wrote tapes at 250 bits per second (31.25 bytes per second); Level II BASIC doubled this to 500 bits per second (62.5 bytes per second).
+Some programmers wrote machine-language programs that would increase the speed to up to 2,000 bits per second without a loss of reliability.
+For loading and storing data, no hardware controller existed.
+Instead, the processor created the sound itself by switching the output voltage between three states, creating very crude sine wave audio.
+The first models of the Model I also had problems reading from the cassette drives.
+Tandy eventually offered a small board which was installed in a service center to correct earlier models.
+The ROMs in later models were modified to correct this.
+========,3,Expansion interface.
+The TRS-80 did not use the S-100 bus like many other Z80-based computers.
+A proprietary Expansion Interface (E/I) box, which fit under the video monitor and served as its base, provided options for upgrade possibilities: expansion to 32K or 48K of RAM, a floppy disk controller (see below), a real-time clock, a second cassette port, an RS-232 serial port, and a Centronics parallel printer port.
+The 40-conductor expansion connector was passed through to a card edge connector, which permitted the addition of external peripherals such as an outboard hard disk drive (see below), a voice synthesizer, or a voice recognition unit (VOXBOX).
+Originally, one could not print from the Model I without purchasing an Expansion Interface.
+However, Tandy Corp. soon sold a printer-only Interface for the Model I for approx.
+DM300 in Germany.
+The Expansion Interface was the most troublesome part of the TRS-80 system.
+It went through several revisions.
+The E/I connected to the CPU/keyboard with a 6-inch ribbon cable which was unshielded against RF interference and its card edge connector tended to oxidize due to the use of different metals in the contacts.
+This demanded periodic cleaning with a pencil eraser in order to avoid spontaneous reboots, for which the computer acquired its "Trash-80" sobriquet.
+Aftermarket connectors plated with gold solved this problem permanently.
+The card edge connectors for external peripherals also suffered from this defect.
+The expansion unit required a second power supply, identical to the base unit power supply; an interior recess held both power supplies.
+"InfoWorld" compared the cable spaghetti connecting the TRS-80's various components to the snakes in "Raiders of the Lost Ark".
+Radio Shack offered a "TRS-80 System Desk" that concealed nearly all the cabling.
+It could accommodate the complete computer system plus up to four floppy drives plus the Quick Printer.
+Since the cable connecting the expansion interface carried the system bus, it was kept short (about 6 inches).
+This meant that the user had no choice but to place it directly behind the computer with the monitor on top of it.
+This caused problems if one owned a monitor whose case did not fit the mounting holes.
+Also, the loose friction fit of the edge connector on the already short interconnect cable created the precarious possibility of disconnecting the system bus from the CPU if either unit happened to be moved during operation.
+========,3,Floppy disk drives.
+Radio Shack introduced floppy drives in July 1978, slightly more than six months after the Model I initially went on sale.
+To use the Model I with its disk operating system, TRSDOS, one had to buy the Expansion Interface, which included a single-density floppy disk interface (with a formatted capacity of 85k).
+This was based on the Western Digital 1771 single-density floppy disk controller chip.
+Four floppy drives could be used with the Model I in a daisy-chain.
+Only the last drive in the chain was supposed to have a termination resister installed but often it was not needed.
+Although demand for Model I drives greatly exceeded supply at first, since the interface lacked a separate external data separator, it was very unreliable in practice.
+Much of the unreliability was due to bugs in Radio Shack's early version(s) of TRSDOS.
+The 1771 could not report its status for a short interval (several instruction cycles) after it received a command.
+A common method of handling this was to issue a command to the 1771, perform several "NOP" instructions, then query the 1771 for command status.
+Early TRSDOS neglected to use the required wait period, instead querying the chip immediately after issuing a command, and thus false status was often returned to the OS, causing various errors and crashes.
+If the 1771 was handled correctly by the OS, it was actually fairly reliable.
+In 1981 Steve Ciarcia published in "BYTE" the design for a homemade, enhanced expansion interface with additional RAM and a disk controller for the TRS-80.
+A data separator and a double density disk controller (based on the WD 1791 chip) were made by Percom (a Texas peripheral vendor), LNW, Tandy and others.
+The Percom Doubler added the ability to boot and use Double Density Floppies (they provided their own modified TRSDOS called DoubleDOS), and included the Data Separator.
+The LNDoubler added the ability to read and write from 5¼" diskette drives for over 1.2 Mb of storage.
+Near the end of the Model I's lifespan in 1982, upgrades were offered to replace the original controller with a double density one.
+The disk drives offered on the Model I were Shugart SA-400s which supported 35 tracks, however the Model 3/4/4P used Tandon TM-100 40-track drives.
+The combination of 40 tracks and double-density gave a maximum capacity of 180 kilobytes per single-sided floppy disk.
+The use of index-sync meant that a "flippy disk" required a second index hole and write-enable notch.
+One could purchase factory-made "flippies".
+Some software publishers formatted one side for Apple systems and the other for the TRS-80.
+Third-party vendors such as Aerocomp made available double-sided and 80 track 5-1/4 inch and later 3-1/2 inch floppy drives with up to 720 KB storage each.
+These new drives were all half-height and therefore required different or modified drive housings.
+========,3,Exatron Stringy Floppy.
+An alternative to cassette tape and floppy disk storage was provided by a company called Exatron.
+The new device was a continuous loop tape drive, dubbed a "stringy floppy".
+It required no Expansion Interface (it plugged directly into the TRS-80's 40-pin expansion bus), was far less expensive than a floppy drive, could read and write random-access data like a floppy drive (and unlike a cassette tape) and it transferred data at up to 14,400 baud.
+It used cartridges to store upwards of 64K bytes of data.
+The ESF (as it was sometimes called) could coexist with the TRS-80 datacassette drive.
+The ESF became a popular and familiar product among TRS-80 enthusiasts, selling over 4000 units by 1981.
+A complementary product marketed by Exatron was a RAM expansion board that installed in the TRS-80 keyboard to increase memory to 48K without the Expansion Interface.
+========,3,Hard drive.
+Radio Shack introduced a 5 MB hard-drive unit for the TRS-80 Models I and III (and later Model 4) in 1983.
+The size of the unit was about the same as a modern desktop computer enclosure.
+Up to four hard-drive units could be daisychained for up to 20 MB of storage.
+The LDOS operating system by Logical Systems was bundled, which provided superior utilities for managing the storage space and flexible backup capability.
+The initial retail price for the first (primary) unit (US$2495) is equivalent to US$ in 2016.
+========,3,Printers.
+One unusual peripheral offered was a "Quick Printer", an electrostatic rotary printer that scanned the video memory through the same bus connector used for the expansion interface, and printed an image of the screen onto aluminum-coated paper in about a second.
+Unfortunately, it was incompatible with both the final, buffered version of the expansion interface, and with the "heartbeat" interrupt used for the real-time clock under Disk BASIC.
+This could be overcome by using special cabling, and by doing a "dummy" write to the cassette port while triggering the printer.
+Two other printers were offered: one for 57 mm metal coated paper, selling for approximately DM600 in Germany, and one built by Centronics for normal paper, costing at first DM 3000, later sold at approximately DM1500 in some stores.
+It had only 7 pins, so letters with descenders such as lowercase "g" did not reach under the baseline, but were elevated within the normal line.
+========,2,Software.
+========,3,Other applications.
+Blackjack and backgammon came with the TRS-80 for free, and at its debut Radio Shack offered four payroll, personal finance, and educational programs, all on cassette.
+While Radio Shack franchise stores sold third-party products, company-owned stores were at first prohibited from reselling products not sold by Radio Shack itself.
+Its own products' quality was often poor.
+A critical 1980 "80 Micro" review of a text adventure described it as "yet another example of Radio Shack's inability to deal with the consumer in a consumer's market".
+The magazine added, "Sadly, too, as with some other Radio Shack programs, the instructions seem to assume that the reader is either a child or an adult with the mentality of a slightly premature corned beef."
+Green stated that year that although "there are more programs for the 80 than for all other systems combined" because of the computer's large market share, "Radio Shack can't advertise this because they are trying as hard as they can to keep this fact a secret from their customers.
+They don't want the TRS-80 buyers to know that there is anything more than their handful of mediocre programs available", many of which "are disastrous and, I'm sure, doing tremendous damage to the industry".
+The first book "authorized" by Tandy with technical information on TRSDOS for the Model I did not appear until after the computer's discontinuation.
+By 1982 the company admitted—after no software appeared for the Model 16 after five months—that it should have, like Apple, encouraged third-party developers of products like the killer app VisiCalc.
+(A lengthy 1980 article in a Tandy publication introducing the TRS-80 version of VisiCalc did not mention that the spreadsheet had been available for the Apple II for a year.)
+By 1985 the company's Ed Juge stated that other than Scripsit and DeskMate, "we intend to rely mostly on 'big-name', market proven software from leading software firms".
+A full suite of office applications became available from the company and others, including the VisiCalc and Multiplan spreadsheets and the Lazy Writer, Electric Pencil, and Scripsit word processors.
+Despite the TRS-80's limited graphics and sound capability, independent software companies such as Big Five produced unlicensed versions of arcade games like Namco's "Galaxian", Atari's "Asteroids", and Exidy's "Targ".
+Some companies ported games from other home computers of the era, such as the original "Zork" adventure game.
+There were also many games unique to the TRS-80, including shooters like "Cosmic Fighter" and "Defence Command" and strange experimental programs such as "Dancing Demon", a game in which the player composed a song for a devil and choreographed his dance steps to the music.
+"Microchess" for the Model I had three levels of play and could be run in the 4kb of memory that was standard with this model.
+Utility software such as Stewart Software's Toolkit offered the first sorted directory, decoding or reset of passwords, and the ability to eliminate parts of TRSDOS that were not needed in order to free up floppy disk space.
+They also produced the On-Line 80 BBS, a TRSDOS based Bulletin Board System.
+Perhaps because of the lack of information on TRSDOS, by 1982 perhaps more operating systems existed for the TRS-80 than for any other computer.
+TRSDOS had significant limitations, opening the market for various alternative OSes, including NewDOS, a third-party rival sold by a company called Apparat Personal Computers, which went out of business in 1987.
+Others included DoubleDOS, DOSPlus, MicroDOS, NEWDOS/80, UltraDOS (later called Multidos), and VTOS.
+The last versions (6.x) of TRSDOS were actually renamed LS-DOS (aka LDOS).
+CP/M became a standard OS for business use on Z80-based machines, and versions ran on all TRS-80s.
+Omikron Systems' Mappers board remapped the BASIC ROM to run unmodified CP/M programs on the Model I.
+========,2,Reception.
+Dan Fylstra, among the first owners, wrote in "BYTE" in April 1978 that as an "'appliance' computer ... the TRS-80 brings the personal computer a good deal closer to the average customer", suitable for home and light business use.
+He concluded that it "is not the only alternative for the aspiring personal computer user, but it is a strong contender."
+Jerry Pournelle wrote in 1980 that "the basic TRS-80 is a lot of computer for the money.
+It comes ready to run right out of the box, and it can be set up by three boys – ages 9, 11, and 13 ...
+The Tandy/Radio Shack documentation is excellent, and there are a lot of good programs available".
+He noted that while "just about every component of my TRS-80 has taken a trip to the local store to be fixed", "none of that cost me anything; it wasn't even inconvenient, especially with local Radio Shacks all over the place ...
+Given the price of the TRS-80, Tandy's quality control is better than you'd expect."
+Pournelle criticized the quality of Tandy's application and system software—including the "needlessly complex" TRSDOS—and high cost of its peripherals.
+He reported, however, that with the Omikron board, additional memory, and 8- and 5 1/4-inch disk drives, "for a total cost of under $5000, you have a 48 K-byte machine capable of running all the TRS-80 programs, CP/M software, and top-grade text editors like Word Master, Magic Wand, Electric Pencil, and the Proteus editor ... all without building a single kit".
+Three years later Pournelle was less positive about the computer:
+========,2,Compatible successors.
+Tandy would go on to replace the Model I with the broadly compatible Model III in 1980.
+(The TRS-80 Model II had been an entirely different and incompatible design).
+The Model III was in turn succeeded by the backward-compatible Model 4 in 1983.
+========,3,Model III.
+In July 1980, Tandy released the TRS-80 Model III.
+The improvements of the Model III over the Model I included: built-in lowercase, a better keyboard with repeating keys, an enhanced character set, a real-time clock, 1500-baud cassette interface, a faster (2.03 MHz) Z-80 processor, and elimination of the cable spaghetti (due to its all-in-one enclosure).
+Furthermore, a Model III with two floppy drives required the use of only one electrical outlet (a two-drive Model I required five outlets: one each for the CPU/keyboard, Expansion Interface, Video Monitor, and the drives).
+Shortly after the Model III's introduction, Model I production was discontinued as it did not comply with new FCC regulations as of January 1, 1981 regarding electromagnetic interference.
+Tandy distinguished between the high-end Model II and Model III, describing the latter as "an administrative system, good for things like word processing, data management and VisiCalc operations" and suitable for small businesses.
+The lowest-priced version of the Model III was sold with 4KB of RAM and cassette storage.
+The computer's CPU board had three banks of sockets (8 sockets to a bank) which could accept type 4116 DRAMs, so memory configurations came in 16KB, 32KB, or 48KB RAM memory sizes.
+Installations with 32KB or 48 KB of RAM could be upgraded with floppy disk drive storage.
+There was space inside the computer cabinet for two full-height drives.
+Those offered by Tandy/Radio Shack were single-sided, 40 track, double-density (MFM encoding) for 180KB of storage.
+Third-party suppliers offered double-sided and 80-track drives, though to control them they had to modify the TRSDOS driver code or else furnish an alternative third-party DOS which could (see below).
+The installation of floppy disk drives also required the computer's power supply to be upgraded.
+There was no internal cooling fan in the Model III; it used passive convection cooling (unless an unusual number of power-hungry expansions were installed internally, such as a hard disk drive, graphics board, speedup kit, RS-232 board, etc.).
+Tandy claimed that the Model III was compatible with 80% of Model I software.
+The Model III's memory map and system architecture was mostly the same as the Model I, but it switched to port-based I/O which means that Model I software that performs low-level hardware access will not work (aside from the cassette port and serial ports, which are port-based on both machines, and video and keyboard access, which are memory-mapped on both machines).
+Under the supplied TRSDOS 1.3 operating system Model I disks could be read in the Model III, but not vice versa.
+The optional LDOS OS (by Logical Systems Inc.) used a common disk format for both Model I and Model III versions.
+Customers and developers complained of bugs in the Model III's Microsoft BASIC interpreter and TRSDOS.
+Tandy/Radio Shack (and TRS-80 magazines like 80 Micro) periodically published a great many software patches to correct these deficiencies and to permit users to customize the software to their preferences.
+Aftermarket hardware were offered by Tandy/Radio Shack and many third-party manufacturers.
+The usual selection of add-ons and peripherals available for the Model I were offered: outboard floppy drives (two additional drives could be connected to a card-edge connector on the back panel), an outboard hard disk drive (LDOS was furnished as Tandy's hard drive OS vice TRSDOS), a high-resolution graphics board (resolution 512x192 pixels), an RS-232C serial port on an internal circuit card, and a parallel printer (connected by a card-edge connector).
+A particularly popular hardware/software add-on was the Orchestra-90 music synthesizer.
+It could be programmed to play up to five voices with a range of six octaves stereophonically.
+A great many Orch-90 (as it was often called) music files were available for download from Compuserve.
+The Orch-90 was licensed from a company called Software Affair, which also produced the Model I-compatible Orchestra-85 from 1981.
+Because TRSDOS 1.3 was found wanting by many users, Tandy offered (at additional cost) Logical System's LDOS Version 5 as an alternative.
+As with the Model I, other third-party sources also offered TRSDOS alternatives for the Model III, including Apparat's NEWDOS, Alphabit's MultiDOS, and Micro Systems Software's DOSPlus.
+These were compatible with TRSDOS 1.3 and ran the same applications programs, but offered improved command structures, more and better system utilities, and enhancements to the Microsoft BASIC interpreter.
+Like the Model I, the Model III sold very well in the educational market.
+Many school administrators valued the Model III's all-in-one hardware design because it made it more difficult for students to "walk away with" components of the computer when the all-too-busy teachers weren't looking.
+"InfoWorld" approved of the Model III's single-unit design, simplified cable management, and improvements such as lack of keyboard bounce and improved disk reliability.
+The reviewer, a former Model I owner, stated "I'm impressed" and that "had the Model III been available, it's probable that I wouldn't have sold it".
+He concluded, "If you're looking for a computer that's not too expensive but that performs well, you would be wise to test the Model III—you might end up buying it."
+========,3,Model 4.
+The successor to the Model III was the TRS-80 Model 4 (April 1983, with "4" written as an Arabic numeral).
+It had faster Z80A 4 MHz CPU, a larger video display 80 columns x 24 rows, bigger keyboard, and could be upgraded to 128KB of RAM.
+The Model 4 was fully compatible with Model III software and industry-standard CP/M applications software.
+A diskless Model 4 (with 16KB RAM) cost $999, with 64KB RAM and one single-sided 180K disk drive $1699, and two drives $1999; an upgrade for Model III owners cost $799 and provided a new motherboard and keyboard.
+Tandy sold 71,000 in 1984.
+The new computer used exactly the same all-in-one cabinet as the Model III, but instead of the silvery-gray plastic formerly used the Model 4's case was off-white.
+The Model 4's first appearance in the Radio Shack catalog read as follows: "Yes, it looks like a Model III, but it's much much more.
+Compare the price and features of our amazing new Model 4 to any other computer in its class.
+You'll find that for power, versatility, and convenience it is a true breakthrough.
+To add the same features to other computers, you'd have to pay a whole lot more."
+Running CP/M on the Models I/III had only been possible via a hardware modification that remapped the BASIC ROMs away from memory address zero, such as the third-party add-on sold as the Omikron Mapper board, or by running a version of CP/M modified to run at a starting address other than zero.
+However, this also required modified applications, since the area of memory at zero contained the vectors for applications to access CP/M itself.
+The Model 4 could run CP/M without modification.
+Digital Research produced for Tandy/Radio Shack a version of its CP/M 3.0 for the Model 4, but it was buggy and actually provided a smaller Transient Program Area than the non-banked CP/M 2.2.
+A third party, Montezuma Micro, supplied a version of CP/M 2.2 that was customized for the Model 4's hardware and had a utility for reading/writing CP/M disk formats of many other brands of computer.
+A Borland Sidekick-like utility (Monte's Window) was sold separately that ran in the 64KB of banked RAM.
+The Model 4 shipped with TRSDOS 6, an enhanced version of the popular LDOS (itself an enhancement to older versions of TRSDOS) by Logical Systems.
+When the Model 4 boots into TRSDOS 6 the video display switches into 80×24 mode and the entire 64KB address space is mapped as RAM.
+The Model 4 is also capable of running all Model III software when a Model III operating system disk is detected and loaded during bootup, with a 64×16 video mode and Model III ROMs mapped from address zero.
+Model 4 features, including the internal speaker, are unavailable in Model III mode.
+Users experienced in Z-80 assembler could access Model 4 features like the larger screen and banked RAM in Model III mode through its machine I/O ports.
+TRSDOS 6 provided a host of utilities and filters to make the most of the Model 4's new hardware features.
+Its ramdisk program was called Memdisk and could use the optional extra 64KB of ram, or a specified portion of the Z-80's main 64KB.
+This could hold TRSDOS's most-often needed modules and utilities with about 30KB to spare, freeing all floppy drives for data diskettes.
+Installing the system on the Memdisk also speeded the computer's operation greatly, as system overlays would load from memory rather than from disk.
+TRSDOS also offered a SYSRES command which made specified TRSDOS overlay modules resident in the main 64KB, permitting more free disk space on the system diskette in drive zero, which also enhanced the free space available on a system Memdisk.
+TRSDOS also provided a print spooler that ran as a background task while other applications were in use; it could take little user memory in an expanded machine since it could use the extra 64KB as its buffer memory.
+The BACKUP utility was versatile, if somewhat confusing for beginners due to its many parameters.
+A FORMS filter made tailored printouts possible for applications lacking capability for formatted printing.
+A keyboard filter, Keystroke Multiplier, let the user define macro strings to the <clear><alpha> keys.
+A barebones (non-symbolic) machine language debugger was standard.
+TRSDOS had an @DEBUG SVC available, which a programmer could insert into a program to invoke the debugger on command.
+Job Control Language served as the equivalent to MSDOS's batch processor.
+A capable terminal program, COMM/CMD, serviced the RS-232 serial port.
+An entirely rewritten version of the Microsoft BASIC interpreter was bundled, which overcame many limitations of the Model III Disk BASIC (such as two-letter variable names) and provided new features (such as program chaining and the While-Wend control structure).
+It had a feature permitting a running BASIC program to be temporarily suspended and another TRSDOS program be executed.
+Model 4 BASIC came, however, with two disadvantages for veteran Model III BASIC programmers.
+First, variable names had to be separated from BASIC keywords with spaces, unlike Model III Disk BASIC which permitted them to be run together.
+This is because the Model 4 interpreter's variable names could be up to 40 characters in length, and the Model III interpreter's variable names had to be one or two characters in length (the interpreter would accept longer names but only the first two characters were significant for uniquely identifying the variable).
+The Model 4 version of BASIC therefore had to search for the delimiting space to find the end of the variable name.
+What this meant for the programmer converting his old Model III program into Model 4 BASIC was a great deal of tedious editing because almost always Model III programmers, to save memory and speed execution, compacted their code by using two-character variable names and eliminating spaces separating variables and keywords.
+The second disadvantage was that the Model 4 BASIC lacked the command available in Model III BASIC for sorting arrays (CMD"O").
+This was a major headache for programmers maintaining code for business applications, and prompted many BASIC coders to homebrew a replacement capability.
+Later third-party software publishers made products available to fill the gap for non-programmers.
+One notable program available only for the Model 4 was marketed by Radio Shack as DoubleDuty.
+This was one of the very first task-switching programs available for any microcomputer.
+It used the upper 64KB of a 128KB machine to keep resident a second TRSDOS application, which could be switched instantly with another application loaded into the main 64KB.
+A third partition was available for TRSDOS library commands, such as DIR.
+DoubleDuty first appeared in Radio Shack's 1985 Computer Catalog (RSC-12), the same year that IBM's Topview, Apple's Switcher, and Quarterdeck's DESQview first became available.
+DoubleDuty was written by Randy Cook, the author of the first version of TRSDOS for the original Model I.
+Writing assembler code programs under the new OS was rather different than it had been on the Model III.
+This was because the Model 4 was completely RAM-based, whereas the earlier TRS-80's memory maps were occupied by both RAM and ROM.
+No longer would assember programs issue CALL instructions to absolute addresses in ROM; TRSDOS 6 provided a standard interface to its service routines with its Supervisor Calls (SVCs).
+The code of the requested SVC was loaded into the Z-80 accumulator, any required parameters were loaded into their specified Z-80 general purpose registers (or needed regions of RAM set up as required, such as File Control Blocks), and a Z-80 restart instruction was issued (RST 40).
+TRSDOS then fetched from a table the absolute address of the needed service routine and branched to it.
+This indirect method made it possible to revise the operating system and build in additional features, which was done in major ways some half-dozen times throughout the active life of the OS.
+Four SVC codes were left unassigned and reserved for applications programmer's own uses.
+Four Z-80 restart vectors were similarly left unassigned.
+Interfacing with the computer's hardware was likewise done differently than previously had been usual practice.
+Rather than accessing the memory-mapped keyboard and video directly, this was done entirely through the TRSDOS SVCs.
+This method permitted I/O redirection over all the computer's devices, including the disk drives, and made possible, for example, to "print" a document to a disk file so it could be printed at a later time when a printer was physically available.
+Another frequent use of I/O redirection was redirecting video output to the printer for permanent hardcopy of a program run.
+TRSDOS supplied the LINK, ROUTE, and FILTER commands to enable these capabilities.
+This method also ensured consistent communication between memory resident modules attached to the OS's logical devices.
+Some applications programmers, however, did circumvent this device-independent approach by physically accessing the computer hardware.
+The most glaring example of this was Radio Shack itself when it produced its SuperScripsit word processor; their programmers insisted on having the infamous CTL255 routine built into the keyboard driver expressly for this purpose.
+Another offender was Anitek Software's Lescript.
+These two applications would ignore any filter programs attached to the keyboard device, depriving the user of some capable terminate-and-stay-resident programs, such as Misosys' Sidekick-like Pro-WAM Window Application Manager.
+Options for disk drives were the same as for the Model III: one or two internal, full-height, single-sided 180KB drives.
+Drives of higher storage density could be obtained from third-party vendors; the Floppy Disk Controller and TRSDOS could handle double-sided and 80-track drives.
+During 1985-1986 when the quad-density 720KB 3-1/2 inch (and 5 1/4-inch) floppy drives became available at affordable prices, these too could be used in the Models III and 4 without modification.
+Card-edge connectors at the rear of the console permitted the user to add up to two external floppy drives (for a possible total of four) and an external hard disk.
+A parallel printer could be added using another card-edge connector provided for this purpose.
+An RS-232 serial port was optional on the original versions of the Model 4.
+The keyboard had a control key, a CAPS lock key, and three function keys.
+TRSDOS supported a typeahead feature with an 80 character key buffer.
+The video display RAM was not memory-mapped as it had been on the previous Models I and III.
+Rather, whenever a program called functions requiring video RAM to be modified, TRSDOS executed code that switched the 2KB bank of video RAM into Z-80 address space (the upper 2KB of hexadecimal F400 - FFFF).
+The keyboard matrix and typeahead buffer also occupied this address range.
+While this freed 1920 bytes of Z-80 address space, it was marginally slower than writing directly into video RAM.
+The video hardware supported characters in reversed video and Model I/III style block graphics.
+A 40 character wide display mode was available a using double-width raster image.
+An alternate character set was available which included the entire Greek alphabet and special symbols.
+The diskless starter version of the Model 4 could only run programs written for the cassette-based Models I/III.
+They used a 16kx1 DRAM known as the 8040517.
+This chip, also used in 16k TRS-80 CoCo 2s, is functionally identical to a 4116 DRAM, but only uses +5V power instead of the 4116's tri-voltage power.
+64k and 128k models use standard 4164 DRAMs.
+The starter version of the Model 4 was upgradable to a disk system.
+The Model 4 was announced in the same press release (April 1983) as was the TRS-80 Model 100 laptop.
+The two computers were often marketed by Tandy/Radio Shack as a complementary pair.
+Model 100 cassette tapes were readable on the Model 4 with its cassette interface and a TRSDOS 6 utility called TAPE100/CMD, which stored Model 100 programs and data as TRSDOS disk files.
+Programs and files could also be transferred back and forth via an RS-232 serial cable.
+Both the Model 4 and the Model 100 came with terminal software as a built-in feature.
+The Model 4 has the ability to display 640×240 or 512×192 high-resolution monochrome graphics with an optional board which attaches to a socket connector on the logic board.
+The Radio Shack Model 4 graphics board retailed for $249 and included a modified version of Microsoft BASIC (called BasicG) with commands for drawing basic geometric shapes and manipulating arrays in graphics RAM.
+The graphics screen memory was separate from the usual character screen, and the two could be displayed together or separately.
+A third-party company called Micro Labs based in Richardson Texas sold a compatible graphics board which was popular because it was sold for only $199 (initially).
+It came with a different BASIC providing for graphics commands called GBasic.
+Whereas the Radio Shack board had 32KB of graphics RAM, the Micro Labs board had 20KB.
+Since only 19,200 bytes are required to render a 640 x 240 pixel screen, the additional RAM on the Radio Shack board was available for windowing the viewable screen around a larger virtual area.
+The graphics RAM was accessible through four Z-80 I/O ports and was especially easy to access for uses other than graphics.
+For example, there was a public domain utility called Grafdisk that added the graphics memory to regular banked memory to create a larger TRSDOS ramdisk (96K on the Radio Shack board).
+Early versions of the Model 4 mainboard were designed to accept a Zilog Z800 16 bit CPU upgrade board to replace the Z80 8 bit CPU but this option was never released.
+In 1987 a company called H.I.
+Tech produced an enhanced CPU board, the XLR8er, using the Hitachi HD64180 Z-80 compatible processor.
+It ran with a 6.144 megahertz clock rate and added 256K of memory that could be used as a ramdisk.
+When combined with the upper 64K of Model 4 banked RAM, a ramdisk of up to 384K could be mounted.
+Later, software was developed that could access XLR8er RAM as standard TRSDOS 32K banks through the @BANK supervisor call.
+This made the extra memory accessible to standard TRSDOS applications coded to use banked RAM.
+The Hitachi CPU also executed many Z-80 instructions in fewer clock cycles than the Zilog chip; 8 megahertz performance was claimed but in reality most software realized a performance improvement of only 25 to 30 percent.
+Exceptions were programs that made heavy use of the Z-80 block instructions like LDIR and CPIR.
+This group of instructions take 21 transition states per iteration to execute on a Z-80; on the HD64180 they take only 14.
+These sorts of programs realized an effective clock speed of 7 megahertz (75% speedup) with the XLR8er board.
+There were enthusiast created programs that could access the 64180's DMA channels to attain an even higher rate of data transfer.
+Gate Array Model 4 The original version of the Model 4 (Radio Shack catalog number 26-1069) did not use gate array logic chips on its CPU board, but rather Programmable Array Logic chips (PALs).
+Starting from late 1984, a revised version was produced which came to be known as the Gate Array Model 4 (catalog number 26-1069A).
+This change greatly reduced the chip count and allowed the circuitry for the Floppy Disk Controller and the RS-232 serial port to be included on the CPU board (making this new Model 4 a single-board computer, unlike the original 26-1069).
+The upgrade to 128K did not require the special PAL chip available only from Radio Shack, allowing users to expand the memory themselves with third-party RAM chips.
+The Gate Array machine shipped with a green video screen instead of the black-and-white screen, and the arrow keys on the keyboard were grouped together into a single cluster (the old Model 4 had two arrows on each side).
+Veteran TRS-80 gamers were quite unhappy with the new arrangement of arrow keys.
+An improvement was made in the computer's speed of execution.
+The original Model 4, though advertised as a 4 MHz machine, actually performed at an effective speed of 3.5 MHz because wait states were inserted for the slower PAL support circuitry.
+The Gate Array CPU board allowed the Tandy engineers to clock the Z-80 at an actual 4 MHz clock rate without any wait states.
+This difference in operating speed made many third-party hardware modifications, particularly speedup kits, rather troublesome to install on the older Model 4s extant.
+Model 4P A "luggable" version known as the Model 4P (September 1983, Radio Shack catalog number 26-1080) is a self-contained unit with a case design similar to that of a portable sewing machine.
+It had all the features of the desktop Model 4 except for the ability to add two outboard floppy disk drives and the interface for cassette tape storage (audio sent to the cassette port in Model III mode are sent to the internal speaker).
+It was sold only with the two internal single-sided 180KB drives.
+It was later made with the Gate Array technology (catalog number 26-1080A).
+The TRS-80 magazine 80 Micro published an article describing a simple motherboard modification to enable the installation of two external floppy drives.
+The 4P's CPU board lacked the Model III ROM chips containing the Model III Microsoft BASIC interpreter.
+Instead the computer was furnished with a floppy disk labelled "Model III/A".
+This was called the "Model III ROM Image" disk.
+If the operator wanted to boot a Model III DOS, he inserted this disk into the boot drive after powering up.
+Once it was loaded, he replaced the ROM Image disk with his Model III DOS boot disk and pressed reset.
+From then on the computer would behave exactly like a Model III.
+The 4P had a slot for an internal modem board.
+The Radio Shack modem board used its own proprietary command set and only supported communications at 300 baud.
+Later a third-party company called Teletrends produced a 1200 baud modem board that used the industry-standard Hayes AT command set.
+It had an internal fan; its compact design did not permit it to use passive convection cooling as did the desktop Model 4.
+A notable aspect of the 4P's video display was the solid, fully formed appearance of its text characters.
+This resulted from the fact that its 9-inch screen had the same 640x240 resolution as the desktop's 12-inch screen, producing a greater density of pixels.
+Tandy discontinued the 4P by spring 1985, stating that "even though you won't find a more enthusiastic and devoted group of owners than our Model 4P folks, transportables just weren't moving well for any company that also sold a desktop version"..
+The best-selling transportables at this time were those of the Kaypro line by Non-Linear Systems, which ran the popular CP/M OS and bundled the MicroPro line of applications including the bestselling Wordstar.
+Model 4D Tandy's first MS-DOS computer was the Tandy 2000 in 1983.
+By 1985 it also sold the popular 1000.
+The company stated that year that although Tandy had discontinued the 4P and other Model 4 variants, it intended to produce the computer "until the marketplace tells us it is no longer a product" and promised "a new double-sided drive version this fall".
+Tandy also had outstanding contracts with public school districts throughout the US for continued support of the TRS-80s in classroom use.
+The final version of the Model 4 was the "Model 4D" (Radio Shack catalog number 26-1070) in 1985.
+It was a Gate Array desktop machine featuring dual TEC-branded (not TEAC) FB-503 disk drives with a capacity of 360KB each (40 track, double-sided).
+Rather than using a lever-style latch as had previous Model 4 drives (various brands were used throughout its production run), the new drives used a twist-style latch that provided for more reliable clamping.
+They were actually half-height drives mounted with full-height faceplates.
+These drives could actually format 42 tracks (or cylinders) with no difficulty, though this was unadvertised and not officially approved by Tandy or Logical Systems.
+This technique upped the available storage on each disk to 378KB.
+To create such a floppy disk, the user needed to specify the (CYL=42) parameter on the command line when invoking the FORMAT utility.
+The Deskmate productivity suite was bundled with the 4D.
+It supplied simple applications including a word processor, filer, spreadsheet, calendar, and mail manager.
+Model 4Ds sold during 1987 and later shipped with an updated version of its operating system, now called LS-DOS 6.3 after its third-party developer Logical Systems.
+It provided scores of enhanced features, the most important of which was the ability to handle file dates through December 31, 2011.
+The original TRSDOS 6 licensed to Radio Shack could only handle dates through December 31, 1987.
+Files were now time-stamped as well.
+Another useful feature modified the BASIC interpreter to access LS-DOS Supervisor Calls using integer variables, without having to resort to high memory subroutines coded in Z-80 assembler.
+Basic commands like LIST, EDIT, and PRINT were accessible via single keystrokes.
+Also welcome in LS-DOS 6.3 was the TED/CMD simple text editor.
+The TRSDOS non-interactive BUILD command had previously been the only method of creating plain text files.
+TED's chief virtue was that it occupied only 3KB of disk space while offering decent cursor movement and block capabilities.
+This is no small convenience for a system with only floppy disk storage.
+The Model 4D was the last computer descended from Radio Shack's original Model I from 1977.
+It was not branded as a Radio Shack product, however.
+The badge mounted on its front cover branded it as the "Tandy TRS-80 Model 4D".
+This change in marketing resulted from Tandy corporation's desire to enhance its stature in the marketplace, because it was perceived by some in the computer press that the old "Radio Shack" moniker connoted an image of inferior quality.
+The Model 4D would be the last computer to bear the "TRS-80" name.
+It retailed for $1199 at its introduction in 1985.
+During 1987-1988 the retail stores removed the Model 4Ds from display but they were kept in the yearly computer catalog and were available by special order through 1991, when they were at last closed out for $599.
+Parts and repair service remained available for several years longer.
+"BYTE" in October 1983 noted the lack of native software for the Model 4 but praised its backwards compatibility and TRSDOS 6's new features.
+The magazine concluded that the Model 4 "provides a lot of flexible computing power ... Radio Shack has a guaranteed winner".
+========,2,Clones.
+Many clones of the TRS-80 Model I came on the market: the Lobo Max-80 (Lobo also produced their own version of the Expansion Interface), the LNW-80 Models I/II and Team computers (LNW also produced an alternate version of the Expansion Interface), and the Dutch Aster CT-80, a computer that could run both TRS-80 and CP/M software, and also had all the improvements of the later Model III.
+EACA in Hong Kong made a Model I clone that was marketed around the world under different names with modifications.
+In Australia and New Zealand it was the Dick Smith System 80, in North America it was PMC-80 and PMC-81, in Hungary the HT-1080Z, in South Africa the TRZ-80, and in Western Europe it was Video Genie.
+The expansion bus was different and EACA also made its own Expansion Interface to fit it.
+There were several versions, and it was later split into a 'home' and a 'business' version, Genie I and II, and System-80 Mark I and II, where the II would have a numeric keypad instead of the built-in cassette player.
+EACA's Colour Genie was also based on TRS-80 Model I but with improved graphics and other changes, reducing its compatibility.
+In Brazil several manufacturers developed clones for models I/III/IV.
+Dismac series D8000/D8001/D8002 (all three Model I clones) were the first personal computers manufactured in industrial scale in South America.
+Digitus made the DGT-100 and DGT-1000, made the highly successful and series (both Model III clones), Sysdata Eletrônica Ltda.
+made the Sysdata Jr. Prologica also made the CP400 / CP 400II which were copies of the TRS-80 Color Computer, with the external case being almost a copy of the Timex Sinclair 2068.
+In Germany, S.C.S.
+GmbH in Mörfelden-Walldorf offered the "Komtek-I" Model I clone.
+Noteworthy was its four relay switching outputs.
+In the Soviet Union, some ideas from the TRS-80 were used in development of the home/school computer.

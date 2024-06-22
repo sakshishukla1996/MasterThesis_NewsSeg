@@ -1,0 +1,22 @@
+========,1,preface.
+========,2,Uniqueness.
+Suppose a function ƒ("z") holomorphic on the annulus "r" < |"z" − "c"| < "R" has two Laurent series:
+Multiply both sides with ***formula***, where k is an arbitrary integer, and integrate on a path γ inside the annulus,
+The series converges uniformly on ***formula***, where ε is a positive number small enough for γ to be contained in the constricted closed annulus, so the integration and summation can be interchanged.
+Substituting the identity into the summation yields Hence the Laurent series is unique.
+========,2,Laurent polynomials.
+A Laurent polynomial is a Laurent series in which only finitely many coefficients are non-zero.
+Laurent polynomials differ from ordinary polynomials in that they may have terms of negative degree.
+========,2,Principal part.
+The principal part of a Laurent series is the series of terms with negative degree, that is
+If the principal part of "f" is a finite sum, then "f" has a pole at "c" of order equal to (negative) the degree of the highest term; on the other hand, if "f" has an essential singularity at "c", the principal part is an infinite sum (meaning it has infinitely many non-zero terms).
+If the inner radius of convergence of the Laurent series for "f" is 0, then "f" has an essential singularity at "c" if and only if the principal part is an infinite sum, and has a pole otherwise.
+If the inner radius of convergence is positive, "f" may have infinitely many negative terms but still be regular at "c", as in the example above, in which case it is represented by a "different" Laurent series in a disk about "c".
+Laurent series with only finitely many negative terms are tame—they are a power series divided by ***formula***, and can be analyzed similarly—while Laurent series with infinitely many negative terms have complicated behavior on the inner circle of convergence.
+========,3,Multiplication.
+Laurent series cannot in general be multiplied.
+Algebraically, the expression for the terms of the product may involve infinite sums which need not converge (one cannot take the convolution of integer sequences).
+Geometrically, the two Laurent series may have non-overlapping annuli of convergence.
+Two Laurent series with only "finitely" many negative terms can be multiplied: algebraically, the sums are all finite; geometrically, these have poles at "c", and inner radius of convergence 0, so they both converge on an overlapping annulus.
+Thus when defining formal Laurent series, one requires Laurent series with only finitely many negative terms.
+Similarly, the sum of two convergent Laurent series need not converge, though it is always defined formally, but the sum of two bounded below Laurent series (or any Laurent series on a punctured disk) has a non-empty annulus of convergence.

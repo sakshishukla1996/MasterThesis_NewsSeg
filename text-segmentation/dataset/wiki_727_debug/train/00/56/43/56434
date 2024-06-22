@@ -1,0 +1,32 @@
+========,1,preface.
+In the context of complex dynamics, a topic of mathematics, the Julia set and the Fatou set are two complementary sets (Julia 'laces' and Fatou 'dusts') defined from a function.
+Informally, the Fatou set of the function consists of values with the property that all nearby values behave similarly under repeated iteration of the function, and the Julia set consists of values such that an arbitrarily small perturbation can cause drastic changes in the sequence of iterated function values.
+Thus the behavior of the function on the Fatou set is 'regular', while on the Julia set its behavior is 'chaotic'.
+The Julia set of a function "f" is commonly denoted "J"("f"), and the Fatou set is denoted "F"("f").
+These sets are named after the French mathematicians Gaston Julia and Pierre Fatou whose work began the study of complex dynamics during the early 20th century.
+========,2,Quadratic polynomials.
+A very popular complex dynamical system is given by the family of complex quadratic polynomials, a special case of rational maps.
+Such quadratic polynomials can be expressed as  where "c" is a complex parameter.
+The parameter plane of quadratic polynomials - that is, the plane of possible "c"-values - gives rise to the famous Mandelbrot set.
+Indeed, the Mandelbrot set is defined as the set of all "c" such that ***formula*** is connected.
+For parameters outside the Mandelbrot set, the Julia set is a Cantor space: in this case it is sometimes referred to as Fatou dust.
+In many cases, the Julia set of "c" looks like the Mandelbrot set in sufficiently small neighborhoods of "c".
+This is true, in particular, for so-called 'Misiurewicz' parameters, i.e.
+parameters "c" for which the critical point is pre-periodic.
+For instance:
+***LIST***.
+In other words, the Julia sets ***formula*** are locally similar around Misiurewicz points.
+========,2,Generalizations.
+The definition of Julia and Fatou sets easily carries over to the case of certain maps whose image contains their domain; most notably transcendental meromorphic functions and Adam Epstein's finite-type maps.
+Julia sets are also commonly defined in the study of dynamics in several complex variables.
+========,2,Plotting the Julia set.
+========,3,Using backwards (inverse) iteration (IIM).
+  As mentioned above, the Julia set can be found as the set of limit points of the set of pre-images of (essentially) any given point.
+So we can try to plot the Julia set of a given function as follows.
+Start with any point "z" we know to be in the Julia set, such as a repelling periodic point, and compute all pre-images of "z" under some high iterate ***formula*** of "f".
+Unfortunately, as the number of iterated pre-images grows exponentially, this is not feasible computationally.
+However, we can adjust this method, in a similar way as the "random game" method for iterated function systems.
+That is, in each step, we choose at random one of the inverse images of "f".
+For example, for the quadratic polynomial "f", the backwards iteration is described by At each step, one of the two square roots is selected at random.
+Note that certain parts of the Julia set are quite difficult to access with the reverse Julia algorithm.
+For this reason, one must modify IIM/J ( it is called MIIM/J) or use other methods to produce better images.

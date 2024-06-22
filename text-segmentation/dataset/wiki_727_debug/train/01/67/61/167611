@@ -1,0 +1,36 @@
+========,1,preface.
+A mailing list is a collection of names and addresses used by an individual or an organization to send material to multiple recipients.
+The term is often extended to include the people subscribed to such a list, so the group of subscribers is referred to as "the mailing list", or simply "the list".
+========,2,Usage as discussion forums.
+Mailing lists preceded web forums and can provide similar functionalities.
+When used in that fashion, mailing lists are sometimes known as "discussion lists" or "discussion forums".
+Discussion lists provide some advantages over web forums, so they are still used in various projects, notably Git and Debian.
+The advantages over web forums include the ability to work offline, the ability to sign/encrypt posts via GPG, and the ability to use an e-mail client's features, such as filters.
+========,2,Types.
+At least two types of mailing lists can be defined: an "announcement list" is closer to the original sense, where a "mailing list" of people was used as a recipient for newsletters, periodicals or advertising.
+Traditionally this was done through the postal system, but with the rise of email, the electronic mailing list became popular.
+The second type allows members to post their own items which are broadcast to all of the other mailing list members.
+This second category is usually known as a "discussion list".
+========,2,More definitions.
+When similar or identical material is sent out to all subscribers on a mailing list, it is often referred to as a mailshot or a blast.
+A list for such use can also be referred to as a distribution list.
+In legitimate (non-spam) mailing lists, individuals can subscribe or unsubscribe themselves.
+Mailing lists are often rented or sold.
+If rented, the renter agrees to use the mailing list for only contractually agreed-upon times.
+The mailing list owner typically enforces this by "salting" (known as "seeding" in direct mail) the mailing list with fake addresses and creating new salts for each time the list is rented.
+Unscrupulous renters may attempt to bypass salts by renting several lists and merging them to find the common, valid addresses.
+Mailing list brokers exist to help organizations rent their lists.
+For some list owners, such as specialized niche publications or charitable groups, their lists may be some of their most valuable assets, and mailing list brokers help them maximize the value of their lists.
+A mailing list is simply a list of e-mail addresses of people that are interested in the same subject, are members of the same work group, or who are taking class together.
+When a member of the list sends a note to the group's special address, the e-mail is broadcast to all of the members of the list.
+The key advantage of a mailing list over a things such as web-based discussion is that as new message becomes available they are immediately delivered to the participants' mailboxes.
+A mailing list sometime can also include information such as phone number, postal address, fax number and more.
+========,2,Listwashing.
+Listwashing is the process through which individual entries in mailing lists are removed.
+These mailing lists typically contain email addresses or phone numbers of those that have not voluntarily subscribed.
+An entry is removed from the list after a complaint is received.
+Only complainers are removed via this process.
+It is widely believed that only a small fraction of those inconvenienced with unsolicited email end up sending a proper complaint.
+Because most of those that have not voluntarily subscribed stay on the list, and only the complainers stop complaining because they are removed, this helps spammers to maintain a "complaint-free" list of spammable email addresses.
+Internet service providers who forward complaints to the spamming party are often seen as assisting the spammer in list washing, or, in short, helping spammers.
+Most legitimate list holders provide their customers with listwashing and data deduplication service regularly for free or a small fee.

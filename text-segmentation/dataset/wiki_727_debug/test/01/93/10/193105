@@ -1,0 +1,102 @@
+========,1,preface.
+The PowerPC 7xx is a family of third generation 32-bit PowerPC microprocessors designed and manufactured by IBM and Motorola (now Freescale Semiconductor).
+This family is called the PowerPC G3 by its well-known customer Apple Inc., which introduced it on November 10, 1997.
+The term "PowerPC G3" is often, and incorrectly, imagined to be a microprocessor when in fact a number of microprocessors from different vendors have been used.
+Such designations were applied to Macintosh computers such as the PowerBook G3, the multicolored iMacs, iBooks and several desktops, including both the Beige and Blue and White Power Macintosh G3s.
+The low power requirements and small size made the processors ideal for laptops and the name lived out its last days at Apple in the iBook.
+The 7xx family is also widely used in embedded devices like printers, routers, storage devices, spacecraft, and video game consoles.
+The 7xx family had its shortcomings, namely lack of SMP support and SIMD capabilities and a relatively weak FPU.
+Motorola's 74xx range of processors picked up where the 7xx left off.
+========,2,Processors.
+========,3,PowerPC 740/750.
+The PowerPC 740 and 750 (codename Arthur) were introduced in late 1997 as an evolutionary replacement for the PowerPC 603e.
+Enhancements included a faster 60x system bus (66 MHz), larger L1 caches (32 KB instruction and 32 KB data), a second integer unit, an enhanced floating point unit, and higher core frequency.
+The 750 had support for an optional 256, 512 or 1024 KB external unified L2 cache.
+The cache controller and cache tags are on-die.
+The cache was accessed via a dedicated 64-bit bus.
+The 740 and 750 added dynamic branch prediction and a 64-entry branch target instruction cache (BTIC).
+Dynamic branch prediction uses the recorded outcome of a branch stored in a 512-entry by 2-bit branch history table (BHT) to predict its outcome.
+The BTIC caches the first two instructions at a branch target.
+The 740/750 models had 6.35 million transistors and was initially manufactured by IBM and Motorola in an aluminium based fabrication process.
+The die measured 67 mm at 0.26 μm and it reached speeds of up to 366 MHz while consuming 7.3 W.
+In 1999, IBM fabricated versions in a 0.20 μm process with copper interconnects, which increased the frequency up to 500 MHz and decreased power consumption to 6 W and the die size to 40 mm.
+The 740 slightly outperformed the Pentium II while consuming far less power and with a smaller die.
+The off-die L2 cache of the 750 increased performance by approximately 30% in most situations.
+The design was so successful that it quickly surpassed the PowerPC 604e in integer performance, causing a planned 604 successor to be scrapped.
+The PowerPC 740 is completely pin compatible with the older 603, allowing upgrades to the PowerBook 1400, 2400, and even a prototype PowerBook 500/G3.
+The 750 with its L2 cache bus required more pins and thus a different package, a 360-pin ball grid array (BGA).
+The PowerPC 750 was used in many computers from Apple, including the original iMac.
+========,4,RAD750.
+RAD750 is a radiation-hardened processor, based on the PowerPC 750.
+It is intended for use in high radiation environments such as experienced on board satellites and other spacecraft.
+The RAD750 was released for purchase in 2001.
+The Mars Science Laboratory ("Curiosity") and Mars Reconnaissance Orbiter spacecraft have a RAD750 on board.
+The processor has 10.4 million transistors, is manufactured by BAE Systems using either 250 or 150 nm process and has a die area of 130 mm².
+It operates at 110 to 200 MHz.
+The CPU itself can withstand 200,000 to 1,000,000 Rads and temperature ranges between −55 and 125 °C.
+The RAD750 packaging and logic functions has a price tag in excess of US$200,000: the high price is mainly due to radiation hardening revisions to the PowerPC 750 architecture and manufacturing, stringent quality control requirements, and extended testing of each processor chip manufactured.
+========,3,PowerPC 745/755.
+Motorola revised the 740/750 design in 1998 and shrunk die size to 51 mm thanks to a newer aluminium based fabrication at 0.22 μm.
+The speeds increased to up to 600 MHz.
+The 755 was used in some iBook models.
+After this model, Motorola chose not to keep developing the 750 processors in favour of their PowerPC 7400 processor and other cores.
+========,3,PowerPC 750CX.
+IBM continued to develop the PowerPC 750 line and introduced the PowerPC 750CX (code-named Sidewinder) in 2000.
+It has a 256 KiB on-die L2 cache; this increased performance while reducing power consumption and complexity.
+At 400 MHz, it drew under 4 W. The 750CX had 20 million transistors including its L2 cache.
+It had a die size of 43 mm through a 0.18 μm copper process.
+The 750CX was only used in one iMac and iBook revision.
+========,3,PowerPC 750CXe.
+750CXe (codename Anaconda), introduced in 2001, was a minor revision of 750CX which increased its frequency up to 700 and memory bus from 100 MHz to 133 MHz.
+The 750CXe also featured improved floating-point performance over the 750CX.
+Several iBook models and the last G3-based iMac used this processor.
+A cost reduced version of 750CXe, called 750CXr, is available at lower frequencies.
+========,4,Gekko.
+Gekko is the custom central processor for the Nintendo GameCube game console.
+It is based on a PowerPC 750CXe and adds about 50 new instructions as well as a modified FPU capable of some SIMD functionality.
+It has 256 KiB of on die L2 cache, operates at 485 MHz with a 162 MHz memory bus, is fabricated by IBM on a 180 nm process.
+The die is 43 mm large.
+========,3,PowerPC 750FX.
+The 750FX (code-named Sahara) came in 2002 and increased frequency up to 900 MHz, the bus speed to 166 MHz and the on-die L2 cache to 512 KiB.
+It also featured a number of improvements to the memory subsystem: an enhanced and faster (200 MHz) 60x bus controller, a wider L2 cache bus, and the ability to lock parts of the L2 cache.
+It is manufactured using a 0.13 μm copper based fabrication with Low-K dielectric and Silicon on insulator technology.
+750FX has 39 million transistors, a die size of 35 mm and consumes less than 4 W at 800 MHz at typical loads.
+It was the last G3 type processor used by Apple (employed on the iBook G3).
+A low powered version of 750FX is available called 750FL.
+750FX powers NASA's Orion Multi-Purpose Crew Vehicle.
+Orion is using Honeywell International Inc. flight computer originally built for Boeing's 787 jet airliner.
+========,3,PowerPC 750GX.
+750GX (codenamed Gobi), revealed in 2004, is the latest and most powerful 7xx processor from IBM.
+It has an on-die 1 MB L2 cache, a top frequency of 1.1 GHz, and support for bus speeds up to 200 MHz among other enhancements compared to 750FX.
+It is manufactured using a 0.13 μm process with copper interconnects, low-K dielectric, and silicon on insulator technology.
+The 750GX has 44 million transistors, a die size of 52 mm and consumes less than 9 W at 1 GHz at typical loads.
+A low-power version of the 750GX is available, called the 750GL.
+========,3,PowerPC 750VX.
+750VX (codenamed "Mojave") is a rumored, not confirmed and canceled version of the 7xx line.
+It would be the most powerful and featured version to date with up to 4MB of off die L3 cache, a 400Mhz DDR front side bus and the same implementation of AltiVec used in the PowerPC 970.
+It was expected to clock as high as 1.8 GHz (starting at 1.5 GHz) and reported to have additional pipeline stages, and advanced power management features.
+It was reported to be finished and ready for production in December 2003, but said timing was too late for it to get significant orders seeing Apple's iBook line had switched to G4s in October the same year, and thus it quickly fell off the roadmap.
+It was never released or heard from since.
+There were follow up chips planned, such the 750VXe, which would have surpassed 2 GHz.
+========,3,PowerPC 750CL.
+The 750CL is an evolved 750CXe, with speeds ranging from 400 MHz to 1 GHz with a system bus up to 240 MHz, L2 cache prefetch features and graphics related instructions have been added to improve performance.
+As the added graphics-related functions match closely the ones found in the Gekko processor it is very likely that the 750CL is a shrink of the same processor for general purpose use.
+The 750CL is manufactured using a 90 nm copper based fabrication with Low-K dielectric and Silicon on insulator technology and features 20 million transistors on a 16 mm die.
+It draws up to 2.7 W at 600 MHz, 9.8 W at 1 GHz.
+========,4,Broadway.
+The CPU in Wii is virtually identical to the 750CL but it runs at 729 MHz, a frequency not supported by stock 750CL.
+It measures only 4.2 x 4.5 mm (18.9 mm).
+This is smaller than half the size of the "Gekko" microprocessor (43 mm) incorporated in the GameCube at its first release.
+========,4,Espresso.
+The CPU in Wii U is believed to be an evolution of the Broadway architecture.
+The largely unconfirmed characteristics are a triple core CPU which runs at 1.24 GHz and is manufactured on a 45 nm process.
+========,2,Future.
+IBM has ceased to publish a roadmap to the 750 family, in favor of marketing themselves as a custom processor vendor.
+Given IBM's resources, the 750 core will be produced with new features as long as there is a willing buyer.
+In particular, IBM has no public plans to produce an ordinary 750-based microprocessor in a process smaller than 90 nm, effectively phasing it out as a commodity chip competitive in such markets as networking equipment.
+However IBM did make the Espresso processor for Nintendo, which is a 750 based design with improvements such as multiprocessor support (the part is a triple core), new 45 nm fabrication process and eDRAM instead of regular L2 cache; it's unknown if further changes were made to the design.
+In 2015 Rochester Electronics started providing legacy support for the devices.
+Freescale has discontinued all 750 designs in favor of designs based on the PowerPC e500 core (PowerQUICC III).
+========,2,Device list.
+"This list is a complete list of known 750 based designs.
+The pictures are illustrations and not to scale."

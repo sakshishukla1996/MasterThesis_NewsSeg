@@ -1,0 +1,31 @@
+========,1,preface.
+In mathematics, more specifically in the area of abstract algebra known as ring theory, a Noetherian ring is a ring that satisfies the ascending chain condition on ideals; that is, given any chain of ideals:
+there exists an "n" such that:
+There are other equivalent formulations of the definition of a Noetherian ring and these are outlined later in the article.
+Noetherian rings are named after Emmy Noether.
+The notion of a Noetherian ring is of fundamental importance in both commutative and noncommutative ring theory, due to the role it plays in simplifying the ideal structure of a ring.
+For instance, the ring of integers and the polynomial ring over a field are both Noetherian rings, and consequently, such theorems as the Lasker–Noether theorem, the Krull intersection theorem, and the Hilbert's basis theorem hold for them.
+Furthermore, if a ring is Noetherian, then it satisfies the descending chain condition on "prime ideals".
+This property suggests a deep theory of dimension for Noetherian rings beginning with the notion of the Krull dimension.
+========,2,Characterizations.
+For noncommutative rings, it is necessary to distinguish between three very similar concepts:
+***LIST***.
+For commutative rings, all three concepts coincide, but in general they are different.
+There are rings that are left-Noetherian and not right-Noetherian, and vice versa.
+There are other, equivalent, definitions for a ring "R" to be left-Noetherian:
+***LIST***.
+Similar results hold for right-Noetherian rings.
+For a commutative ring to be Noetherian it suffices that every prime ideal of the ring is finitely generated.
+(The result is due to I. S.
+========,2,Examples.
+***LIST***.
+Rings that are not Noetherian tend to be (in some sense) very large.
+Here are some examples of non-Noetherian rings:
+***LIST***.
+However, a non-Noetherian ring can be a subring of a Noetherian ring.
+Since any integral domain is a subring of a field, any integral domain that is not Noetherian provides an example.
+To give a less trivial example, 
+***LIST***.
+Indeed, there are rings that are right Noetherian, but not left Noetherian, so that one must be careful in measuring the "size" of a ring this way.
+For example, if "L" is a subgroup of Q isomorphic to Z, let "R" be the ring of homomorphisms "f" from Q to itself satisfying "f"("L") ⊂ "L".
+Choosing a basis, we can describe the same ring "R" as

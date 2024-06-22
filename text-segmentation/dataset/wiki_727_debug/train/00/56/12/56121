@@ -1,0 +1,84 @@
+========,1,preface.
+In business, economics or investment, market liquidity is a market's ability to purchase or sell an asset without causing drastic change in the asset's price.
+Equivalently, an asset's market liquidity (or simply "an asset's liquidity") describes the asset's ability to sell quickly without having to reduce its price to a significant degree.
+Liquidity is about how big the trade-off is between the speed of the sale and the price it can be sold for.
+In a liquid market, the trade-off is mild: selling quickly will not reduce the price much.
+In a relatively illiquid market, selling it quickly will require cutting its price by some amount.
+Money, or cash, is the most liquid asset, because it can be "sold" for goods and services instantly with no loss of value.
+There is no wait for a suitable buyer of the cash.
+There is no trade-off between speed and value.
+It can be used immediately to perform economic actions like buying, selling, or paying debt, meeting immediate wants and needs.
+If an asset is moderately (or very) liquid, it has moderate (or high) liquidity.
+In an alternative definition, liquidity can mean the amount of cash and cash equivalents.
+If a business has moderate liquidity, it has a moderate amount of very liquid assets.
+If a business has sufficient liquidity, it has a sufficient amount of very liquid assets and the ability to meet its payment obligations.
+An act of exchanging a less liquid asset for a more liquid asset is called liquidation.
+Often liquidation is trading the less liquid asset for cash, also known as selling it.
+An asset's liquidity can change.
+For the same asset, its liquidity can change through time or between different markets, such as in different countries.
+The change in the asset's liquidity is just based on the market liquidity for the asset at the particular time or in the particular country, etc.
+The liquidity of a product can be measured as how often it is bought and sold.
+Liquidity is defined formally in many accounting regimes and has in recent years been more strictly defined.
+For instance, the US Federal Reserve intends to apply quantitative liquidity requirements based on Basel III liquidity rules as of fiscal 2012.
+Bank directors will also be required to know of, and approve, major liquidity risks personally.
+Other rules require diversifying counterparty risk and portfolio stress testing against extreme scenarios, which tend to identify unusual market liquidity conditions and avoid investments that are particularly vulnerable to sudden liquidity shifts.
+========,2,Overview.
+A liquid asset has some or all of the following features: It can be sold rapidly, with minimal loss of value, any time within market hours.
+The essential characteristic of a liquid market is that there are always ready and willing buyers and sellers.
+It is similar to, but distinct from, market depth, which relates to the trade-off between quantity being sold and the price it can be sold for, rather than the liquidity trade-off between speed of sale and the price it can be sold for.
+A market may be considered both deep and liquid if there are ready and willing buyers and sellers in large quantities.
+An illiquid asset is an asset which is not readily salable (without a drastic price reduction, and sometimes not at any price) due to uncertainty about its value or the lack of a market in which it is regularly traded.
+The mortgage-related assets which resulted in the subprime mortgage crisis are examples of illiquid assets, as their value was not readily determinable despite being secured by real property.
+Before the crisis, they had moderate liquidity because it was believed that their value was generally known.
+Speculators and market makers are key contributors to the liquidity of a market, or asset.
+Speculators are individuals or institutions that seek to profit from anticipated increases or decreases in a particular market price.
+Market makers seek to profit by charging for immediacy of execution: either implicitly by earning a bid/ask spread or explicitly by charging execution commissions.
+By doing this, they provide the capital needed to facilitate the liquidity.
+The risk of illiquidity need not apply only to individual investments: whole portfolios are subject to market risk.
+Financial institutions and asset managers that oversee portfolios are subject to what is called "structural" and "contingent" liquidity risk.
+Structural liquidity risk, sometimes called funding liquidity risk, is the risk associated with funding asset portfolios in the normal course of business.
+Contingent liquidity risk is the risk associated with finding additional funds or replacing maturing liabilities under potential, future stressed market conditions.
+When a central bank tries to influence the liquidity (supply) of money, this process is known as open market operations.
+========,2,Effect on asset values.
+The market liquidity of assets affects their prices and expected returns.
+Theory and empirical evidence suggests that investors require higher return on assets with lower market liquidity to compensate them for the higher cost of trading these assets.
+That is, for an asset with given cash flow, the higher its market liquidity, the higher its price and the lower is its expected return.
+In addition, risk-averse investors require higher expected return if the asset's market-liquidity risk is greater.
+This risk involves the exposure of the asset return to shocks in overall market liquidity, the exposure of the asset own liquidity to shocks in market liquidity and the effect of market return on the asset's own liquidity.
+Here too, the higher the liquidity risk, the higher the expected return on the asset or the lower is its price.
+One example of this is comparison of assets with and without a liquid secondary market.
+The liquidity discount is the reduced promised yield or expected return for such assets, like the difference between newly issued U.S. Treasury bonds compared to off the run treasuries with the same term to maturity.
+Initial buyers know that other investors are less willing to buy off-the-run treasuries, so the newly issued bonds have a higher price (and hence lower yield).
+========,2,Futures.
+In the futures markets, there is no assurance that a liquid market may exist for offsetting a commodity contract at all times.
+Some future contracts and specific delivery months tend to have increasingly more trading activity and have higher liquidity than others.
+The most useful indicators of liquidity for these contracts are the trading volume and open interest.
+There is also dark liquidity, referring to transactions that occur off-exchange and are therefore not visible to investors until after the transaction is complete.
+It does not contribute to public price discovery.
+========,2,Banking.
+In banking, liquidity is the ability to meet obligations when they come due without incurring unacceptable losses.
+Managing liquidity is a daily process requiring bankers to monitor and project cash flows to ensure adequate liquidity is maintained.
+Maintaining a balance between short-term assets and short-term liabilities is critical.
+For an individual bank, clients' deposits are its primary liabilities (in the sense that the bank is meant to give back all client deposits on demand), whereas reserves and loans are its primary assets (in the sense that these loans are owed to the bank, not by the bank).
+The investment portfolio represents a smaller portion of assets, and serves as the primary source of liquidity.
+Investment securities can be liquidated to satisfy deposit withdrawals and increased loan demand.
+Banks have several additional options for generating liquidity, such as selling loans, borrowing from other banks, borrowing from a central bank, such as the US Federal Reserve bank, and raising additional capital.
+In a worst-case scenario, depositors may demand their funds when the bank is unable to generate adequate cash without incurring substantial financial losses.
+In severe cases, this may result in a bank run.
+Most banks are subject to legally mandated requirements intended to help avoid a liquidity crisis.
+Banks can generally maintain as much liquidity as desired because bank deposits are insured by governments in most developed countries.
+A lack of liquidity can be remedied by raising deposit rates and effectively marketing deposit products.
+However, an important measure of a bank's value and success is the cost of liquidity.
+A bank can attract significant liquid funds.
+Lower costs generate stronger profits, more stability, and more confidence among depositors, investors, and regulators.
+========,2,Stock market.
+In the market, liquidity has a slightly different meaning, although still tied to how easily assets, in this case shares of stock, can be converted to cash.
+The market for a stock is said to be liquid if the shares can be rapidly sold and the act of selling has little impact on the stock's price.
+Generally, this translates to where the shares are traded and the level of interest that investors have in the company.
+Another way to judge liquidity in a company's stock is to look at the bid/ask spread.
+For liquid stocks, such as Microsoft or General Electric, the spread is often just a few pennies – much less than 1% of the price.
+For illiquid stocks, the spread can be much larger, amounting to a few percent of the trading price.
+In today's stock market, high-frequency trading firms purport of themselves to contribute to nearly 50% of all liquidity.
+Liquidity positively impacts the stock market.
+When stock prices rise, it is said to be due to a confluence of extraordinarily high levels of liquidity on household and business balance sheets, combined with a simultaneous normalization of liquidity preferences.
+On the margin, this drives a demand for equity investments.

@@ -1,0 +1,25 @@
+========,1,preface.
+========,2,Usage.
+To read a manual page for a Unix command, a user can type:
+Pages are traditionally referred to using the notation "name(section)": for example, .
+The section refers to different ways the topic might be referenced - for example, as a system call, or a shell (command line) command or package, or a package's configuration file, or as a coding construct / header.
+The same page name may appear in more than one section of the manual, such as when the names of system calls, user commands, or macro packages coincide.
+Examples are and , or and .
+The syntax for accessing the non-default manual section varies between different man implementations.
+On Solaris and illumos, for example, the syntax for reading is:
+On Linux and BSD derivatives the same invocation would be:
+which searches for "printf" in section 3 of the man pages.
+========,2,Manual sections.
+The manual is generally split into eight numbered sections, organized as follows (on Research Unix, BSD, macOS and Linux):
+Unix System V uses a similar numbering scheme, except in a different order:
+On some systems some of the following sections are available:
+Some sections are further subdivided by means of a suffix; for example, in some systems, section 3C is for C library calls, 3M is for the math library, and so on.
+A consequence of this is that section 8 (system administration commands) is sometimes relegated to the 1M subsection of the main commands section.
+Some subsection suffixes have a general meaning across sections:
+Some versions of man cache the formatted versions of the last several pages viewed.
+========,2,Layout.
+All man pages follow a common layout that is optimized for presentation on a simple ASCII text display, possibly without any form of highlighting or font control.
+Sections present may include: 
+***LIST***.
+Other sections may be present, but these are not well standardized across man pages.
+Common examples include: OPTIONS, EXIT STATUS, ENVIRONMENT, BUGS, FILES, AUTHOR, REPORTING BUGS, HISTORY and COPYRIGHT.

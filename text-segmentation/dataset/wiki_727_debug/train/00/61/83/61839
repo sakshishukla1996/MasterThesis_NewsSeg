@@ -1,0 +1,41 @@
+========,1,preface.
+In abstract algebra an inner automorphism is a certain type of automorphism of a group defined in terms of a fixed element of the group, called the  "conjugating element".
+Formally, if "G" is a group and "a" is an element of "G", then the inner automorphism defined by "a" is the map "f" from "G" to itself defined for all in by the formula
+Here we use the convention that group elements act on the right.
+The operation is called conjugation (see also conjugacy class), and it is often of interest to distinguish the cases where conjugation by one element leaves another element unchanged from cases where conjugation generates a new element.
+In fact, saying that conjugation of by leaves unchanged is equivalent to saying that and commute:
+Therefore the existence and number of inner automorphisms that are not the identity mapping is a kind of measure of the failure of the commutative law in the group.
+An automorphism of a group is inner if and only if it extends to every group containing .
+========,2,Notation.
+The expression is often denoted exponentially by .
+This notation is used because we have the rule (giving a right action of on itself).
+========,2,Properties.
+Every inner automorphism is indeed an automorphism of the group , i.e.
+it is a bijective map from to and it is a homomorphism; meaning that .
+========,2,Inner and outer automorphism groups.
+The composition of two inner automorphisms is again an inner automorphism (as mentioned above: ), and with this operation, the collection of all inner automorphisms of is itself a group, the inner automorphism group of denoted .
+The outer automorphism group measures, in a sense, how many automorphisms of are not inner.
+Every non-inner automorphism yields a non-trivial element of , but different non-inner automorphisms may yield the same element of .
+By associating the element with the inner automorphism in as above, one obtains an isomorphism between the quotient group (where is the centre of ) and the inner automorphism group:
+This is a consequence of the first isomorphism theorem, because is precisely the set of those elements of that give the identity mapping as corresponding inner automorphism (conjugation changes nothing).
+========,3,Non-inner automorphisms of finite -groups.
+A result of Wolfgang Gaschütz says that if is a finite non-abelian "p"-group, then has an automorphism of -power order which is not inner.
+It is an open problem whether every non-abelian -group has an automorphism of order .
+The latter question has positive answer whenever has one of the following conditions:
+***LIST***.
+========,3,Types of groups.
+It follows that the inner automorphism group, , is trivial (i.e., consists only of the identity element) if and only if is abelian.
+It is easy to prove that can be a cyclic group only when it is trivial.
+At the opposite end of the spectrum, the inner automorphisms may exhaust the entire automorphism group; a group whose automorphisms are all inner and whose centre is trivial is called complete.
+This is the case for all of the symmetric groups on elements when is not 2 or 6, when the symmetric group has a unique non-trivial class of outer automorphisms, and when the symmetric group, despite having no outer automorphisms, is abelian, giving a non-trivial centre disqualifying it from being complete.
+If the inner automorphism group of a perfect group is simple, then is called quasisimple.
+========,2,Ring case.
+Given a ring, , and a unit, in , the map is a ring automorphism of .
+The ring automorphisms of this form are called "inner automorphisms" of .
+They form a normal subgroup of the automorphism group of .
+========,2,Lie algebra case.
+An automorphism of a Lie algebra is called an inner automorphism if it is of the form , where is the adjoint map and is an element of a Lie group whose Lie algebra is .
+The notion of inner automorphism for Lie algebras is compatible with the notion for groups in the sense that an inner automorphism of a Lie group induces a unique inner automorphism of the corresponding Lie algebra.
+========,2,Extension.
+If is the group of units of a ring, , then an inner automorphism on can be extended to a mapping on the projective line over by the group of units of the matrix ring, .
+In particular, the inner automorphisms of the classical groups can be extended in that way.

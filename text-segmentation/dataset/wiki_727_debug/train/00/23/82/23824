@@ -1,0 +1,195 @@
+========,1,preface.
+PostgreSQL, often simply Postgres, is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards compliance.
+As a database server, its primary functions are to store data securely and return that data in response to requests from other software applications.
+It can handle workloads ranging from small single-machine applications to large Internet-facing applications (or for data warehousing) with many concurrent users; on macOS Server, PostgreSQL is the default database; and it is also available for Microsoft Windows and Linux (supplied in most distributions).
+PostgreSQL is ACID-compliant and transactional.
+PostgreSQL has updatable views and materialized views, triggers, foreign keys; supports functions and stored procedures, and other expandability.
+PostgreSQL is developed by the PostgreSQL Global Development Group, a diverse group of many companies and individual contributors.
+It is free and open-source, released under the terms of the PostgreSQL License, a permissive software license.
+========,2,Name.
+PostgreSQL's developers pronounce PostgreSQL as .
+It is abbreviated as "Postgres" because of ubiquitous support for the among most relational databases.
+Originally named POSTGRES, the name (Post Ingres) refers to the project's origins in that database which was developed at University of California, Berkeley.
+The community considered changing the name back to Postgres; however, the PostgreSQL Core Team announced in 2007 that the product would continue to use the name PostgreSQL.
+========,2,History.
+PostgreSQL evolved from the Ingres project at the University of California, Berkeley.
+In 1982, the leader of the Ingres team, Michael Stonebraker, left Berkeley to make a proprietary version of Ingres.
+He returned to Berkeley in 1985, and started a post-Ingres project to address the problems with contemporary database systems that had become increasingly clear during the early 1980s.
+The new project, POSTGRES, aimed to add the fewest features needed to completely support types.
+These features included the ability to define types and to fully describe relationships something used widely before but maintained entirely by the user.
+In POSTGRES, the database "understood" relationships, and could retrieve information in related tables in a natural way using "rules".
+POSTGRES used many of the ideas of Ingres, but not its code.
+Starting in 1986, the POSTGRES team published a number of papers describing the basis of the system, and by 1987 had a prototype version shown at the 1988 ACM SIGMOD Conference.
+The team released version 1 to a small number of users in June 1989, then version 2 with a re-written rules system in June 1990.
+Version 3, released in 1991, again re-wrote the rules system, and added support for multiple storage managers and an improved query engine.
+By 1993, the great number of users began to overwhelm the project with requests for support and features.
+After releasing version 4.2 on June 30, 1994 primarily a cleanup the project ended.
+Berkeley had released POSTGRES under an MIT-style license, which enabled other developers to use the code for any use.
+At the time, POSTGRES used an Ingres-influenced POSTQUEL query language interpreter, which could be interactively used with a console application named monitor.
+In 1994, Berkeley graduate students Andrew Yu and Jolly Chen replaced the POSTQUEL query language interpreter with one for the SQL query language, creating Postgres95.
+The front-end program monitor was also replaced by psql.
+Yu and Chen announced the first version (0.01) to beta testers on May 5, 1995.
+Version 1.0 of Postgres95 was announced on September 5, 1995, with a more liberal license that enabled the software to be freely modifiable for any purpose.
+On July 8, 1996, Marc Fournier at Hub.org Networking Services provided the first non-university development server for the open-source development effort.
+With the participation of Bruce Momjian and Vadim B. Mikheev, work began to stabilize the code inherited from Berkeley.
+In 1996, the project was renamed to PostgreSQL to reflect its support for SQL.
+The online presence at the website PostgreSQL.org began on October 22, 1996.
+The first PostgreSQL release formed version 6.0 on January 29, 1997.
+Since then a group of developers and volunteers around the world have maintained the software as The PostgreSQL Global Development Group.
+The PostgreSQL project continues to make major releases (approximately annually) and minor "bugfix" releases, all available under its free and open-source software PostgreSQL License.
+Code comes from contributions from proprietary vendors, support companies, and open-source programmers at large.
+========,2,Multiversion concurrency control (MVCC).
+PostgreSQL manages concurrency through a system known as multiversion concurrency control (MVCC), which gives each transaction a "snapshot" of the database, allowing changes to be made without being visible to other transactions until the changes are committed.
+This largely eliminates the need for read locks, and ensures the database maintains the ACID (atomicity, consistency, isolation, durability) principles in an efficient manner.
+PostgreSQL offers three levels of transaction isolation: Read Committed, Repeatable Read and Serializable.
+Because PostgreSQL is immune to dirty reads, requesting a Read Uncommitted transaction isolation level provides read committed instead.
+PostgreSQL supports full serializability via the serializable snapshot isolation (SSI) technique.
+========,2,Storage and replication.
+========,3,Replication.
+PostgreSQL includes built-in binary replication based on shipping the changes (write-ahead logs) to replica nodes asynchronously, with the ability to run read-only queries against these replicated nodes.
+This allows splitting read traffic among multiple nodes efficiently.
+Earlier replication software that allowed similar read scaling normally relied on adding replication triggers to the master, introducing additional load onto it.
+PostgreSQL also includes built-in synchronous replication that ensures that, for each write transaction, the master waits until at least one replica node has written the data to its transaction log.
+Unlike other database systems, the durability of a transaction (whether it is asynchronous or synchronous) can be specified per-database, per-user, per-session or even per-transaction.
+This can be useful for work loads that do not require such guarantees, and may not be wanted for all data as it will have some negative effect on performance due to the requirement of the confirmation of the transaction reaching the synchronous standby.
+There can be a mixture of synchronous and asynchronous standby servers.
+A list of synchronous standby servers can be specified in the configuration which determines which servers are candidates for synchronous replication.
+The first in the list which is currently connected and actively streaming is the one that will be used as the current synchronous server.
+When this fails, it falls to the next in line.
+Synchronous multi-master replication is currently not included in the PostgreSQL core.
+Postgres-XC which is based on PostgreSQL provides scalable synchronous multi-master replication, available in version 1.2.1 (April 2015 version) is licensed under the same license as PostgreSQL.
+A similar project is called Postgres-XL.
+Postgres-R is yet another older fork.
+Bi-directional replication (BDR) is an asynchronous multi-master replication system for PostgreSQL.
+The community has also written some tools to make managing replication clusters easier, such as repmgr.
+There are also several asynchronous trigger-based replication packages for PostgreSQL.
+These remain useful even after introduction of the expanded core capabilities, for situations where binary replication of an entire database cluster is not the appropriate approach:
+***LIST***.
+========,3,Indexes.
+PostgreSQL includes built-in support for regular B-tree and hash indexes, and four index access methods: generalized search trees (GiST), generalized inverted indexes (GIN), Space-Partitioned GiST (SP-GiST) and Block Range Indexes (BRIN).
+Hash indexes are implemented, but discouraged because they cannot be recovered after a crash or power loss, although this will no longer be the case from version 10.
+In addition, user-defined index methods can be created, although this is quite an involved process.
+Indexes in PostgreSQL also support the following features:
+***LIST***.
+========,3,Schemas.
+In PostgreSQL, a schema holds all objects (with the exception of roles and tablespaces).
+Schemas effectively act like namespaces, allowing objects of the same name to co-exist in the same database.
+By default, newly created databases have a schema called "public", but any additional schemas can be added, and the public schema isn't mandatory.
+A "search_path" setting determines the order in which PostgreSQL checks schemas for unqualified objects (those without a prefixed schema).
+By default, it is set to "$user, public" ($user refers to the currently connected database user).
+This default can be set on a database or role level, but as it is a session parameter, it can be freely changed (even multiple times) during a client session, affecting that session only.
+Non-existent schemas listed in search_path are silently skipped during objects lookup.
+New objects are created in whichever valid schema (one that presently exists) appears first in the search_path.
+========,3,Data types.
+A wide variety of native data types are supported, including:
+***LIST***.
+In addition, users can create their own data types which can usually be made fully indexable via PostgreSQL's indexing infrastructures GiST, GIN, SP-GiST.
+Examples of these include the geographic information system (GIS) data types from the PostGIS project for PostgreSQL.
+There is also a data type called a "domain", which is the same as any other data type but with optional constraints defined by the creator of that domain.
+This means any data entered into a column using the domain will have to conform to whichever constraints were defined as part of the domain.
+Starting with PostgreSQL 9.2, a data type that represents a range of data can be used which are called range types.
+These can be discrete ranges (e.g.
+all integer values 1 to 10) or continuous ranges (e.g.
+any point in time between 10:00 am and 11:00 am).
+The built-in range types available include ranges of integers, big integers, decimal numbers, time stamps (with and without time zone) and dates.
+Custom range types can be created to make new types of ranges available, such as IP address ranges using the inet type as a base, or float ranges using the float data type as a base.
+Range types support inclusive and exclusive range boundaries using the [] and () characters respectively.
+(e.g.
+'[4,9)' represents all integers starting from and including 4 up to but not including 9.)
+Range types are also compatible with existing operators used to check for overlap, containment, right of etc.
+========,3,Inheritance.
+Tables can be set to inherit their characteristics from a "parent" table.
+Data in child tables will appear to exist in the parent tables, unless data is selected from the parent table using the ONLY keyword, i.e.
+Adding a column in the parent table will cause that column to appear in the child table.
+Inheritance can be used to implement table partitioning, using either triggers or rules to direct inserts to the parent table into the proper child tables.
+, this feature is not fully supported yet in particular, table constraints are not currently inheritable.
+All check constraints and not-null constraints on a parent table are automatically inherited by its children.
+Other types of constraints (unique, primary key, and foreign key constraints) are not inherited.
+Inheritance provides a way to map the features of generalization hierarchies depicted in entity relationship diagrams (ERDs) directly into the PostgreSQL database.
+========,2,Control and connectivity.
+========,3,Foreign data wrappers.
+PostgreSQL can link to other systems to retrieve data via foreign data wrappers (FDWs).
+These can take the form of any data source, such as a file system, another RDBMS, or a web service.
+This means that regular database queries can use these data sources like regular tables, and even join multiple data-sources together.
+========,3,Interfaces.
+PostgreSQL has several interfaces available and is also widely supported among programming language libraries.
+Built-in interfaces include libpq (PostgreSQL's official C application interface) and ECPG (an embedded C system).
+External interfaces include:
+***LIST***.
+========,3,Procedural languages.
+Procedural languages allow developers to extend the database with custom subroutines (functions), often called "stored procedures".
+These functions can be used to build triggers (functions invoked upon modification of certain data) and custom aggregate functions.
+Procedural languages can also be invoked without defining a function, using the "DO" command at SQL level.
+Languages are divided into two groups: "Safe" languages are sandboxed and can be safely used by any user.
+Procedures written in "unsafe" languages can only be created by superusers, because they allow bypassing the database's security restrictions, but can also access sources external to the database.
+Some languages like Perl provide both safe and unsafe versions.
+PostgreSQL has built-in support for three procedural languages:
+***LIST***.
+In addition, PostgreSQL allows procedural languages to be loaded into the database through extensions.
+Three language extensions are included with PostgreSQL to support Perl, Python and Tcl.
+There are external projects to add support for many other languages, including Java, JavaScript (PL/V8), R, Ruby, and others.
+========,3,Triggers.
+Triggers are events triggered by the action of SQL DML statements.
+For example, an INSERT statement might activate a trigger that checks if the values of the statement are valid.
+Most triggers are only activated by either INSERT or UPDATE statements.
+Triggers are fully supported and can be attached to tables.
+Triggers can be per-column and conditional, in that UPDATE triggers can target specific columns of a table, and triggers can be told to execute under a set of conditions as specified in the trigger's WHERE clause.
+Triggers can be attached to views by using the INSTEAD OF condition.
+Multiple triggers are fired in alphabetical order.
+In addition to calling functions written in the native PL/pgSQL, triggers can also invoke functions written in other languages like PL/Python or PL/Perl.
+========,3,Asynchronous notifications.
+PostgreSQL provides an asynchronous messaging system that is accessed through the NOTIFY, LISTEN and UNLISTEN commands.
+A session can issue a NOTIFY command, along with the user-specified channel and an optional payload, to mark a particular event occurring.
+Other sessions are able to detect these events by issuing a LISTEN command, which can listen to a particular channel.
+This functionality can be used for a wide variety of purposes, such as letting other sessions know when a table has updated or for separate applications to detect when a particular action has been performed.
+Such a system prevents the need for continuous polling by applications to see if anything has yet changed, and reducing unnecessary overhead.
+Notifications are fully transactional, in that messages are not sent until the transaction they were sent from is committed.
+This eliminates the problem of messages being sent for an action being performed which is then rolled back.
+Many of the connectors for PostgreSQL provide support for this notification system (including libpq, JDBC, Npgsql, psycopg and node.js) so it can be used by external applications.
+========,3,Rules.
+Rules allow the "query tree" of an incoming query to be rewritten.
+Rules, or more properly, "Query Re-Write Rules", are attached to a table/class and "Re-Write" the incoming DML (select, insert, update, and/or delete) into one or more queries that either replace the original DML statement or execute in addition to it.
+Query Re-Write occurs after DML statement parsing, but before query planning.
+========,3,Concurrency Model.
+PostgreSQL server is process-based (not threaded), and uses one operating system process per database session.
+A single database session (connection) cannot utilize more than one CPU.
+Of course, multiple sessions are automatically spread across all available CPUs by the operating system.
+Client applications can easily use threads and create multiple database connections from each thread.
+========,2,Security.
+PostgreSQL manages its internal security on a per-role basis.
+A role is generally regarded to be a user (a role that can log in), or a group (a role of which other roles are members).
+Permissions can be granted or revoked on any object down to the column level, and can also allow/prevent the creation of new objects at the database, schema or table levels.
+PostgreSQL's SECURITY LABEL feature (extension to SQL standards), allows for additional security; with a bundled loadable module that supports label-based mandatory access control (MAC) based on SELinux security policy.
+PostgreSQL natively supports a broad number of external authentication mechanisms, including:
+***LIST***.
+The GSSAPI, SSPI, Kerberos, peer, ident and certificate methods can also use a specified "map" file that lists which users matched by that authentication system are allowed to connect as a specific database user.
+These methods are specified in the cluster's host-based authentication configuration file (pg_hba.conf), which determines what connections are allowed.
+This allows control over which user can connect to which database, where they can connect from (IP address/IP address range/domain socket), which authentication system will be enforced, and whether the connection must use TLS.
+========,2,Benchmarks and performance.
+Many informal performance studies of PostgreSQL have been done.
+Performance improvements aimed at improving scalability started heavily with version 8.1.
+Simple benchmarks between version 8.0 and version 8.4 showed that the latter was more than 10 times faster on read-only workloads and at least 7.5 times faster on both read and write workloads.
+The first industry-standard and peer-validated benchmark was completed in June 2007, using the Sun Java System Application Server (proprietary version of GlassFish) 9.0 Platform Edition, UltraSPARC T1-based Sun Fire server and PostgreSQL 8.2.
+This result of 778.14 SPECjAppServer2004 JOPS@Standard compares favourably with the 874 JOPS@Standard with Oracle 10 on an Itanium-based HP-UX system.
+In August 2007, Sun submitted an improved benchmark score of 813.73 SPECjAppServer2004 JOPS@Standard.
+With the system under test at a reduced price, the price/performance improved from $84.98/JOPS to $70.57/JOPS.
+The default configuration of PostgreSQL uses only a small amount of dedicated memory for performance-critical purposes such as caching database blocks and sorting.
+This limitation is primarily because older operating systems required kernel changes to allow allocating large blocks of shared memory.
+PostgreSQL.org provides advice on basic recommended performance practice in a wiki.
+In April 2012, Robert Haas of EnterpriseDB demonstrated PostgreSQL 9.2's linear CPU scalability using a server with 64 cores.
+Matloob Khushi performed benchmarking between Postgresql 9.0 and MySQL 5.6.15 for their ability to process genomic data.
+In his performance analysis he found that PostgreSQL extracts overlapping genomic regions eight times faster than MySQL using two datasets of 80,000 each forming random human DNA regions.
+Insertion and data uploads in PostgreSQL were also better, although general searching capability of both databases was almost equivalent.
+========,2,Platforms.
+PostgreSQL is available for the following operating systems: Linux (all recent distributions), Windows (Windows 2000 SP4 and later; compilable by e.g.
+Visual Studio, now with up to most recent 2015 version), FreeBSD, OpenBSD, NetBSD, OS X (macOS), AIX, HP-UX, Solaris, and UnixWare; and not officially tested: DragonFly BSD, BSD/OS, IRIX, OpenIndiana, OpenSolaris, OpenServer, and Tru64 Unix.
+Most other Unix-like systems could also work; most modern do support.
+PostgreSQL works on any of the following instruction set architectures: x86 and x86-64 on Windows and other operating systems; these are supported on other than Windows: IA-64 Itanium (external support for HP-UX), PowerPC, PowerPC 64, S/390, S/390x, SPARC, SPARC 64, ARMv8-A (64-bit) and older ARM (32-bit, including older such as ARMv6 in Raspberry Pi), MIPS, MIPSel, and PA-RISC.
+It is also known to work on Alpha (dropped in 9.5), M68k, M32R, NS32k, and VAX.
+In addition to these, it is possible to build PostgreSQL for an unsupported CPU by disabling spinlocks.
+========,2,Database administration.
+Open source front-ends and tools for administering PostgreSQL include:
+***LIST***.
+A number of companies offer proprietary tools for PostgreSQL.
+They often consist of a universal core that is adapted for various specific database products.
+These tools mostly share the administration features with the open source tools but offer improvements in data modeling, importing, exporting or reporting.

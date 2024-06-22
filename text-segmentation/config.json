@@ -1,0 +1,5 @@
+{
+  "model": "lstm",
+  "word2vecfile": "/home/operation/projects/text-segmentation/w2vec/GoogleNews-vectors-negative300.bin.gz",
+  "wikidataset": "/home/operation/projects/text-segmentation/dataset/wiki_727_debug/" 
+}

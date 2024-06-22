@@ -1,0 +1,15 @@
+========,1,preface.
+In the seven-layer OSI model of computer networking, the network layer is layer 3.
+The network layer is responsible for packet forwarding including routing through intermediate routers.
+========,2,Functions.
+The network layer provides the functional and procedural means of transferring variable-length data sequences from a source to a destination host via one or more networks, while maintaining the quality of service functions.
+Functions of the network layer include:
+***LIST***.
+Within the service layering semantics of the OSI network architecture, the network layer responds to service requests from the transport layer and issues service requests to the data link layer.
+========,2,Relation to TCP/IP model.
+The TCP/IP model describes the protocols used by the Internet.
+The TCP/IP model has a layer called the Internet layer, located above the link layer.
+In many textbooks and other secondary references, the TCP/IP Internet layer is equated with the OSI network layer.
+However, this comparison is misleading, as the allowed characteristics of protocols (e.g., whether they are connection-oriented or connection-less) placed into these layers are different in the two models.
+The TCP/IP Internet layer is in fact only a subset of functionality of the network layer.
+It describes only one type of network architecture, the Internet.

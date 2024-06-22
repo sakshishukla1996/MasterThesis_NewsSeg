@@ -1,0 +1,32 @@
+========,1,preface.
+========,2,Use in Lisp.
+========,3,Examples of data s-expressions.
+Nested lists can be written as S-expressions: ***codice*** is a two-element S-expression whose elements are also two-element S-expressions.
+The whitespace-separated notation used in Lisp (and this article) is typical.
+Line breaks (newline characters) usually qualify as separators.
+This is a simple context-free grammar for a tiny subset of English written as an s-expression (Gazdar/Melish, Natural Language Processing in Lisp):
+========,2,Parsing.
+S-Expressions are often compared to XML, a key difference being that S-Expressions are far simpler in syntax, therefore being much easier to parse.
+For instance, one could implement a simple S-Expression parser in just a few dozen lines of Python code.
+========,2,Standardization.
+Standards for some Lisp-derived programming languages include a specification for their S-expression syntax.
+These include Common Lisp (ANSI standard document ANSI INCITS 226-1994 (R2004)), Scheme (R5RS and R6RS), and ISLISP.
+========,3,Rivest's variant.
+In May 1997, Ron Rivest submitted an Internet-Draft to be considered for publication as an RFC.
+The draft defined a syntax based on Lisp S-expressions but intended for general-purpose data storage and exchange (similar to XML) rather than specifically for programming.
+It was never approved as an RFC, but it has since been cited and used by other RFCs (e.g.
+RFC 2693) and several other publications.
+It was originally intended for use in SPKI.
+Rivest's format defines an S-expression as being either an octet-string (a series of bytes) or a finite list of other S-expressions.
+It describes three interchange formats for expressing this structure.
+One is the "advanced transport", which is very flexible in terms of formatting, and is syntactically similar to Lisp-style expressions, but they are not identical.
+The advanced transport, for example, allows octet-strings to be represented verbatim (the string's length followed by a colon and the entire raw string), a quoted form allowing escape characters, hexadecimal, Base64, or placed directly as a "token" if it meets certain conditions.
+(Rivest's tokens differ from Lisp tokens in that the former are just for convenience and aesthetics, and treated exactly like other strings, while the latter have specific syntactical meaning.)
+Rivest's draft defines a canonical representation "for digital signature purposes".
+It's intended to be compact, easier to parse, and unique for any abstract S-expression.
+It only allows verbatim strings, and prohibits whitespace as formatting outside strings.
+Finally there is the "basic transport representation", which is either the canonical form or the same encoded as Base64 and surrounded by braces, the latter intended to safely transport a canonically encoded S-expression in a system which might change spacing (e.g.
+an email system which has 80-character-wide lines and wraps anything longer than that).
+This format has not been widely adapted for use outside of SPKI.
+Rivest's S-expressions web page provides C source code for a parser and generator (available under the MIT license), which could be adapted and embedded into other programs.
+In addition, there are no restrictions on independently implementing the format.

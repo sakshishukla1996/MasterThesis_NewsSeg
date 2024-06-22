@@ -1,0 +1,99 @@
+========,1,preface.
+Night vision is the ability to see in low light conditions.
+Whether by biological or technological means, night vision is made possible by a combination of two approaches: sufficient spectral range, and sufficient intensity range.
+Humans have poor night vision compared to many animals, in part because the human eye lacks a tapetum lucidum.
+========,2,Types of ranges.
+========,3,Spectral range.
+Night-useful spectral range techniques can sense radiation that is invisible to a human observer.
+Human vision is confined to a small portion of the electromagnetic spectrum called visible light.
+Enhanced spectral range allows the viewer to take advantage of non-visible sources of electromagnetic radiation (such as near-infrared or ultraviolet radiation).
+Some animals such as the mantis shrimp can see using much more of the infrared and/or ultraviolet spectrum than humans.
+========,3,Intensity range.
+Sufficient intensity range is simply the ability to see with very small quantities of light.
+Many animals have better night vision than humans do, the result of one or more differences in the morphology and anatomy of their eyes.
+These include having a larger eyeball, a larger lens, a larger optical aperture (the pupils may expand to the physical limit of the eyelids), more rods than cones (or rods exclusively) in the retina, and a tapetum lucidum.
+Enhanced intensity range is achieved via technological means through the use of an image intensifier, gain multiplication CCD, or other very low-noise and high-sensitivity array of photodetectors.
+========,2,Biological night vision.
+All photoreceptor cells in the eye contain molecules of photoreceptor protein which is a combination of the protein photopsin in color vision cells, rhodopsin in night vision cells, and retinal (a small photoreceptor molecule).
+Retinal undergoes an irreversible change in shape when it absorbs light; this change causes an alteration in the shape of the protein which surrounds the retinal, and that alteration then induces the physiological process which results in vision.
+The retinal must diffuse from the vision cell, out of the eye, and circulate via the blood to the liver where it is regenerated.
+In bright light conditions, most of the retinal is not in the photoreceptors, but is outside of the eye.
+It takes about 45 minutes of dark for "all" of the photoreceptor proteins to be recharged with active retinal, but most of the night vision adaptation occurs within the first five minutes in the dark.
+Adaptation results in maximum sensitivity to light.
+In dark conditions only the rod cells have enough sensitivity to respond and to trigger vision.
+Rhodopsin in the human rods is insensitive to the longer red wavelengths, so traditionally many people use red light to help preserve night vision.
+Red light only slowly depletes the rhodopsin stores in the rods, and instead is viewed by the red sensitive cone cells.
+Another theory posits that since stars typically emit light with shorter wavelengths, the light from stars will be in the blue-green color spectrum.
+Therefore, using red light to navigate would not desensitize the receptors used to detect star light.
+Using red light for night vision is less effective for people with red–green color blindness, due to their insensitivity to red light.
+Many animals have a tissue layer called the "tapetum lucidum" in the back of the eye that reflects light back through the retina, increasing the amount of light available for it to capture, but reducing the sharpness of the focus of the image.
+This is found in many nocturnal animals and some deep sea animals, and is the cause of eyeshine.
+Humans, and monkeys, lack a "tapetum lucidum".
+Nocturnal mammals have rods with unique properties that make enhanced night vision possible.
+The nuclear pattern of their rods changes shortly after birth to become inverted.
+In contrast to conventional rods, inverted rods have heterochromatin in the center of their nuclei and euchromatin and other transcription factors along the border.
+In addition, the outer layer of cells in the retina (the outer nuclear layer) in nocturnal mammals is thick due to the millions of rods present to process the lower light intensities.
+The anatomy of this layer in nocturnal mammals is such that the rod nuclei, from individual cells, are physically stacked such that light will pass through eight to ten nuclei before reaching the photoreceptor portion of the cells.
+Rather than being scattered, the light is passed to each nucleus individually, by a strong lensing effect due to the nuclear inversion, passing out of the stack of nuclei, and into the stack of ten photorecepting outer segments.
+The net effect of this anatomical change is to multiply the light sensitivity of the retina by a factor of eight to ten with no loss of focus.
+========,2,Night vision technologies.
+========,3,Image intensification.
+This magnifies the amount of received photons from various natural sources such as starlight or moonlight.
+Examples of such technologies include night glasses and low light cameras.
+In the military context, Image Intensifiers are often called "Low Light TV" since the video signal is often transmitted to a display within a control center.
+LLLTV These are usually integrated into a sensor containing both visible and IR detectors and the streams are used independently or in fused mode, depending on the mission at hand's requirements.
+The image intensifier is a vacuum-tube based device (photomultiplier tube) that can generate an image from a very small number of photons (such as the light from stars in the sky) so that a dimly lit scene can be viewed in real-time by the naked eye via visual output, or stored as data for later analysis.
+While many believe the light is "amplified," it is not.
+When light strikes a charged photocathode plate, electrons are emitted through a vacuum tube that strike the microchannel plate that cause the image screen to illuminate with a picture in the same pattern as the light that strikes the photocathode, and is on a frequency that the human eye can see.
+This is much like a CRT television, but instead of color guns the photocathode does the emitting.
+The image is said to become "intensified" because the output visible light is brighter than the incoming light, and this effect directly relates to the difference in passive and active night vision goggles.
+Currently, the most popular image intensifier is the drop-in ANVIS module, though many other models and sizes are available at the market.
+Recently, the US Navy announced intentions to procure a dual-color variant of the ANVIS for use in the cockpit of airborne platforms.
+========,4,Active illumination.
+Active illumination couples imaging intensification technology with an active source of illumination in the near infrared (NIR) or shortwave infrared (SWIR) band.
+Examples of such technologies include low light cameras.
+Active infrared night-vision combines infrared illumination of spectral range 700–1,000 nm (just below the visible spectrum of the human eye) with CCD cameras sensitive to this light.
+The resulting scene, which is apparently dark to a human observer, appears as a monochrome image on a normal display device.
+Because active infrared night-vision systems can incorporate illuminators that produce high levels of infrared light, the resulting images are typically higher resolution than other night-vision technologies.
+Active infrared night vision is now commonly found in commercial, residential and government security applications, where it enables effective night time imaging under low-light conditions.
+However, since active infrared light can be detected by night-vision goggles, there can be a risk of giving away position in tactical military operations.
+Laser range gated imaging is another form of active night vision which utilizes a high powered pulsed light source for illumination and imaging.
+Range gating is a technique which controls the laser pulses in conjunction with the shutter speed of the camera's detectors.
+Gated imaging technology can be divided into "single shot", where the detector captures the image from a single light pulse, and "multi-shot", where the detector integrates the light pulses from multiple shots to form an image.
+One of the key advantages of this technique is the ability to perform target recognition rather than mere detection, as is the case with thermal imaging.
+========,3,Thermal vision.
+Thermal imaging detects the temperature difference between the background and the foreground objects.
+Some organisms are able to sense a crude thermal image by means of special organs that function as bolometers.
+This allows thermal infrared sensing in snakes, which functions by detection of thermal radiation.
+Thermal imaging cameras are excellent tools for night vision.
+They detect thermal radiation and do not need a source of illumination.
+They produce an image in the darkest of nights and can see through light fog, rain and smoke (to a certain extent).
+Thermal imaging cameras make small temperature differences visible.
+Thermal imaging cameras are widely used to complement new or existing security networks, and for night vision on aircraft, where they are commonly referred to as "FLIR" (for "forward-looking infrared").
+When coupled with additional cameras (for example, a visible camera or SWIR) multispectral sensors are possible, which take advantage of the benefits of each detection band capabilities.
+Contrary to misconceptions portrayed in the media, thermal imagers cannot 'see' through solid objects (walls for example), nor can they see through glass or perspex as both these materials have their own thermal signature and are opaque to long wave infrared radiation.
+========,2,Night vision devices.
+========,3,History.
+Before the introduction of image intensifiers, night glasses were the only method of night vision, and thus were widely utilized, especially at sea.
+Second World War era night glasses usually had a lens diameter of 56 mm or more with magnification of seven or eight.
+Major drawbacks of night glasses are their large size and weight.
+========,3,Current technology.
+A night vision device (NVD) is a device comprising an image intensifier tube in a rigid casing, commonly used by military forces.
+Lately, night vision technology has become more widely available for civilian use.
+For example, enhanced vision systems (EVS) have become available for aircraft to help pilots with situational awareness and avoid accidents.
+These systems are included in the latest avionics packages from manufacturers such as Cirrus and Cessna.
+The US Navy has begun procurement of a variant integrated into a helmet-mounted display, produced by Elbit Systems.HDTS A specific type of NVD, the night vision goggle (NVG) is a night vision device with dual eyepieces.
+The device can utilize either one intensifier tube with the same image sent to both eyes, or a separate image intensifier tube for each eye.
+Night vision goggles combined with magnification lenses constitutes night vision binoculars.
+Other types include monocular night vision devices with only one eyepiece which may be mounted to firearms as night sights.
+NVG and EVS technologies are becoming more popular with helicopter operations to improve safety.
+The NTSB is considering EVS as recommended equipment for safety features.
+Night glasses are single or binocular with a large diameter objective.
+Large lenses can gather and concentrate light, thus intensifying light with purely optical means and enabling the user to see better in the dark than with the naked eye alone.
+Often night glasses also have a fairly large exit pupil of 7 mm or more to let all gathered light into the user's eye.
+However, many people cannot take advantage of this because of the limited dilation of the human pupil.
+To overcome this, soldiers were sometimes issued atropine eye drops to dilate pupils.
+Night vision systems can also be installed in vehicles.
+An automotive night vision system is used to improve a vehicle driver's perception and seeing distance in darkness or poor weather.
+Such systems typically use infrared cameras, sometimes combined with active illumination techniques, to collect information that is then displayed to the driver.
+Such systems are currently offered as optional equipment on certain premium vehicles.

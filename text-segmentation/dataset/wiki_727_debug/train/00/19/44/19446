@@ -1,0 +1,407 @@
+========,1,preface.
+Magnetic resonance imaging (MRI) is a medical imaging technique used in radiology to form pictures of the anatomy and the physiological processes of the body in both health and disease.
+MRI scanners use strong magnetic fields, radio waves, and field gradients to generate images of the organs in the body.
+MRI does not involve x-rays, which distinguishes it from computed tomography (CT or CAT).
+While the hazards of x-rays are now well-controlled in most medical contexts, MRI still may be seen as superior to CT in this regard.
+MRI often may yield different diagnostic information compared with CT.
+There may be risks and discomfort associated with MRI scans.
+Compared with CT, MRI scans typically take greater time, are louder, and usually require that the subject go into a narrow, confined tube.
+In addition, people with some medical implants or other non-removable metal inside the body may be unable to undergo an MRI examination safely.
+MRI is based upon the science of nuclear magnetic resonance (NMR).
+Certain atomic nuclei are able to absorb and emit radio frequency energy when placed in an external magnetic field.
+In clinical and research MRI, hydrogen atoms are most-often used to generate a detectable radio-frequency signal that is received by antennas in close proximity to the anatomy being examined.
+Hydrogen atoms exist naturally in people and other biological organisms in abundance, particularly in water and fat.
+For this reason, most MRI scans essentially map the location of water and fat in the body.
+Pulses of radio waves excite the nuclear spin energy transition, and magnetic field gradients localize the signal in space.
+By varying the parameters of the pulse sequence, different contrasts may be generated between tissues based on the relaxation properties of the hydrogen atoms therein.
+Since its early development in the 1970s and 1980s, MRI has proven to be a highly versatile imaging technique.
+While MRI is most prominently used in diagnostic medicine and biomedical research, it also may be used to form images of non-living objects.
+MRI scans are capable of producing a variety of chemical and physical data, in addition to detailed spatial images.
+MRI is widely used in hospitals and clinics for medical diagnosis, staging of disease and follow-up without exposing the body to ionizing radiation.
+========,2,Medical uses.
+MRI has a wide range of applications in medical diagnosis and more than 25,000 scanners are estimated to be in use worldwide.
+MRI affects diagnosis and treatment in many specialties although the effect on improved health outcomes is uncertain.
+Since MRI does not use any ionizing radiation, its use generally is favored in preference to CT when either modality could yield the same information.
+(In certain cases, MRI is not preferred as it may be more expensive, time-consuming, and claustrophobia-exacerbating).
+MRI is in general a safe technique, although injuries may occur as a result of failed safety procedures or human error.
+Contraindications to MRI include most cochlear implants and cardiac pacemakers, shrapnel, and metallic foreign bodies in the eyes.
+The safety of MRI during the first trimester of pregnancy is uncertain, but it may be preferable to other options.
+The sustained increase in demand for MRI within the healthcare industry has led to concerns about cost effectiveness and overdiagnosis.
+========,3,Neuroimaging.
+MRI is the investigative tool of choice for neurological cancers, as it has better resolution than CT and offers better visualization of the posterior fossa.
+The contrast provided between grey and white matter makes MRI the best choice for many conditions of the central nervous system, including demyelinating diseases, dementia, cerebrovascular disease, infectious diseases, and epilepsy.
+Since many images are taken milliseconds apart, it shows how the brain responds to different stimuli, enabling researchers to study both the functional and structural brain abnormalities in psychological disorders.
+MRI also is used in mri-guided stereotactic surgery and radiosurgery for treatment of intracranial tumors, arteriovenous malformations, and other surgically treatable conditions using a device known as the N-localizer.
+========,3,Cardiovascular.
+Cardiac MRI is complementary to other imaging techniques, such as echocardiography, cardiac CT, and nuclear medicine.
+Its applications include assessment of myocardial ischemia and viability, cardiomyopathies, myocarditis, iron overload, vascular diseases, and congenital heart disease.
+========,3,Liver and gastrointestinal imaging MRI.
+Hepatobiliary MR is used to detect and characterize lesions of the liver, pancreas, and bile ducts.
+Focal or diffuse disorders of the liver may be evaluated using diffusion-weighted, opposed-phase imaging, and dynamic contrast enhancement sequences.
+Extracellular contrast agents are used widely in liver MRI and newer hepatobiliary contrast agents also provide the opportunity to perform functional biliary imaging.
+Anatomical imaging of the bile ducts is achieved by using a heavily T2-weighted sequence in magnetic resonance cholangiopancreatography (MRCP).
+Functional imaging of the pancreas is performed following administration of secretin.
+MR enterography provides non-invasive assessment of inflammatory bowel disease and small bowel tumors.
+MR-colonography may play a role in the detection of large polyps in patients at increased risk of colorectal cancer.
+========,3,Functional MRI.
+Functional MRI (fMRI) is used to understand how different parts of the brain respond to external stimuli or passive activity in a resting state.
+Blood oxygenation level dependent (BOLD) fMRI measures the hemodynamic response to transient neural activity resulting from a change in the ratio of oxyhemoglobin and deoxyhemoglobin.
+Researchers use statistical methods to construct a 3-D parametric map of the brain indicating the regions of the cortex that demonstrate a significant change in activity in response to the task.
+fMRI has applications in behavioral and cognitive research, and in planning neurosurgery of eloquent brain areas.
+========,3,Phase contrast MRI.
+Phase contrast MRI (PC-MRI) is used to measure flow velocities in the body.
+It is used mainly to measure blood flow in the heart and throughout the body.
+PC-MRI may be considered a method of magnetic resonance velocimetry.
+Since modern PC-MRI typically is time-resolved, it also may be referred to as 4-D imaging (three spatial dimensions plus time).
+========,2,Safety.
+========,3,Structure and certification.
+In an effort to standardize the roles and responsibilities of MRI professionals, an international consensus document, written and endorsed by major MRI and medical physics professional societies from around the globe, has been published formally.
+The document outlines specific responsibilities for the following positions:
+***LIST***.
+The American Board of Magnetic Resonance Safety (ABMRS) provides testing and board certification for each of the three positions, MRMD, MRSO, and MRSE.
+As most MRI accidents and injuries are directly attributable to decisions at the point of care, testing and certification of MRI professionals seeks to reduce the rates of MRI accidents and improve patient safety through the establishment of safety competency levels for MRI professionals.
+========,3,Implants.
+All patients are reviewed for contraindications prior to MRI scanning.
+Medical devices and implants are categorized as MR Safe, MR Conditional or MR Unsafe:
+***LIST***.
+The MRI environment may cause harm in patients with MR-Unsafe devices such as cochlear implants, aneurysm clips, and many permanent pacemakers.
+In November 1992, a patient with an undisclosed cerebral aneurysm clip was reported to have died shortly after an MRI exam.
+Several deaths have been reported in patients with pacemakers who have undergone MRI scanning without appropriate precautions.
+Increasingly, MR-conditional pacemakers are available for selected patients.
+Ferromagnetic foreign bodies such as shell fragments, or metallic implants such as surgical prostheses and ferromagnetic aneurysm clips also are potential risks.
+Interaction of the magnetic and radio frequency fields with such objects may lead to heating or torque of the object during an MRI.
+Titanium and its alloys are safe from attraction and torque forces produced by the magnetic field, although there may be some risks associated with Lenz effect forces acting on titanium implants in sensitive areas within the subject, such as stapes implants in the inner ear.
+========,3,Projectile risk.
+The very high strength of the magnetic field may cause projectile effect (or "missile-effect") accidents, where ferromagnetic objects are attracted to the center of the magnet.
+Pennsylvania reported 27 cases of objects becoming projectiles in the MRI environment between 2004 and 2008.
+There have been incidents of injury and death.
+In one case, a six-year-old boy died during a MRI exam, after a metal oxygen tank was pulled across the room and crushed the child's head.
+To reduce the risk of projectile accidents, ferromagnetic objects and devices typically, are prohibited near the MRI scanner, and patients undergoing MRI examinations must remove all metallic objects, often by changing into a gown or scrubs.
+Some radiology departments use ferromagnetic detection devices to ensure that no ferromagnetic objects enter the scanner room.
+========,3,MRI-EEG.
+In research settings, structural MRI or functional MRI (fMRI) may be combined with EEG (electroencephalography) under the condition that the EEG equipment is MR-compatible.
+Although EEG equipment (electrodes, amplifiers, and peripherals) are either approved for research or clinical use, the same MR Safe, MR Conditional and MR Unsafe terminology applies.
+With the growth of the use of MR technology, the U.S. Food & Drug Administration [FDA] recognized the need for a consensus on standards of practice, and the FDA sought out ASTM International [ASTM] to achieve them.
+Committee F04 of ASTM developed F2503, Standard Practice for Marking Medical Devices and Other Items for Safety in the Magnetic Resonance Environment.
+========,3,Genotoxic effects.
+There is no proven risk of biological harm from any aspect of a MRI scan, including very powerful static magnetic fields, gradient magnetic fields, or radio frequency waves.
+Some studies have suggested possible genotoxic (i.e., potentially carcinogenic) effects of MRI scanning through micronuclei induction and DNA double strand breaks in vivo and in vitro, however, in most, if not all cases, others have not been able to repeat or validate the results of these studies, and the majority of research shows no genotoxic, or otherwise harmful, effects caused by any part of MRI.
+A recent study confirmed that MRI at some of the most potentially-risky parameters tested to date (7-tesla static magnetic field, 70 mT/m gradient magnetic field, and maximum strength radio frequency waves), did not cause any DNA damage in vitro.
+========,3,Peripheral nerve stimulation (PNS).
+The rapid switching on and off of the magnetic field gradients is capable of causing nerve stimulation.
+Volunteers report a twitching sensation when exposed to rapidly switched fields, particularly in their extremities.
+The reason the peripheral nerves are stimulated is that the changing field increases with distance from the center of the gradient coils (which more or less coincides with the center of the magnet).
+Although PNS was not a problem for the slow, weak gradients used in the early days of MRI, the strong, rapidly switched gradients used in techniques such as EPI, fMRI, diffusion MRI, etc.
+are capable of inducing PNS.
+American and European regulatory agencies insist that manufacturers stay below specified "dB/"dt" limits ("dB/"dt" is the change in magnetic field strength per unit time), or else prove that no PNS is induced for any imaging sequence.
+As a result of "d"B/"dt" limitation, commercial MRI systems cannot use the full rated power of their gradient amplifiers.
+========,3,Heating caused by absorption of radio waves.
+Every MRI scanner has a powerful radio transmitter that generates the electromagnetic field that excites the spins.
+If the body absorbs the energy, heating occurs.
+For this reason, the transmitter rate at which energy is absorbed by the body must be limited (see Specific absorption rate).
+It has been claimed that tattoos made with iron-containing dyes may lead to burns on the subject's body.
+Cosmetics are very unlikely to undergo heating, as well as body lotions, since the outcome of the reactions between those with the radio waves is unknown.
+The best option for clothing is 100% cotton.
+The MRI system must attend to periodic maintenance from the manufacturer.
+Gradients and RF transmit must attend factory specifications.
+In some systems there are parts responsible for the measurement of the power absorption limiter that must be replaced periodically with new ones (or be re-calibrated in the factory).
+There are several positions strictly forbidden during measurement such as crossing arms and legs, and the patient's body may not create loops of any kind for the RF during the measurement.
+Unusual patient heating cases must be reported to the appropriate regulatory agency for further investigation.
+========,3,Acoustic noise.
+Switching of field gradients causes a change in the Lorentz force experienced by the gradient coils, producing minute expansions and contractions of the coil.
+As the switching typically is in the audible frequency range, the resulting vibration produces loud noises (clicking, banging, or beeping).
+This is most marked with high-field machines, and rapid-imaging techniques in which sound pressure levels may reach 120 dB(A) (equivalent to a jet engine at take-off), and therefore, appropriate ear protection is essential for anyone inside the MRI scanner room during the examination.
+Radio frequency in itself does not cause audible noises (at least for human beings), since modern systems are using frequencies of 8.5 MHz (0.2 T system) or higher.
+========,3,Cryogens.
+As described in the Physics of magnetic resonance imaging article, many MRI scanners rely on cryogenic liquids to enable the superconducting capabilities of the electromagnetic coils within.
+Although the cryogenic liquids used are non-toxic, their physical properties present specific hazards.
+An unintentional shut-down of a superconducting electromagnet, an event known as "quench", involves the rapid boiling of liquid helium from the device.
+If the rapidly expanding helium cannot be dissipated through an external vent, sometimes referred to as a 'quench pipe', it may be released into the scanner room where it may cause displacement of the oxygen and present a risk of asphyxiation.
+Oxygen deficiency monitors usually are used as a safety precaution.
+Liquid helium, the most commonly used cryogen in MRI, undergoes near explosive expansion as it changes from a liquid to gaseous state.
+The use of an oxygen monitor is important to ensure that oxygen levels are safe for patients and physicians.
+Rooms built for superconducting MRI equipment should be equipped with pressure relief mechanisms and an exhaust fan, in addition to the required quench pipe.
+Because a quench results in rapid loss of cryogens from the magnet, recommissioning the magnet is expensive and time-consuming.
+Spontaneous quenches are uncommon, but a quench also may be triggered by an equipment malfunction, an improper cryogen fill technique, contaminants inside the cryostat, or extreme magnetic or vibrational disturbances.
+========,3,Pregnancy.
+No effects of MRI on the fetus have been demonstrated.
+In particular, MRI avoids the use of ionizing radiation, to which the fetus is particularly sensitive.
+As a precaution, however, many guidelines recommend pregnant women only undergo MRI when essential, especially during the first trimester.
+The concerns in pregnancy are the same as for MRI in general, but the fetus may be more sensitive to the effects—particularly to heating and to noise.
+The use of gadolinium-based contrast media in pregnancy is an off-label indication and may be administered only in the lowest dose required to provide essential diagnostic information.
+Despite these concerns, MRI is rapidly growing in importance as a way of diagnosing and monitoring congenital defects of the fetus because it is able to provide more diagnostic information than ultrasound and it lacks the ionizing radiation of CT. MRI without contrast agents is the imaging mode of choice for pre-surgical, in-utero diagnosis and evaluation of fetal tumors, primarily teratomas, facilitating open fetal surgery, other fetal interventions, and planning for procedures (such as the EXIT procedure) to safely deliver and treat babies whose defects would otherwise be fatal.
+========,3,Claustrophobia and discomfort.
+Although painless, MRI scans may be unpleasant for those who are claustrophobic or otherwise uncomfortable with the imaging device surrounding them.
+Older closed bore MRI systems have a fairly long tube or tunnel.
+The part of the body being imaged must lie at the center of the magnet, which is at the absolute center of the tunnel.
+Because scan times on these older scanners may be long (occasionally up to 40 minutes for the entire procedure), people with even mild claustrophobia are sometimes unable to tolerate an MRI scan without management.
+Some modern scanners have larger bores (up to 70 cm) and scan times are shorter.
+A 1.5 T wide short bore scanner increases the examination success rate in patients with claustrophobia and substantially reduces the need for anesthesia-assisted MRI examinations even when claustrophobia is severe.
+Alternative scanner designs, such as open or upright systems, may be helpful where these are available.
+Although open scanners have increased in popularity, they produce inferior scan quality because they operate at lower magnetic fields than closed scanners.
+Commercial 1.5-tesla open systems have become available recently, however, providing much better image quality than previous lower field strength open models.
+Mirror glasses may be used to help create the illusion of openness.
+The mirrors are angled at 45 degrees, allowing the patient to look down their body and out the end of the imaging area.
+The appearance is of an open tube pointing upward (as seen when lying in the imaging area).
+Even though one is able to see around the glasses and the proximity of the device is very evident, this illusion is quite persuasive and relieves the claustrophobic feeling.
+For babies and other young children, chemical sedation or general anesthesia are the norm, as these subjects cannot be expected or instructed to hold still during the scanning session.
+Also, children frequently are sedated because they are frightened by the unfamiliar procedure and the loud noises.
+To reduce anxiety, some hospitals have specially designed child-friendly approaches that pretend the MRI machine is a spaceship or another fun experience.
+Obese patients and pregnant women may find the MRI machine a tight fit.
+Pregnant women in the third trimester also may have difficulty lying on their backs for an hour or more without moving.
+========,3,MRI versus CT.
+MRI and computed tomography (CT) are complementary imaging technologies and each has advantages and limitations for particular applications.
+CT is more widely used than MRI in OECD countries with a mean of 132 vs. 46 exams per 1000 population performed respectively.
+A concern is the potential for CT to contribute to radiation-induced cancer and in 2007 it was estimated that 0.4% of current cancers in the United States were due to CTs performed in the past, and that in the future this figure may rise to 1.5–2% based on historical rates of CT usage.
+An Australian study found that one in every 1800 CT scans was associated with an excess cancer.
+An advantage of MRI is that no ionizing radiation is used and so it is recommended over CT when either approach could yield the same diagnostic information.
+Although the cost of MRI has fallen, making it more competitive with CT, there are not many common imaging scenarios in which MRI can simply replace CT, however, this substitution has been suggested for the imaging of liver disease.
+The effect of low doses of radiation on carcinogenesis also are disputed.
+Although MRI is associated with biological effects, these have not been proven to cause measurable harm.
+Iodinated contrast medium is routinely used in CT and the main adverse events are anaphylactoid reactions and nephrotoxicity.
+Commonly used MRI contrast agents have a good safety profile, but linear non-ionic agents in particular have been implicated in nephrogenic systemic fibrosis in patients with severely impaired renal function.
+MRI is contraindicated in the presence of MR-unsafe implants, and although these patients may be imaged with CT, beam hardening artefact from metallic devices, such as pacemakers and implantable cardioverter-defibrillators, also may affect image quality.
+MRI is a longer investigation than CT and an exam may take between 20 and 40 minutes depending on complexity.
+========,3,Guidance.
+Safety issues, including the potential for biostimulation device interference, movement of ferromagnetic bodies, and incidental localized heating, have been addressed in the American College of Radiology's "White Paper on MR Safety", which originally was published in 2002 and expanded in 2004.
+The "ACR White Paper on MR Safety" has been rewritten and was released early in 2007 under the new title "ACR Guidance Document for Safe MR Practices".
+In December 2007, the Medicines and Healthcare Products Regulatory Agency (MHRA), a UK healthcare regulatory body, issued their "Safety Guidelines for Magnetic Resonance Imaging Equipment in Clinical Use".
+In February 2008, the Joint Commission, a U.S. healthcare accrediting organization, issued a Sentinel Event Alert #38, their highest patient safety advisory, on MRI safety issues.
+In July 2008, the United States Veterans Administration, a federal governmental agency serving the healthcare needs of former military personnel, issued a substantial revision to their "MRI Design Guide", that includes physical and facility safety considerations.
+========,3,The European Directive on electromagnetic fields.
+This Directive (2013/35/EU - electromagnetic fields) covers all known direct biophysical effects and indirect effects caused by electromagnetic fields within the EU and repealed the 2004/40/EC directive.
+The deadline for implementation of the new directive was 1 July 2016.
+Article 10 of the directive sets out the scope of the derogation for MRI, stating that the exposure limits may be exceeded during "the installation, testing, use, development, maintenance of or research related to magnetic resonance imaging (MRI) equipment for patients in the health sector, provided that certain conditions are met."
+Uncertainties remain regarding the scope and conditions of this derogation.
+========,2,Procedure.
+To perform a study, the person is positioned within an MRI scanner that forms a strong magnetic field around the area to be imaged.
+In most medical applications, protons (hydrogen atoms) in tissues containing water molecules create a signal that is processed to form an image of the body.
+First, energy from an oscillating magnetic field temporarily is applied to the patient at the appropriate resonance frequency.
+The excited hydrogen atoms emit a radio frequency signal, which is measured by a receiving coil.
+The radio signal may be made to encode position information by varying the main magnetic field using gradient coils.
+As these coils are rapidly switched on and off they create the characteristic repetitive noise of an MRI scan.
+The contrast between different tissues is determined by the rate at which excited atoms return to the equilibrium state.
+Exogenous contrast agents may be given intravenously, orally, or intra-articularly.
+MRI requires a magnetic field that is both strong and uniform.
+The field strength of the magnet is measured in teslas – and while the majority of systems operate at 1.5 T, commercial systems are available between 0.2–7 T. Most clinical magnets are superconducting magnets, which require liquid helium.
+Lower field strengths can be achieved with permanent magnets, which are often used in "open" MRI scanners for claustrophobic patients.
+Recently, MRI has been demonstrated also at ultra-low fields, i.e., in the microtesla-to-millitesla range, where sufficient signal quality is made possible by prepolarization (on the order of 10-100 mT) and by measuring the Larmor precession fields at about 100 microtesla with highly sensitive superconducting quantum interference devices (SQUIDs).
+========,3,Contrast.
+Image contrast may be weighted to demonstrate different anatomical structures or pathologies.
+Each tissue returns to its equilibrium state after excitation by the independent processes of T1 (spin-lattice) and T2 (spin-spin) relaxation.
+To create a T1-weighted image, magnetization is allowed to recover before measuring the MR signal by changing the repetition time (TR).
+This image weighting is useful for assessing the cerebral cortex, identifying fatty tissue, characterizing focal liver lesions and in general for obtaining morphological information, as well as for post-contrast imaging.
+To create a T2-weighted image, magnetization is allowed to decay before measuring the MR signal by changing the echo time (TE).
+This image weighting is useful for detecting edema and inflammation, revealing white matter lesions and assessing zonal anatomy in the prostate and uterus.
+========,4,Contrast agents.
+MRI for imaging anatomical structures or blood flow do not require contrast agents as the varying properties of the tissues or blood provide natural contrasts.
+However, for more specific types of imaging the most commonly used intravenous contrast agents are based on chelates of gadolinium.
+In general, these agents have proved safer than the iodinated contrast agents used in X-ray radiography or CT. Anaphylactoid reactions are rare, occurring in approx.
+0.03–0.1%.
+Of particular interest is the lower incidence of nephrotoxicity, compared with iodinated agents, when given at usual doses—this has made contrast-enhanced MRI scanning an option for patients with renal impairment, who would otherwise not be able to undergo contrast-enhanced CT.
+Although gadolinium agents have proved useful for patients with renal impairment, in patients with severe renal failure requiring dialysis there is a risk of a rare but serious illness, nephrogenic systemic fibrosis, which may be linked to the use of certain gadolinium-containing agents.
+The most frequently linked is gadodiamide, but other agents have been linked too.
+Although a causal link has not been definitively established, current guidelines in the United States are that dialysis patients should only receive gadolinium agents where essential, and that dialysis should be performed as soon as possible after the scan to remove the agent from the body promptly.
+In Europe, where more gadolinium-containing agents are available, a classification of agents according to potential risks has been released.
+Recently, a new contrast agent named gadoxetate, brand name Eovist (US) or Primovist (EU), was approved for diagnostic use: this has the theoretical benefit of a dual excretion path.
+========,2,History.
+Magnetic resonance imaging was invented by Paul C. Lauterbur in September 1971; he published the theory behind it in March 1973.
+The factors leading to image contrast (differences in tissue relaxation time values) had been described nearly 20 years earlier by Erik Odeblad (physician and scientist) and Gunnar Lindström.
+In 1950, spin echoes were first detected by Erwin Hahn and in 1952, Herman Carr produced a one-dimensional NMR spectrum as reported in his Harvard PhD thesis.
+In the Soviet Union, Vladislav Ivanov filed (in 1960) a document with the USSR State Committee for Inventions and Discovery at Leningrad for a Magnetic Resonance Imaging device, although this was not approved until the 1970s.
+By 1959, Jay Singer had studied blood flow by NMR relaxation time measurements of blood in living humans.
+Such measurements were not introduced into common medical practice until the mid-1980s, although a patent for a whole-body NMR machine to measure blood flow in the human body was already filed by Alexander Ganssen in early 1967.
+In the 1960s and 1970s the results of a very large amount of work on relaxation, diffusion, and chemical exchange of water in cells and tissues of all sorts appeared in the scientific literature.
+In 1967, Ligon reported the measurement of NMR relaxation of water in the arms of living human subjects.
+In 1968, Jackson and Langham published the first NMR signals from a living animal.
+In a March 1971 paper in the journal "Science", Raymond Damadian, an Armenian-American physician and professor at the Downstate Medical Center State University of New York (SUNY), reported that tumors and normal tissue can be distinguished in vivo by nuclear magnetic resonance ("NMR").
+He suggested that these differences could be used to diagnose cancer, though later research would find that these differences, while real, are too variable for diagnostic purposes.
+Damadian's initial methods were flawed for practical use, relying on a point-by-point scan of the entire body and using relaxation rates, which turned out not to be an effective indicator of cancerous tissue.
+While researching the analytical properties of magnetic resonance, Damadian created a hypothetical magnetic resonance cancer-detecting machine in 1972.
+He filed the first patent for such a machine, on March 17, 1972, which was later issued to him on February 5, 1974.
+Zenuemon Abe and his colleagues applied the patent for targeted NMR scanner, on 1973.
+They published this technique in 1974.
+Damadian claims to have invented the MRI.
+The US National Science Foundation notes "The patent included the idea of using NMR to 'scan' the human body to locate cancerous tissue."
+However, it did not describe a method for generating pictures from such a scan or precisely how such a scan might be done.
+Meanwhile, Paul Lauterbur at Stony Brook University expanded on Carr's technique and developed a way to generate the first MRI images, in 2D and 3D, using gradients.
+In 1973, Lauterbur published the first nuclear magnetic resonance image and the first cross-sectional image of a living mouse in January 1974.
+In the late 1970s, Peter Mansfield, a physicist and professor at the University of Nottingham, England, developed the echo-planar imaging (EPI) technique that would lead to scans taking seconds rather than hours and produce clearer images than Lauterbur had.
+Damadian, along with Larry Minkoff and Michael Goldsmith, obtained an image of a tumor in the thorax of a mouse in 1976.
+They also performed the first MRI body scan of a human being on July 3, 1977, studies they published in 1977.
+In 1979, Richard S. Likes filed a patent on k-space .
+During the 1970s a team led by John Mallard built the first full-body MRI scanner at the University of Aberdeen.
+On 28 August 1980 they used this machine to obtain the first clinically useful image of a patient's internal tissues using MRI, which identified a primary tumour in the patient's chest, an abnormal liver, and secondary cancer in his bones.
+This machine was later used at St Bartholomew's Hospital, in London, from 1983 to 1993.
+Mallard and his team are credited for technological advances that led to the widespread introduction of MRI.
+In 1975, the University of California, San Francisco Radiology Department founded the Radiologic Imaging Laboratory (RIL).
+With the support of Pfizer, Diasonics, and later Toshiba America MRI, the lab developed new imaging technology and installed systems in the US and worldwide.
+In 1981 RIL researchers, including Leon Kaufman and Lawrence Crooks, published "Nuclear Magnetic Resonance Imaging in Medicine".
+In the 1980s the book was considered the definitive introductory textbook to the subject.
+In 1980 Paul Bottomley joined the GE Research Center in Schenectady, NY.
+His team ordered the highest field-strength magnet then available — a 1.5 T system — and built the first high-field device, overcoming problems of coil design, RF penetration and signal-to-noise ratio to build the first whole-body MRI/MRS scanner.
+The results translated into the highly successful 1.5 T MRI product-line, with over 20,000 systems in use today.
+In 1982, Bottomley performed the first localized MRS in the human heart and brain.
+After starting a collaboration on heart applications with Robert Weiss at Johns Hopkins, Bottomley returned to the university in 1994 as Russell Morgan Professor and director of the MR Research Division.
+Although MRI is most commonly performed at 1.5 T, higher fields such as 3 T are gaining more popularity because of their increased sensitivity and resolution.
+In research laboratories, human studies have been performed at up to 9.4 T and animal studies have been performed at up to 21.1 T.
+========,3,2003 Nobel Prize.
+Reflecting the fundamental importance and applicability of MRI in medicine, Paul Lauterbur of the University of Illinois at Urbana-Champaign and Sir Peter Mansfield of the University of Nottingham were awarded the 2003 Nobel Prize in Physiology or Medicine for their "discoveries concerning magnetic resonance imaging".
+The Nobel citation acknowledged Lauterbur's insight of using magnetic field gradients to determine spatial localization, a discovery that allowed rapid acquisition of 2D images.
+Mansfield was credited with introducing the mathematical formalism and developing techniques for efficient gradient utilization and fast imaging.
+The actual research that won the prize was done almost 30 years before while Paul Lauterbur was a professor in the Department of Chemistry at Stony Brook University in New York.
+========,2,Economics.
+In the UK, the price of a clinical 1.5-tesla MRI scanner is around £920,000/, with the lifetime maintenance cost broadly similar to the purchase cost.
+In the Netherlands, the average MRI scanner costs around €1 million, with a 7-T MRI having been taken in use by the UMC Utrecht in December 2007, costing €7 million.
+Construction of MRI suites could cost up to /€370.000 or more, depending on project scope.
+Pre-polarizing MRI (PMRI) systems using resistive electromagnets have shown promise as a low-cost alternative and have specific advantages for joint imaging near metal implants, however they are likely unsuitable for routine whole-body or neuroimaging applications.
+MRI scanners have become significant sources of revenue for healthcare providers in the US.
+This is because of favorable reimbursement rates from insurers and federal government programs.
+Insurance reimbursement is provided in two components, an equipment charge for the actual performance and operation of the MRI scan and a professional charge for the radiologist's review of the images and/or data.
+In the US Northeast, an equipment charge might be $3,500/€2.600 and a professional charge might be $350/€260, although the actual fees received by the equipment owner and interpreting physician are often significantly less and depend on the rates negotiated with insurance companies or determined by the Medicare fee schedule.
+For example, an orthopedic surgery group in Illinois billed a charge of $1,116/€825 for a knee MRI in 2007, but the Medicare reimbursement in 2007 was only $470.91/€350.
+Many insurance companies require advance approval of an MRI procedure as a condition for coverage.
+In the US, the Deficit Reduction Act of 2005 significantly reduced reimbursement rates paid by federal insurance programs for the equipment component of many scans, shifting the economic landscape.
+Many private insurers have followed suit.
+In the United States, an MRI of the brain with and without contrast billed to Medicare Part B entails, on average, a technical payment of /€300 and a separate payment to the radiologist of /€70.
+In France, the cost of an MRI exam is approximately €150/.
+This covers three basic scans including one with an intravenous contrast agent as well as a consultation with the technician and a written report to the patient's physician.
+In Japan, the cost of an MRI examination (excluding the cost of contrast material and films) ranges from /€115 to /€133, with an additional radiologist professional fee of /€12.50.
+In India, the cost of an MRI examination including the fee for the radiologist's opinion comes to around Rs 3000–4000 (€37–49/), excluding the cost of contrast material.
+In the UK the retail price for an MRI scan privately ranges between £350 and £700 (€405–810).
+========,3,Overuse.
+Medical societies issue guidelines for when physicians should use MRI on patients and recommend against overuse.
+MRI can detect health problems or confirm a diagnosis, but medical societies often recommend that MRI not be the first procedure for creating a plan to diagnose or manage a patient's complaint.
+A common case is to use MRI to seek a cause of low back pain; the American College of Physicians, for example, recommends against this procedure as unlikely to result in a positive outcome for the patient.
+========,2,Specialized applications.
+========,3,Diffusion MRI.
+Diffusion MRI measures the diffusion of water molecules in biological tissues.
+Clinically, diffusion MRI is useful for the diagnoses of conditions (e.g., stroke) or neurological disorders (e.g., multiple sclerosis), and helps better understand the connectivity of white matter axons in the central nervous system.
+In an isotropic medium (inside a glass of water for example), water molecules naturally move randomly according to turbulence and Brownian motion.
+In biological tissues however, where the Reynolds number is low enough for laminar flow, the diffusion may be anisotropic.
+For example, a molecule inside the axon of a neuron has a low probability of crossing the myelin membrane.
+Therefore, the molecule moves principally along the axis of the neural fiber.
+If it is known that molecules in a particular voxel diffuse principally in one direction, the assumption can be made that the majority of the fibers in this area are parallel to that direction.
+The recent development of diffusion tensor imaging (DTI) enables diffusion to be measured in multiple directions, and the fractional anisotropy in each direction to be calculated for each voxel.
+This enables researchers to make brain maps of fiber directions to examine the connectivity of different regions in the brain (using tractography) or to examine areas of neural degeneration and demyelination in diseases like multiple sclerosis.
+Another application of diffusion MRI is diffusion-weighted imaging (DWI).
+Following an ischemic stroke, DWI is highly sensitive to the changes occurring in the lesion.
+It is speculated that increases in restriction (barriers) to water diffusion, as a result of cytotoxic edema (cellular swelling), is responsible for the increase in signal on a DWI scan.
+The DWI enhancement appears within 5–10 minutes of the onset of stroke symptoms (as compared to computed tomography, which often does not detect changes of acute infarct for up to 4–6 hours) and remains for up to two weeks.
+Coupled with imaging of cerebral perfusion, researchers can highlight regions of "perfusion/diffusion mismatch" that may indicate regions capable of salvage by reperfusion therapy.
+Like many other specialized applications, this technique is usually coupled with a fast image acquisition sequence, such as echo planar imaging sequence.
+========,3,Magnetic resonance angiography.
+Magnetic resonance angiography (MRA) generates pictures of the arteries to evaluate them for stenosis (abnormal narrowing) or aneurysms (vessel wall dilatations, at risk of rupture).
+MRA is often used to evaluate the arteries of the neck and brain, the thoracic and abdominal aorta, the renal arteries, and the legs (called a "run-off").
+A variety of techniques can be used to generate the pictures, such as administration of a paramagnetic contrast agent (gadolinium) or using a technique known as "flow-related enhancement" (e.g., 2D and 3D time-of-flight sequences), where most of the signal on an image is due to blood that recently moved into that plane, see also FLASH MRI.
+Techniques involving phase accumulation (known as phase contrast angiography) can also be used to generate flow velocity maps easily and accurately.
+Magnetic resonance venography (MRV) is a similar procedure that is used to image veins.
+In this method, the tissue is now excited inferiorly, while the signal is gathered in the plane immediately superior to the excitation plane—thus imaging the venous blood that recently moved from the excited plane.
+========,3,Magnetic resonance spectroscopy.
+Magnetic resonance spectroscopy (MRS) is used to measure the levels of different metabolites in body tissues.
+The MR signal produces a spectrum of resonances that corresponds to different molecular arrangements of the isotope being "excited".
+This signature is used to diagnose certain metabolic disorders, especially those affecting the brain, and to provide information on tumor metabolism.
+Magnetic resonance spectroscopic imaging (MRSI) combines both spectroscopic and imaging methods to produce spatially localized spectra from within the sample or patient.
+The spatial resolution is much lower (limited by the available SNR), but the spectra in each voxel contains information about many metabolites.
+Because the available signal is used to encode spatial and spectral information, MRSI requires high SNR achievable only at higher field strengths (3 T and above).
+========,3,Functional MRI.
+Functional MRI (fMRI) measures signal changes in the brain that are due to changing neural activity.
+Compared to anatomical T1W imaging, the brain is scanned at lower spatial resolution but at a higher temporal resolution (typically once every 2–3 seconds).
+Increases in neural activity cause changes in the MR signal via "T" changes; this mechanism is referred to as the BOLD (blood-oxygen-level dependent) effect.
+Increased neural activity causes an increased demand for oxygen, and the vascular system actually overcompensates for this, increasing the amount of oxygenated hemoglobin relative to deoxygenated hemoglobin.
+Because deoxygenated hemoglobin attenuates the MR signal, the vascular response leads to a signal increase that is related to the neural activity.
+The precise nature of the relationship between neural activity and the BOLD signal is a subject of current research.
+The BOLD effect also allows for the generation of high resolution 3D maps of the venous vasculature within neural tissue.
+While BOLD signal analysis is the most common method employed for neuroscience studies in human subjects, the flexible nature of MR imaging provides means to sensitize the signal to other aspects of the blood supply.
+Alternative techniques employ arterial spin labeling (ASL) or weighting the MRI signal by cerebral blood flow (CBF) and cerebral blood volume (CBV).
+The CBV method requires injection of a class of MRI contrast agents that are now in human clinical trials.
+Because this method has been shown to be far more sensitive than the BOLD technique in preclinical studies, it may potentially expand the role of fMRI in clinical applications.
+The CBF method provides more quantitative information than the BOLD signal, albeit at a significant loss of detection sensitivity.
+========,3,Real-time MRI.
+Real-time MRI refers to the continuous monitoring ("filming") of moving objects in real time.
+While many different strategies have been developed over the past two decades, a recent development reported a real-time MRI technique based on radial FLASH and iterative reconstruction that yields a temporal resolution of 20 to 30 milliseconds for images with an in-plane resolution of 1.5 to 2.0 mm.
+The new method promises to add important information about diseases of the joints and the heart.
+In many cases MRI examinations may become easier and more comfortable for patients.
+========,3,Interventional MRI.
+The lack of harmful effects on the patient and the operator make MRI well-suited for interventional radiology, where the images produced by an MRI scanner guide minimally invasive procedures.
+Such procedures must be done with no ferromagnetic instruments.
+A specialized growing subset of interventional MRI is intraoperative MRI, in which doctors use an MRI in surgery.
+Some specialized MRI systems allow imaging concurrent with the surgical procedure.
+More typical, however, is that the surgical procedure is temporarily interrupted so that MRI can verify the success of the procedure or guide subsequent surgical work.
+========,3,Magnetic resonance guided focused ultrasound.
+In MRgFUS therapy, ultrasound beams are focused on a tissue—guided and controlled using MR thermal imaging—and due to the significant energy deposition at the focus, temperature within the tissue rises to more than 65 °C (150 °F), completely destroying it.
+This technology can achieve precise ablation of diseased tissue.
+MR imaging provides a three-dimensional view of the target tissue, allowing for precise focusing of ultrasound energy.
+The MR imaging provides quantitative, real-time, thermal images of the treated area.
+This allows the physician to ensure that the temperature generated during each cycle of ultrasound energy is sufficient to cause thermal ablation within the desired tissue and if not, to adapt the parameters to ensure effective treatment.
+========,3,Multinuclear imaging.
+Hydrogen is the most frequently imaged nucleus in MRI because it is present in biological tissues in great abundance, and because its high gyromagnetic ratio gives a strong signal.
+However, any nucleus with a net nuclear spin could potentially be imaged with MRI.
+Such nuclei include helium-3, lithium-7, carbon-13, fluorine-19, oxygen-17, sodium-23, phosphorus-31 and xenon-129.
+Na and P are naturally abundant in the body, so can be imaged directly.
+Gaseous isotopes such as He or Xe must be hyperpolarized and then inhaled as their nuclear density is too low to yield a useful signal under normal conditions.
+O and F can be administered in sufficient quantities in liquid form (e.g.
+O-water) that hyperpolarization is not a necessity.
+Moreover, the nucleus of any atom that has a net nuclear spin and that is bonded to a hydrogen atom could potentially be imaged via heteronuclear magnetization transfer MRI that would image the high-gyromagnetic-ratio hydrogen nucleus instead of the low-gyromagnetic-ratio nucleus that is bonded to the hydrogen atom.
+In principle, hetereonuclear magnetization transfer MRI could be used to detect the presence or absence of specific chemical bonds.
+Multinuclear imaging is primarily a research technique at present.
+However, potential applications include functional imaging and imaging of organs poorly seen on H MRI (e.g., lungs and bones) or as alternative contrast agents.
+Inhaled hyperpolarized He can be used to image the distribution of air spaces within the lungs.
+Injectable solutions containing C or stabilized bubbles of hyperpolarized Xe have been studied as contrast agents for angiography and perfusion imaging.
+P can potentially provide information on bone density and structure, as well as functional imaging of the brain.
+Multinuclear imaging holds the potential to chart the distribution of lithium in the human brain, this element finding use as an important drug for those with conditions such as bipolar disorder.
+========,3,Molecular imaging by MRI.
+MRI has the advantages of having very high spatial resolution and is very adept at morphological imaging and functional imaging.
+MRI does have several disadvantages though.
+First, MRI has a sensitivity of around 10 mol/L to 10 mol/L, which, compared to other types of imaging, can be very limiting.
+This problem stems from the fact that the population difference between the nuclear spin states is very small at room temperature.
+For example, at 1.5 teslas, a typical field strength for clinical MRI, the difference between high and low energy states is approximately 9 molecules per 2 million.
+Improvements to increase MR sensitivity include increasing magnetic field strength, and hyperpolarization via optical pumping or dynamic nuclear polarization.
+There are also a variety of signal amplification schemes based on chemical exchange that increase sensitivity.
+To achieve molecular imaging of disease biomarkers using MRI, targeted MRI contrast agents with high specificity and high relaxivity (sensitivity) are required.
+To date, many studies have been devoted to developing targeted-MRI contrast agents to achieve molecular imaging by MRI.
+Commonly, peptides, antibodies, or small ligands, and small protein domains, such as HER-2 affibodies, have been applied to achieve targeting.
+To enhance the sensitivity of the contrast agents, these targeting moieties are usually linked to high payload MRI contrast agents or MRI contrast agents with high relaxivities.
+A new class of gene targeting MR contrast agents (CA) has been introduced to show gene action of unique mRNA and gene transcription factor proteins.
+This new CA can trace cells with unique mRNA, microRNA and virus; tissue response to inflammation in living brains.
+The MR reports change in gene expression with positive correlation to TaqMan analysis, optical and electron microscopy.
+========,2,Other specialized sequences.
+New methods and variants of existing methods are often published when they are able to produce better results in specific fields.
+Examples of these recent improvements are "T"-weighted turbo spin-echo ("T" TSE MRI), double inversion recovery MRI (DIR-MRI) or phase-sensitive inversion recovery MRI (PSIR-MRI), all of them able to improve imaging of brain lesions.
+Another example is MP-RAGE (magnetization-prepared rapid acquisition with gradient echo), which improves images of multiple sclerosis cortical lesions.
+========,3,Magnetization transfer MRI.
+Magnetization transfer (MT) is a technique to enhance image contrast in certain applications of MRI.
+Bound protons are associated with proteins and as they have a very short T2 decay they do not normally contribute to image contrast.
+However, because these protons have a broad resonance peak they can be excited by a radiofrequency pulse that has no effect on free protons.
+Their excitation increases image contrast by transfer of saturated spins from the bound pool into the free pool, thereby reducing the signal of free water.
+This homonuclear magnetization transfer provides an indirect measurement of macromolecular content in tissue.
+Implementation of homonuclear magnetization transfer involves choosing suitable frequency offsets and pulse shapes to saturate the bound spins sufficiently strongly, within the safety limits of specific absorption rate for MRI.
+The most common use of this technique is for suppression of background signal in time of flight MR angiography.
+There are also applications in neuroimaging particularly in the characterization of white matter lesions in multiple sclerosis.
+========,3,T1rho MRI.
+T1ρ (T1rho): Molecules have a kinetic energy that is a function of the temperature and is expressed as translational and rotational motions, and by collisions between molecules.
+The moving dipoles disturb the magnetic field but are often extremely rapid so that the average effect over a long time-scale may be zero.
+However, depending on the time-scale, the interactions between the dipoles do not always average away.
+At the slowest extreme the interaction time is effectively infinite and occurs where there are large, stationary field disturbances (e.g., a metallic implant).
+In this case the loss of coherence is described as a "static dephasing".
+T2* is a measure of the loss of coherence in an ensemble of spins that includes all interactions (including static dephasing).
+T2 is a measure of the loss of coherence that excludes static dephasing, using an RF pulse to reverse the slowest types of dipolar interaction.
+There is in fact a continuum of interaction time-scales in a given biological sample, and the properties of the refocusing RF pulse can be tuned to refocus more than just static dephasing.
+In general, the rate of decay of an ensemble of spins is a function of the interaction times and also the power of the RF pulse.
+This type of decay, occurring under the influence of RF, is known as T1ρ.
+It is similar to T2 decay but with some slower dipolar interactions refocused, as well as static interactions, hence T1ρ≥T2.
+========,3,Proton density weighted.
+Proton density (PD) weighted images are created by having a long repetition time (TR) and a short echo time (TE).
+On images of the brain, this sequence has a more pronounced distinction between gray matter (bright) and white matter (darker gray), but with little contrast between brain and CSF.
+========,3,Fluid attenuated inversion recovery (FLAIR).
+Fluid attenuated inversion recovery (FLAIR) is an inversion-recovery pulse sequence used to nullify the signal from fluids.
+For example, it can be used in brain imaging to suppress cerebrospinal fluid (CSF) so as to bring out periventricular hyperintense lesions, such as multiple sclerosis (MS) plaques.
+By carefully choosing the inversion time TI (the time between the inversion and excitation pulses), the signal from any particular tissue can be suppressed.
+========,3,Susceptibility weighted imaging (SWI).
+Susceptibility weighted imaging (SWI) is a new type of contrast in MRI different from spin density, "T", or "T" imaging.
+This method exploits the susceptibility differences between tissues and uses a fully velocity compensated, three dimensional, RF spoiled, high-resolution, 3D gradient echo scan.
+This special data acquisition and image processing produces an enhanced contrast magnitude image very sensitive to venous blood, hemorrhage and iron storage.
+It is used to enhance the detection and diagnosis of tumors, vascular and neurovascular diseases (stroke and hemorrhage), multiple sclerosis, Alzheimer's, and also detects traumatic brain injuries that may not be diagnosed using other methods.
+========,3,Neuromelanin imaging.
+This method exploits the paramagnetic properties of neuromelanin and can be used to visualize the substantia nigra and the locus coeruleus.
+It is used to detect the atrophy of these nuclei in Parkinson's disease and other parkinsonisms, and also detects signal intensity changes in major depressive disorder and schizophrenia.

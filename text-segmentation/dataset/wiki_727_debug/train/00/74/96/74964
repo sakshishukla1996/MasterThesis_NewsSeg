@@ -1,0 +1,65 @@
+========,1,preface.
+In physics, Gauss' law, also known as Gauss' flux theorem, is a law relating the distribution of electric charge to the resulting electric field.
+The law was first formulated by Joseph-Louis Lagrange in 1773, followed by Carl Friedrich Gauss in 1813, both in the context of the attraction of ellipsoids.
+It is one of Maxwell's four equations, which form the basis of classical electrodynamics.
+Gauss' law can be used to derive Coulomb's law, and vice versa.
+========,2,Qualitative description.
+In words, Gauss' law states that:
+Gauss' law has a close mathematical similarity with a number of laws in other areas of physics, such as Gauss' law for magnetism and Gauss' law for gravity.
+In fact, any inverse-square law can be formulated in a way similar to Gauss' law: for example, Gauss' law itself is essentially equivalent to the inverse-square Coulomb's law, and Gauss' law for gravity is essentially equivalent to the inverse-square Newton's law of gravity.
+The law can be expressed mathematically using vector calculus in integral form and differential form, both are equivalent since they are related by the divergence theorem, also called Gauss' theorem.
+Each of these forms in turn can also be expressed two ways: In terms of a relation between the electric field and the total electric charge, or in terms of the electric displacement field and the "free" electric charge.
+========,2,Equation involving the field.
+Gauss' law can be stated using either the electric field or the electric displacement field .
+This section shows some of the forms with ; the form with is below, as are other forms with .
+========,3,Integral form.
+Gauss' law may be expressed as:
+where is the electric flux through a closed surface enclosing any volume , is the total charge enclosed within , and is the electric constant.
+The electric flux is defined as a surface integral of the electric field:
+where is the electric field, is a vector representing an infinitesimal element of area of the surface, and represents the dot product of two vectors.
+Since the flux is defined as an "integral" of the electric field, this expression of Gauss' law is called the "integral form".
+========,4,Applying the integral form.
+If the electric field is known everywhere, Gauss' law makes it quite easy, in principle, to find the distribution of electric charge: The charge in any given region can be deduced by integrating the electric field to find the flux.
+However, much more often, it is the reverse problem that needs to be solved: The electric charge distribution is known, and the electric field needs to be computed.
+This is much more difficult, since if you know the total flux through a given surface, that gives almost no information about the electric field, which (for all we know) could go in and out of the surface in arbitrarily complicated patterns.
+An exception is if there is some symmetry in the situation, which mandates that the electric field passes through the surface in a uniform way.
+Then, if the total flux is known, the field itself can be deduced at every point.
+Common examples of symmetries which lend themselves to Gauss' law include cylindrical symmetry, planar symmetry, and spherical symmetry.
+See the article Gaussian surface for examples where these symmetries are exploited to compute electric fields.
+========,3,Differential form.
+By the divergence theorem, Gauss' law can alternatively be written in the "differential form":
+where is the divergence of the electric field, ε is the electric constant, and is the total electric charge density (charge per unit volume).
+========,3,Equivalence of integral and differential forms.
+The integral and differential forms are mathematically equivalent, by the divergence theorem.
+Here is the argument more specifically.
+========,2,Equation involving the field.
+========,3,Free, bound, and total charge.
+The electric charge that arises in the simplest textbook situations would be classified as "free charge"—for example, the charge which is transferred in static electricity, or the charge on a capacitor plate.
+In contrast, "bound charge" arises only in the context of dielectric (polarizable) materials.
+(All materials are polarizable to some extent.)
+When such materials are placed in an external electric field, the electrons remain bound to their respective atoms, but shift a microscopic distance in response to the field, so that they're more on one side of the atom than the other.
+All these microscopic displacements add up to give a macroscopic net charge distribution, and this constitutes the "bound charge".
+Although microscopically all charge is fundamentally the same, there are often practical reasons for wanting to treat bound charge differently from free charge.
+The result is that the more fundamental Gauss' law, in terms of (above), is sometimes put into the equivalent form below, which is in terms of and the free charge only.
+========,3,Integral form.
+This formulation of Gauss' law states the total charge form:
+where is the -field flux through a surface which encloses a volume , and is the free charge contained in .
+The flux is defined analogously to the flux of the electric field through :
+========,3,Differential form.
+The differential form of Gauss' law, involving free charge only, states:
+where is the divergence of the electric displacement field, and is the free electric charge density.
+========,2,Equation for linear materials.
+In homogeneous, isotropic, nondispersive, linear materials, there is a simple relationship between and :
+where is the permittivity of the material.
+For the case of vacuum (aka free space), .
+Under these circumstances, Gauss' law modifies to for the integral form, and for the differential form.
+========,2,Interpretations.
+========,3,In terms of fields of force.
+Gauss' theorem can be interpreted in terms of the lines of force of the field as follows:
+The flow field through the surface is the number of field lines penetrating the surface.
+This takes into account the direction of – field lines penetrating the surface considered with a minus sign in the opposite direction.
+Force lines begin or end only on charges (start on the positive end to the negative), or may even go to infinity.
+The number of lines of force emanating from the charge (starting it) anyway, the magnitude of this charge (the charge is defined in the model).
+(For all the negative charges of the same, only the charge is equal to minus the number of its member (it ends) lines.
+On the basis of these two provisions of the Gauss theorem is evident in the statement: the number of lines emanating from a closed surface is equal to the total number of charges inside it – that is, the number of lines that appear within it.
+Of course, meant keeping signs, in particular, the line, which began within the surface on the positive charge can end on a negative charge and within it (if there is), then it does not give a contribution to the flux through this surface, as, or even before it not reach, or be released, and then enters back (or, in general, the surface intersects an even number of times equal to the forward and the opposite direction) that gives zero contribution to the flow in the summation with the correct sign..The same can be said about the lines begin and end outside the given surface – for the same reason, they also give a zero contribution to flow through it.

@@ -1,0 +1,42 @@
+========,1,preface.
+Security is the degree of resistance to, or protection from, harm.
+It applies to any vulnerable and/or valuable asset, such as a person, dwelling, community, item, nation, or organization.
+As noted by the Institute for Security and Open Methodologies (ISECOM) in the OSSTMM 3, security provides "a form of protection where a separation is created between the assets and the threat."
+These separations are generically called "controls," and sometimes include changes to the asset or the threat.
+One of the most important and widespread aspects of security is national security.
+National security is a concept that a government, along with its parliaments, should protect the state and its citizens against all kind of "national" crises through a variety of power projections, such as political power, diplomacy, economic power, military might, and so on.
+========,2,Perceived security compared with real security.
+Perception of security may be poorly mapped to measurable objective security.
+For example, the fear of earthquakes has been reported to be more common than the fear of slipping on the bathroom floor although the latter kills many more people than the former.
+Similarly, the perceived effectiveness of security measures is sometimes different from the actual security provided by those measures.
+The presence of security protections may even be taken for the safety itself.
+For example, two computer security programs could be interfering with each other and even canceling each other's effect, while the owner believes they are getting double the protection.
+Security theater is a critical term for deployment of measures primarily aimed at raising subjective security without a genuine or commensurate concern for the effects of that action on real safety.
+For example, some consider the screening of airline passengers based on static databases to have been Security theater and the Computer Assisted Passenger Prescreening System to have created a "decrease" in objective security.
+Perception of security can increase objective security when it affects or deters malicious behavior, as with visual signs of security protections, such as video surveillance, alarm systems in a home, or an anti-theft system in a car such as a vehicle tracking system or warning sign.
+Since some intruders will decide not to attempt to break into such areas or vehicles, there can be less damage to windows in addition to protection of valuable objects inside.
+Without such advertisement, an intruder might, for example, approach a car, break the window, and then flee in response to an alarm being triggered.
+Either way, perhaps the car itself and the objects inside aren't stolen, but with "perceived security" even the windows of the car have a lower chance of being damaged.
+========,2,Categorizing security.
+There is an immense literature on the analysis and categorization of security.
+Part of the reason for this is that, in most security systems, the "weakest link in the chain" is the most important.
+The situation is asymmetric since the 'defender' must cover all points of attack while the attacker need only identify a single weak point upon which to concentrate.
+IT realm
+***LIST***.
+Physical realm
+***LIST***.
+***LIST***.
+***LIST***.
+========,2,Computer security.
+Computer security, also known as cybersecurity or IT security, is security applied to computing devices such as computers and smartphones, as well as computer networks such as private and public networks, including the whole Internet.
+The field includes all five components: hardware, software, data, people, and procedures by which digital equipment, information and services are protected from unintended or unauthorized access, change or destruction, and is of growing importance due to the increasing reliance of computer systems in most societies.
+It includes physical security to prevent theft of equipment and information security to protect the data on that equipment.
+Those terms generally do not refer to physical security, but a common belief among computer security experts is that a physical security breach is one of the worst kinds of security breaches as it generally allows full access to both data and equipment.
+========,2,Security management in organizations.
+In the corporate world, various aspects of security are historically addressed separately - notably by distinct and often noncommunicating departments for IT security, physical security, and fraud prevention.
+Today there is a greater recognition of the interconnected nature of security requirements, an approach variously known as holistic security, "all hazards" management, and other terms.
+Inciting factors in the convergence of security disciplines include the development of digital video surveillance technologies (see Professional video over IP) and the digitization and networking of physical control systems (see SCADA).
+Greater interdisciplinary cooperation is further evidenced by the February 2005 creation of the Alliance for Enterprise Security Risk Management, a joint venture including leading associations in security (ASIS), information security (ISSA, the Information Systems Security Association), and IT audit (ISACA, the Information Systems Audit and Control Association).
+In 2007 the International Organisation for Standardization (ISO) released ISO 28000 - Security Management Systems for the supply chain.
+Although the title supply chain is included, this Standard specifies the requirements for a security management system, including those aspects critical to security assurance for any organisation or enterprise wishing to manage the security of the organisation and its activities.
+ISO 28000 is the foremost risk based security system and is suitable for managing both public and private regulatory security, customs and industry based security schemes and requirements.
